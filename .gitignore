@@ -2,3 +2,7 @@
 *.tar.gz
 __pycache__/
 *.pyc
+
+/data/interim/admitted-input-coverage-2026-10-09/matched_mibig_gnps_update.csv
+/data/interim/admitted-input-coverage-2026-10-09/spec2class/MIBiG2.0_compounds_with_AS_BGC_CF_NPC_classes.txt
+/data/raw/sources/caesar-2023/41589_2023_1276_MOESM3_ESM.zip

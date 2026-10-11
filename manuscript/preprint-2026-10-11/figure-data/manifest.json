@@ -1,0 +1,51 @@
+{
+  "inputs": {
+    "data/curated/relationship-readiness-v1.tsv": "9b2e7c754830a1eb59086b3f675ca45edef77dffa88efaf0ecdedd04f3ce09e8",
+    "data/processed/similarity-independence-v1/structures.tsv": "b7bc0051875f80080c85fb0d0c40f7841c8ad64732bc3eb75c618e3e61a1a5b9",
+    "data/processed/similarity-independence-v1/chemical-pairs.tsv": "4921807705d09a925e2d9999a61538403601eed18ed18ecd8f3e42ec50a11fec",
+    "manuscript\\figures\\initial-comparison-2026-10-07.svg": "4e451b77e788336d64c05120244500bf97696f676c6252ffeff9421c3c0eac01",
+    "manuscript\\figures\\initial-comparison-2026-10-07.pdf": "acaf632c9e2047ebf160113e9a747bb8806bf1ae2ff07ae4f7070c8da7c6e992",
+    "manuscript\\figures\\figure4-expanded-sensitivity.svg": "b45eae33c6e6e6076ab7b96111d068655df444117e76c5a59b26f9d71a838869",
+    "manuscript\\figures\\figure4-expanded-sensitivity.pdf": "f2eecc3363b7bf2bdc8cc021d316b5e0592f5c2be306505948a37b9e68f7ec5a",
+    "manuscript\\figures\\figure5-product-retrieval.svg": "2d92394dcbf207461010022b5f672607d861a1937b2f1b29c2f1e8dfe099ae77",
+    "manuscript\\figures\\figure5-product-retrieval.pdf": "4d34c3c710cebfa2a7c2c083fd2809b9c892dafa724d0f0be7911f72e7c2fe2e",
+    "data/processed/similarity-independence-v1/summary.json": "90a27364cdbd68ada59d98d980f01bbf4be6acd8ac858cfe43cac7322eb6cc0a",
+    "data/processed/similarity-independence-v1/manifest.json": "26f55e898a1a1438b787144c2a58d16be4028fee5215891bba1ae8d172523a97",
+    "manuscript/initial-comparison-results-2026-10-07.tsv": "91e1b0a80185c690b24e8ecf7d8b09823821edfea484dbd79822232e84dea661",
+    "manuscript/expanded-label-results-2026-10-07.tsv": "5efe3b8c3529cf68e299f2f3fc0c6db76aef613e54df2f8d3bdc4c7acac9ba22",
+    "manuscript/figures/figure-set-verification.json": "dcc09b842788c80a74473509729d0adf3ea3d99c0d3cdb24d741f9c5900eaa92"
+  },
+  "new_figures": [
+    "Figure-1",
+    "Figure-2",
+    "Figure-3"
+  ],
+  "retained_supporting_plates": [
+    "Figure-S1",
+    "Figure-S2",
+    "Figure-S3"
+  ],
+  "scientific_recomputation": false,
+  "aggregation": "Figure 2 counts rows and unique query IDs in saved readiness table; Figure 3 reads saved chemical similarities.",
+  "outputs": {
+    "figures\\Figure-1.pdf": "6deb299cee51d39b123a460dc74a8beb5a839e9bf3c1194f079479ea94d6bad1",
+    "figures\\Figure-1.png": "f8bd661e1e87bdce3c9f960635d797a3b72094ecadabfe67a04883c3d858ba75",
+    "figures\\Figure-1.svg": "5331c58ef9b75f76d5c97e9d5a8a771d1f2d3c9a98788a5d0e2a188e80eb467f",
+    "figures\\Figure-2.pdf": "3e7dc0e4c1529f20fdbe19220f2cd03f7f5672903bc52633190289be9a080237",
+    "figures\\Figure-2.png": "8f04c01e1a017bd29992f6cc152ffe0764557b856d1de163533b929e983b137b",
+    "figures\\Figure-2.svg": "62938cbfe4e94392f3ad202f609cd1159ed4dc0493b9cd71abbd6a325c823b9e",
+    "figures\\Figure-3.pdf": "a20c1aaca20df325753e8ab9a61d972627922b05e2984d4eab8b94075c76db81",
+    "figures\\Figure-3.png": "eafc9a7ee7dc86377273ac61789e801f6d215e30193737577245673d6b005fec",
+    "figures\\Figure-3.svg": "1145271857b6a2e91e13df2b2f6f98f5be322c9d856571d7889af00fd86aea4f",
+    "figures\\Figure-S1.pdf": "acaf632c9e2047ebf160113e9a747bb8806bf1ae2ff07ae4f7070c8da7c6e992",
+    "figures\\Figure-S1.png": "f9884cab6220ef3b2b01ca617b7499951c9e0ef63166dbe5b855bac3baf53a80",
+    "figures\\Figure-S1.svg": "4e451b77e788336d64c05120244500bf97696f676c6252ffeff9421c3c0eac01",
+    "figures\\Figure-S2.pdf": "f2eecc3363b7bf2bdc8cc021d316b5e0592f5c2be306505948a37b9e68f7ec5a",
+    "figures\\Figure-S2.png": "0d2ea77219127c49035f49abb063a32b58b8ef869d75949058eaad4b9b28c3b7",
+    "figures\\Figure-S2.svg": "b45eae33c6e6e6076ab7b96111d068655df444117e76c5a59b26f9d71a838869",
+    "figures\\Figure-S3.pdf": "4d34c3c710cebfa2a7c2c083fd2809b9c892dafa724d0f0be7911f72e7c2fe2e",
+    "figures\\Figure-S3.png": "c70b1ef3549e45f2a4f5a9b4b11403687e5e250436624e59c2ee8876204f3893",
+    "figures\\Figure-S3.svg": "2d92394dcbf207461010022b5f672607d861a1937b2f1b29c2f1e8dfe099ae77"
+  },
+  "figure_3_count_source": "figure-data/similarity-summary.json; values are display annotations transcribed from retained counts, not new similarities"
+}
