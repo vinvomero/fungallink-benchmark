@@ -1,0 +1,1427 @@
+{
+  "schema_version": 1,
+  "generated_by": "benchmark-figure-set-2026-10-07.py",
+  "route": {
+    "requested_model": "not_requested_this_turn",
+    "requested_reasoning": "not_requested_this_turn",
+    "actual_serving_receipt": "unavailable"
+  },
+  "python": "3.13.5",
+  "matplotlib": "3.11.0",
+  "input_sha256": {
+    "data/curated/label-evidence.tsv": "4c13d04e198f1a34923eefc5f79132ef0a6abda3c80c5923cc6dd5e356ae8a1a",
+    "data/processed/source-selected-gcf-expanded-labels-v2/gold/benchmark.json": "b97cc328fef7317bcd432e24856b8d2b936364934fe3a4fe64d6daaccfd2a48a",
+    "manuscript/expanded-label-results-2026-10-07.tsv": "5efe3b8c3529cf68e299f2f3fc0c6db76aef613e54df2f8d3bdc4c7acac9ba22",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/exact-random.json": "2eb6b4504abfa3c704ee97966b35898160dd19c963e0f5c8a7884f0512f26845",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_all_source_observations--global_prevalence--evaluation.json": "2d6613a27b5ea4425b4a5816458db5f5ae191193ceace4bfa6096b77334385a4",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_all_source_observations--metcalf_raw--evaluation.json": "dc29d54c5dd8b1b6670e8da2a968e81bdf9a5dc8549d6171e544e4447839f078",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_all_source_observations--metcalf_standardized--evaluation.json": "bdc11d5b4a3fa979ccc85b95c4fc2abe88887900ddaf76c04fffec9c608427a6",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_all_source_observations--prevalence_difference--evaluation.json": "3b169aaab1deca68d26442a645f5b4d245426b3e62011497f0a69b028f92b29f",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_01--global_prevalence--evaluation.json": "6c8d398421a2e635095d5637b6c7799900d65023a9279a15723d187acda5e8ff",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_01--metcalf_raw--evaluation.json": "6d0ee5099af07699d4adfda54ebc1a47079a4c06789f5fed95250f64d3a7404b",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_01--metcalf_standardized--evaluation.json": "092e559530c7e4c80d5aaeaa31040162edfa7b7f53911980c3ba960d3bbe0c6f",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_01--prevalence_difference--evaluation.json": "019617460d0b3a5c1a48ea98027e653008e6456e5a1bc0e064056fc27d167057",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_01_three_media--global_prevalence--evaluation.json": "83603dcc2df06e791b01be6bba0be1cf8956aa5d8b11bef02066b9242f36ec98",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_01_three_media--metcalf_raw--evaluation.json": "0594a3458e2f808211edb3f30e0fcc88c79db76e700afa9128aa9b8aedee292c",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_01_three_media--metcalf_standardized--evaluation.json": "a8508fb56c6adb6ec3bfb57a6106c93eeee0082a2de8af33c40a247d9d6e0ba7",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_01_three_media--prevalence_difference--evaluation.json": "615a60d02a31762a8f287fdefd3a37ab546300e8e722705b0329ffd41fe5e68f",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_02--global_prevalence--evaluation.json": "f9962f23896c49a8b655434b53ab9d5c973fe246ae870f0da606588c2cccdbe6",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_02--metcalf_raw--evaluation.json": "3456c1f19d8b42833a67993b9629bbf5854ebd02ac8b2460d30dcfe45efadf1e",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_02--metcalf_standardized--evaluation.json": "ccdb43a7d45801cf8beb36f9ccc981183caa9881dde4983cca5e90d7f648ed48",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_02--prevalence_difference--evaluation.json": "d0bb633b301acf3798192edd344c9cc044119ffc346d2a5d0e4eea64785fa398",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_02_three_media--global_prevalence--evaluation.json": "39b96f02c5d0a33ae5b7378a326af5006fa388887c40656ff629d7c971b816b6",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_02_three_media--metcalf_raw--evaluation.json": "aa8989decf91810473a9386f7e4227acd4fc7bbef0b261b5e43343c642a7a37a",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_02_three_media--metcalf_standardized--evaluation.json": "3b750712d3e3b47abde85feae68c2273efe69534b19a2f58d39a128a0931a34f",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_02_three_media--prevalence_difference--evaluation.json": "f08e875d0b95b501c300123764d7484b2ff87aa332ad8faa3da1763b24c6c5f2",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_03--global_prevalence--evaluation.json": "742cbac7adc2e6338a116488b30581b2558f86e9bc8b34928ea43f67f124deea",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_03--metcalf_raw--evaluation.json": "fb2c6fe0359519dc368e4659db6e7bd11efc766d13ff97c14a2752387311d07e",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_03--metcalf_standardized--evaluation.json": "63df9ea086552f77218e2aaf4d4cc56395a9c84160079025fc60847243314855",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_03--prevalence_difference--evaluation.json": "ac6aaff53b7c479c8aeee06c2997a672a6c2e08c9742b41027e62b0b9692242b",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_03_three_media--global_prevalence--evaluation.json": "1925136eddb7db353f9d831498c246a2a07fb54f404e5356330a7c7eca3b034d",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_03_three_media--metcalf_raw--evaluation.json": "b72fd5d18ee5de7e19a9d0a3b96e66775cd4eb0c431cf48b96214ff9513a5a14",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_03_three_media--metcalf_standardized--evaluation.json": "8e7fbe974e642c850467bcd04e9fc92a1dfc8155c5880623b006448e98560c52",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_03_three_media--prevalence_difference--evaluation.json": "a3145d16dfa2bcad6ad4d043cf9ad2fe47514c638a54c6b873f6c7e0b44e455f",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_04--global_prevalence--evaluation.json": "b2ec49bb825e1edaa0ef8020bdaee40aebdc5df5f3b2ca7fc2e0402646c73736",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_04--metcalf_raw--evaluation.json": "738c40349b6ae80d9b8e984c572ab033d9aa34d7f70fadc9d486706dcc169b63",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_04--metcalf_standardized--evaluation.json": "53ad337aea3716b260f58fd708c9c913c506b1dbbb1bdaaaba55683263bf821d",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_04--prevalence_difference--evaluation.json": "3b263509ef29bc4b244ade7aba7f258d3cd8ff4db24868972bd3944df3ef53e6",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_04_three_media--global_prevalence--evaluation.json": "78e72a944a27d653b98970b108d89d4b0593eb36e463bde777a16c28f136115b",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_04_three_media--metcalf_raw--evaluation.json": "398b5c453562b6c5ddb0e35f76e72c0010ce2b6c99a01ac104421261aef37632",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_04_three_media--metcalf_standardized--evaluation.json": "a8a1d10abd5305a663454eb229f90bb362b673e64ce42adb761e3cf8480fb3e0",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_04_three_media--prevalence_difference--evaluation.json": "151210891160466e0a5168e15acb84953f9f384958c91122fb229c8227c216ab",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_05--global_prevalence--evaluation.json": "32bec8a1879fe2d0ee95a162e1b9f3e6ce0e11e738d6f0bd4735da910603c603",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_05--metcalf_raw--evaluation.json": "779ea9e7983b4dc0b15f9038dfd032cee1fb20b0c5a425dd5a14daa2e9052906",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_05--metcalf_standardized--evaluation.json": "0790bceee8590b4c63c41b5fdd57d7818ae6da8ffab7259a3e3d791150112d04",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_05--prevalence_difference--evaluation.json": "5220762656849b40f01ecb4bcdf331774e71826b0b9f0ec3c9cb6e813a5defcb",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_05_three_media--global_prevalence--evaluation.json": "9a19030042d0a48e89f7c80ed17a4c29b7f754268148464fd7cf4851d14a51dd",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_05_three_media--metcalf_raw--evaluation.json": "eee594f1b535fd29860a89824f634a1082571bf2a774dcf99315de4f4c74a20c",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_05_three_media--metcalf_standardized--evaluation.json": "7f6801c127eb1dad152354ac8e0a9e4e87774399a9df49869dc878d97eedec4a",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_05_three_media--prevalence_difference--evaluation.json": "4d707ea40200f0ea495ba8468f6c494212a103ea51105146da45862c10f3c30c",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_06--global_prevalence--evaluation.json": "7ef1acbc8efd04f71e5a29cd2b2b5719f2ed640eb86689ba1557d14cc367f39f",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_06--metcalf_raw--evaluation.json": "c883659d9ee45e10190d288e40819808b9191ec15743a4f1afbd8aee019e9a64",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_06--metcalf_standardized--evaluation.json": "9bc78db47ad5aa8d88148d500433a46c5bf579f062b4396271b9a5817ebbac62",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_06--prevalence_difference--evaluation.json": "2e37bcf5ea05a9d745f39c2e1745e20ca8c40dcb8b6e44c9e28627139ace5b5a",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_06_three_media--global_prevalence--evaluation.json": "ce96f2fa30b04a9a18c17a1204260ddf387105f0e00bd7fa2bb833e13dc82f38",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_06_three_media--metcalf_raw--evaluation.json": "802b09a5f46d61033f89d702ecc4ebd9631cf19d33216d837ae9b45ffa53ca1c",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_06_three_media--metcalf_standardized--evaluation.json": "4c3fd9e25767ffb5ac6dd25f7202b836bf3885fcaf101fec1412427bf0f6a7b3",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_06_three_media--prevalence_difference--evaluation.json": "acab522c49882968df0ec59bf4306f822be9e689535226b48ff27fcea0e32f11",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_07--global_prevalence--evaluation.json": "d776da677569889709ac9006ab3911d0a165e22fd91ad28a346141ac63408756",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_07--metcalf_raw--evaluation.json": "7bb64efaa830fa71c12ab546cf9df75fd15b5b23f7c6cc46502cad3789ef7ca1",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_07--metcalf_standardized--evaluation.json": "5783798832e55af246220e131b931667961cb6d3905b913d5d527f11a96b36cc",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_07--prevalence_difference--evaluation.json": "4793339e3f619bf9d1b2e9f8611a48c1c47d95efb8492ca355734d0507a63644",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_07_three_media--global_prevalence--evaluation.json": "535609a7bfe04bf01bec5fc3ca2d2e12eb724fddd87e9254cfc3863903542edd",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_07_three_media--metcalf_raw--evaluation.json": "143e3c885acb3360715daa2029a39e53014d66224bb1f22a6067f533f8c0987d",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_07_three_media--metcalf_standardized--evaluation.json": "e272cfa76e625687222115f04ee26d9c73980951c57b24b5a83cee9f9161a0f0",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_07_three_media--prevalence_difference--evaluation.json": "bfbd7d12008a8bb12c2e6cb5fdfe8a657e7914ee874632d214af3906795327ab",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_08--global_prevalence--evaluation.json": "f973422419620be512436c79533cad27394181054d58fa648aea0223a23f9f3b",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_08--metcalf_raw--evaluation.json": "25b3945be4fd87e00300ce3ad958b1d67071e4db7bcecc15627d82021e5804d0",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_08--metcalf_standardized--evaluation.json": "a8efbb0fe9e5c2b578f7045b3d4c3e520e63c5db5fc0d3ec00295b2d4d7dac99",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_08--prevalence_difference--evaluation.json": "009d58ea9ad51814b1091aedee8ed5f8ce4c86869c2d63c98d7d77a74188b5bb",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_08_three_media--global_prevalence--evaluation.json": "d04671bb5b663372c5266a0ba93cd52587526b4b769277a15777869d8e2a297d",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_08_three_media--metcalf_raw--evaluation.json": "40c9f64f831d135b8319d29f2420de372c7b02a811cfc5a5a9d235c5097da87b",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_08_three_media--metcalf_standardized--evaluation.json": "7cba45e963fe72f0bace89a8b17c569f4344a9760462ace1357bba37bceab837",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_assembly_representative_08_three_media--prevalence_difference--evaluation.json": "bd414b82b4bbe879c912e7f75c9827b3d57a8ccf3841ece0fcf7a6e2139b99fa",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_three_media_only--global_prevalence--evaluation.json": "0c8bbf056ab71d19006b1bf0ea3e5643091934c4e55235bfaed61e163e79008c",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_three_media_only--metcalf_raw--evaluation.json": "d41999dc4790bb4e83e79a564b9da55343a12710980ccc9a2b9f26b04d31ec05",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_three_media_only--metcalf_standardized--evaluation.json": "a74db6e0b55f983ef52dee4aab7e9800ade91532950e4b74e32fc5b183356e14",
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/draft_three_media_only--prevalence_difference--evaluation.json": "c28044fa0203c89555643c848b420155fed3ac790d049aa551bd22cd8b97ae50",
+    "data/processed/source-selected-gcf-analysis-v1/benchmark.json": "032f05385280cc9a003799362c937426394b194ee0071b6f0737b54c6873b28c",
+    "data/processed/source-selected-gcf-analysis-v1-results/draft_all_source_observations--global_prevalence--rankings.json": "3ac3bc95a5983a7306171b31aaa12827dc4a1dd4fd1ce24520790f33f1431228",
+    "data/processed/source-selected-gcf-analysis-v1-results/draft_all_source_observations--prevalence_difference--rankings.json": "78752d58e93bb1c092f83b347e867adebc2b2d04f14d6a28ba290e7706c3f3dd",
+    "data/processed/source-selected-gcf-analysis-v1-results/draft_all_source_observations--metcalf_raw--rankings.json": "6363a4d88b0ae596b9571b13356ab718f338253ba4bd62f420ce1e90fdf9cd49",
+    "data/processed/source-selected-gcf-analysis-v1-results/draft_all_source_observations--metcalf_standardized--rankings.json": "e73df782798bbca0ef63b19f730b8225bfaf3001ef963317dd7cbbfe9ee1eff6"
+  },
+  "generator_sha256": "399c093379bbb5015e1d850a29a34c94a0781783c69bcba76f1a558b94b36839",
+  "plotted_data": {
+    "inventory": [
+      {
+        "label": "Caesar 2023 \u00b7 GCF",
+        "relationships": 9,
+        "query_identities": 5,
+        "direct": 4,
+        "reference": 5,
+        "scored": 9
+      },
+      {
+        "label": "Caesar 2023 \u00b7 BGC",
+        "relationships": 2,
+        "query_identities": 2,
+        "direct": 0,
+        "reference": 2,
+        "scored": 0
+      },
+      {
+        "label": "Burger 2025 \u00b7 BGC",
+        "relationships": 1,
+        "query_identities": 1,
+        "direct": 1,
+        "reference": 0,
+        "scored": 0
+      },
+      {
+        "label": "FAC-MS 2017/18 \u00b7 BGC",
+        "relationships": 15,
+        "query_identities": 5,
+        "direct": 14,
+        "reference": 1,
+        "scored": 0
+      },
+      {
+        "label": "HEx 2018 \u00b7 BGC",
+        "relationships": 2,
+        "query_identities": 2,
+        "direct": 0,
+        "reference": 2,
+        "scored": 0
+      },
+      {
+        "label": "Expression 2026 \u00b7 CDS",
+        "relationships": 1,
+        "query_identities": 1,
+        "direct": 1,
+        "reference": 0,
+        "scored": 0
+      }
+    ],
+    "roster_sensitivity": [
+      {
+        "method": "global_prevalence",
+        "metric": "hit@10",
+        "primary": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0,
+        "rosters": [
+          {
+            "roster": "draft_all_source_observations",
+            "value": 0.0
+          },
+          {
+            "roster": "draft_assembly_representative_01",
+            "value": 0.0
+          },
+          {
+            "roster": "draft_assembly_representative_01_three_media",
+            "value": 0.0
+          },
+          {
+            "roster": "draft_assembly_representative_02",
+            "value": 0.0
+          },
+          {
+            "roster": "draft_assembly_representative_02_three_media",
+            "value": 0.0
+          },
+          {
+            "roster": "draft_assembly_representative_03",
+            "value": 0.0
+          },
+          {
+            "roster": "draft_assembly_representative_03_three_media",
+            "value": 0.0
+          },
+          {
+            "roster": "draft_assembly_representative_04",
+            "value": 0.0
+          },
+          {
+            "roster": "draft_assembly_representative_04_three_media",
+            "value": 0.0
+          },
+          {
+            "roster": "draft_assembly_representative_05",
+            "value": 0.0
+          },
+          {
+            "roster": "draft_assembly_representative_05_three_media",
+            "value": 0.0
+          },
+          {
+            "roster": "draft_assembly_representative_06",
+            "value": 0.0
+          },
+          {
+            "roster": "draft_assembly_representative_06_three_media",
+            "value": 0.0
+          },
+          {
+            "roster": "draft_assembly_representative_07",
+            "value": 0.0
+          },
+          {
+            "roster": "draft_assembly_representative_07_three_media",
+            "value": 0.0
+          },
+          {
+            "roster": "draft_assembly_representative_08",
+            "value": 0.0
+          },
+          {
+            "roster": "draft_assembly_representative_08_three_media",
+            "value": 0.0
+          },
+          {
+            "roster": "draft_three_media_only",
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "method": "global_prevalence",
+        "metric": "all_products@100",
+        "primary": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0,
+        "rosters": [
+          {
+            "roster": "draft_all_source_observations",
+            "value": 0.0
+          },
+          {
+            "roster": "draft_assembly_representative_01",
+            "value": 0.0
+          },
+          {
+            "roster": "draft_assembly_representative_01_three_media",
+            "value": 0.0
+          },
+          {
+            "roster": "draft_assembly_representative_02",
+            "value": 0.0
+          },
+          {
+            "roster": "draft_assembly_representative_02_three_media",
+            "value": 0.0
+          },
+          {
+            "roster": "draft_assembly_representative_03",
+            "value": 0.0
+          },
+          {
+            "roster": "draft_assembly_representative_03_three_media",
+            "value": 0.0
+          },
+          {
+            "roster": "draft_assembly_representative_04",
+            "value": 0.0
+          },
+          {
+            "roster": "draft_assembly_representative_04_three_media",
+            "value": 0.0
+          },
+          {
+            "roster": "draft_assembly_representative_05",
+            "value": 0.0
+          },
+          {
+            "roster": "draft_assembly_representative_05_three_media",
+            "value": 0.0
+          },
+          {
+            "roster": "draft_assembly_representative_06",
+            "value": 0.0
+          },
+          {
+            "roster": "draft_assembly_representative_06_three_media",
+            "value": 0.0
+          },
+          {
+            "roster": "draft_assembly_representative_07",
+            "value": 0.0
+          },
+          {
+            "roster": "draft_assembly_representative_07_three_media",
+            "value": 0.0
+          },
+          {
+            "roster": "draft_assembly_representative_08",
+            "value": 0.0
+          },
+          {
+            "roster": "draft_assembly_representative_08_three_media",
+            "value": 0.0
+          },
+          {
+            "roster": "draft_three_media_only",
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "method": "prevalence_difference",
+        "metric": "hit@10",
+        "primary": 0.48730158730158724,
+        "minimum": 0.4650793650793651,
+        "maximum": 0.5904761904761905,
+        "rosters": [
+          {
+            "roster": "draft_all_source_observations",
+            "value": 0.48730158730158724
+          },
+          {
+            "roster": "draft_assembly_representative_01",
+            "value": 0.5821428571428571
+          },
+          {
+            "roster": "draft_assembly_representative_01_three_media",
+            "value": 0.5678571428571428
+          },
+          {
+            "roster": "draft_assembly_representative_02",
+            "value": 0.5821428571428571
+          },
+          {
+            "roster": "draft_assembly_representative_02_three_media",
+            "value": 0.5678571428571428
+          },
+          {
+            "roster": "draft_assembly_representative_03",
+            "value": 0.4650793650793651
+          },
+          {
+            "roster": "draft_assembly_representative_03_three_media",
+            "value": 0.4650793650793651
+          },
+          {
+            "roster": "draft_assembly_representative_04",
+            "value": 0.4650793650793651
+          },
+          {
+            "roster": "draft_assembly_representative_04_three_media",
+            "value": 0.4650793650793651
+          },
+          {
+            "roster": "draft_assembly_representative_05",
+            "value": 0.5904761904761905
+          },
+          {
+            "roster": "draft_assembly_representative_05_three_media",
+            "value": 0.5761904761904761
+          },
+          {
+            "roster": "draft_assembly_representative_06",
+            "value": 0.5904761904761905
+          },
+          {
+            "roster": "draft_assembly_representative_06_three_media",
+            "value": 0.5761904761904761
+          },
+          {
+            "roster": "draft_assembly_representative_07",
+            "value": 0.48730158730158724
+          },
+          {
+            "roster": "draft_assembly_representative_07_three_media",
+            "value": 0.48730158730158724
+          },
+          {
+            "roster": "draft_assembly_representative_08",
+            "value": 0.48730158730158724
+          },
+          {
+            "roster": "draft_assembly_representative_08_three_media",
+            "value": 0.48730158730158724
+          },
+          {
+            "roster": "draft_three_media_only",
+            "value": 0.48730158730158724
+          }
+        ]
+      },
+      {
+        "method": "prevalence_difference",
+        "metric": "all_products@100",
+        "primary": 0.8,
+        "minimum": 0.8,
+        "maximum": 0.8079734219269102,
+        "rosters": [
+          {
+            "roster": "draft_all_source_observations",
+            "value": 0.8
+          },
+          {
+            "roster": "draft_assembly_representative_01",
+            "value": 0.8079734219269102
+          },
+          {
+            "roster": "draft_assembly_representative_01_three_media",
+            "value": 0.8079734219269102
+          },
+          {
+            "roster": "draft_assembly_representative_02",
+            "value": 0.8079734219269102
+          },
+          {
+            "roster": "draft_assembly_representative_02_three_media",
+            "value": 0.8079734219269102
+          },
+          {
+            "roster": "draft_assembly_representative_03",
+            "value": 0.8079734219269102
+          },
+          {
+            "roster": "draft_assembly_representative_03_three_media",
+            "value": 0.8079734219269102
+          },
+          {
+            "roster": "draft_assembly_representative_04",
+            "value": 0.8079734219269102
+          },
+          {
+            "roster": "draft_assembly_representative_04_three_media",
+            "value": 0.8079734219269102
+          },
+          {
+            "roster": "draft_assembly_representative_05",
+            "value": 0.8
+          },
+          {
+            "roster": "draft_assembly_representative_05_three_media",
+            "value": 0.8
+          },
+          {
+            "roster": "draft_assembly_representative_06",
+            "value": 0.8
+          },
+          {
+            "roster": "draft_assembly_representative_06_three_media",
+            "value": 0.8
+          },
+          {
+            "roster": "draft_assembly_representative_07",
+            "value": 0.8
+          },
+          {
+            "roster": "draft_assembly_representative_07_three_media",
+            "value": 0.8
+          },
+          {
+            "roster": "draft_assembly_representative_08",
+            "value": 0.8
+          },
+          {
+            "roster": "draft_assembly_representative_08_three_media",
+            "value": 0.8
+          },
+          {
+            "roster": "draft_three_media_only",
+            "value": 0.8
+          }
+        ]
+      },
+      {
+        "method": "metcalf_raw",
+        "metric": "hit@10",
+        "primary": 0.8539682539682539,
+        "minimum": 0.7678571428571429,
+        "maximum": 0.8539682539682539,
+        "rosters": [
+          {
+            "roster": "draft_all_source_observations",
+            "value": 0.8539682539682539
+          },
+          {
+            "roster": "draft_assembly_representative_01",
+            "value": 0.778968253968254
+          },
+          {
+            "roster": "draft_assembly_representative_01_three_media",
+            "value": 0.7678571428571429
+          },
+          {
+            "roster": "draft_assembly_representative_02",
+            "value": 0.778968253968254
+          },
+          {
+            "roster": "draft_assembly_representative_02_three_media",
+            "value": 0.7678571428571429
+          },
+          {
+            "roster": "draft_assembly_representative_03",
+            "value": 0.778968253968254
+          },
+          {
+            "roster": "draft_assembly_representative_03_three_media",
+            "value": 0.7678571428571429
+          },
+          {
+            "roster": "draft_assembly_representative_04",
+            "value": 0.778968253968254
+          },
+          {
+            "roster": "draft_assembly_representative_04_three_media",
+            "value": 0.7678571428571429
+          },
+          {
+            "roster": "draft_assembly_representative_05",
+            "value": 0.8481203007518797
+          },
+          {
+            "roster": "draft_assembly_representative_05_three_media",
+            "value": 0.8375939849624061
+          },
+          {
+            "roster": "draft_assembly_representative_06",
+            "value": 0.8481203007518797
+          },
+          {
+            "roster": "draft_assembly_representative_06_three_media",
+            "value": 0.8375939849624061
+          },
+          {
+            "roster": "draft_assembly_representative_07",
+            "value": 0.8481203007518797
+          },
+          {
+            "roster": "draft_assembly_representative_07_three_media",
+            "value": 0.8375939849624061
+          },
+          {
+            "roster": "draft_assembly_representative_08",
+            "value": 0.8481203007518797
+          },
+          {
+            "roster": "draft_assembly_representative_08_three_media",
+            "value": 0.8375939849624061
+          },
+          {
+            "roster": "draft_three_media_only",
+            "value": 0.8428571428571429
+          }
+        ]
+      },
+      {
+        "method": "metcalf_raw",
+        "metric": "all_products@100",
+        "primary": 0.9333333333333333,
+        "minimum": 0.7534710269650029,
+        "maximum": 0.9333333333333333,
+        "rosters": [
+          {
+            "roster": "draft_all_source_observations",
+            "value": 0.9333333333333333
+          },
+          {
+            "roster": "draft_assembly_representative_01",
+            "value": 0.9333333333333333
+          },
+          {
+            "roster": "draft_assembly_representative_01_three_media",
+            "value": 0.9333333333333333
+          },
+          {
+            "roster": "draft_assembly_representative_02",
+            "value": 0.9333333333333333
+          },
+          {
+            "roster": "draft_assembly_representative_02_three_media",
+            "value": 0.9333333333333333
+          },
+          {
+            "roster": "draft_assembly_representative_03",
+            "value": 0.9333333333333333
+          },
+          {
+            "roster": "draft_assembly_representative_03_three_media",
+            "value": 0.9333333333333333
+          },
+          {
+            "roster": "draft_assembly_representative_04",
+            "value": 0.9333333333333333
+          },
+          {
+            "roster": "draft_assembly_representative_04_three_media",
+            "value": 0.9333333333333333
+          },
+          {
+            "roster": "draft_assembly_representative_05",
+            "value": 0.7534710269650029
+          },
+          {
+            "roster": "draft_assembly_representative_05_three_media",
+            "value": 0.7534710269650029
+          },
+          {
+            "roster": "draft_assembly_representative_06",
+            "value": 0.7534710269650029
+          },
+          {
+            "roster": "draft_assembly_representative_06_three_media",
+            "value": 0.7534710269650029
+          },
+          {
+            "roster": "draft_assembly_representative_07",
+            "value": 0.785140562248996
+          },
+          {
+            "roster": "draft_assembly_representative_07_three_media",
+            "value": 0.785140562248996
+          },
+          {
+            "roster": "draft_assembly_representative_08",
+            "value": 0.785140562248996
+          },
+          {
+            "roster": "draft_assembly_representative_08_three_media",
+            "value": 0.785140562248996
+          },
+          {
+            "roster": "draft_three_media_only",
+            "value": 0.9333333333333333
+          }
+        ]
+      },
+      {
+        "method": "metcalf_standardized",
+        "metric": "hit@10",
+        "primary": 0.6150793650793651,
+        "minimum": 0.5775793650793651,
+        "maximum": 0.6972431077694236,
+        "rosters": [
+          {
+            "roster": "draft_all_source_observations",
+            "value": 0.6150793650793651
+          },
+          {
+            "roster": "draft_assembly_representative_01",
+            "value": 0.6900793650793651
+          },
+          {
+            "roster": "draft_assembly_representative_01_three_media",
+            "value": 0.6900793650793651
+          },
+          {
+            "roster": "draft_assembly_representative_02",
+            "value": 0.6900793650793651
+          },
+          {
+            "roster": "draft_assembly_representative_02_three_media",
+            "value": 0.6900793650793651
+          },
+          {
+            "roster": "draft_assembly_representative_03",
+            "value": 0.5775793650793651
+          },
+          {
+            "roster": "draft_assembly_representative_03_three_media",
+            "value": 0.5775793650793651
+          },
+          {
+            "roster": "draft_assembly_representative_04",
+            "value": 0.5775793650793651
+          },
+          {
+            "roster": "draft_assembly_representative_04_three_media",
+            "value": 0.5775793650793651
+          },
+          {
+            "roster": "draft_assembly_representative_05",
+            "value": 0.6972431077694236
+          },
+          {
+            "roster": "draft_assembly_representative_05_three_media",
+            "value": 0.6972431077694236
+          },
+          {
+            "roster": "draft_assembly_representative_06",
+            "value": 0.6972431077694236
+          },
+          {
+            "roster": "draft_assembly_representative_06_three_media",
+            "value": 0.6972431077694236
+          },
+          {
+            "roster": "draft_assembly_representative_07",
+            "value": 0.6083542188805346
+          },
+          {
+            "roster": "draft_assembly_representative_07_three_media",
+            "value": 0.6083542188805346
+          },
+          {
+            "roster": "draft_assembly_representative_08",
+            "value": 0.6083542188805346
+          },
+          {
+            "roster": "draft_assembly_representative_08_three_media",
+            "value": 0.6083542188805346
+          },
+          {
+            "roster": "draft_three_media_only",
+            "value": 0.6150793650793651
+          }
+        ]
+      },
+      {
+        "method": "metcalf_standardized",
+        "metric": "all_products@100",
+        "primary": 0.8038461538461539,
+        "minimum": 0.8,
+        "maximum": 1.0,
+        "rosters": [
+          {
+            "roster": "draft_all_source_observations",
+            "value": 0.8038461538461539
+          },
+          {
+            "roster": "draft_assembly_representative_01",
+            "value": 0.9317829457364342
+          },
+          {
+            "roster": "draft_assembly_representative_01_three_media",
+            "value": 0.9317829457364342
+          },
+          {
+            "roster": "draft_assembly_representative_02",
+            "value": 0.9317829457364342
+          },
+          {
+            "roster": "draft_assembly_representative_02_three_media",
+            "value": 0.9317829457364342
+          },
+          {
+            "roster": "draft_assembly_representative_03",
+            "value": 1.0
+          },
+          {
+            "roster": "draft_assembly_representative_03_three_media",
+            "value": 1.0
+          },
+          {
+            "roster": "draft_assembly_representative_04",
+            "value": 1.0
+          },
+          {
+            "roster": "draft_assembly_representative_04_three_media",
+            "value": 1.0
+          },
+          {
+            "roster": "draft_assembly_representative_05",
+            "value": 0.8
+          },
+          {
+            "roster": "draft_assembly_representative_05_three_media",
+            "value": 0.8
+          },
+          {
+            "roster": "draft_assembly_representative_06",
+            "value": 0.8
+          },
+          {
+            "roster": "draft_assembly_representative_06_three_media",
+            "value": 0.8
+          },
+          {
+            "roster": "draft_assembly_representative_07",
+            "value": 0.8
+          },
+          {
+            "roster": "draft_assembly_representative_07_three_media",
+            "value": 0.8
+          },
+          {
+            "roster": "draft_assembly_representative_08",
+            "value": 0.8
+          },
+          {
+            "roster": "draft_assembly_representative_08_three_media",
+            "value": 0.8
+          },
+          {
+            "roster": "draft_three_media_only",
+            "value": 0.8038461538461539
+          }
+        ]
+      },
+      {
+        "method": "uniform_random_exact",
+        "metric": "hit@10",
+        "primary": 0.0019259570994467844,
+        "minimum": 0.0019259570994467844,
+        "maximum": 0.0019259570994467844,
+        "rosters": [
+          {
+            "roster": "draft_all_source_observations",
+            "value": 0.0019259570994467844
+          },
+          {
+            "roster": "draft_assembly_representative_01",
+            "value": 0.0019259570994467844
+          },
+          {
+            "roster": "draft_assembly_representative_01_three_media",
+            "value": 0.0019259570994467844
+          },
+          {
+            "roster": "draft_assembly_representative_02",
+            "value": 0.0019259570994467844
+          },
+          {
+            "roster": "draft_assembly_representative_02_three_media",
+            "value": 0.0019259570994467844
+          },
+          {
+            "roster": "draft_assembly_representative_03",
+            "value": 0.0019259570994467844
+          },
+          {
+            "roster": "draft_assembly_representative_03_three_media",
+            "value": 0.0019259570994467844
+          },
+          {
+            "roster": "draft_assembly_representative_04",
+            "value": 0.0019259570994467844
+          },
+          {
+            "roster": "draft_assembly_representative_04_three_media",
+            "value": 0.0019259570994467844
+          },
+          {
+            "roster": "draft_assembly_representative_05",
+            "value": 0.0019259570994467844
+          },
+          {
+            "roster": "draft_assembly_representative_05_three_media",
+            "value": 0.0019259570994467844
+          },
+          {
+            "roster": "draft_assembly_representative_06",
+            "value": 0.0019259570994467844
+          },
+          {
+            "roster": "draft_assembly_representative_06_three_media",
+            "value": 0.0019259570994467844
+          },
+          {
+            "roster": "draft_assembly_representative_07",
+            "value": 0.0019259570994467844
+          },
+          {
+            "roster": "draft_assembly_representative_07_three_media",
+            "value": 0.0019259570994467844
+          },
+          {
+            "roster": "draft_assembly_representative_08",
+            "value": 0.0019259570994467844
+          },
+          {
+            "roster": "draft_assembly_representative_08_three_media",
+            "value": 0.0019259570994467844
+          },
+          {
+            "roster": "draft_three_media_only",
+            "value": 0.0019259570994467844
+          }
+        ]
+      },
+      {
+        "method": "uniform_random_exact",
+        "metric": "all_products@100",
+        "primary": 0.006447377659444313,
+        "minimum": 0.006447377659444313,
+        "maximum": 0.006447377659444313,
+        "rosters": [
+          {
+            "roster": "draft_all_source_observations",
+            "value": 0.006447377659444313
+          },
+          {
+            "roster": "draft_assembly_representative_01",
+            "value": 0.006447377659444313
+          },
+          {
+            "roster": "draft_assembly_representative_01_three_media",
+            "value": 0.006447377659444313
+          },
+          {
+            "roster": "draft_assembly_representative_02",
+            "value": 0.006447377659444313
+          },
+          {
+            "roster": "draft_assembly_representative_02_three_media",
+            "value": 0.006447377659444313
+          },
+          {
+            "roster": "draft_assembly_representative_03",
+            "value": 0.006447377659444313
+          },
+          {
+            "roster": "draft_assembly_representative_03_three_media",
+            "value": 0.006447377659444313
+          },
+          {
+            "roster": "draft_assembly_representative_04",
+            "value": 0.006447377659444313
+          },
+          {
+            "roster": "draft_assembly_representative_04_three_media",
+            "value": 0.006447377659444313
+          },
+          {
+            "roster": "draft_assembly_representative_05",
+            "value": 0.006447377659444313
+          },
+          {
+            "roster": "draft_assembly_representative_05_three_media",
+            "value": 0.006447377659444313
+          },
+          {
+            "roster": "draft_assembly_representative_06",
+            "value": 0.006447377659444313
+          },
+          {
+            "roster": "draft_assembly_representative_06_three_media",
+            "value": 0.006447377659444313
+          },
+          {
+            "roster": "draft_assembly_representative_07",
+            "value": 0.006447377659444313
+          },
+          {
+            "roster": "draft_assembly_representative_07_three_media",
+            "value": 0.006447377659444313
+          },
+          {
+            "roster": "draft_assembly_representative_08",
+            "value": 0.006447377659444313
+          },
+          {
+            "roster": "draft_assembly_representative_08_three_media",
+            "value": 0.006447377659444313
+          },
+          {
+            "roster": "draft_three_media_only",
+            "value": 0.006447377659444313
+          }
+        ]
+      }
+    ],
+    "target_rank_intervals": [
+      {
+        "method": "global_prevalence",
+        "product_id": "caesar2023:relationship:13",
+        "query_id": "source:NRPKS_18",
+        "candidate_id": "caesar2023:feature:2854",
+        "score": 0.0380952380952381,
+        "greater_score_count": 933,
+        "tied_score_count": 455,
+        "best": 934,
+        "worst": 1388,
+        "newly_admitted": false
+      },
+      {
+        "method": "global_prevalence",
+        "product_id": "caesar2023:relationship:23",
+        "query_id": "source:NRPSLIKE_59",
+        "candidate_id": "caesar2023:feature:1764",
+        "score": 0.047619047619047616,
+        "greater_score_count": 713,
+        "tied_score_count": 220,
+        "best": 714,
+        "worst": 933,
+        "newly_admitted": false
+      },
+      {
+        "method": "global_prevalence",
+        "product_id": "caesar2023:pst:725",
+        "query_id": "source:NRPSPKS_85",
+        "candidate_id": "caesar2023:feature:725",
+        "score": 0.0761904761904762,
+        "greater_score_count": 413,
+        "tied_score_count": 72,
+        "best": 414,
+        "worst": 485,
+        "newly_admitted": false
+      },
+      {
+        "method": "global_prevalence",
+        "product_id": "caesar2023:pst:810",
+        "query_id": "source:NRPSPKS_85",
+        "candidate_id": "caesar2023:feature:810",
+        "score": 0.047619047619047616,
+        "greater_score_count": 713,
+        "tied_score_count": 220,
+        "best": 714,
+        "worst": 933,
+        "newly_admitted": false
+      },
+      {
+        "method": "global_prevalence",
+        "product_id": "caesar2023:pst:895",
+        "query_id": "source:NRPSPKS_85",
+        "candidate_id": "caesar2023:feature:895",
+        "score": 0.02857142857142857,
+        "greater_score_count": 1388,
+        "tied_score_count": 1043,
+        "best": 1389,
+        "worst": 2431,
+        "newly_admitted": true
+      },
+      {
+        "method": "global_prevalence",
+        "product_id": "caesar2023:pst:1950",
+        "query_id": "source:NRPSPKS_85",
+        "candidate_id": "caesar2023:feature:1950",
+        "score": 0.02857142857142857,
+        "greater_score_count": 1388,
+        "tied_score_count": 1043,
+        "best": 1389,
+        "worst": 2431,
+        "newly_admitted": true
+      },
+      {
+        "method": "global_prevalence",
+        "product_id": "caesar2023:relationship:22",
+        "query_id": "source:NRPS_66",
+        "candidate_id": "caesar2023:feature:4182",
+        "score": 0.0380952380952381,
+        "greater_score_count": 933,
+        "tied_score_count": 455,
+        "best": 934,
+        "worst": 1388,
+        "newly_admitted": true
+      },
+      {
+        "method": "global_prevalence",
+        "product_id": "caesar2023:relationship:21",
+        "query_id": "source:NRPS_66",
+        "candidate_id": "caesar2023:feature:9213",
+        "score": 0.0380952380952381,
+        "greater_score_count": 933,
+        "tied_score_count": 455,
+        "best": 934,
+        "worst": 1388,
+        "newly_admitted": false
+      },
+      {
+        "method": "global_prevalence",
+        "product_id": "caesar2023:relationship:25",
+        "query_id": "source:TERPENE_40",
+        "candidate_id": "caesar2023:feature:3485",
+        "score": 0.01904761904761905,
+        "greater_score_count": 2431,
+        "tied_score_count": 2600,
+        "best": 2432,
+        "worst": 5031,
+        "newly_admitted": false
+      },
+      {
+        "method": "prevalence_difference",
+        "product_id": "caesar2023:relationship:13",
+        "query_id": "source:NRPKS_18",
+        "candidate_id": "caesar2023:feature:2854",
+        "score": 0.4,
+        "greater_score_count": 7,
+        "tied_score_count": 14,
+        "best": 8,
+        "worst": 21,
+        "newly_admitted": false
+      },
+      {
+        "method": "prevalence_difference",
+        "product_id": "caesar2023:relationship:23",
+        "query_id": "source:NRPSLIKE_59",
+        "candidate_id": "caesar2023:feature:1764",
+        "score": 0.3529980657640232,
+        "greater_score_count": 6,
+        "tied_score_count": 2,
+        "best": 7,
+        "worst": 8,
+        "newly_admitted": false
+      },
+      {
+        "method": "prevalence_difference",
+        "product_id": "caesar2023:pst:725",
+        "query_id": "source:NRPSPKS_85",
+        "candidate_id": "caesar2023:feature:725",
+        "score": 0.836734693877551,
+        "greater_score_count": 8,
+        "tied_score_count": 9,
+        "best": 9,
+        "worst": 17,
+        "newly_admitted": false
+      },
+      {
+        "method": "prevalence_difference",
+        "product_id": "caesar2023:pst:810",
+        "query_id": "source:NRPSPKS_85",
+        "candidate_id": "caesar2023:feature:810",
+        "score": 0.7142857142857143,
+        "greater_score_count": 33,
+        "tied_score_count": 8,
+        "best": 34,
+        "worst": 41,
+        "newly_admitted": false
+      },
+      {
+        "method": "prevalence_difference",
+        "product_id": "caesar2023:pst:895",
+        "query_id": "source:NRPSPKS_85",
+        "candidate_id": "caesar2023:feature:895",
+        "score": 0.42857142857142855,
+        "greater_score_count": 114,
+        "tied_score_count": 40,
+        "best": 115,
+        "worst": 154,
+        "newly_admitted": true
+      },
+      {
+        "method": "prevalence_difference",
+        "product_id": "caesar2023:pst:1950",
+        "query_id": "source:NRPSPKS_85",
+        "candidate_id": "caesar2023:feature:1950",
+        "score": 0.42857142857142855,
+        "greater_score_count": 114,
+        "tied_score_count": 40,
+        "best": 115,
+        "worst": 154,
+        "newly_admitted": true
+      },
+      {
+        "method": "prevalence_difference",
+        "product_id": "caesar2023:relationship:22",
+        "query_id": "source:NRPS_66",
+        "candidate_id": "caesar2023:feature:4182",
+        "score": 0.4183673469387755,
+        "greater_score_count": 30,
+        "tied_score_count": 13,
+        "best": 31,
+        "worst": 43,
+        "newly_admitted": true
+      },
+      {
+        "method": "prevalence_difference",
+        "product_id": "caesar2023:relationship:21",
+        "query_id": "source:NRPS_66",
+        "candidate_id": "caesar2023:feature:9213",
+        "score": 0.5714285714285714,
+        "greater_score_count": 1,
+        "tied_score_count": 3,
+        "best": 2,
+        "worst": 4,
+        "newly_admitted": false
+      },
+      {
+        "method": "prevalence_difference",
+        "product_id": "caesar2023:relationship:25",
+        "query_id": "source:TERPENE_40",
+        "candidate_id": "caesar2023:feature:3485",
+        "score": 0.18181818181818182,
+        "greater_score_count": 68,
+        "tied_score_count": 18,
+        "best": 69,
+        "worst": 86,
+        "newly_admitted": false
+      },
+      {
+        "method": "metcalf_raw",
+        "product_id": "caesar2023:relationship:13",
+        "query_id": "source:NRPKS_18",
+        "candidate_id": "caesar2023:feature:2854",
+        "score": 135,
+        "greater_score_count": 0,
+        "tied_score_count": 14,
+        "best": 1,
+        "worst": 14,
+        "newly_admitted": false
+      },
+      {
+        "method": "metcalf_raw",
+        "product_id": "caesar2023:relationship:23",
+        "query_id": "source:NRPSLIKE_59",
+        "candidate_id": "caesar2023:feature:1764",
+        "score": 123,
+        "greater_score_count": 6,
+        "tied_score_count": 2,
+        "best": 7,
+        "worst": 8,
+        "newly_admitted": false
+      },
+      {
+        "method": "metcalf_raw",
+        "product_id": "caesar2023:pst:725",
+        "query_id": "source:NRPSPKS_85",
+        "candidate_id": "caesar2023:feature:725",
+        "score": 136,
+        "greater_score_count": 40,
+        "tied_score_count": 9,
+        "best": 41,
+        "worst": 49,
+        "newly_admitted": false
+      },
+      {
+        "method": "metcalf_raw",
+        "product_id": "caesar2023:pst:810",
+        "query_id": "source:NRPSPKS_85",
+        "candidate_id": "caesar2023:feature:810",
+        "score": 148,
+        "greater_score_count": 0,
+        "tied_score_count": 8,
+        "best": 1,
+        "worst": 8,
+        "newly_admitted": false
+      },
+      {
+        "method": "metcalf_raw",
+        "product_id": "caesar2023:pst:895",
+        "query_id": "source:NRPSPKS_85",
+        "candidate_id": "caesar2023:feature:895",
+        "score": 128,
+        "greater_score_count": 49,
+        "tied_score_count": 40,
+        "best": 50,
+        "worst": 89,
+        "newly_admitted": true
+      },
+      {
+        "method": "metcalf_raw",
+        "product_id": "caesar2023:pst:1950",
+        "query_id": "source:NRPSPKS_85",
+        "candidate_id": "caesar2023:feature:1950",
+        "score": 128,
+        "greater_score_count": 49,
+        "tied_score_count": 40,
+        "best": 50,
+        "worst": 89,
+        "newly_admitted": true
+      },
+      {
+        "method": "metcalf_raw",
+        "product_id": "caesar2023:relationship:22",
+        "query_id": "source:NRPS_66",
+        "candidate_id": "caesar2023:feature:4182",
+        "score": 117,
+        "greater_score_count": 92,
+        "tied_score_count": 12,
+        "best": 93,
+        "worst": 104,
+        "newly_admitted": true
+      },
+      {
+        "method": "metcalf_raw",
+        "product_id": "caesar2023:relationship:21",
+        "query_id": "source:NRPS_66",
+        "candidate_id": "caesar2023:feature:9213",
+        "score": 138,
+        "greater_score_count": 1,
+        "tied_score_count": 3,
+        "best": 2,
+        "worst": 4,
+        "newly_admitted": false
+      },
+      {
+        "method": "metcalf_raw",
+        "product_id": "caesar2023:relationship:25",
+        "query_id": "source:TERPENE_40",
+        "candidate_id": "caesar2023:feature:3485",
+        "score": 114,
+        "greater_score_count": 0,
+        "tied_score_count": 18,
+        "best": 1,
+        "worst": 18,
+        "newly_admitted": false
+      },
+      {
+        "method": "metcalf_standardized",
+        "product_id": "caesar2023:relationship:13",
+        "query_id": "source:NRPKS_18",
+        "candidate_id": "caesar2023:feature:2854",
+        "score": 6.255294786921486,
+        "greater_score_count": 0,
+        "tied_score_count": 14,
+        "best": 1,
+        "worst": 14,
+        "newly_admitted": false
+      },
+      {
+        "method": "metcalf_standardized",
+        "product_id": "caesar2023:relationship:23",
+        "query_id": "source:NRPSLIKE_59",
+        "candidate_id": "caesar2023:feature:1764",
+        "score": 5.176834279055554,
+        "greater_score_count": 3,
+        "tied_score_count": 2,
+        "best": 4,
+        "worst": 5,
+        "newly_admitted": false
+      },
+      {
+        "method": "metcalf_standardized",
+        "product_id": "caesar2023:pst:725",
+        "query_id": "source:NRPSPKS_85",
+        "candidate_id": "caesar2023:feature:725",
+        "score": 8.022978780510291,
+        "greater_score_count": 16,
+        "tied_score_count": 9,
+        "best": 17,
+        "worst": 25,
+        "newly_admitted": false
+      },
+      {
+        "method": "metcalf_standardized",
+        "product_id": "caesar2023:pst:810",
+        "query_id": "source:NRPSPKS_85",
+        "candidate_id": "caesar2023:feature:810",
+        "score": 8.532291603080617,
+        "greater_score_count": 8,
+        "tied_score_count": 8,
+        "best": 9,
+        "worst": 16,
+        "newly_admitted": false
+      },
+      {
+        "method": "metcalf_standardized",
+        "product_id": "caesar2023:pst:895",
+        "query_id": "source:NRPSPKS_85",
+        "candidate_id": "caesar2023:feature:895",
+        "score": 6.5439689341992375,
+        "greater_score_count": 94,
+        "tied_score_count": 40,
+        "best": 95,
+        "worst": 134,
+        "newly_admitted": true
+      },
+      {
+        "method": "metcalf_standardized",
+        "product_id": "caesar2023:pst:1950",
+        "query_id": "source:NRPSPKS_85",
+        "candidate_id": "caesar2023:feature:1950",
+        "score": 6.5439689341992375,
+        "greater_score_count": 94,
+        "tied_score_count": 40,
+        "best": 95,
+        "worst": 134,
+        "newly_admitted": true
+      },
+      {
+        "method": "metcalf_standardized",
+        "product_id": "caesar2023:relationship:22",
+        "query_id": "source:NRPS_66",
+        "candidate_id": "caesar2023:feature:4182",
+        "score": 5.559629183853174,
+        "greater_score_count": 23,
+        "tied_score_count": 12,
+        "best": 24,
+        "worst": 35,
+        "newly_admitted": true
+      },
+      {
+        "method": "metcalf_standardized",
+        "product_id": "caesar2023:relationship:21",
+        "query_id": "source:NRPS_66",
+        "candidate_id": "caesar2023:feature:9213",
+        "score": 7.593639860872628,
+        "greater_score_count": 1,
+        "tied_score_count": 3,
+        "best": 2,
+        "worst": 4,
+        "newly_admitted": false
+      },
+      {
+        "method": "metcalf_standardized",
+        "product_id": "caesar2023:relationship:25",
+        "query_id": "source:TERPENE_40",
+        "candidate_id": "caesar2023:feature:3485",
+        "score": 4.154135318827674,
+        "greater_score_count": 8,
+        "tied_score_count": 18,
+        "best": 9,
+        "worst": 26,
+        "newly_admitted": false
+      }
+    ]
+  },
+  "checks": {
+    "ledger_relationships": 30,
+    "ledger_query_identities": 16,
+    "direct_relationships": 20,
+    "reference_relationships": 10,
+    "expanded_queries": 5,
+    "expanded_targets": 9,
+    "candidate_pool": 9339,
+    "conservative_analysis_groups": 1,
+    "rosters": 18,
+    "target_method_intervals_recomputed_and_verified": 36,
+    "roster_method_summaries_crosschecked": 90,
+    "scoring_recomputations": 0,
+    "formats_generated": [
+      "svg",
+      "pdf",
+      "png"
+    ],
+    "existing_figure3_modified": false
+  },
+  "output_sha256": {
+    "figure1-task-provenance.svg": "229937a4e7123757d35fef7790a5487da8c32d42a36bf8a4d1cedf9912b31866",
+    "figure1-task-provenance.pdf": "e8e2311d59e851ac9ed8da17e7a4f7af843fa520f2d8803a8ebf0e5a30696d65",
+    "figure1-task-provenance.png": "86a31ea6be75e3f5066297f2bf44a3579f3be4fa8c6108d7e04fc9b80a72404a",
+    "figure2-curation-coverage.svg": "cc9775c0c0f6b14a8bd88413913f80377336568d105faba198faa58528cecbb7",
+    "figure2-curation-coverage.pdf": "436d03d9652614bf55a38b045ef793adce9393d03ff10cefa60c06ee957ef7ae",
+    "figure2-curation-coverage.png": "5690cb1f00101cb974f9fe8e4969c64cd866f1c33b977a365f0e32645239e602",
+    "figure4-expanded-sensitivity.svg": "b45eae33c6e6e6076ab7b96111d068655df444117e76c5a59b26f9d71a838869",
+    "figure4-expanded-sensitivity.pdf": "f2eecc3363b7bf2bdc8cc021d316b5e0592f5c2be306505948a37b9e68f7ec5a",
+    "figure4-expanded-sensitivity.png": "6b1d3d76c334109dcf8351a61f71c1be6bc6ed78d46dd518ba0b68dae49ce3d1",
+    "figure5-product-retrieval.svg": "2d92394dcbf207461010022b5f672607d861a1937b2f1b29c2f1e8dfe099ae77",
+    "figure5-product-retrieval.pdf": "4d34c3c710cebfa2a7c2c083fd2809b9c892dafa724d0f0be7911f72e7c2fe2e",
+    "figure5-product-retrieval.png": "2fdd8904f05f59eb9bd6c878c016742abbc597cfddf3a09415cffece5f9631c7"
+  }
+}

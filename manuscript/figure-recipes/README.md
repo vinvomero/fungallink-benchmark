@@ -1,0 +1,1 @@
+Retained figure-authoring recipes, with their original project-relative paths. The preprint includes the finished vector plates and saved figure-data tables. These recipes are provenance snapshots, not an advertised raw-data acquisition pipeline; restore the referenced input stage before execution.

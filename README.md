@@ -4,6 +4,8 @@ A curated benchmark for linking fungal biosynthetic gene clusters and gene-clust
 
 **Version 1.0.0, 11 October 2026.** There are 30 admitted relationships across 16 biological query identities: 20 directly supported and 10 reference-supported. Eleven relationships have complete evaluated inputs through seven query views; two have partial spectral diagnostics and 17 lack usable comparison inputs. All complete evaluations share one source-selected cohort and one conservative analysis group. This is a retrospective benchmark, not an independent held-out test.
 
+Read the [LaTeX preprint](manuscript/preprint-2026-10-11/Manuscript.pdf), [Supplementary Methods](manuscript/preprint-2026-10-11/Supplementary-Methods.pdf) and [comparative results](manuscript/preprint-2026-10-11/Comparative-results.pdf). The [release addendum](RELEASE-ADDENDUM.md) records the verified public download and editorial corrections.
+
 ## Download and start
 
 Download `fungallink-data-v1.0.0.zip` from the [versioned release](https://github.com/vinvomero/fungallink-benchmark/releases/tag/v1.0.0). Extract to a fresh directory and run:
@@ -35,4 +37,4 @@ The source label-to-strain bridge used a historical author-supplied workbook and
 
 Original code: Apache-2.0. Original curation, results and documentation: CC BY 4.0. Underlying source materials retain their terms and attribution; these licenses are not a grant over third-party assets. See [license scope](docs/release/licenses/SCOPE.md) and `THIRD-PARTY-NOTICE.md`.
 
-Cite Vin Vomero (2026), *FungalLink v2*, version 1.0.0, with the release URL. No DOI or journal acceptance is claimed. The LaTeX preprint and supplements are supplied in `manuscript/preprint-2026-10-11/` when the typeset edition is integrated. AI assistance and the absence of independent specialist re-adjudication are disclosed in the manuscript. This repository release is not a bioRxiv posting or journal submission.
+Cite Vin Vomero (2026), *FungalLink v2*, version 1.0.0, with the release URL. No DOI or journal acceptance is claimed. The LaTeX preprint and supplements are supplied in `manuscript/preprint-2026-10-11/` with matching editable sources. AI assistance and the absence of independent specialist re-adjudication are disclosed in the manuscript. This repository release is not a bioRxiv posting or journal submission.

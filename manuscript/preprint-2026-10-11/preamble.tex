@@ -1,0 +1,32 @@
+
+\usepackage{graphicx}
+\usepackage{xurl}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{caption}
+\usepackage{fvextra}
+\usepackage{placeins}
+\usepackage{needspace}
+\definecolor{ink}{HTML}{173B50}
+\definecolor{linkblue}{HTML}{245C75}
+\captionsetup{font=small,labelfont={bf,color=ink},labelsep=period}
+\titleformat{\section}{\large\bfseries\color{ink}}{}{0pt}{}
+\titleformat{\subsection}{\normalsize\bfseries}{}{0pt}{}
+\titlespacing*{\section}{0pt}{14pt}{6pt}
+\titlespacing*{\subsection}{0pt}{10pt}{4pt}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\small\sffamily\color{ink}FungalLink v2}
+\fancyhead[R]{\small\sffamily Preprint}
+\fancyfoot[C]{\small\thepage}
+\setlength{\headheight}{14pt}
+\renewcommand{\headrulewidth}{0.3pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt plus 1pt}
+\setlength{\emergencystretch}{3em}
+\setcounter{topnumber}{2}\setcounter{bottomnumber}{2}
+\renewcommand{\topfraction}{0.9}\renewcommand{\textfraction}{0.08}
+\renewcommand{\floatpagefraction}{0.75}
+\AtBeginEnvironment{longtable}{\small}
+\RecustomVerbatimEnvironment{verbatim}{Verbatim}{breaklines=true,fontsize=\footnotesize}
+\AtBeginDocument{\hypersetup{colorlinks=true,linkcolor=linkblue,urlcolor=linkblue,citecolor=linkblue,breaklinks=true}}
