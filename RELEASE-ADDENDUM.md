@@ -9,3 +9,8 @@ The earlier statement of “188 passing tests” is corrected to “188 tests, i
 The data release contains all original numerical reconstruction packages. GitHub code and documentation are updated through reviewed merges; cite the data release tag for frozen scientific bytes and the relevant commit for subsequent manuscript/documentation changes. No DOI is claimed. The Git repository alone omits the nested archives; use the released data ZIP for replay.
 
 The release's three upstream-only files are listed in `UPSTREAM-INPUTS.json`. Their public disposition supersedes the bundling entries in the historical private similarity manifest. Source evidence and per-input SHA-256 values are unchanged. Raw author workbooks and correspondence remain excluded.
+
+
+## Resource name correction
+
+The resource and paper are named **FungalLink**. The historical “v2” suffix identified the development repository, not the scientific resource name. The corrected preprint is released as documentation revision1.0.1. The data release1.0.0, all scientific inputs, all labels and all numerical results remain unchanged. Historical archive text is preserved.

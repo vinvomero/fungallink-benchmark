@@ -1,5 +1,5 @@
 \begin{center}
-{\LARGE\bfseries\color{ink}FungalLink v2: a curated benchmark for linking fungal biosynthetic gene clusters to measured metabolites\par}
+{\LARGE\bfseries\color{ink}FungalLink: a curated benchmark for linking fungal biosynthetic gene clusters to measured metabolites\par}
 \vspace{10pt}
 {\large Vin Vomero}\\[3pt]
 Independent researcher\\[3pt]
@@ -9,14 +9,14 @@ Independent researcher\\[3pt]
 \vspace{4pt}
 \hrule
 \vspace{8pt}
-\begin{minipage}{\textwidth}\small\textbf{Abstract.} Fungal genome--metabolome linking requires traceable associations between biosynthetic loci and measured features, yet published evidence and computational inputs are often fragmented. FungalLink v2 assembles 30 curated relationships across 16 genomic query identities from five study cohorts. It distinguishes experimental support, chemical assignment, reference transfer and input readiness. Twenty relationships are directly supported and ten are reference-supported under stated criteria. Eleven relationships support complete retrospective evaluations across seven query views from one source-selected cohort, with 9,339 measured candidate features. Two additional relationships have partial spectral diagnostics; 17 lack usable benchmark inputs. Versioned evidence records and candidate definitions support an evaluator that handles tied scores, multiple products and unavailable outputs. Deterministic numerical evaluations are reproducible from frozen inputs. Shared pathways, historical label exposure and incomplete chemical assignments constrain interpretation: the resource supports retrospective recovery of supported targets and method testing, without providing unbiased estimates of unseen-pathway performance.\par\end{minipage}
+\begin{minipage}{\textwidth}\small\textbf{Abstract.} Fungal genome--metabolome linking requires traceable associations between biosynthetic loci and measured features, yet published evidence and computational inputs are often fragmented. FungalLink assembles 30 curated relationships across 16 genomic query identities from five study cohorts. It distinguishes experimental support, chemical assignment, reference transfer and input readiness. Twenty relationships are directly supported and ten are reference-supported under stated criteria. Eleven relationships support complete retrospective evaluations across seven query views from one source-selected cohort, with 9,339 measured candidate features. Two additional relationships have partial spectral diagnostics; 17 lack usable benchmark inputs. Versioned evidence records and candidate definitions support an evaluator that handles tied scores, multiple products and unavailable outputs. Deterministic numerical evaluations are reproducible from frozen inputs. Shared pathways, historical label exposure and incomplete chemical assignments constrain interpretation: the resource supports retrospective recovery of supported targets and method testing, without providing unbiased estimates of unseen-pathway performance.\par\end{minipage}
 \vspace{9pt}
 \hrule
 \vspace{8pt}
 
 ## Background and Summary
 
-A fungal biosynthetic gene cluster (BGC) and an experimentally characterized reference product do not by themselves identify a product in a measured feature table. Here, a feature is an LC-MS signal defined by the source processing, rather than an independently confirmed compound. That task needs explicit connections among the sampled genomic locus or family, source experiment and measurement. FungalLink v2 records these connections and supplies fixed candidate pools and an evaluation interface for comparing genome-to-measured-metabolite linking methods.
+A fungal biosynthetic gene cluster (BGC) and an experimentally characterized reference product do not by themselves identify a product in a measured feature table. Here, a feature is an LC-MS signal defined by the source processing, rather than an independently confirmed compound. That task needs explicit connections among the sampled genomic locus or family, source experiment and measurement. FungalLink records these connections and supplies fixed candidate pools and an evaluation interface for comparing genome-to-measured-metabolite linking methods.
 
 The resource builds on existing data and methods. Caesar and colleagues supplied the principal fungal cohort and source-selected gene-cluster families (GCFs), which group sequence-related clusters [1]. NPLinker combines co-occurrence with complementary scores, NPClassScore adds genomic–chemical class correspondence, and NPOmix predicts toward gene-cluster families from fragmentation profiles [2–4]. Their inputs and prediction directions differ. Reusable comparison requires the task and permitted information to be stated before interpreting rankings.
 
@@ -178,7 +178,7 @@ The task supports reference retrieval, adapter testing and retrospective method 
 
 ## Data Availability
 
-The versioned data release is publicly available at [FungalLink v2, version 1.0.0](https://github.com/vinvomero/fungallink-benchmark/releases/tag/v1.0.0). It contains curated evidence, numerical inputs, frozen results, reconstruction packages and a SHA-256 manifest. Anonymous download, payload verification and primary-roster numerical replay were checked on 11 October 2026. Three upstream inputs use pinned retrieval recipes; raw author workbooks and correspondence are excluded. The historical mapping provenance and remaining input gaps are documented. No DOI has been assigned.
+The versioned data release is publicly available at [FungalLink, version 1.0.0](https://github.com/vinvomero/fungallink-benchmark/releases/tag/v1.0.0). It contains curated evidence, numerical inputs, frozen results, reconstruction packages and a SHA-256 manifest. Anonymous download, payload verification and primary-roster numerical replay were checked on 11 October 2026. Three upstream inputs use pinned retrieval recipes; raw author workbooks and correspondence are excluded. The historical mapping provenance and remaining input gaps are documented. No DOI has been assigned.
 
 ## Code Availability
 

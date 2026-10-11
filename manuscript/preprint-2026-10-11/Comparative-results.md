@@ -1,12 +1,12 @@
 \begin{center}{\LARGE\bfseries\color{ink}Comparative results\par}\vspace{6pt}
-{\large FungalLink v2}\\[4pt]
+{\large FungalLink}\\[4pt]
 Vin Vomero\\[4pt]
 11 October 2026\end{center}
 \vspace{8pt}
 \renewcommand{\thefigure}{S\arabic{figure}}
 
 
-Companion to the FungalLink v2 Data Descriptor. Tables 1–3 retain their exact values and analysis identities. The six-product experiment, nine-target amendment, family-view extensions, partial diagnostics and assembly-matched comparison are separate analyses. References [1–16] refer to the main article.
+Companion to the FungalLink Data Descriptor. Tables 1–3 retain their exact values and analysis identities. The six-product experiment, nine-target amendment, family-view extensions, partial diagnostics and assembly-matched comparison are separate analyses. References [1–16] refer to the main article.
 
 ### Initial six-product analysis
 
