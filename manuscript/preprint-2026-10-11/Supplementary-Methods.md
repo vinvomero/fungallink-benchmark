@@ -1,11 +1,11 @@
 \begin{center}{\LARGE\bfseries\color{ink}Supplementary Methods\par}\vspace{6pt}
-{\large FungalLink v2}\\[4pt]
+{\large FungalLink}\\[4pt]
 Vin Vomero\\[4pt]
 11 October 2026\end{center}
 \vspace{8pt}
 
 
-Companion to FungalLink v2: a curated benchmark for linking fungal biosynthetic gene clusters to measured metabolites. References [1–16] refer to the main article. The current inventory contains 30 relationships across 16 biological query identities: 20 directly supported and ten reference-supported. Eleven relationships have complete evaluated coverage through seven query views, two have partial spectral diagnostics and seventeen lack usable inputs. Methods and results retain their original analysis versions.
+Companion to FungalLink: a curated benchmark for linking fungal biosynthetic gene clusters to measured metabolites. References [1–16] refer to the main article. The current inventory contains 30 relationships across 16 biological query identities: 20 directly supported and ten reference-supported. Eleven relationships have complete evaluated coverage through seven query views, two have partial spectral diagnostics and seventeen lack usable inputs. Methods and results retain their original analysis versions.
 
 ## S1 Evidence qualification and source contexts
 
