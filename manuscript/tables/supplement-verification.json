@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "canonical_ledger_sha256": "21598678962d6f854c341eac8c2bd97158ba8f2ba99deef1af6ce0c5d121790a",
+  "admitted_relationships": 28,
+  "admitted_query_identities": 16,
+  "initial_GCF_queries": 5,
+  "initial_GCF_products": 6,
+  "admitted_relationships_outside_initial": 22,
+  "expanded_GCF_queries": 5,
+  "expanded_GCF_targets": 9,
+  "expanded_candidate_count": 9339,
+  "expanded_rosters": 18,
+  "expanded_cached_evaluations": 72,
+  "admitted_relationships_outside_expanded": 19,
+  "admitted_queries_outside_expanded": 11,
+  "expanded_gold_sha256": "b97cc328fef7317bcd432e24856b8d2b936364934fe3a4fe64d6daaccfd2a48a",
+  "unadmitted_H_proposals": 0,
+  "capacity_rows": 6,
+  "evidence_rows": 28,
+  "initial_manifest_sha256": "db5c9a653e873adf1c19781086ed287d65cb8836cad9a7f3bd1b6c6d33a04c84",
+  "links_checked": 50,
+  "bibliography_keys": [
+    "Caesar2020",
+    "Caesar2023",
+    "Clevenger2017",
+    "Clevenger2018",
+    "Eldjarn2021",
+    "GadarLopez2026",
+    "Harvey2018",
+    "Louwen2023",
+    "Robey2018",
+    "Zdouc2025"
+  ],
+  "scope": "Ledger-derived counts, immutable initial activation hash, local supplement links and citation keys. No new biological review.",
+  "outputs": {
+    "manuscript/Supplementary-Methods.md": "0a683fb2b504e24e5c38684be1403967c1b28896b52cf3d9a354969c3de40bd8",
+    "manuscript/tables/benchmark-capacity.tsv": "7303dda3e5b5684d13dfd09720e07a75db6e8ee1404551c96e26cc851fce958b",
+    "manuscript/tables/evidence-ledger.tsv": "bbd573b2cdcda7fc83b918d6a75498cd2eaa3e78d43eb9d4015de25d0cbbbfc5"
+  }
+}

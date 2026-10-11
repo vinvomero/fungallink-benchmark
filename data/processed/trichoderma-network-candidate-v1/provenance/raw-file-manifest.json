@@ -1,0 +1,1276 @@
+[
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_9.mcf",
+    "bytes": 17986,
+    "sha256": "418821a39401fd5c55fa9cc6ef035d73f6819fe058077f0b249ca815989f7294",
+    "retrieved_at": "2026-10-07T13:10:13.966094+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_9.mcf"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/analysis.12.DataAnalysis.method",
+    "bytes": 8812,
+    "sha256": "effaa6fa478bb184a405fd187e8bd203bf70974181f5f847e8072229a44a111c",
+    "retrieved_at": "2026-10-07T13:10:14.451542+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/analysis.12.DataAnalysis.method"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/chromatography-data.sqlite",
+    "bytes": 2154496,
+    "sha256": "6876c6da372930858da63c0f888ea760c0de1b25a00f1c74935fbdc53f3d7693",
+    "retrieved_at": "2026-10-07T13:10:15.543355+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/chromatography-data.sqlite"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_7.mcf",
+    "bytes": 20640,
+    "sha256": "bccf0a3a2a3cef48d366423c3949038438512abc86da03cff6785ff34d530955",
+    "retrieved_at": "2026-10-07T13:10:16.112898+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_7.mcf"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/BackgroundLinePos.ami",
+    "bytes": 24963293,
+    "sha256": "7177e122a88eb6d4332ddc9a13248a907d8adaa4307dd7aee6a6687bf3628acd",
+    "retrieved_at": "2026-10-07T13:10:20.808733+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/BackgroundLinePos.ami"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/analysis.2.result_c",
+    "bytes": 1119192,
+    "sha256": "8ebe8d3832994c8e9679c1fd19c1605f391c81ed169fad34283a124eaf37d095",
+    "retrieved_at": "2026-10-07T13:10:21.799503+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/analysis.2.result_c"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/analysis.9.DataAnalysis.method",
+    "bytes": 8812,
+    "sha256": "906923c3d1eff894172eccbd6166ab80687fc5451894d291b11d699cb6f28b1b",
+    "retrieved_at": "2026-10-07T13:10:22.290635+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/analysis.9.DataAnalysis.method"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_11.mcf_idx",
+    "bytes": 26624,
+    "sha256": "cb5a925c67f09692238d17b2c72d800807d5075e1564aa2f8691ed318ea543ab",
+    "retrieved_at": "2026-10-07T13:10:22.870891+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_11.mcf_idx"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/desktop.ini",
+    "bytes": 513,
+    "sha256": "df72bb82a2b611860860e8e5ff500f87906f6e4a12f8de4f87236d5575dfe4d6",
+    "retrieved_at": "2026-10-07T13:10:23.355118+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/desktop.ini"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_8.mcf_idx",
+    "bytes": 26624,
+    "sha256": "368b25261775feaa16fcb8039f69c54e6d438080eba08add1fe601ce0ecae810",
+    "retrieved_at": "2026-10-07T13:10:23.903979+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_8.mcf_idx"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/analysis.10.result_c",
+    "bytes": 1400656,
+    "sha256": "4569b38fb443889e78f3a91de59aafe4fa1b49cbbc1a530ee4abb682c49e05ff",
+    "retrieved_at": "2026-10-07T13:10:25.805234+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/analysis.10.result_c"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_4.mcf_idx",
+    "bytes": 26624,
+    "sha256": "190ea859fb16042510059daca84bbc2d15812a05d3b9c409d49c235e66b4070f",
+    "retrieved_at": "2026-10-07T13:10:26.359524+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_4.mcf_idx"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/analysis.7.DataAnalysis.method",
+    "bytes": 8812,
+    "sha256": "906923c3d1eff894172eccbd6166ab80687fc5451894d291b11d699cb6f28b1b",
+    "retrieved_at": "2026-10-07T13:10:26.827851+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/analysis.7.DataAnalysis.method"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/analysis.tsf_bin",
+    "bytes": 142147584,
+    "sha256": "80013cf977a445752f44b4612574ae127a3f92331432555de85b25c99982fe57",
+    "retrieved_at": "2026-10-07T13:10:45.732868+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/analysis.tsf_bin"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_13.mcf",
+    "bytes": 223,
+    "sha256": "a0efd23323904649b2a1fbf10dac254ec6fd051d4b88bbe00fa82eafa9e4357e",
+    "retrieved_at": "2026-10-07T13:10:46.218224+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_13.mcf"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/analysis.0.DataAnalysis.method",
+    "bytes": 8812,
+    "sha256": "5955832e6ea707bdc40821f8ba554e2e3e7a56f4095a37c7e9bf8f01879ce490",
+    "retrieved_at": "2026-10-07T13:10:46.679411+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/analysis.0.DataAnalysis.method"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_14.mcf",
+    "bytes": 223,
+    "sha256": "675783853a38f7997f7bf6bd7f59ae73f7e66d61c4483fd3ad445bd26a63d44e",
+    "retrieved_at": "2026-10-07T13:10:47.173092+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_14.mcf"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/analysis.5.result_c",
+    "bytes": 1119390,
+    "sha256": "31adae009874b63af4502c2fb7d06e91c96718be891f2d5da88f344e5cf12632",
+    "retrieved_at": "2026-10-07T13:10:48.216044+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/analysis.5.result_c"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_10.mcf_idx",
+    "bytes": 26624,
+    "sha256": "324b731322b93e19e4f254641cd8545213254268daed2b68e7fba5b2298b5c7f",
+    "retrieved_at": "2026-10-07T13:10:48.748789+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_10.mcf_idx"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_14.mcf_idx",
+    "bytes": 26624,
+    "sha256": "767700173fec08a80fa2adb7450852c98183553d1e762ef0e644827aa99ebc33",
+    "retrieved_at": "2026-10-07T13:10:49.297078+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_14.mcf_idx"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/analysis.3.result_c",
+    "bytes": 1119394,
+    "sha256": "b0b0d756ab03af478442fb3804f6e964eb2c2ed9056cd7bf2b7464564381580f",
+    "retrieved_at": "2026-10-07T13:10:50.277750+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/analysis.3.result_c"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_1.mcf_idx",
+    "bytes": 26624,
+    "sha256": "8a20b169e295aee3392e4615d9e80be9f326bc16e4ed8bd99b5fce8ea4a49b4f",
+    "retrieved_at": "2026-10-07T13:10:50.815003+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_1.mcf_idx"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_5.mcf_idx",
+    "bytes": 26624,
+    "sha256": "12579f02b62d1939eb07b50684673020e52f19d2f3ddafebf7442ae23b2e95aa",
+    "retrieved_at": "2026-10-07T13:10:51.366487+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_5.mcf_idx"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_9.mcf_idx",
+    "bytes": 26624,
+    "sha256": "fd3703c5283addcd6a67c8df932e278ff87822fc435e646a07d1ba59d7341c37",
+    "retrieved_at": "2026-10-07T13:10:51.911985+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_9.mcf_idx"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_6.mcf",
+    "bytes": 223,
+    "sha256": "fc6e5ec1ae2c4df9c9a7ea4fb873196aea58b23cd327417a56e62f37a30f9ea5",
+    "retrieved_at": "2026-10-07T13:10:52.376764+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_6.mcf"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_1.mcf",
+    "bytes": 223,
+    "sha256": "ce1725ecc7feed72ce35565f6b642c13e30071ea6009d6c927b65043f03d2f2a",
+    "retrieved_at": "2026-10-07T13:10:52.854146+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_1.mcf"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/analysis.11.DataAnalysis.method",
+    "bytes": 8812,
+    "sha256": "effaa6fa478bb184a405fd187e8bd203bf70974181f5f847e8072229a44a111c",
+    "retrieved_at": "2026-10-07T13:10:53.324735+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/analysis.11.DataAnalysis.method"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_8.mcf",
+    "bytes": 36819,
+    "sha256": "f670aacd146d1e15a247ba4999c8d7aa956ff8ef46868eb50d6ae765adbf1145",
+    "retrieved_at": "2026-10-07T13:10:53.867710+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_8.mcf"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/Heatmaps.ami",
+    "bytes": 48164864,
+    "sha256": "1cac28f66e2a2d2bca71274aec7d7060a059b59255c12adfc14d2cc90f74faa6",
+    "retrieved_at": "2026-10-07T13:10:58.855181+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/Heatmaps.ami"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/analysis.3.DataAnalysis.method",
+    "bytes": 8812,
+    "sha256": "5955832e6ea707bdc40821f8ba554e2e3e7a56f4095a37c7e9bf8f01879ce490",
+    "retrieved_at": "2026-10-07T13:10:59.338085+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/analysis.3.DataAnalysis.method"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/9641.m/microTOFQImpacTemAcquisition.method",
+    "bytes": 230064,
+    "sha256": "df9b29cdeec0c22d259acec2642f783d8c25f335b3fc3792f8792744bf44b7fd",
+    "retrieved_at": "2026-10-07T13:11:00.148369+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/9641.m/microTOFQImpacTemAcquisition.method"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/9641.m/diaSettings.diasqlite",
+    "bytes": 24576,
+    "sha256": "18bf8a39aa0ee4e949ae61ec413273e76d736ae4b9cf97d9a7b551b1e1585bbf",
+    "retrieved_at": "2026-10-07T13:11:00.713978+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/9641.m/diaSettings.diasqlite"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/9641.m/InstrumentSetup.isset",
+    "bytes": 3103,
+    "sha256": "091adba3777e90ab74d5db15aa81d828cc603ab94049414d25f3620e0dd491dd",
+    "retrieved_at": "2026-10-07T13:11:01.192911+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/9641.m/InstrumentSetup.isset"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/9641.m/backup-2024-01-15.m/hystar.method",
+    "bytes": 609129,
+    "sha256": "c5cb717085749601983326e97ae14be2d07dc153e9e48afd8c753cb1d30578c9",
+    "retrieved_at": "2026-10-07T13:11:02.070061+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/9641.m/backup-2024-01-15.m/hystar.method"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/9641.m/backup-2024-01-15.m/lock.file",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "retrieved_at": "2026-10-07T13:11:02.588555+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/9641.m/backup-2024-01-15.m/lock.file"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/9641.m/backup-2024-01-15.m/Maldi.method",
+    "bytes": 2208,
+    "sha256": "6cbdb6e63a51fd40ce700c4dd8b6f214bf0d4954d50f4f6ec678b5bb49fabb0b",
+    "retrieved_at": "2026-10-07T13:11:03.063252+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/9641.m/backup-2024-01-15.m/Maldi.method"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/9641.m/backup-2024-01-15.m/prmSettings.prmsqlite",
+    "bytes": 45056,
+    "sha256": "3e154af12a0b6eb4314afc38de731b554c9975109837dc2846240fd678d4781e",
+    "retrieved_at": "2026-10-07T13:11:03.707689+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/9641.m/backup-2024-01-15.m/prmSettings.prmsqlite"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/9641.m/backup-2024-01-15.m/microTOFQImpacTemAcquisition.method",
+    "bytes": 233038,
+    "sha256": "dd3a548ab169da319be6f99540482308f118b9652d8431b0bf4ebc03c03e114a",
+    "retrieved_at": "2026-10-07T13:11:04.492955+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/9641.m/backup-2024-01-15.m/microTOFQImpacTemAcquisition.method"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/9641.m/backup-2024-01-15.m/submethods.xml",
+    "bytes": 933,
+    "sha256": "6cb0ae7397416eb48bb3f49b64d388484f9ac68d7300ff16d110032d85f15b5c",
+    "retrieved_at": "2026-10-07T13:11:04.985782+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/9641.m/backup-2024-01-15.m/submethods.xml"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/9641.m/backup-2024-01-15.m/diaSettings.diasqlite",
+    "bytes": 24576,
+    "sha256": "18bf8a39aa0ee4e949ae61ec413273e76d736ae4b9cf97d9a7b551b1e1585bbf",
+    "retrieved_at": "2026-10-07T13:11:05.541585+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/9641.m/backup-2024-01-15.m/diaSettings.diasqlite"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/9641.m/submethods.xml",
+    "bytes": 966,
+    "sha256": "5658f758bf7c400d5ce8b83d55f748107eeeb4cf72e758805f3bb53cbaa46bc2",
+    "retrieved_at": "2026-10-07T13:11:06.022615+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/9641.m/submethods.xml"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/9641.m/Maldi.method",
+    "bytes": 2208,
+    "sha256": "6cbdb6e63a51fd40ce700c4dd8b6f214bf0d4954d50f4f6ec678b5bb49fabb0b",
+    "retrieved_at": "2026-10-07T13:11:06.515008+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/9641.m/Maldi.method"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/9641.m/desktop.ini",
+    "bytes": 156,
+    "sha256": "2ff533a52f300f0aca4de61e95aa757c7ce548e60085baeff044336f976104c6",
+    "retrieved_at": "2026-10-07T13:11:06.998608+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/9641.m/desktop.ini"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/9641.m/hystar.method",
+    "bytes": 609129,
+    "sha256": "c5cb717085749601983326e97ae14be2d07dc153e9e48afd8c753cb1d30578c9",
+    "retrieved_at": "2026-10-07T13:11:07.875743+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/9641.m/hystar.method"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/9641.m/prmSettings.prmsqlite",
+    "bytes": 45056,
+    "sha256": "3e154af12a0b6eb4314afc38de731b554c9975109837dc2846240fd678d4781e",
+    "retrieved_at": "2026-10-07T13:11:08.516698+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/9641.m/prmSettings.prmsqlite"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/9641.m/lock.file",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "retrieved_at": "2026-10-07T13:11:08.991680+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/9641.m/lock.file"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_12.mcf",
+    "bytes": 61012,
+    "sha256": "3d5f11953aac27c06c69aa82a2dd24e74ccd84d70a379f47448eeffd95d699e8",
+    "retrieved_at": "2026-10-07T13:11:09.620128+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_12.mcf"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/analysis.4.DataAnalysis.method",
+    "bytes": 8812,
+    "sha256": "5955832e6ea707bdc40821f8ba554e2e3e7a56f4095a37c7e9bf8f01879ce490",
+    "retrieved_at": "2026-10-07T13:11:10.094933+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/analysis.4.DataAnalysis.method"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/Storage.mcf_idx",
+    "bytes": 24576,
+    "sha256": "3a6fd92412fe0e219b8abb790b9c32241ddebae1185f7c72838d4cfacee8cfbc",
+    "retrieved_at": "2026-10-07T13:11:10.654062+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/Storage.mcf_idx"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/analysis.4.result_c",
+    "bytes": 1119391,
+    "sha256": "da60c1302809c6775df258c7b3438f26ad6c2a0b756d7e3703f16067aaa5eee5",
+    "retrieved_at": "2026-10-07T13:11:11.731853+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/analysis.4.result_c"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/chromatography-data.sqlite-journal",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "retrieved_at": "2026-10-07T13:11:12.210146+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/chromatography-data.sqlite-journal"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/analysis.11.result_c",
+    "bytes": 1400824,
+    "sha256": "6d87481718f9c6afbcef66ee5a35ba461aa7aa615364f5f5095c29c34ee69871",
+    "retrieved_at": "2026-10-07T13:11:13.234371+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/analysis.11.result_c"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_3.mcf_idx",
+    "bytes": 26624,
+    "sha256": "dc652b68eea042a53401d481c52acd67e0032fad49b6e2572f049e90614e793b",
+    "retrieved_at": "2026-10-07T13:11:13.797332+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_3.mcf_idx"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/analysis.1.DataAnalysis.method",
+    "bytes": 8812,
+    "sha256": "5955832e6ea707bdc40821f8ba554e2e3e7a56f4095a37c7e9bf8f01879ce490",
+    "retrieved_at": "2026-10-07T13:11:14.269788+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/analysis.1.DataAnalysis.method"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_11.mcf",
+    "bytes": 223,
+    "sha256": "a0af1df1242c0caebaf889991e253c0cdd0945c64975410cdfbafd53ce5a5515",
+    "retrieved_at": "2026-10-07T13:11:14.730733+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_11.mcf"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_7.mcf_idx",
+    "bytes": 26624,
+    "sha256": "7e69081280a8b26673171b6745c771e1cf376d6139e59142fa48532f1d00153c",
+    "retrieved_at": "2026-10-07T13:11:15.281183+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_7.mcf_idx"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_12.mcf_idx",
+    "bytes": 26624,
+    "sha256": "f610abd1532636086f9dfbb412440af75439b98f9f88f707b60b310a8449acd1",
+    "retrieved_at": "2026-10-07T13:11:15.834792+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_12.mcf_idx"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/analysis.6.DataAnalysis.method",
+    "bytes": 8812,
+    "sha256": "906923c3d1eff894172eccbd6166ab80687fc5451894d291b11d699cb6f28b1b",
+    "retrieved_at": "2026-10-07T13:11:16.306826+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/analysis.6.DataAnalysis.method"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/analysis.12.result_c",
+    "bytes": 1400813,
+    "sha256": "6d8c9053c6cc316080282ce7a1c27b0d649648c0ab4250ffdcfa73af9e67a7ec",
+    "retrieved_at": "2026-10-07T13:11:17.272141+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/analysis.12.result_c"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/SyncHelper",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "retrieved_at": "2026-10-07T13:11:17.850324+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/SyncHelper"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/analysis.7.result_c",
+    "bytes": 1314387,
+    "sha256": "510ec709c8f60d89b6d9d6d0256f481c54261b18cef97ffcfc7e9416667ab99e",
+    "retrieved_at": "2026-10-07T13:11:18.896727+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/analysis.7.result_c"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/analysis.8.result_c",
+    "bytes": 1400656,
+    "sha256": "23361a2d6579b9d8aad26c4c2062a436bd297458185e7495a4a2429eafde0467",
+    "retrieved_at": "2026-10-07T13:11:20.029273+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/analysis.8.result_c"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/analysis.tsf",
+    "bytes": 63160320,
+    "sha256": "aa996ae2525088bf38b26bcd6e3d9a48520be587bd434e107e9ac3591e71e5b3",
+    "retrieved_at": "2026-10-07T13:11:32.156579+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/analysis.tsf"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/analysis.8.DataAnalysis.method",
+    "bytes": 8812,
+    "sha256": "906923c3d1eff894172eccbd6166ab80687fc5451894d291b11d699cb6f28b1b",
+    "retrieved_at": "2026-10-07T13:11:32.648120+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/analysis.8.DataAnalysis.method"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/ProjectCreationHelper",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "retrieved_at": "2026-10-07T13:11:33.112248+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/ProjectCreationHelper"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_2.mcf",
+    "bytes": 223,
+    "sha256": "9034786d0e519a89a45cac6b0ccb79a3bcb8eee1a81ae65d9ab4263f3b4b908b",
+    "retrieved_at": "2026-10-07T13:11:33.583048+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_2.mcf"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/analysis.0.result_c",
+    "bytes": 989865,
+    "sha256": "548fb4408d305f35324258111aa6e07dee33c146f7b35c11fe12905bae4b6e3c",
+    "retrieved_at": "2026-10-07T13:11:34.509830+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/analysis.0.result_c"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_5.mcf",
+    "bytes": 17361,
+    "sha256": "1510d882d8ef4e7e1de818d10b18b49543b37a390979524d2c1850e75a62d045",
+    "retrieved_at": "2026-10-07T13:11:35.059286+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_5.mcf"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/analysis.13.DataAnalysis.method",
+    "bytes": 8812,
+    "sha256": "effaa6fa478bb184a405fd187e8bd203bf70974181f5f847e8072229a44a111c",
+    "retrieved_at": "2026-10-07T13:11:35.548713+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/analysis.13.DataAnalysis.method"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/SampleInfo.xml",
+    "bytes": 5908,
+    "sha256": "49c16bc0da677e8c7c695448da5b6fa7b75ce6affb04d7dbf9c3bb86147da652",
+    "retrieved_at": "2026-10-07T13:11:36.010700+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/SampleInfo.xml"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/analysis.9.result_c",
+    "bytes": 1400655,
+    "sha256": "967799e5970b236b8284e1f2583dfcb8e91240c92f71a36b2698fb24c5697a17",
+    "retrieved_at": "2026-10-07T13:11:36.972771+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/analysis.9.result_c"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/analysis.6.result_c",
+    "bytes": 1249070,
+    "sha256": "021ac092f85b5bbb2526dd9075eab60a5d8b9dcc33717664f96ce5172083a0ef",
+    "retrieved_at": "2026-10-07T13:11:37.966256+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/analysis.6.result_c"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/chromatography-data-pre.sqlite",
+    "bytes": 10240,
+    "sha256": "0014ce9e88a4b662b8b8210f7d8832a38b172d26855146dce712754bd86f3562",
+    "retrieved_at": "2026-10-07T13:11:38.439728+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/chromatography-data-pre.sqlite"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/analysis.content",
+    "bytes": 1412,
+    "sha256": "27efe046655a50016c58d90f9a0d4a818cfe42135e45145a9a597d733c3258e9",
+    "retrieved_at": "2026-10-07T13:11:38.911403+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/analysis.content"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/analysis.5.DataAnalysis.method",
+    "bytes": 8812,
+    "sha256": "5955832e6ea707bdc40821f8ba554e2e3e7a56f4095a37c7e9bf8f01879ce490",
+    "retrieved_at": "2026-10-07T13:11:39.382088+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/analysis.5.DataAnalysis.method"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/analysis.13.result_c",
+    "bytes": 1400812,
+    "sha256": "17ad9f5e9affb45a0d63bc92978ec855d754fccf7d7334f0003017d70e3fdd5b",
+    "retrieved_at": "2026-10-07T13:11:40.342647+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/analysis.13.result_c"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/analysis.2.DataAnalysis.method",
+    "bytes": 8812,
+    "sha256": "5955832e6ea707bdc40821f8ba554e2e3e7a56f4095a37c7e9bf8f01879ce490",
+    "retrieved_at": "2026-10-07T13:11:40.865530+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/analysis.2.DataAnalysis.method"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_10.mcf",
+    "bytes": 223,
+    "sha256": "70a4c84b598ea8233a3b16315a3d1663fb9eab03f427d09551b43b741bc0203a",
+    "retrieved_at": "2026-10-07T13:11:41.351539+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_10.mcf"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/analysis.1.result_c",
+    "bytes": 1119191,
+    "sha256": "d5a3b21f92973502a50c8de511ea0e605bc8909c64614d5f2a9821cfa7f88603",
+    "retrieved_at": "2026-10-07T13:11:42.294339+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/analysis.1.result_c"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/analysis.10.DataAnalysis.method",
+    "bytes": 8812,
+    "sha256": "906923c3d1eff894172eccbd6166ab80687fc5451894d291b11d699cb6f28b1b",
+    "retrieved_at": "2026-10-07T13:11:42.770058+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/analysis.10.DataAnalysis.method"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_2.mcf_idx",
+    "bytes": 26624,
+    "sha256": "74755feb52e04c3ff9df28a4eea4caf63a9db883ec781745d2e1d54907a52cb0",
+    "retrieved_at": "2026-10-07T13:11:43.329513+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_2.mcf_idx"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_6.mcf_idx",
+    "bytes": 26624,
+    "sha256": "a88320a0199633b1929cef703f9e8abd7238936e2750702e829596ee9bb545df",
+    "retrieved_at": "2026-10-07T13:11:43.867155+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_6.mcf_idx"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_4.mcf",
+    "bytes": 39249,
+    "sha256": "e6a2f9b2959e31290cd41d6e0601738cef17a892ef3b7e63ee0fa18db0c00f17",
+    "retrieved_at": "2026-10-07T13:11:44.413868+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_4.mcf"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/BackgroundProfPos.ami",
+    "bytes": 35853549,
+    "sha256": "d58eb7b8a7f623186f9fc18a03a83586e33da002d11e210bdec919f87d45ef03",
+    "retrieved_at": "2026-10-07T13:11:52.191732+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/BackgroundProfPos.ami"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_13.mcf_idx",
+    "bytes": 26624,
+    "sha256": "ce8f64dbfd1a6de9ac3c5e65620bb500a73d0296a8ee96e302d97e7cc9908ad0",
+    "retrieved_at": "2026-10-07T13:11:52.753678+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_13.mcf_idx"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_3.mcf",
+    "bytes": 223,
+    "sha256": "6f6a26e0c52374537ad481099b24d3a42737c370cace0e264d81ff26ffbb9f73",
+    "retrieved_at": "2026-10-07T13:11:53.214239+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/6438d5f1-afa7-4a96-95b4-50878df1e43b_3.mcf"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_diliE_timsOFF.d/20240115_IBu_BigScale diliE_10mg PolExtr_timsOFF_B-E2_1_9641.d",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "retrieved_at": "2026-10-07T13:11:53.689717+00:00",
+    "archive_relative_path": "Molecular Networking_diliE_timsOFF.d/20240115_IBu_BigScale diliE_10mg PolExtr_timsOFF_B-E2_1_9641.d"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/analysis.12.DataAnalysis.method",
+    "bytes": 14372,
+    "sha256": "7370809c122584175faefb03978654f7fdcff2ef46d786bbbc6055d3d519e9d5",
+    "retrieved_at": "2026-10-07T13:15:27.032147+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/analysis.12.DataAnalysis.method"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_13.mcf",
+    "bytes": 16113,
+    "sha256": "96b7dec7e2ef2f96ebed6083460817180a5d81debf2b967d373181cb8c5241ae",
+    "retrieved_at": "2026-10-07T13:15:27.573165+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_13.mcf"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_14.mcf",
+    "bytes": 223,
+    "sha256": "d49843b1637da4fbcc01fa7077be00d2b4d16f6ba6a8c9acec0d1ceaf44ab9c4",
+    "retrieved_at": "2026-10-07T13:15:28.030669+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_14.mcf"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/analysis.15.DataAnalysis.method",
+    "bytes": 14372,
+    "sha256": "dfa12bb749a79456035dad8575cc4aeb5fa676b8c5ba5c6a0b87ca74b68c202e",
+    "retrieved_at": "2026-10-07T13:15:28.514685+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/analysis.15.DataAnalysis.method"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_4.mcf_idx",
+    "bytes": 26624,
+    "sha256": "1d9f97135e100632dd44db6f9057b32683d5f6869407f39f06282735d7c6d608",
+    "retrieved_at": "2026-10-07T13:15:29.090127+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_4.mcf_idx"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/analysis.3.result_c",
+    "bytes": 1203260,
+    "sha256": "09014e4cfaef9f0ecb28033b10233aef1b1c55f483ff8c08bbd80aacb2fe09ef",
+    "retrieved_at": "2026-10-07T13:15:30.068059+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/analysis.3.result_c"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_8.mcf_idx",
+    "bytes": 26624,
+    "sha256": "cb69f4056b594fc38d8d9aed0d24de73b9a249d185a739030c8ac9d05297adcd",
+    "retrieved_at": "2026-10-07T13:15:30.647800+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_8.mcf_idx"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/9640.m/prmSettings.prmsqlite",
+    "bytes": 45056,
+    "sha256": "3e154af12a0b6eb4314afc38de731b554c9975109837dc2846240fd678d4781e",
+    "retrieved_at": "2026-10-07T13:15:31.294365+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/9640.m/prmSettings.prmsqlite"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/9640.m/Maldi.method",
+    "bytes": 2208,
+    "sha256": "6cbdb6e63a51fd40ce700c4dd8b6f214bf0d4954d50f4f6ec678b5bb49fabb0b",
+    "retrieved_at": "2026-10-07T13:15:31.768885+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/9640.m/Maldi.method"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/9640.m/lock.file",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "retrieved_at": "2026-10-07T13:15:32.250108+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/9640.m/lock.file"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/9640.m/hystar.method",
+    "bytes": 609129,
+    "sha256": "c5cb717085749601983326e97ae14be2d07dc153e9e48afd8c753cb1d30578c9",
+    "retrieved_at": "2026-10-07T13:15:33.123221+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/9640.m/hystar.method"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/9640.m/submethods.xml",
+    "bytes": 966,
+    "sha256": "5658f758bf7c400d5ce8b83d55f748107eeeb4cf72e758805f3bb53cbaa46bc2",
+    "retrieved_at": "2026-10-07T13:15:33.630016+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/9640.m/submethods.xml"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/9640.m/backup-2024-01-15.m/lock.file",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "retrieved_at": "2026-10-07T13:15:34.117445+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/9640.m/backup-2024-01-15.m/lock.file"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/9640.m/backup-2024-01-15.m/diaSettings.diasqlite",
+    "bytes": 24576,
+    "sha256": "18bf8a39aa0ee4e949ae61ec413273e76d736ae4b9cf97d9a7b551b1e1585bbf",
+    "retrieved_at": "2026-10-07T13:15:34.688996+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/9640.m/backup-2024-01-15.m/diaSettings.diasqlite"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/9640.m/backup-2024-01-15.m/Maldi.method",
+    "bytes": 2208,
+    "sha256": "6cbdb6e63a51fd40ce700c4dd8b6f214bf0d4954d50f4f6ec678b5bb49fabb0b",
+    "retrieved_at": "2026-10-07T13:15:35.185099+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/9640.m/backup-2024-01-15.m/Maldi.method"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/9640.m/backup-2024-01-15.m/hystar.method",
+    "bytes": 609129,
+    "sha256": "c5cb717085749601983326e97ae14be2d07dc153e9e48afd8c753cb1d30578c9",
+    "retrieved_at": "2026-10-07T13:15:36.067437+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/9640.m/backup-2024-01-15.m/hystar.method"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/9640.m/backup-2024-01-15.m/microTOFQImpacTemAcquisition.method",
+    "bytes": 233038,
+    "sha256": "dd3a548ab169da319be6f99540482308f118b9652d8431b0bf4ebc03c03e114a",
+    "retrieved_at": "2026-10-07T13:15:36.839665+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/9640.m/backup-2024-01-15.m/microTOFQImpacTemAcquisition.method"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/9640.m/backup-2024-01-15.m/prmSettings.prmsqlite",
+    "bytes": 45056,
+    "sha256": "3e154af12a0b6eb4314afc38de731b554c9975109837dc2846240fd678d4781e",
+    "retrieved_at": "2026-10-07T13:15:37.471480+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/9640.m/backup-2024-01-15.m/prmSettings.prmsqlite"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/9640.m/backup-2024-01-15.m/submethods.xml",
+    "bytes": 933,
+    "sha256": "6cb0ae7397416eb48bb3f49b64d388484f9ac68d7300ff16d110032d85f15b5c",
+    "retrieved_at": "2026-10-07T13:15:37.975109+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/9640.m/backup-2024-01-15.m/submethods.xml"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/9640.m/InstrumentSetup.isset",
+    "bytes": 3103,
+    "sha256": "091adba3777e90ab74d5db15aa81d828cc603ab94049414d25f3620e0dd491dd",
+    "retrieved_at": "2026-10-07T13:15:38.450256+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/9640.m/InstrumentSetup.isset"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/9640.m/desktop.ini",
+    "bytes": 156,
+    "sha256": "2ff533a52f300f0aca4de61e95aa757c7ce548e60085baeff044336f976104c6",
+    "retrieved_at": "2026-10-07T13:15:38.909936+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/9640.m/desktop.ini"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/9640.m/diaSettings.diasqlite",
+    "bytes": 24576,
+    "sha256": "18bf8a39aa0ee4e949ae61ec413273e76d736ae4b9cf97d9a7b551b1e1585bbf",
+    "retrieved_at": "2026-10-07T13:15:39.480892+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/9640.m/diaSettings.diasqlite"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/9640.m/microTOFQImpacTemAcquisition.method",
+    "bytes": 230064,
+    "sha256": "32d468d1dc24179675305aae22bfbc90b68a58e2db443932e3ba2e2ae1e73d7d",
+    "retrieved_at": "2026-10-07T13:15:40.247438+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/9640.m/microTOFQImpacTemAcquisition.method"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/chromatography-data-pre.sqlite",
+    "bytes": 10240,
+    "sha256": "74b78cfd024c393d46b3798243cfaeb18e8946fe4ad65c66c70be16cab58be7d",
+    "retrieved_at": "2026-10-07T13:15:40.717805+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/chromatography-data-pre.sqlite"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/analysis.10.result_c",
+    "bytes": 1460302,
+    "sha256": "57e9b389277a77f82c61d0cf19e4a1848c51a4df89dd00bfd565ac7fc598d997",
+    "retrieved_at": "2026-10-07T13:15:41.683820+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/analysis.10.result_c"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/analysis.4.result_c",
+    "bytes": 1203263,
+    "sha256": "d9e6be8cac7e364978c229fa292c8a9ec8888669ac36f08a8b361e0f08d2a4f1",
+    "retrieved_at": "2026-10-07T13:15:42.715533+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/analysis.4.result_c"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/analysis.tsf",
+    "bytes": 63033344,
+    "sha256": "2385e5d039927e8adef83a2faef1da9e0f73776e375a1e093e696e6f876d6d8f",
+    "retrieved_at": "2026-10-07T13:15:50.233560+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/analysis.tsf"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_11.mcf_idx",
+    "bytes": 26624,
+    "sha256": "0ea6e572091b457c01d0823ac1cdcc8a73573a20a23b6c08d9bc2933d9a106df",
+    "retrieved_at": "2026-10-07T13:15:50.818956+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_11.mcf_idx"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_15.mcf_idx",
+    "bytes": 26624,
+    "sha256": "de632e7e2a2095579dfb37554cac25f4bf72258703a90967ea4ee479456099d9",
+    "retrieved_at": "2026-10-07T13:15:51.375705+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_15.mcf_idx"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_6.mcf",
+    "bytes": 223,
+    "sha256": "5709f0fe9c165ea96c06d478a7ed3c0be34991cb767a3e574a4ed052e3ff634e",
+    "retrieved_at": "2026-10-07T13:15:51.873257+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_6.mcf"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/analysis.5.DataAnalysis.method",
+    "bytes": 14372,
+    "sha256": "43923ecd656328f342be2065db2ff395ba68555698c7764753e607d4cd1b8986",
+    "retrieved_at": "2026-10-07T13:15:52.350693+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/analysis.5.DataAnalysis.method"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/analysis.2.DataAnalysis.method",
+    "bytes": 14372,
+    "sha256": "8b496b3c0529d14ea1dcba9c15a6f93bd4fd42f0c0635b3275bbb18bf108add0",
+    "retrieved_at": "2026-10-07T13:15:52.927935+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/analysis.2.DataAnalysis.method"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_8.mcf",
+    "bytes": 20261,
+    "sha256": "6828213375e432c07a9f32cada76d852c32bdeae8b9dee1afa31baa55e35d4af",
+    "retrieved_at": "2026-10-07T13:15:53.482905+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_8.mcf"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/analysis.2.result_c",
+    "bytes": 1203182,
+    "sha256": "35fe21fa895828361ab9e486d22c2dfd704a35eaa0b765ea9811dcd9da8359ed",
+    "retrieved_at": "2026-10-07T13:15:54.460074+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/analysis.2.result_c"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_15.mcf",
+    "bytes": 223,
+    "sha256": "0e76b70d4dc3ce247037e860a1bfa57848c6e83add4d01f2f3326e8ede4e38c6",
+    "retrieved_at": "2026-10-07T13:15:54.948082+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_15.mcf"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_10.mcf_idx",
+    "bytes": 26624,
+    "sha256": "cb02b4e6881a6e74792f2eed33c4f05640bf44e996c5e2af4862b30313a9c4c2",
+    "retrieved_at": "2026-10-07T13:15:55.507802+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_10.mcf_idx"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_12.mcf",
+    "bytes": 386733,
+    "sha256": "6d80da515ee881b0261f1a9ab0e73997a069e865e799b60c8d95f107968e8fea",
+    "retrieved_at": "2026-10-07T13:15:56.374731+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_12.mcf"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_14.mcf_idx",
+    "bytes": 26624,
+    "sha256": "3ee319af6ffc77006cae029639888111dedb344d1b410dbb454f46fda3e0f89d",
+    "retrieved_at": "2026-10-07T13:15:56.955820+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_14.mcf_idx"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/analysis.11.DataAnalysis.method",
+    "bytes": 14372,
+    "sha256": "7370809c122584175faefb03978654f7fdcff2ef46d786bbbc6055d3d519e9d5",
+    "retrieved_at": "2026-10-07T13:15:57.456509+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/analysis.11.DataAnalysis.method"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_9.mcf",
+    "bytes": 18081,
+    "sha256": "137065e4b05e166b3a97720283f8a922a4e9320b29c1f58cf0eeb337093c6e47",
+    "retrieved_at": "2026-10-07T13:15:58.044278+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_9.mcf"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/analysis.5.result_c",
+    "bytes": 1203262,
+    "sha256": "a74737c34dd252435e546804de0528cc861cd0cf9b1d41a99dbe9a2f7de27e4f",
+    "retrieved_at": "2026-10-07T13:15:59.011306+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/analysis.5.result_c"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/analysis.1.DataAnalysis.method",
+    "bytes": 14372,
+    "sha256": "8b496b3c0529d14ea1dcba9c15a6f93bd4fd42f0c0635b3275bbb18bf108add0",
+    "retrieved_at": "2026-10-07T13:15:59.521417+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/analysis.1.DataAnalysis.method"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/analysis.6.DataAnalysis.method",
+    "bytes": 14372,
+    "sha256": "18a777218beb66ef0ea78ba9c2406ecc9e405c5009721685ae8f8c87fee36d91",
+    "retrieved_at": "2026-10-07T13:16:00.099940+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/analysis.6.DataAnalysis.method"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_7.mcf",
+    "bytes": 223,
+    "sha256": "93df05d37a8b4eaecdb733484b87c58c3bdd4a115ce20c75cc1b02af90b66737",
+    "retrieved_at": "2026-10-07T13:16:00.602284+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_7.mcf"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/BackgroundLinePos.ami",
+    "bytes": 24179865,
+    "sha256": "c203b1e9ed8ad99f419bc78e8d8320a4d3e75280d926127e042a041315225a11",
+    "retrieved_at": "2026-10-07T13:16:04.587163+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/BackgroundLinePos.ami"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/desktop.ini",
+    "bytes": 507,
+    "sha256": "de5005fcd6656a1253eb3224c900b20bdb4d530db45e3b8c55aa47e257a6387a",
+    "retrieved_at": "2026-10-07T13:16:05.055047+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/desktop.ini"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/analysis.11.result_c",
+    "bytes": 1460385,
+    "sha256": "1748e7d394f679cd8cead61853ca93dd4cd207f88f3bf3218bbfbd9c649051cd",
+    "retrieved_at": "2026-10-07T13:16:06.000798+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/analysis.11.result_c"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_9.mcf_idx",
+    "bytes": 26624,
+    "sha256": "f9f748edf9b5c1af4c4f127448cde5a95a8f4cc58cafc5d42546656f31a610e9",
+    "retrieved_at": "2026-10-07T13:16:06.556459+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_9.mcf_idx"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/analysis.8.DataAnalysis.method",
+    "bytes": 14372,
+    "sha256": "1df75b92611068cacf280ace766610ec34a0ce0ca614adf87cc35031937a3e27",
+    "retrieved_at": "2026-10-07T13:16:07.121660+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/analysis.8.DataAnalysis.method"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/analysis.content",
+    "bytes": 1612,
+    "sha256": "490837a42699b9c9c47ab9a23e6183394daf78ebd351c3be727a2e3c141808f1",
+    "retrieved_at": "2026-10-07T13:16:07.596851+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/analysis.content"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_5.mcf_idx",
+    "bytes": 26624,
+    "sha256": "db41197ecfc990f1c9bdd1b23733481c22cb758b863c04b512a6ab3ac835707b",
+    "retrieved_at": "2026-10-07T13:16:08.138768+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_5.mcf_idx"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/20240115_IBu_BigScale OE_10mg PolExtr_timsOFF_B-E1_1_9640.d",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "retrieved_at": "2026-10-07T13:16:08.620826+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/20240115_IBu_BigScale OE_10mg PolExtr_timsOFF_B-E1_1_9640.d"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/analysis.3.DataAnalysis.method",
+    "bytes": 14372,
+    "sha256": "43923ecd656328f342be2065db2ff395ba68555698c7764753e607d4cd1b8986",
+    "retrieved_at": "2026-10-07T13:16:09.309238+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/analysis.3.DataAnalysis.method"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_4.mcf",
+    "bytes": 223,
+    "sha256": "98a602fc09449e17c37dc3c7172098c49ef78b223315702d5c94c3831d1cfe5a",
+    "retrieved_at": "2026-10-07T13:16:09.924538+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_4.mcf"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/analysis.4.DataAnalysis.method",
+    "bytes": 14372,
+    "sha256": "43923ecd656328f342be2065db2ff395ba68555698c7764753e607d4cd1b8986",
+    "retrieved_at": "2026-10-07T13:16:10.624411+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/analysis.4.DataAnalysis.method"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/analysis.12.result_c",
+    "bytes": 1460386,
+    "sha256": "acfd8e302ccaab0ce68dda32572655a35be19ab6fb2e7308daf3adae4f3e756b",
+    "retrieved_at": "2026-10-07T13:16:11.703363+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/analysis.12.result_c"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_3.mcf",
+    "bytes": 223,
+    "sha256": "9c0428af9920758afc1bc5265b4aa43d87bf0765b4451f0533d0aca24a00b103",
+    "retrieved_at": "2026-10-07T13:16:12.183431+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_3.mcf"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/BackgroundProfPos.ami",
+    "bytes": 34534497,
+    "sha256": "d7043a724b172b8163e2d5cc9ed72f4bf3d4288923b38e3e7336a9b701aa29c6",
+    "retrieved_at": "2026-10-07T13:16:16.174528+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/BackgroundProfPos.ami"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/analysis.9.result_c",
+    "bytes": 1460140,
+    "sha256": "6da7d6784d42273891d793ef119d13d9614e36f5c64ed866f76eecffd95937d0",
+    "retrieved_at": "2026-10-07T13:16:17.309602+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/analysis.9.result_c"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/analysis.6.result_c",
+    "bytes": 1331569,
+    "sha256": "72d86c527a12826250308e6cef5136d53898600d891b400ac782663d5824d0ac",
+    "retrieved_at": "2026-10-07T13:16:18.266582+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/analysis.6.result_c"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/chromatography-data.sqlite-journal",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "retrieved_at": "2026-10-07T13:16:18.726358+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/chromatography-data.sqlite-journal"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/chromatography-data.sqlite",
+    "bytes": 2159616,
+    "sha256": "1c18e83ca973f0e0e9008f8d55dfbc65d93f0b76c182ee827b3d2c8033873fce",
+    "retrieved_at": "2026-10-07T13:16:20.149083+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/chromatography-data.sqlite"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_12.mcf_idx",
+    "bytes": 26624,
+    "sha256": "574854375bd761de66648d42cf2bc675559241150eac59df55cee11e6480d1a2",
+    "retrieved_at": "2026-10-07T13:16:20.693887+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_12.mcf_idx"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_16.mcf_idx",
+    "bytes": 26624,
+    "sha256": "647c68947210d6976f71a400fe5f5d9559f68cf022f9519cfc37de951421bc72",
+    "retrieved_at": "2026-10-07T13:16:21.241998+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_16.mcf_idx"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/analysis.tsf_bin",
+    "bytes": 148221952,
+    "sha256": "65b8cbcdb07c26483b0176fc46fd4b6193d9f8f738c74cdd1c2bc29a5c161aec",
+    "retrieved_at": "2026-10-07T13:16:35.529050+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/analysis.tsf_bin"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/analysis.15.result_c",
+    "bytes": 1460391,
+    "sha256": "262264bb051afe0608d17dc4f8a4cf7b4084de3ed1d0df370b45b42a36481efb",
+    "retrieved_at": "2026-10-07T13:16:36.501967+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/analysis.15.result_c"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_11.mcf",
+    "bytes": 223,
+    "sha256": "8d8848f7b22c4d7d6d0bd772bb3b4f7289927007cceb0eec4205e27b6cd6e8dd",
+    "retrieved_at": "2026-10-07T13:16:36.982451+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_11.mcf"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_16.mcf",
+    "bytes": 223,
+    "sha256": "23fa937963e11c73592628e65499b5c936151e32051c024fac15f9040821e11e",
+    "retrieved_at": "2026-10-07T13:16:37.451030+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_16.mcf"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_7.mcf_idx",
+    "bytes": 26624,
+    "sha256": "2a11f0c0a4a4f59bf71f9fa90de6392615eb790732d6220b757ca947bbd034a3",
+    "retrieved_at": "2026-10-07T13:16:38.021710+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_7.mcf_idx"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/analysis.14.DataAnalysis.method",
+    "bytes": 14372,
+    "sha256": "7370809c122584175faefb03978654f7fdcff2ef46d786bbbc6055d3d519e9d5",
+    "retrieved_at": "2026-10-07T13:16:38.500936+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/analysis.14.DataAnalysis.method"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_3.mcf_idx",
+    "bytes": 26624,
+    "sha256": "9db2510be8a498d880a8dadaf4b6357dfdd4eb7bbf15f9bf501342ce7b2e74c1",
+    "retrieved_at": "2026-10-07T13:16:39.076309+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_3.mcf_idx"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/Storage.mcf_idx",
+    "bytes": 24576,
+    "sha256": "a475ff307a39efd53be4ecd640271332a8ab2b8c021d11b468aa4180e3a00fca",
+    "retrieved_at": "2026-10-07T13:16:39.626024+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/Storage.mcf_idx"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/analysis.13.DataAnalysis.method",
+    "bytes": 14372,
+    "sha256": "7370809c122584175faefb03978654f7fdcff2ef46d786bbbc6055d3d519e9d5",
+    "retrieved_at": "2026-10-07T13:16:40.126438+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/analysis.13.DataAnalysis.method"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/analysis.1.result_c",
+    "bytes": 1203183,
+    "sha256": "f1b9648ced5fdefd070de81c12e1a7c23c770bcd06cb74d83efcb9f60c59040d",
+    "retrieved_at": "2026-10-07T13:16:41.086076+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/analysis.1.result_c"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/analysis.9.DataAnalysis.method",
+    "bytes": 14372,
+    "sha256": "1df75b92611068cacf280ace766610ec34a0ce0ca614adf87cc35031937a3e27",
+    "retrieved_at": "2026-10-07T13:16:41.573783+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/analysis.9.DataAnalysis.method"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/analysis.7.result_c",
+    "bytes": 1396684,
+    "sha256": "ec7eba30fb5321b05fcdb5c4a004b2de1fcf36ca295bde15d69343a8ed4d2d0b",
+    "retrieved_at": "2026-10-07T13:16:42.545157+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/analysis.7.result_c"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/analysis.8.result_c",
+    "bytes": 1460137,
+    "sha256": "72103529f236a52f2e886129d6321b0047caa2dfe9a9bd877f6dd157533a6d9f",
+    "retrieved_at": "2026-10-07T13:16:43.528060+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/analysis.8.result_c"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/Heatmaps.ami",
+    "bytes": 47136768,
+    "sha256": "75d7a4c88fb48ba357fadd3bdf1085b229311980a4cd7ef60c9cb85654923b98",
+    "retrieved_at": "2026-10-07T13:16:51.190184+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/Heatmaps.ami"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/ProjectCreationHelper",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "retrieved_at": "2026-10-07T13:16:51.677247+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/ProjectCreationHelper"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_2.mcf",
+    "bytes": 1455751,
+    "sha256": "09fded9401de6df666b4d4c28e70adf791f624485a6a2e3e46f1f999a88c5576",
+    "retrieved_at": "2026-10-07T13:16:52.631810+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_2.mcf"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_6.mcf_idx",
+    "bytes": 26624,
+    "sha256": "da60aea43e433254fcff4b2b348e95647b9c6076978dc9c6b36253489c604cf3",
+    "retrieved_at": "2026-10-07T13:16:53.198357+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_6.mcf_idx"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_2.mcf_idx",
+    "bytes": 30720,
+    "sha256": "397a579cb3cb6c8846b4c94fe00c519c7da50cd7d032881f3666e958821d57ad",
+    "retrieved_at": "2026-10-07T13:16:53.787233+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_2.mcf_idx"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/analysis.7.DataAnalysis.method",
+    "bytes": 14372,
+    "sha256": "18a777218beb66ef0ea78ba9c2406ecc9e405c5009721685ae8f8c87fee36d91",
+    "retrieved_at": "2026-10-07T13:16:54.281626+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/analysis.7.DataAnalysis.method"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_5.mcf",
+    "bytes": 20323,
+    "sha256": "8cd94120294330a44a2409ad88a68d75b0233773e613d74bdb422619cd0329d8",
+    "retrieved_at": "2026-10-07T13:16:54.842674+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_5.mcf"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/analysis.13.result_c",
+    "bytes": 1460385,
+    "sha256": "0c50f0c035d1a41bba017f98ca6447aa57cb98834d45cd5f618e737c30cb957f",
+    "retrieved_at": "2026-10-07T13:16:55.848595+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/analysis.13.result_c"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/analysis.0.DataAnalysis.method",
+    "bytes": 14372,
+    "sha256": "8b496b3c0529d14ea1dcba9c15a6f93bd4fd42f0c0635b3275bbb18bf108add0",
+    "retrieved_at": "2026-10-07T13:16:56.323647+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/analysis.0.DataAnalysis.method"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/analysis.10.DataAnalysis.method",
+    "bytes": 14372,
+    "sha256": "1df75b92611068cacf280ace766610ec34a0ce0ca614adf87cc35031937a3e27",
+    "retrieved_at": "2026-10-07T13:16:56.792826+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/analysis.10.DataAnalysis.method"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_17.mcf",
+    "bytes": 80558,
+    "sha256": "10a9d460268c7a993ad0ac573a8c24eba21e916e0c33fe7599400eed3880f45f",
+    "retrieved_at": "2026-10-07T13:16:57.426756+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_17.mcf"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/analysis.0.result_c",
+    "bytes": 1203175,
+    "sha256": "0e5cd6cc901b5d663ca1b41016f93e9e6fa433b1b80f0958b07faa416b0b4b07",
+    "retrieved_at": "2026-10-07T13:16:58.454256+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/analysis.0.result_c"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_10.mcf",
+    "bytes": 18101,
+    "sha256": "1a4b1b96463e1d62e93f085228c3d145bce08bb0b1dbd3a0c0f03f738387c179",
+    "retrieved_at": "2026-10-07T13:16:59.035941+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_10.mcf"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/SyncHelper",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "retrieved_at": "2026-10-07T13:16:59.549020+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/SyncHelper"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/analysis.14.result_c",
+    "bytes": 1460388,
+    "sha256": "0f66ba89637a3aafcb8574083c9652cdc0577b8f9569329da40e718bb4b1d610",
+    "retrieved_at": "2026-10-07T13:17:00.514192+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/analysis.14.result_c"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/SampleInfo.xml",
+    "bytes": 5884,
+    "sha256": "e05dd3a6e0e877042aac58d716099fdea737cd748190fa713b987931b18d9bf7",
+    "retrieved_at": "2026-10-07T13:17:00.984978+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/SampleInfo.xml"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_13.mcf_idx",
+    "bytes": 26624,
+    "sha256": "8c2352631d89af19bf690027a7a20da8821306c86818e974068b1c2788dc68bc",
+    "retrieved_at": "2026-10-07T13:17:01.527346+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_13.mcf_idx"
+  },
+  {
+    "source_url": "ftp://massive-ftp.ucsd.edu/v08/MSV000095813/raw/Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_17.mcf_idx",
+    "bytes": 26624,
+    "sha256": "fe8b9c0795cbb6b482bbce41b08711ed14c716be8a47a7e897386a9f1c7c9263",
+    "retrieved_at": "2026-10-07T13:17:02.108546+00:00",
+    "archive_relative_path": "Molecular Networking_OE_timsOFF.d/95482768-da7f-4067-a597-61471e0f0382_17.mcf_idx"
+  }
+]

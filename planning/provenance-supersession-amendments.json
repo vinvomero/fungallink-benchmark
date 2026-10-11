@@ -1,0 +1,14 @@
+{
+  "data/curated/label-evidence.tsv": {
+    "operation": "append_cell_suffix",
+    "before_snapshot": "planning/presubmission-revision-work-2026-10-11/label-evidence-before-readiness.tsv",
+    "before_sha256": "4c13d04e198f1a34923eefc5f79132ef0a6abda3c80c5923cc6dd5e356ae8a1a",
+    "after_sha256": "f35db5f65840e2e11dae4e47eb8a0dab08cb7dac4d0ced079034fd7562333cda",
+    "relationship_id": "caesar2023:corrected:5",
+    "field": "alternative_loci_status",
+    "appended_text": "; CURRENT SUPERSESSION 2026-10-08: the blanket historical publisher DMAT_34 exclusion above is superseded by protocol/decisions/2026-10-08-acetylaszonalenin-family-source-correction.md; historical sampled core correspondence permits a separate source:DMAT_34 evaluation view; named-core BGC identity, assembly contamination flag and unknown locus-specific status are unchanged",
+    "decision_path": "protocol/decisions/2026-10-08-acetylaszonalenin-family-source-correction.md",
+    "verification_path": "planning/presubmission-revision-work-2026-10-11/host-evidence-verification.json",
+    "scope": "Explicit current provenance supersession only; no label/query/count or other cell change. Reconstructed prior bytes must pass the preserved admission amendment and original protected-prefix baseline."
+  }
+}

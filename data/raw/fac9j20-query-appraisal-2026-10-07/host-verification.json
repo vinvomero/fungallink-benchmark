@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-07",
+  "source_and_derived_fingerprints_verified": [
+    "data/raw/fac9j20-query-appraisal-2026-10-07/KX449366.1.gb",
+    "data/raw/expression-dataset-screen-2026-10-07/fac-text.txt",
+    "data/raw/expression-dataset-screen-2026-10-07/fac-supplement.pdf",
+    "data/raw/expression-dataset-screen-2026-10-07/fac-supplement.txt",
+    "data/raw/expression-dataset-screen-2026-10-07/fac-locus-accession-summary.json",
+    "docs/data/fac-supplement-evidence-2026-10-07.md",
+    "data/curated/fac-supplement-evidence-2026-10-07.tsv",
+    "data/curated/fac9j20-query-appraisal-2026-10-07.tsv"
+  ],
+  "record_id": "KX449366.1",
+  "record_length": 118762,
+  "query_envelopes_verified": [
+    {
+      "source_product_id": "facms0004",
+      "start": 77570,
+      "end": 91727,
+      "sequence_sha256": "b5fc3c3f13f85973c5b402b975f8afaa0410d081f0d9c531c5072e91cb181a72"
+    },
+    {
+      "source_product_id": "facms0005",
+      "start": 17667,
+      "end": 22733,
+      "sequence_sha256": "e7a495e3b84b4ee64da4bf4ac11bb2238c23a86676c0fa5f3025ae8d6932dc5b"
+    },
+    {
+      "source_product_id": "facms0017",
+      "start": 50180,
+      "end": 66867,
+      "sequence_sha256": "b87eb0a356b3e35ae754e976e08fce0dad8586193b3da960144add6865ef3c3a"
+    }
+  ],
+  "table2_visually_inspected_pdf_page": 32,
+  "coordinate_exception": "valA lower50187 versus deposited lptB50180 (+7); six other lower offsets +6; all upper offsets +7",
+  "admissions_added": 0,
+  "scope": "Same-session computational and source-document verification; not independent biological sign-off.",
+  "table3_visually_inspected_pdf_page": 33,
+  "table3_check": "Selective product detection across named deletions agrees with appraisal; benX retained detection distinguished from benY/benZ loss."
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1",
+  "track_id": "synthetic-feature",
+  "query_type": "GCF",
+  "candidate_universe_id": "synthetic-four-v1",
+  "candidate_pools": {"pool": ["c", "a", "d", "b"]},
+  "cohorts": {
+    "cohort": {
+      "strain_ids": ["s3", "s1", "s4", "s2"],
+      "feature_presence": {
+        "c": {"s1": 0, "s2": 0, "s3": 1, "s4": 0},
+        "b": {"s1": 1, "s2": 1, "s3": 0, "s4": 0},
+        "a": {"s1": 1, "s2": 0, "s3": 1, "s4": 0},
+        "d": {"s1": 0, "s2": 0, "s3": 0, "s4": 0}
+      },
+      "normalized_abundance": {
+        "d": {"s1": 0, "s2": 0, "s3": 0, "s4": 0},
+        "a": {"s1": 8, "s2": 0, "s3": 8, "s4": 0},
+        "c": {"s1": 0, "s2": 0, "s3": 8, "s4": 0},
+        "b": {"s1": 6, "s2": 6, "s3": 0, "s4": 0}
+      }
+    }
+  },
+  "queries": [
+    {"query_id": "q1", "cohort_id": "cohort", "candidate_pool_id": "pool", "eligible_strain_ids": ["s2", "s4", "s1", "s3"], "genomic_presence": {"s1": 1, "s2": 1, "s3": 0, "s4": 0}},
+    {"query_id": "q2", "cohort_id": "cohort", "candidate_pool_id": "pool", "eligible_strain_ids": ["s3", "s2", "s1", "s4"], "genomic_presence": {"s1": 0, "s2": 0, "s3": 1, "s4": 1}}
+  ]
+}

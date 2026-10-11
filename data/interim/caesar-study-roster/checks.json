@@ -1,0 +1,54 @@
+{
+  "source_rows": 110,
+  "source_by_page": {
+    "4": 38,
+    "5": 43,
+    "6": 29
+  },
+  "literal_nonblank_labels": 116,
+  "matched_literals": 110,
+  "matched_source_rows": 108,
+  "matched_acquisitions": 335,
+  "missing_source_rows": [
+    "W1",
+    "ATCC MYA409"
+  ],
+  "extra_labels": [
+    "ATCC48694",
+    "Kabbage_A.brassicicola",
+    "NRRL1061",
+    "NRRL4593",
+    "NRRL4904",
+    "NRRL66628",
+    "blank"
+  ],
+  "status_counts": {
+    "candidate_source_asserted": 106,
+    "excluded_no_exact_workbook_label": 2,
+    "candidate_source_asserted_with_identity_conflict": 2,
+    "unresolved_no_table2_identifier": 6,
+    "excluded_control_blank": 1
+  },
+  "conflicts": [
+    [
+      "ATCC 13490",
+      "[\"study_label_ATCC13490_vs_deposited_ATCC13496_conflict_retained\"]"
+    ],
+    [
+      "ATCC 64048",
+      "[\"study_label_ATCC64048_A1_83_vs_deposited_A1_conflict_retained\"]"
+    ]
+  ],
+  "media_coverage_counts": {
+    "3": 105,
+    "2": 3
+  },
+  "hashes": {
+    "data/raw/sources/metadata/caesar-supplement-cdn": "259acfe84b6a7033ef3cbd41ba05133ce64ee32c8f102d49541fa4f8b57a2108",
+    "data/raw/sources/metadata/caesar-workbook-public": "4726f832f82da431cc7e0a7b048b9e5d3e0d7de0831b8d20e9dab24bb5131fbb",
+    "data/curated/sample-crosswalk.tsv": "69553d85647cc92784ebf49db50da46098da976b44c2bcf3edd15f286b2db79e",
+    "data/curated/caesar-observation-groups-2026-10-02.tsv": "70c74e3b0dbdcd5a1cc5dcd81bed59cb301036b0c7b109740bc9301cb2266e0c",
+    "data/curated/approved-query-inputs-2026-10-02.tsv": "8b7192312b0c6121248219319b709f9f1fa06adebaa14422fc1a3cfbf552cc6f",
+    "data\\curated\\caesar-study-roster-2026-10-02.tsv": "396838ef6097c33eaf32947047c808667d7d046b1d1190294acb199164fe37fb"
+  }
+}

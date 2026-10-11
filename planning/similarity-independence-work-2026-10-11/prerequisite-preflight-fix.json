@@ -1,0 +1,43 @@
+{
+  "status": "complete",
+  "changed_files": [
+    "scripts/similarity_independence.py",
+    "scripts/similarity_locus_anchors.py",
+    "scripts/finalize_similarity_independence.py",
+    "tests/test_similarity_dependence.py"
+  ],
+  "red": "ImportError validate_prerequisite observed before implementation",
+  "focused_test": "3 tests passed in 0.012s",
+  "checks": [
+    "Incomplete or wrong-contract prerequisite rejected",
+    "Changed or missing output rejected",
+    "Metadata-only enrichment accepted",
+    "All consumed scientific input hashes checked before enrichment",
+    "Required primary/anchor output projection sets verified",
+    "Anchor receipt tied to current primary receipt SHA256"
+  ],
+  "numeric_replay": {
+    "chemical-pairs.tsv": {
+      "rows": 435,
+      "sha256": "b32ae8271c25e11779c3a119ecb6fb9226a78750460971a2a05cfeab81f10c51",
+      "unchanged": true
+    },
+    "spectral-pairs.tsv": {
+      "rows": 72771,
+      "sha256": "584c8ff5588316e5ebded858b09156f6fc3cd972bd4c776623607fd2c2ad5013",
+      "unchanged": true
+    },
+    "genomic-pairs.tsv": {
+      "rows": 8978,
+      "sha256": "28e14958d4098b7609fbf7d695725bad21a4c55b0fc87c0e6c125742b9a053a7",
+      "unchanged": true
+    },
+    "anchor-genomic-pairs.tsv": {
+      "rows": 1538,
+      "sha256": "d5e81dc04827f3190e17539dab674a2c6ec2478793e29e0c3147853bced66a45",
+      "unchanged": true
+    }
+  },
+  "new_alignments": false,
+  "scope": "same implementation unit review fix; no new scientific analysis"
+}

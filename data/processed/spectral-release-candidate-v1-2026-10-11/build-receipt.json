@@ -1,0 +1,17 @@
+{
+  "status": "built_and_archive_hashes_verified",
+  "utc": "2026-10-11T12:02:41.966588+00:00",
+  "command": [
+    "C:\\Python313\\python.exe",
+    "scripts/build_spectral_release_candidate.py"
+  ],
+  "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+  "inventory_sha256": "949f379de4028b1d132cb9df154a04ea64cb462b5b2d0df6a3501e2adc5be2b5",
+  "selected_inventory_files": 77,
+  "additional_source_files": 14,
+  "payload_files": 93,
+  "archive": "data\\processed\\spectral-release-candidate-v1-2026-10-11\\fungallink-spectral-private-candidate-v1.zip",
+  "archive_bytes": 588884,
+  "archive_sha256": "15e0f109e618df4a1645e1e2c4649a277e5bae9d954c4443a91c7aae5c549857",
+  "scope": "Private packaging integrity only; no scientific correctness or public approval implied"
+}

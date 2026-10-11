@@ -1,0 +1,93 @@
+{
+  "date": "2026-10-02",
+  "source_bundle_hash_checks": {
+    "features.tsv": true,
+    "abundances.tsv": true,
+    "acquisitions.tsv": true
+  },
+  "groups": 342,
+  "biological_literal_condition_groups": 337,
+  "biological_workbook_acquisitions": 351,
+  "literal_labels": 116,
+  "complete_three_condition_labels": 108,
+  "incomplete_labels": {
+    "ATCC 38873": [
+      "Cheerios"
+    ],
+    "ATCC 96836": [
+      "Cheerios",
+      "Oats"
+    ],
+    "ATCC38873": [
+      "Oats",
+      "Rice"
+    ],
+    "ATCC96836": [
+      "Rice"
+    ],
+    "NRRL2393": [
+      "Oats",
+      "Rice"
+    ],
+    "NRRL4539": [
+      "Cheerios",
+      "Rice"
+    ],
+    "NRRL4593": [
+      "Oats"
+    ],
+    "NRRL89": [
+      "Cheerios",
+      "Oats"
+    ]
+  },
+  "multiple_biological_groups": [
+    [
+      "ATCC10419",
+      "Oats",
+      "3"
+    ],
+    [
+      "ATCC10490",
+      "Rice",
+      "3"
+    ],
+    [
+      "ATCC16872",
+      "Cheerios",
+      "3"
+    ],
+    [
+      "NRRL1938",
+      "Rice",
+      "3"
+    ],
+    [
+      "NRRL4902",
+      "Rice",
+      "3"
+    ],
+    [
+      "NRRL5920",
+      "Rice",
+      "3"
+    ],
+    [
+      "NRRL89",
+      "Oats",
+      "3"
+    ]
+  ],
+  "abundance_rows": 9339,
+  "abundance_columns": 362,
+  "missing_cells": 0,
+  "observed_zero_cells": 2415267,
+  "cells_exactly_at_presence_threshold": 240,
+  "acquisition_partition_checked": true,
+  "sha256": {
+    "data\\curated\\sample-crosswalk.tsv": "69553d85647cc92784ebf49db50da46098da976b44c2bcf3edd15f286b2db79e",
+    "data\\processed\\caesar-feature-source-v1\\manifest.json": "53e74e1f5161ec7af038a5a9e8adbc033cc245db6b5e6625272c6258053eae15",
+    "research_audit\\Caesar-main.txt": "32d5a1ce1ee07821af0fa5e385152f7fc0363341077feecdc72e6b6f7d17d86b",
+    "data\\curated\\caesar-observation-groups-2026-10-02.tsv": "70c74e3b0dbdcd5a1cc5dcd81bed59cb301036b0c7b109740bc9301cb2266e0c"
+  }
+}

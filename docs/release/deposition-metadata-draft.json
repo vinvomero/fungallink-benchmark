@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "prepared_utc": "2026-10-11T18:08:45.450521+00:00",
+  "status": "local_draft_not_upload_payload",
+  "repository_option": "Zenodo; preparation option, not an approved destination",
+  "scope": "Local metadata proposal. Scoped original licences are approved; deposition and external sharing are not authorized.",
+  "records": [
+    {
+      "creators": [
+        {
+          "name": "Vomero, Vin",
+          "affiliation": "Independent researcher",
+          "orcid": null
+        }
+      ],
+      "publication_date": null,
+      "version": null,
+      "doi": null,
+      "license": null,
+      "keywords": [
+        "fungal genomics",
+        "biosynthetic gene clusters",
+        "metabolomics",
+        "benchmark",
+        "genome-metabolite linking"
+      ],
+      "language": "eng",
+      "title": "FungalLink: fungal genome-to-measured-metabolite benchmark data",
+      "resource_type": "dataset",
+      "description": "Versioned evidence records and measured-feature candidate sets for evaluating fungal genome-to-metabolite linking. The current private inventory contains 30 admitted relationships across 16 BGC/GCF query identities. Saved complete evaluations cover 11 relationships across seven query views in one conservative analysis group. Nineteen relationships lack complete evaluated coverage. Completed partial-input diagnostics score 291 of 1,249 candidates for 6-MSA and 89 of 98 for ilicicolin H; neither counts as complete coverage. Seventeen FAC/HEx relationships lack usable expression-screen inputs. Unknown candidates remain unlabeled, and chemical-resolution and prior-exposure limits are retained. Final deposited coverage must be reconciled with the approved file allowlist.",
+      "proposed_license_for_original_contributions": "CC-BY-4.0; approved 11 October 2026, with authority confirmed; third-party terms remain separate",
+      "file_allowlist": "Current combined local preparation: data/processed/presubmission-release-candidate-v1/; final two-record partition and human approval pending. See docs/release/release-map-v1.md and data/manifests/release-evidence-v1.tsv.",
+      "license_scope_reference": "docs/release/licenses/SCOPE.md",
+      "license_field_note": "Repository-level field remains unset until final payload is selected; this does not revoke approval of scoped original-contribution licences."
+    },
+    {
+      "creators": [
+        {
+          "name": "Vomero, Vin",
+          "affiliation": "Independent researcher",
+          "orcid": null
+        }
+      ],
+      "publication_date": null,
+      "version": null,
+      "doi": null,
+      "license": null,
+      "keywords": [
+        "fungal genomics",
+        "biosynthetic gene clusters",
+        "metabolomics",
+        "benchmark",
+        "genome-metabolite linking"
+      ],
+      "language": "eng",
+      "title": "FungalLink: benchmark evaluation software",
+      "resource_type": "software",
+      "description": "Software for declared genome-to-measured-feature candidate ranking, tie-aware evaluation, multiple supported products, missing-input coverage, baseline comparisons and an external-adapter example. Synthetic examples test the interface and do not establish fungal method performance. The existing private software subset has an extracted same-host execution receipt; this does not establish independent external reproduction.",
+      "proposed_license_for_original_contributions": "Apache-2.0; approved 11 October 2026, with authority confirmed; third-party terms remain separate",
+      "file_allowlist": "Current combined local preparation: data/processed/presubmission-release-candidate-v1/; final two-record partition and human approval pending. See docs/release/release-map-v1.md and data/manifests/release-evidence-v1.tsv.",
+      "license_scope_reference": "docs/release/licenses/SCOPE.md",
+      "license_field_note": "Repository-level field remains unset until final payload is selected; this does not revoke approval of scoped original-contribution licences."
+    }
+  ],
+  "related_record_links": {
+    "dataset_to_software": null,
+    "software_to_dataset": null,
+    "manuscript_doi": null
+  },
+  "private_repository": "https://github.com/vinvomero/fungallinkv2",
+  "repository_is_public": false,
+  "funding": "None, author-declared",
+  "ai_authorship": "AI assistance disclosed separately; no AI creator listed",
+  "open_fields": [
+    "Final rights-cleared file allowlists",
+    "Final deposited coverage and descriptions",
+    "Final versions and release dates",
+    "Archive destination and identifiers",
+    "Authorized reviewer access and final manuscript availability text",
+    "Author approval and explicit release authorization"
+  ],
+  "sources": {
+    "ledger": {
+      "path": "data/curated/label-evidence.tsv",
+      "sha256": "f35db5f65840e2e11dae4e47eb8a0dab08cb7dac4d0ced079034fd7562333cda"
+    },
+    "author": "manuscript/author-details.json",
+    "licenses": "docs/release/licenses/SCOPE.md",
+    "software_review": "docs/release/release-review-candidate-2026-10-07.md",
+    "data_review": "docs/release/release-map-v1.md",
+    "spectral_extension_inventory": "docs/release/spectral-extension-release-inventory-2026-10-11.md",
+    "partial_diagnostic_verification": "manuscript/trichoderma-integration-verification-2026-10-11.json",
+    "license_approval": "planning/original-contribution-license-approval-2026-10-11.json",
+    "candidate_verification": "planning/author-review-candidate-v2-verification-2026-10-11.json",
+    "prior_data_review": "docs/release/author-review-candidate-readme-2026-10-11.md"
+  },
+  "official_guidance": [
+    "https://help.zenodo.org/docs/deposit/describe-records/",
+    "https://help.zenodo.org/docs/deposit/create-new-upload/",
+    "https://help.zenodo.org/docs/deposit/manage-versions/"
+  ],
+  "reviewer_access_proposal": {
+    "provider": "Zenodo",
+    "state": "local proposal only; no account, draft, DOI or link created",
+    "mode": "Unpublished draft; Can preview draft link, if explicitly authorized",
+    "reference": "https://help.zenodo.org/docs/share/link-sharing/",
+    "caution": "Link permissions may cover current and future versions; scope and expiry must be checked when creating the link."
+  },
+  "manuscript_type": "Scientific Data Data Descriptor",
+  "manuscript_title": "Curated fungal biosynthetic gene cluster links to measured metabolite features",
+  "supporting_analysis": "manuscript/comparative-results-v1.md",
+  "ai_use_record": "manuscript/ai-use-record-v1.md",
+  "local_candidate_root": "data/processed/presubmission-release-candidate-v1/",
+  "local_candidate_status": "preparation_and_integration_not_external_deposit"
+}

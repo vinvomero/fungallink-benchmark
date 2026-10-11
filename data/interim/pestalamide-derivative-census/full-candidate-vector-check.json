@@ -1,0 +1,50 @@
+{
+  "E": {
+    "numeric_producer_vector": {
+      "CBS101.740": 384000000,
+      "ATCC9029": 28700000,
+      "CBS113.46": 84400000
+    },
+    "comparison": "all maxima formatted .2e (three significant figures), matching Table6 printed precision; no mass or source-name filter",
+    "candidate_rows_tested": 9339,
+    "matches": [
+      {
+        "physical_row": 1958,
+        "feature_id": 1950,
+        "mz": 361.1374241,
+        "rt_min": 2.114501449,
+        "source_name": "pestalamide derivative 6",
+        "maxima": {
+          "CBS101.740": 384000000,
+          "ATCC9029": 28700000,
+          "CBS113.46": 84400000
+        }
+      }
+    ]
+  },
+  "F": {
+    "numeric_producer_vector": {
+      "CBS101.740": 61100000,
+      "ATCC9029": 24700000,
+      "ATCC13490": 16800000,
+      "ATCC13157": 42800000
+    },
+    "comparison": "all maxima formatted .2e (three significant figures), matching Table6 printed precision; no mass or source-name filter",
+    "candidate_rows_tested": 9339,
+    "matches": [
+      {
+        "physical_row": 903,
+        "feature_id": 895,
+        "mz": 387.157844,
+        "rt_min": 2.219772902,
+        "source_name": "pestalamide B derivative 1",
+        "maxima": {
+          "CBS101.740": 61100000,
+          "ATCC9029": 24700000,
+          "ATCC13490": 16800000,
+          "ATCC13157": 42800000
+        }
+      }
+    ]
+  }
+}

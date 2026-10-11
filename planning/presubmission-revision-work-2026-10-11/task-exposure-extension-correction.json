@@ -1,0 +1,46 @@
+{
+  "run_id": "task-exposure-extension-scope-correction-2026-10-11",
+  "date_utc": "2026-10-11T18:53:33.540676+00:00",
+  "requested_model": "gpt-6-astra",
+  "requested_reasoning": "medium",
+  "serving_receipt": "unavailable",
+  "input_path": "data/manifests/task-exposure-v1.tsv",
+  "input_sha256": "4cad413143551604dd898f4743a0e439a1370da7f3a607d302bde2f31ab105b9",
+  "output_sha256": "36be8944c1c198694e1d6c68f9bf76093a6b06aef36f50801de59dbd9ce3271f",
+  "changes": [
+    {
+      "relationship_id": "caesar2023:corrected:5",
+      "before": {
+        "additional_method_scope": "bayestraits3_directed_lrt; adapter 1; BayesTraits V3.0 (Mar 2 2017); binary SHA256 e4101e3f3b1c8111e8e3e418dff13c5b9919611e7294ddea1890d5c21631f552; retrospective model choice and optimizer recovery; fixed tree/model and matched population only",
+        "method_manifest": "data/manifests/baseline-methods.json;data/manifests/phylogeny-method.json",
+        "comparison_scope": "Four deterministic controls across frozen rosters; phylogeny comparison separately restricted to the fixed tree/model and matched population"
+      },
+      "after": {
+        "additional_method_scope": "not_in_frozen_phylogeny_task; this family-view extension has no BayesTraits evaluation",
+        "method_manifest": "data/manifests/baseline-methods.json",
+        "comparison_scope": "Four deterministic controls across 18 frozen overlapping rosters; separate family-view extension outside the frozen five-query phylogeny comparison; no BayesTraits eligibility or scores"
+      }
+    },
+    {
+      "relationship_id": "caesar2023:relationship:6",
+      "before": {
+        "additional_method_scope": "bayestraits3_directed_lrt; adapter 1; BayesTraits V3.0 (Mar 2 2017); binary SHA256 e4101e3f3b1c8111e8e3e418dff13c5b9919611e7294ddea1890d5c21631f552; retrospective model choice and optimizer recovery; fixed tree/model and matched population only",
+        "method_manifest": "data/manifests/baseline-methods.json;data/manifests/phylogeny-method.json",
+        "comparison_scope": "Four deterministic controls across frozen rosters; phylogeny comparison separately restricted to the fixed tree/model and matched population"
+      },
+      "after": {
+        "additional_method_scope": "not_in_frozen_phylogeny_task; this family-view extension has no BayesTraits evaluation",
+        "method_manifest": "data/manifests/baseline-methods.json",
+        "comparison_scope": "Four deterministic controls across 18 frozen overlapping rosters; separate family-view extension outside the frozen five-query phylogeny comparison; no BayesTraits eligibility or scores"
+      }
+    }
+  ],
+  "validation": {
+    "rows_preserved": 30,
+    "changed_cells": 6,
+    "other_rows_and_fields_unchanged": true,
+    "scientific_settings_and_results_unchanged": true
+  },
+  "basis": "relationship-readiness-v1.tsv marks these two as not_in_frozen_phylogeny_task; only nine original relationships were included in the fixed five-query phylogeny task",
+  "command": "Python csv DictReader/DictWriter; edit only three descriptive fields on two relationship IDs; compare every cell before/after"
+}

@@ -1,0 +1,35 @@
+{
+  "status": "prepared_before_feature_inspection",
+  "utc": "2026-10-09T22:32:35.074190+00:00",
+  "software": "MZmine3.9.0",
+  "software_receipt": "data/processed/trichoderma-network-candidate-v1/provenance/processing/software-retrieval.json",
+  "template": "data\\raw\\fac-native-donor-pilot-2026-10-07\\fac-single-file-v1.mzbatch",
+  "template_sha256": "0f70a1a3d6640628e0c5634e76131a9d509edaf3e645c752c2961b3f879925f3",
+  "recipe_sha256": "5a8231edb0867defccd46a17bbf8b3bd6d8b68dd84d63d47756d4120f594cc8e",
+  "input_sha256": "8b71b881e0e46b76a45ebb6f599fd45afd272d87dad9ff1770b669350dd3c195",
+  "parameters": {
+    "ms1_noise": 1000,
+    "ms2_noise": 0,
+    "consecutive_scans": 5,
+    "minimum_intensity": 10000,
+    "minimum_height": 10000,
+    "mz_tolerance_ppm": 3,
+    "absolute_mz_tolerance": 0,
+    "retention_time": "entire acquisition",
+    "resolver": "local minimum; no smoothing",
+    "minimum_search_seconds": 10,
+    "peak_duration_seconds": [
+      0,
+      120
+    ],
+    "minimum_peak_points": 5,
+    "top_edge_ratio": 2,
+    "export": "ALL rows; unmerged selected MS2; area"
+  },
+  "changes_from_template": [
+    "Input/output paths",
+    "Peak duration bounds20\u2013100seconds replaced with0\u2013120seconds before inspecting features"
+  ],
+  "scope": "New processing universe; not recovery of original source feature table; no target mass or labels used to filter/tune",
+  "limitations": "One producer acquisition; no blank subtraction, reproducibility filter, independent-genome co-occurrence or frozen evaluation readiness. Declared thresholds may miss real weak/short features; do not tune to rescue the known target."
+}

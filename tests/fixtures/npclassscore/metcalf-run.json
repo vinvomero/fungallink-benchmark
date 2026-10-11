@@ -1,0 +1,58 @@
+{
+  "method_id": "metcalf_standardized",
+  "method_version": "1",
+  "run_id": "invented-metcalf",
+  "track_id": "synthetic-feature",
+  "query_type": "GCF",
+  "candidate_universe_id": "synthetic-npclass-v1",
+  "score_direction": "higher",
+  "parameters": {
+    "fixture": "invented standardized scores; no biological measurements"
+  },
+  "outputs": [
+    {
+      "query_id": "q-missing",
+      "status": "ok",
+      "scores": [
+        {
+          "candidate_id": "c",
+          "score": -2
+        },
+        {
+          "candidate_id": "b",
+          "score": 100
+        },
+        {
+          "candidate_id": "d",
+          "score": 0
+        },
+        {
+          "candidate_id": "a",
+          "score": -2
+        }
+      ]
+    },
+    {
+      "query_id": "q-complete",
+      "status": "ok",
+      "scores": [
+        {
+          "candidate_id": "c",
+          "score": -2
+        },
+        {
+          "candidate_id": "b",
+          "score": 100
+        },
+        {
+          "candidate_id": "d",
+          "score": 0
+        },
+        {
+          "candidate_id": "a",
+          "score": -2
+        }
+      ]
+    }
+  ]
+}

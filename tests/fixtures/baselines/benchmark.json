@@ -1,0 +1,9 @@
+{
+  "track_id": "synthetic-feature",
+  "query_type": "GCF",
+  "candidate_universe_id": "synthetic-four-v1",
+  "queries": [
+    {"query_id": "q2", "group_id": "group2", "cohort_id": "cohort", "candidate_ids": ["b", "d", "a", "c"], "products": {"product3": ["c"]}},
+    {"query_id": "q1", "group_id": "group1", "cohort_id": "cohort", "candidate_ids": ["a", "c", "b", "d"], "products": {"product2": ["d"], "product1": ["b", "a"]}}
+  ]
+}

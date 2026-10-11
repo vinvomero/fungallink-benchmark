@@ -1,0 +1,86 @@
+{
+  "utc": "2026-10-09T22:22:53.480899+00:00",
+  "assembly": "GCA_059994315.1",
+  "assembly_sha256": "f13ebc0c776e1524f779a5abd64ed25026960703df7950ead5f6352513fc0618",
+  "command": "python data/interim/black-yeast-screen-2026-10-09/check_ynp1_source_anchors.py",
+  "python": "3.13.5",
+  "status": "completed",
+  "input_source": "Published Supplementary Table11 primer IDs PR_YNP284/285/289/293; original PDF retained",
+  "records": 167,
+  "bases": 11542884,
+  "feature_counts": {
+    "source": 167,
+    "assembly_gap": 23
+  },
+  "hits": [
+    {
+      "scaffold": "JBXVST010000012.1",
+      "strand": 1,
+      "offsets_in_oriented_scaffold_0based": {
+        "PR_YNP284": [
+          41502
+        ],
+        "PR_YNP285": [
+          42750
+        ],
+        "PR_YNP289": [
+          45957
+        ],
+        "PR_YNP293": [
+          53976
+        ]
+      },
+      "source_bounded_candidate": {
+        "start_0based": 41502,
+        "end_exclusive": 54003,
+        "nucleotides": 12501,
+        "starts_atg": true,
+        "terminal_stop": true,
+        "internal_stops": 0,
+        "amino_acids_excluding_stop": 4166,
+        "nt_sha256": "8489fb282127f6323db1b5a6fa84853086d144a088f90769eb1bbd12f6dfcda9"
+      }
+    }
+  ],
+  "additional_candidates": [
+    {
+      "gene": "adnE2",
+      "scaffold": "JBXVST010000033.1",
+      "strand": -1,
+      "primer_ids": [
+        "PR_YNP347",
+        "PR_YNP346"
+      ],
+      "start_0based": 108620,
+      "end_exclusive": 110147,
+      "nucleotides": 1527,
+      "amino_acids": 508,
+      "terminal_stop": "TAG",
+      "stop_bases_beyond_reverse_anchor": 0,
+      "ambiguous_bases": 0,
+      "nt_sha256": "03e83919c4a5a4b9ea715d8ea72a712bfd9894c918aac8ef2c326ec07ee3e36d",
+      "output": "ynp1-adnE2-candidate.fna",
+      "limitation": "Observed CDS candidate in nonproducing POP4; two terminal bases for original adnE3 lie beyond the reverse-primer anchor. Shared ancestry is not direct producer sequencing."
+    },
+    {
+      "gene": "adnE3-original-fusion",
+      "scaffold": "JBXVST010000016.1",
+      "strand": -1,
+      "primer_ids": [
+        "PR_YNP344",
+        "PR_YNP345"
+      ],
+      "start_0based": 174320,
+      "end_exclusive": 177008,
+      "nucleotides": 2688,
+      "amino_acids": 895,
+      "terminal_stop": "TAG",
+      "stop_bases_beyond_reverse_anchor": 2,
+      "ambiguous_bases": 0,
+      "nt_sha256": "60f6bba3ba2dfce0a6739c87e6815b66c9ab26e4def22f84682704210ae33956",
+      "output": "ynp1-adnE3-original-fusion-candidate.fna",
+      "limitation": "Observed CDS candidate in nonproducing POP4; two terminal bases for original adnE3 lie beyond the reverse-primer anchor. Shared ancestry is not direct producer sequencing."
+    }
+  ],
+  "limitations": "Exact primer anchors and intact translation do not independently validate gene identity, producer sequence identity or a measured-product linkage. Retain source fusion, not corrected genes."
+}

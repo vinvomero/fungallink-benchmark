@@ -1,0 +1,16 @@
+{
+  "status": "authored",
+  "requested_route": "gpt-6-astra/medium",
+  "actual_serving_receipt": "unavailable",
+  "owned_sources": [
+    "manuscript/benchmark-paper-review.md",
+    "manuscript/Supplementary-Methods.md",
+    "manuscript/claim-evidence.tsv",
+    "manuscript/benchmark-paper-review-claim-map.json",
+    "docs/release/reproduction-stages-v1.md",
+    "docs/release/release-map-v1.md"
+  ],
+  "behavior_change": false,
+  "tests_added": false,
+  "verification_strategy": "Frozen-byte comparison, manuscript text coverage, rendered-page review and new ZIP hash verification; no scientific rerun."
+}

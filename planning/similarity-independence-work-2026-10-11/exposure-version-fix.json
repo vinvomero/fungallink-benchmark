@@ -1,0 +1,66 @@
+{
+  "status": "complete",
+  "changed_code": [
+    "scripts/finalize_similarity_independence.py",
+    "tests/test_similarity_dependence.py",
+    "tests/test_similarity_independence.py"
+  ],
+  "red": "ImportError method_version_fields observed before implementation",
+  "tests": "5 focused tests passed in 0.110s; retained make_structures written-output contract checked30/5/10/425 in temporary output directory",
+  "version_sources": [
+    "data/manifests/task-exposure-v1.tsv",
+    "data/manifests/npclassscore-method.json",
+    "retained Spec2Class binary/SVM repository manifests"
+  ],
+  "regeneration": "finalizer only; preflight passed; no genomic or spectral recomputation",
+  "numeric_projections": {
+    "chemical-pairs.tsv": {
+      "fields": [
+        "relationship_a",
+        "relationship_b",
+        "tanimoto"
+      ],
+      "projection": "sha256(json.dumps([[row[field] for field in fields] for row in TSV order]).encode()); default JSON separators; parsed TSV string values",
+      "sha256": "b32ae8271c25e11779c3a119ecb6fb9226a78750460971a2a05cfeab81f10c51",
+      "unchanged": true
+    },
+    "spectral-pairs.tsv": {
+      "fields": [
+        "spectrum_a",
+        "spectrum_b",
+        "cosine",
+        "matched_peaks"
+      ],
+      "projection": "sha256(json.dumps([[row[field] for field in fields] for row in TSV order]).encode()); default JSON separators; parsed TSV string values",
+      "sha256": "584c8ff5588316e5ebded858b09156f6fc3cd972bd4c776623607fd2c2ad5013",
+      "unchanged": true
+    },
+    "genomic-pairs.tsv": {
+      "fields": [
+        "protein_a",
+        "protein_b",
+        "identity",
+        "coverage_a",
+        "coverage_b",
+        "score"
+      ],
+      "projection": "sha256(json.dumps([[row[field] for field in fields] for row in TSV order]).encode()); default JSON separators; parsed TSV string values",
+      "sha256": "28e14958d4098b7609fbf7d695725bad21a4c55b0fc87c0e6c125742b9a053a7",
+      "unchanged": true
+    },
+    "anchor-genomic-pairs.tsv": {
+      "fields": [
+        "protein_a",
+        "protein_b",
+        "identity",
+        "coverage_a",
+        "coverage_b",
+        "score"
+      ],
+      "projection": "sha256(json.dumps([[row[field] for field in fields] for row in TSV order]).encode()); default JSON separators; parsed TSV string values",
+      "sha256": "d5e81dc04827f3190e17539dab674a2c6ec2478793e29e0c3147853bced66a45",
+      "unchanged": true
+    }
+  },
+  "final_manifest_sha256": "26f55e898a1a1438b787144c2a58d16be4028fee5215891bba1ae8d172523a97"
+}

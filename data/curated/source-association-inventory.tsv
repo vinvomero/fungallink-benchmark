@@ -1,0 +1,26 @@
+relationship_id	reported_product_name	source_feature_id	source_chemical_tier	source_gcf_identifier	reference_accession_identifier	source_cutoff	reported_strains_with_gcf	reported_strains_with_gcf_and_metabolite	source_citation	review_status
+caesar2023:relationship:1	meleagrin	2838	I	DMAT_31	BGC0000420	65	12	2	https://doi.org/10.1038/s41589-023-01276-8	not_re_adjudicated
+caesar2023:relationship:2	roquefortine C	148	IV	DMAT_31	BGC0000420	65	12	7	https://doi.org/10.1038/s41589-023-01276-8	not_re_adjudicated
+caesar2023:relationship:3	roquefortine D	535	IV	DMAT_31	BGC0000420	65	12	7	https://doi.org/10.1038/s41589-023-01276-8	not_re_adjudicated
+caesar2023:relationship:4	tryprostatin B	1701	IV	DMAT_33	BGC0000356	65	2	1	https://doi.org/10.1038/s41589-023-01276-8	not_re_adjudicated
+caesar2023:relationship:5	acetylaszonalenin	2127	I	DMAT_34	BGC0000293	65	3	2	https://doi.org/10.1038/s41589-023-01276-8	not_re_adjudicated
+caesar2023:relationship:6	emericellamide A	8468	II	HRPKS_71	BGC0001290	70	19	6	https://doi.org/10.1038/s41589-023-01276-8	not_re_adjudicated
+caesar2023:relationship:7	emericellamide B	5402	II	HRPKS_71	BGC0001290	70	19	5	https://doi.org/10.1038/s41589-023-01276-8	not_re_adjudicated
+caesar2023:relationship:8	monacolin K	1633	III	HRPKS_84	BGC0000098	70	3	3	https://doi.org/10.1038/s41589-023-01276-8	not_re_adjudicated
+caesar2023:relationship:9	6-O-desmethyldechlorogriseofulvin	6346	I	NRPKS_18	BGC0000070	70	10	1	https://doi.org/10.1038/s41589-023-01276-8	not_re_adjudicated
+caesar2023:relationship:10	6-O-desmethylgriseofulvin	2824	I	NRPKS_18	BGC0000070	70	10	3	https://doi.org/10.1038/s41589-023-01276-8	not_re_adjudicated
+caesar2023:relationship:11	alternariol	2808	I	NRPKS_18	BGC0000070	70	10	3	https://doi.org/10.1038/s41589-023-01276-8	not_re_adjudicated
+caesar2023:relationship:12	epidechlorgriseofulvin	208	I	NRPKS_18	BGC0000070	70	10	6	https://doi.org/10.1038/s41589-023-01276-8	not_re_adjudicated
+caesar2023:relationship:13	griseofulvin	2854	I	NRPKS_18	BGC0000070	70	10	4	https://doi.org/10.1038/s41589-023-01276-8	not_re_adjudicated
+caesar2023:relationship:14	mycophenolic acid	128	III	NRPKS_41	BGC0001677	70	2	2	https://doi.org/10.1038/s41589-023-01276-8	not_re_adjudicated
+caesar2023:relationship:15	citrinin	5099	II	NRPKS_48	BGC0001338	70	4	3	https://doi.org/10.1038/s41589-023-01276-8	not_re_adjudicated
+caesar2023:relationship:16	sterigmatocystin	912	II	NRPKS_68	BGC0000152	70	13	10	https://doi.org/10.1038/s41589-023-01276-8	not_re_adjudicated
+caesar2023:relationship:17	rubropunctatine	4902	IV	NRPKS_7	BGC0000027	70	7	2	https://doi.org/10.1038/s41589-023-01276-8	not_re_adjudicated
+caesar2023:relationship:18	aflatoxin G1	1174	IV	NRPKS_76	BGC0000004	70	5	3	https://doi.org/10.1038/s41589-023-01276-8	not_re_adjudicated
+caesar2023:relationship:19	chrysogine	5496	IV	NRPS_49	BGC0001545	60	10	3	https://doi.org/10.1038/s41589-023-01276-8	not_re_adjudicated
+caesar2023:relationship:20	notoamide A	1673	IV	NRPS_66	BGC0000818	60	7	3	https://doi.org/10.1038/s41589-023-01276-8	not_re_adjudicated
+caesar2023:relationship:21	notoamide B	9213	I	NRPS_66	BGC0000818	60	7	4	https://doi.org/10.1038/s41589-023-01276-8	not_re_adjudicated
+caesar2023:relationship:22	notoamide E4	4182	I	NRPS_66	BGC0000818	60	7	3	https://doi.org/10.1038/s41589-023-01276-8	not_re_adjudicated
+caesar2023:relationship:23	fellutamide B	1764	II	NRPSLIKE_59	BGC0001399	75	11	4	https://doi.org/10.1038/s41589-023-01276-8	not_re_adjudicated
+caesar2023:relationship:24	terrequinone A	1761	IV	NRPSLIKE_66	BGC0000442	75	7	4	https://doi.org/10.1038/s41589-023-01276-8	not_re_adjudicated
+caesar2023:relationship:25	aspernidine A	3485	II	TERPENE_40	BGC0001722	70	11	2	https://doi.org/10.1038/s41589-023-01276-8	not_re_adjudicated

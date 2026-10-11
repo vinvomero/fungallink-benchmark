@@ -1,0 +1,14 @@
+{
+  "counts": {
+    "preprint": 78,
+    "published": 78
+  },
+  "id_sequence_maps_equal": true,
+  "preprint_only": [],
+  "published_only": [],
+  "changed_sequence_ids": [],
+  "scope": "Named record IDs and nucleotide sequence hashes; does not establish sample identity or tested construct equivalence.",
+  "uncompressed_genbank_sha256": "6e3bfe142db6eac8b1622cd9900ab6dd511fb326533b2b55e35b35106291b240",
+  "uncompressed_genbank_bytes": 2060980,
+  "uncompressed_payloads_byte_identical": true
+}

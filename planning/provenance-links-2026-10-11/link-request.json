@@ -1,0 +1,117 @@
+{
+  "scope": "Retained exact locators; verify first six missing relationship-source files against local hashes. No new scientific search.",
+  "links": [
+    {
+      "workspace_path": "data/raw/expression-dataset-screen-2026-10-07/fac-supplement.pdf",
+      "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5577364.1/NIHMS859941-supplement-1.pdf?md5=3577120962028fb4e940fcd1a75e661e",
+      "locator_record": "data/raw/expression-dataset-screen-2026-10-07/fac-supplement-retrieval.json",
+      "link_kind": "exact_file",
+      "source_locator": "",
+      "local_sha256": "6ea1aa7dc34516cf8dcf4b0003b3a9798ab4569106d8f1027dc94f22bcde0d72"
+    },
+    {
+      "workspace_path": "data/interim/acu-dioxomorpholine-fac-review-2026-10-08/paper.xml",
+      "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5959802.1/PMC5959802.1.xml?md5=b52ac107ca8b5055b43e0ac961b7e6cb",
+      "locator_record": "data/interim/acu-dioxomorpholine-fac-review-2026-10-08/receipt.json",
+      "link_kind": "exact_file",
+      "source_locator": "",
+      "local_sha256": "e3ac5fdaaf152ecb8fa6e3e8d287ceab827860466be069349a801e74812b2ee3"
+    },
+    {
+      "workspace_path": "data/interim/acu-dioxomorpholine-fac-review-2026-10-08/supplement.pdf",
+      "source_url": "https://ndownloader.figshare.com/files/11106800",
+      "locator_record": "data/interim/acu-dioxomorpholine-fac-review-2026-10-08/acs-supplement-receipt.json",
+      "link_kind": "exact_file",
+      "source_locator": "",
+      "local_sha256": "6a3fec117fb628d2280366c4d71e857134e5289bf426df34a08a4ce4613c3d3b"
+    },
+    {
+      "workspace_path": "data/raw/expression-dataset-screen-2026-10-07/hex-article.xml",
+      "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5895447.1/PMC5895447.1.xml?md5=3ce5fbef029225206e8a88a208d17816",
+      "locator_record": "data/raw/expression-dataset-screen-2026-10-07/hex-xml-retrieval.json",
+      "link_kind": "exact_file",
+      "source_locator": "",
+      "local_sha256": "70069afea6c4696d8282433d5487abb44a69a36123d50485867d85200a8b1c91"
+    },
+    {
+      "workspace_path": "data/interim/hex-pks15-pks23-review-2026-10-08/figure5.jpg",
+      "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5895447.1/aar5459-f5.jpg?md5=6a4c00797706800963eba32e1344f03a",
+      "locator_record": "data/interim/hex-pks15-pks23-review-2026-10-08/figure5-receipt.json",
+      "link_kind": "exact_file",
+      "source_locator": "",
+      "local_sha256": "7aa4f41a1e64d94848b55851f0163dbc7c51eba388e04499729ea489a8fa3813"
+    },
+    {
+      "workspace_path": "data/raw/hex-measured-data-screen-2026-10-07/aar5459_SM.pdf",
+      "source_url": "https://www.ebi.ac.uk/biostudies/files/S-EPMC5895447/aar5459_SM.pdf",
+      "locator_record": "data/raw/hex-measured-data-screen-2026-10-07/provenance.tsv",
+      "link_kind": "exact_file",
+      "source_locator": "",
+      "local_sha256": "f8e9695a628e010bef448db4dbbc16b36d52a3dc254dae7a9f5cd295b7c1bbb4"
+    },
+    {
+      "workspace_path": "data/interim/benzomalvin-extension-review-2026-10-08/figure2.jpg",
+      "source_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/479e/5997561/ccc9aef3b6f3/nihms959957f2.jpg",
+      "locator_record": "data/interim/benzomalvin-extension-review-2026-10-08/figure2-browser-receipt.json",
+      "link_kind": "exact_file",
+      "source_locator": "",
+      "local_sha256": "8637155b0d9cee66971ef870f8f1d8be6c0b61cb43079badee6336b8da51be10"
+    },
+    {
+      "workspace_path": "data/interim/feature-annotation-recovery/pmc-bioc.xml",
+      "source_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC10313767/unicode",
+      "locator_record": "data/interim/feature-annotation-recovery/retrievals.json",
+      "link_kind": "exact_file",
+      "source_locator": "",
+      "local_sha256": "b507fb31770451e358060fe63c8dd42718b553351a84d9ae4e0d7dd6c0523701"
+    },
+    {
+      "workspace_path": "data/raw/fac9j20-query-appraisal-2026-10-07/KX449366.1.gb",
+      "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=KX449366.1&rettype=gbwithparts&retmode=text",
+      "locator_record": "data/raw/fac9j20-query-appraisal-2026-10-07/appraisal-provenance.json",
+      "link_kind": "exact_file",
+      "source_locator": "",
+      "local_sha256": "8a83376c0937ce3f4ce280a759c67f0712546ccfd418f138b8e2b12873857211"
+    },
+    {
+      "workspace_path": "data/interim/benzomalvin-extension-review-2026-10-08/relevant-source-passages.txt",
+      "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5997561.1/PMC5997561.1.xml?md5=439618e1a26d8c1c696a368dc1616304",
+      "locator_record": "data/interim/benzomalvin-extension-review-2026-10-08/article-receipt.json",
+      "link_kind": "parent_source",
+      "source_locator": "Extracted passages; source XML is not byte-identical to derived excerpt",
+      "local_sha256": "7a1d5ea96ad6620c3e42441c9b57452b1fc5a93ed5765c9fbd09bdc9a1df7ac1"
+    },
+    {
+      "workspace_path": "data/interim/benzomalvin-extension-review-2026-10-08/source-supplement-page16.png",
+      "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5577364.1/NIHMS859941-supplement-1.pdf?md5=3577120962028fb4e940fcd1a75e661e",
+      "locator_record": "docs/evidence/benzomalvin-extension-review-2026-10-08.md",
+      "link_kind": "parent_source",
+      "source_locator": "2017 supplement PDF page16; rendered PNG is not original PDF",
+      "local_sha256": "09de12b255231a07b391da69843693180cfd5b5930981900bc256a48b785bd67"
+    },
+    {
+      "workspace_path": "data/interim/host-therapeutic-review/page-21.png",
+      "source_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41589-023-01276-8/MediaObjects/41589_2023_1276_MOESM1_ESM.pdf",
+      "locator_record": "docs/evidence/griseofulvin-congeners-review-2026-10-01.md",
+      "link_kind": "parent_source",
+      "source_locator": "Caesar supplement PDF page21; rendered PNG differs from source PDF",
+      "local_sha256": "f76e90b920ab5c2dfd6acb6dcde4ae6ecfaeb8d3aa23c80c0196f30a68d59d54"
+    },
+    {
+      "workspace_path": "data/raw/sources/expansion-2026-10-03/phoenicin/reference-paper.pdf",
+      "source_url": "https://doi.org/10.1002/batt.202200365",
+      "locator_record": "docs/evidence/phoenicin-query-reference-2026-10-03.md",
+      "link_kind": "article_landing",
+      "source_locator": "Reference organism only; not admitted fungal linkage",
+      "local_sha256": "d1afae577bc394f1c6985d001812e65aa40b52266c9ab12d8a22e93d00855833"
+    },
+    {
+      "workspace_path": "research_audit/Caesar-main.txt",
+      "source_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC10313767/unicode",
+      "locator_record": "docs/evidence/pestalamide-a-expansion-2026-10-03.md",
+      "link_kind": "parent_source",
+      "source_locator": "Alternative machine-readable article; not exact legacy text bytes",
+      "local_sha256": "32d5a1ce1ee07821af0fa5e385152f7fc0363341077feecdc72e6b6f7d17d86b"
+    }
+  ]
+}

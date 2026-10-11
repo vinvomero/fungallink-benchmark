@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite this version when using the benchmark."
+title: "FungalLink v2: a curated benchmark for linking fungal biosynthetic gene clusters to measured metabolites"
+type: dataset
+authors:
+  - family-names: Vomero
+    given-names: Vin
+version: 1.0.0
+date-released: 2026-10-11
+url: "https://github.com/vinvomero/fungallink-benchmark/releases/tag/v1.0.0"
+license: CC-BY-4.0

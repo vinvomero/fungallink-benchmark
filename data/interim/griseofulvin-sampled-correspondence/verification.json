@@ -1,0 +1,27 @@
+{
+  "rows": 13,
+  "unique_reference_ids": 13,
+  "unique_sample_ids": 13,
+  "exact_full_length": 7,
+  "all_reciprocal": true,
+  "all_reverse_strand": true,
+  "reverse_contiguous_sample_ordinals": [
+    14,
+    13,
+    12,
+    11,
+    10,
+    9,
+    8,
+    7,
+    6,
+    5,
+    4,
+    3,
+    2
+  ],
+  "python": "3.13.5",
+  "table_sha256": "21f57b625ca15720e48637092e553c83e2fd9c27431b2a308b96eed586d6d39b",
+  "source_zip_sha256": "0cef389310eccd261255e51919e7fe5f1f772cc73be2b0d42e0f5f8e30245a54",
+  "source_member_sha256": "c662bd2e7da63410bc1ea06a6613b9a393b1894f41880dbcf5bbf16f981efc03"
+}

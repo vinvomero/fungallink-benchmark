@@ -1,0 +1,101 @@
+{
+  "finished": "2026-10-11T21:17:53.112021+00:00",
+  "command": [
+    "scripts/similarity_independence.py",
+    "--stage",
+    "spectral"
+  ],
+  "environment": {
+    "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+    "executable": "C:\\Users\\vvome\\.cache\\fl-similarity-v1\\Scripts\\python.exe",
+    "packages": {
+      "rdkit": {
+        "version": "2026.3.5",
+        "RECORD_sha256": "4e1607dd0b408afc36a063a1358275cdeef8cf5c6dcb0c858fbb18eb677aa8d0"
+      },
+      "biopython": {
+        "version": "1.88",
+        "RECORD_sha256": "1b4581827eda8e3ffb6651dd957dd0094a5dbd969fd8fa07d18a0851d7a2e4b0"
+      },
+      "matchms": {
+        "version": "0.33.1",
+        "RECORD_sha256": "8f414900d769471a845c0af6ed8b78c474c26502cf4b223dd2db63791142f8fe"
+      },
+      "numpy": {
+        "version": "2.4.6",
+        "RECORD_sha256": "aee710ad55880c692adf855dfbbb6a1a3429f396c6e4410bf558a6b9c9dcf631"
+      },
+      "scipy": {
+        "version": "1.16.3",
+        "RECORD_sha256": "62f16fd3a0560a3510c114b968556dd3447192f7ad997185fdde91633a9d44d8"
+      },
+      "lxml": {
+        "version": "6.0.2",
+        "RECORD_sha256": "c226b5437e7f8bb802a49588169039b1e75779cac5a05764755617c6f996d00e"
+      }
+    }
+  },
+  "inputs": {
+    "data/curated/relationship-readiness-v1.tsv": "9b2e7c754830a1eb59086b3f675ca45edef77dffa88efaf0ecdedd04f3ce09e8",
+    "data/curated/label-evidence.tsv": "f35db5f65840e2e11dae4e47eb8a0dab08cb7dac4d0ced079034fd7562333cda",
+    "data/manifests/relationship-traceability-v1.tsv": "64758cb34449ca4b8911c12607084020df1dce167c21c32c9b8b0ac62bada965",
+    "data/manifests/task-exposure-v1.tsv": "36be8944c1c198694e1d6c68f9bf76093a6b06aef36f50801de59dbd9ce3271f",
+    "protocol/similarity-independence-v1.md": "b017b7a6a64f965bb380663708f9bf58f862e7a18e12fc443c83417e4afd1146",
+    "docs/plans/2026-10-11-1704-similarity-independence-plan.md": "4657b96361a483811bfd12427bd52ce6635f908d9ee82b59a7b8c49af6b95479",
+    "scripts/similarity_independence.py": "7536120c54dcefc6c93d84378767495cd9e2e64c8842f2c0d7749725888ab87f",
+    "data/raw/sources/caesar-2023/41589_2023_1276_MOESM3_ESM.zip": "0cef389310eccd261255e51919e7fe5f1f772cc73be2b0d42e0f5f8e30245a54",
+    "planning/similarity-independence-work-2026-10-11/parameters.json": "b35afd8f2ade09def3bf42576224c60c2fe99c5c6c75c69bffb6f485e1b26a6f",
+    "data/processed/trichoderma-network-candidate-v1/method_inputs/spectra.tsv": "bb6f5d75f203ef43b52ed5b7cf343365a1f2fe522d933af55773dca7552cb1d2",
+    "data/processed/trichoderma-network-candidate-v1/method_inputs/spectra.mgf": "6c5e504a8b212eaee532c0fa3df3b8f78facb1ab10af78c805b6291877734e7e",
+    "data/processed/blackyeast-sixmsa-candidate-v1/method_inputs/spectra.tsv": "bd1b30df333a1094dca5dc3d4da0e5b25bcd840b6add10b203a5786c4ee17521",
+    "data/processed/blackyeast-sixmsa-candidate-v1/method_inputs/spectra.mgf": "107cfefba27eefea7d6e5914343664b6420553b941d8a3d33f5a1f50c34f3f58"
+  },
+  "parameters": {
+    "chemical": {
+      "radius": 2,
+      "bits": 2048,
+      "bond_types": true,
+      "chirality": false,
+      "flags": [
+        0.7,
+        0.9
+      ]
+    },
+    "genomic": {
+      "matrix": "BLOSUM62",
+      "mode": "global",
+      "open_gap_score": -10,
+      "extend_gap_score": -0.5,
+      "terminal_gaps": "same_as_internal",
+      "tie_rule": "first_library_optimal_path",
+      "coverage": 0.8,
+      "identity_flags": [
+        0.7,
+        0.9
+      ]
+    },
+    "spectral": {
+      "tolerance_Da": 0.02,
+      "mz_power": 0,
+      "intensity_power": 1,
+      "min_mz": 10,
+      "precursor_exclusion_Da": 1,
+      "relative_intensity": 0.01,
+      "transform": "sqrt_then_L2",
+      "minimum_matches": 6,
+      "flags": [
+        0.7,
+        0.9
+      ]
+    }
+  },
+  "status": "complete",
+  "outputs": {
+    "data/processed/similarity-independence-v1/chemical-pairs.tsv": "4921807705d09a925e2d9999a61538403601eed18ed18ecd8f3e42ec50a11fec",
+    "data/processed/similarity-independence-v1/gcf-members.tsv": "3bc8efbed33180cc91007b0ae5a4a11f7f2d414c60a6ff36f38f7c4366bd0949",
+    "data/processed/similarity-independence-v1/proteins.tsv": "92bdfac838db82d173745348660a736263d618c6287b9cbccf8c3dd282640749",
+    "data/processed/similarity-independence-v1/spectra.tsv": "8071089c69681d49de920887c4b7b1c2c4225ae379398a9a48118f0e25ff7192",
+    "data/processed/similarity-independence-v1/spectral-pairs.tsv": "d87475aa3764d0ec31deafc4c89b0a3a769af2f844460aba8cafe4853428306f",
+    "data/processed/similarity-independence-v1/structures.tsv": "0574364d0268d3ba1d60e1ecf685c0e2a3548ceb480e424ab5dd425f81c71641"
+  }
+}

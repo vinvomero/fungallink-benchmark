@@ -1,0 +1,90 @@
+{
+  "status": "completed",
+  "started_utc": "2026-10-09T23:05:30.439237+00:00",
+  "pid": 26944,
+  "command": [
+    "scripts/run_spec2class_negative_inputs.py"
+  ],
+  "python": "3.11.15 (main, Jul 18 2026, 17:06:27) [MSC v.1944 64 bit (AMD64)]",
+  "scope": "Spectral predictions only; no genome-to-feature rankings or evaluated-count change",
+  "protocol": "protocol/spec2class-negative-inputs-v1.md",
+  "protocol_sha256": "32709f0005750a93fa9512a5de1d98031a3970b1631650965bffad0a4ed04a95",
+  "implementation_sha256": "0e0aaac8abd59683190c0ccf78b02288e5a7d280420afe575b9c0c38f5d9c66c",
+  "environment": {
+    "torch": "2.2.1",
+    "numpy": "1.26.4",
+    "pandas": "2.2.1",
+    "scipy": "1.12.0",
+    "scikit-learn": "1.6.1"
+  },
+  "updated_utc": "2026-10-09T23:08:10.797753+00:00",
+  "source_hashes": {
+    "Spec2Class.py": "aa931bb01fda55cb156226a97e3a068067152784454139044e1d28df1bbc5eb9",
+    "neural_net.py": "01babfc3d2b6bce3debfa03182307fba9fb06af4e209797428be5a1091fd5328",
+    "binning_functions.py": "b6ea3357d7f9c8ae2e67f36c9f990c54335d090a32890494993a4d81e60d2d53",
+    "dataset_class.py": "4cdbe26c8aa62f8cf7252687bc1259cd2a86b224382ea282310e8f25f8fd5300",
+    "prediction_vectors_functions.py": "457deb26b4a68dd5b7e942db5fce45592ec295ef66e46c44f6f82f59a22c19f1",
+    "multiclass_prediction_functions.py": "97fedb00dc20575d76bcdfb3d2af38b6bca47aef965f1ccb17499c14b93238cd",
+    "utility_functions.py": "18ba55249303f9aaab5176d9f2aaf6869c1398508acb71872949278eeb140960",
+    "config_spec2class_negative.ini": "5ea143c51ccd5b81ab554ff4bdf12355afa4b266342932934d7bb08eef6812b5",
+    "negative-svm.sav": "f975b65b3d92c31ea820152423ca36e39aa6ed910dcd918fec13e2b8e375b310"
+  },
+  "input_hashes": {
+    "method_inputs/candidates.tsv": "cecc3be2ad375cb1f2c70b0c7a8bb9f0b46c2af474d30e40672d738be6a7303b",
+    "method_inputs/spectra.tsv": "bd1b30df333a1094dca5dc3d4da0e5b25bcd840b6add10b203a5786c4ee17521",
+    "method_inputs/spectra.mgf": "107cfefba27eefea7d6e5914343664b6420553b941d8a3d33f5a1f50c34f3f58"
+  },
+  "weight_hashes": {
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/negative-weights/trained_model_Anthranilic_acid_alkaloids_no_x_val.pt": "98184daeb787b2fef475182a96b4e368b29566d5486fca09af0a05fa6d2f0fa1",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/negative-weights/trained_model_Apocarotenoids_no_x_val.pt": "f767ef5837766a126b35c74f3c27804219116bd9d3ec08e4c181e735d9752e4c",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/negative-weights/trained_model_Aromatic_polyketides_no_x_val.pt": "41d213c9387bd7d05700546d313708e1b918b4269e8b42eb445ea03c704e3dfd",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/negative-weights/trained_model_Chromanes_no_x_val.pt": "f63a80e712a2eb6b71a534981347a4ce1cc76011533f7c1421d88f728daf2c51",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/negative-weights/trained_model_Coumarins_no_x_val.pt": "aa41a9be809674097ea915d6d25a17c04cb5d39e9bacf0eb3c7a998e8f5fc005",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/negative-weights/trained_model_Cyclic_polyketides_no_x_val.pt": "79b68cb6eeba620601e7c1ed441de86e88c7b36dd59d11e9613c919829947ac6",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/negative-weights/trained_model_Diarylheptanoids_no_x_val.pt": "5953f8aa141ffcc3b350d6e19d23c73cc6531151ce3823b0244ef4316cca0fa6",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/negative-weights/trained_model_Diterpenoids_no_x_val.pt": "6d612eae976dbad53b8d06ca39531d0e43f7ec0f8d42012f3336364f84a16686",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/negative-weights/trained_model_Fatty_Acids_and_Conjugates_no_x_val.pt": "0352f5e5d0fd3c5d4d37da7742257a065f9ef59c4de0f7cf75e8298d06ed9f80",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/negative-weights/trained_model_Flavonoids_no_x_val.pt": "3580add44b0ef67aa317477377b9053bcba88d18e3ad235277265a95403a77f2",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/negative-weights/trained_model_Isoflavonoids_no_x_val.pt": "203d3bf67271d7c6813f6286d6cc5b851e654f0013bc5260112bcf263a062c7c",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/negative-weights/trained_model_Lignans_no_x_val.pt": "7d41d9580a635f6ad3c807cd5dd6082e212c88ef124cbec2ffc390c7f667756d",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/negative-weights/trained_model_Meroterpenoids_no_x_val.pt": "1edf60e1960927c6ebb489bc1173bc54ed58216b81e5cc43aaa8055e5907f0ce",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/negative-weights/trained_model_Monoterpenoids_no_x_val.pt": "e891b7d91e284a33295f105e419f74ce67022758155968975b65897193ad9dea",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/negative-weights/trained_model_Naphthalenes_no_x_val.pt": "6b1fb1e0669583257a560138b0e7e7e2c83f3904d8737e40f5ce4eafab901fc4",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/negative-weights/trained_model_Nicotinic_acid_alkaloids_no_x_val.pt": "3b834dec51b528e5115d839e2dc2538670c18071c12a981df3ec27c281a00093",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/negative-weights/trained_model_Nucleosides_no_x_val.pt": "8ffdc58665393be5928f4f34e8da1f6b8b64fda3aaa0c7f0dc61330caa439636",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/negative-weights/trained_model_Oligopeptides_no_x_val.pt": "8d7be40af6b4493c5cd7140185ff64d43b5d79b3cc395e6f149ad1065ac77de6",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/negative-weights/trained_model_Phenolic_acids_(C6-C1)_no_x_val.pt": "04d524dd1b6fecee5b86efe1c5983edc9cd63e5f9964ce7de5724daa2f3ad986",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/negative-weights/trained_model_Phenylethanoids_(C6-C2)_no_x_val.pt": "7013d418193dc7d99828fdbc521dcd34ca6e0a88476cd588c1318186f859c2e2",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/negative-weights/trained_model_Phenylpropanoids_(C6-C3)_no_x_val.pt": "e21112e17de261c8e8bb60ff54b217f40af5ae8b19b73c8e585a24e8332e188d",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/negative-weights/trained_model_Phloroglucinols_no_x_val.pt": "19e14fd3676f24bba1626f5c71bd04b9c13281a1c7eaf44dce85b15fe838146f",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/negative-weights/trained_model_Polycyclic_aromatic_polyketides_no_x_val.pt": "63425f5a0bc2af6b5f17595405b63acc542bf0f91ff27e3ef1865cfb3883b6a0",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/negative-weights/trained_model_Pseudoalkaloids_no_x_val.pt": "290ea386bb0b78509bf16bbe0b61ceff39405cb2924c3687dc5e7bddc25fb3d1",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/negative-weights/trained_model_Saccharides_no_x_val.pt": "ffc0ac69f9a681def409fe55a8a20e81ab20f61d194d50ad18c7993d6a2e47d1",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/negative-weights/trained_model_Sesquiterpenoids_no_x_val.pt": "6fdcc8a8fca0aa028b338e0ebe1bbd57b7769f98f5b24bf395f2a47410b9c3bf",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/negative-weights/trained_model_Small_peptides_no_x_val.pt": "90daab41de03fe737161d22937e7fd5c5072c2d4504e7ac8618dffb5642678fc",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/negative-weights/trained_model_Steroids_no_x_val.pt": "e133b22dcdb9be121069d9a1c56a9f663f7c997c038f876cefb632a93b024005",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/negative-weights/trained_model_Stilbenoids_no_x_val.pt": "987fedabcd137f040d1151fdd54d70f5524595c02655a206facd2ccef0b54214",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/negative-weights/trained_model_Triterpenoids_no_x_val.pt": "c2375ffbc79b1dffaa50f4391ae151793ea9b63be863f5a670fbf9ca0e25c83d",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/negative-weights/trained_model_Tryptophan_alkaloids_no_x_val.pt": "0adf20af98d808fd0fca5f6c138ffc85f8d5dd32611a0942875a80f474dc714f",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/negative-weights/trained_model_Tyrosine_alkaloids_no_x_val.pt": "dfbc7de6ab2bcf9768bb6bcf543814f1f41323032c0eb0b74fd7ee9668afc45b",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/negative-weights/trained_model_Xanthones_no_x_val.pt": "ae518079d5402e06843d95ae17e51aad1cc9362393c1fc248c3f0d51985b76a9"
+  },
+  "candidate_count": 1249,
+  "spectra_supplied": 291,
+  "empty_after_preprocessing": [],
+  "spectra_predicted": 291,
+  "coverage_counts": {
+    "no_spectrum": 958,
+    "predicted": 291
+  },
+  "output_hashes": {
+    "coverage.tsv": "d72c6fc8a4e4ce65e0f554cb7a6506c8fee30ba4d93d1789930afeca747a38ff",
+    "predictions.csv": "73101941fe1bbbc73ee966ba90f104f5c0bf918236a303e0c27055c8a855fc0c",
+    "predictions.pkl": "fda207fd5fa89d2e3f42c273ac2afa4c18af692ae654414f2d8865b0afa71c18",
+    "predictions.tsv": "271eec5e6b2821cb7b4c0c77297cdb349cac7d66819d58059f0b2c18b895cd48",
+    "predictions_y_pred_df.csv": "af063f6652e00ae3ac1192d47b6a5caf88b21917d4748cf1f192ff36bac5bf77",
+    "predictions_y_pred_df.pkl": "b06cca6354a58c965f2361908e0d2e3dfcc2e100871d9117b2812e68c072ec70",
+    "predictions_y_pred_df.tsv": "6d2633ebdcac3edae072927166cf33c408213375414a3c0da37101ebe51c016c",
+    "predictor-input.pkl": "399aa085ac6cc8003dbb24ea602b6b3ace12e9573f57db114bd58c3ac9ce42a5"
+  }
+}

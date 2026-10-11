@@ -1,0 +1,6 @@
+{
+  "verified_records": 67,
+  "verified_bytes": 6589646,
+  "manifest_sha256": "2f828b6c537c9b8644941a6ec6435f3018101197e16d160891e19afab24d9119",
+  "scope": "Durable processing manifest byte verification; original result and native event checks retained separately."
+}

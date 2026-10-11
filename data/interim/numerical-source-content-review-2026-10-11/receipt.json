@@ -1,0 +1,123 @@
+{
+  "utc": "2026-10-11T17:59:49.270651+00:00",
+  "reason": "New schema inspection narrows old broad package holds to factual numerical arrays and identifiers; distinguish source expression from factual data.",
+  "inputs": [
+    {
+      "path": "data/processed/source-selected-gcf-analysis-v1/inputs.json",
+      "sha256": "84e5f7b9b766ef6f7feae78fc7997af7d1760a1a98287834994cab6ed151de51",
+      "top_level_keys": [
+        "candidate_pools",
+        "candidate_universe_id",
+        "cohorts",
+        "queries",
+        "query_type",
+        "schema_version",
+        "track_id"
+      ],
+      "leaf_stats": {
+        "numbers": 981120,
+        "strings": 9988,
+        "max_string_length": 35
+      },
+      "long_text_leaves": []
+    },
+    {
+      "path": "data/processed/source-selected-gcf-expanded-labels-v2/gold/benchmark.json",
+      "sha256": "b97cc328fef7317bcd432e24856b8d2b936364934fe3a4fe64d6daaccfd2a48a",
+      "top_level_keys": [
+        "candidate_universe_id",
+        "queries",
+        "query_type",
+        "schema_version",
+        "track_id"
+      ],
+      "leaf_stats": {
+        "numbers": 0,
+        "strings": 46728,
+        "max_string_length": 35
+      },
+      "long_text_leaves": []
+    },
+    {
+      "path": "data/processed/emericellamide-gcf-extension-v1/inputs.json",
+      "sha256": "dba0d9d53d7cf722a4049145c5c0bdd4246bed67e0f8131c9d36f379f705858e",
+      "top_level_keys": [
+        "candidate_pools",
+        "candidate_universe_id",
+        "cohorts",
+        "queries",
+        "query_type",
+        "schema_version",
+        "track_id"
+      ],
+      "leaf_stats": {
+        "numbers": 980700,
+        "strings": 9556,
+        "max_string_length": 35
+      },
+      "long_text_leaves": []
+    },
+    {
+      "path": "data/processed/emericellamide-gcf-extension-v1/benchmark.json",
+      "sha256": "ffbac2de4cc43c5688b78328a684772cbdfb85a330de4a757a718ab61549b8bb",
+      "top_level_keys": [
+        "candidate_universe_id",
+        "queries",
+        "query_type",
+        "schema_version",
+        "track_id"
+      ],
+      "leaf_stats": {
+        "numbers": 0,
+        "strings": 9348,
+        "max_string_length": 35
+      },
+      "long_text_leaves": []
+    },
+    {
+      "path": "data/processed/acetylaszonalenin-gcf-extension-v1/inputs.json",
+      "sha256": "ed372d1905d176188899f2d55433c1674e9b9e0564e551b342591d8e27384d70",
+      "top_level_keys": [
+        "candidate_pools",
+        "candidate_universe_id",
+        "cohorts",
+        "queries",
+        "query_type",
+        "schema_version",
+        "track_id"
+      ],
+      "leaf_stats": {
+        "numbers": 980700,
+        "strings": 9556,
+        "max_string_length": 35
+      },
+      "long_text_leaves": []
+    },
+    {
+      "path": "data/processed/acetylaszonalenin-gcf-extension-v1/benchmark.json",
+      "sha256": "ce21addfefa23a0beb7cd14458c519bbae806d83707929eca97a29812bc7bd4a",
+      "top_level_keys": [
+        "candidate_universe_id",
+        "queries",
+        "query_type",
+        "schema_version",
+        "track_id"
+      ],
+      "leaf_stats": {
+        "numbers": 0,
+        "strings": 9348,
+        "max_string_length": 35
+      },
+      "long_text_leaves": []
+    }
+  ],
+  "assemblies": 66,
+  "all_assembly_urls_ncbi": true,
+  "request": "site.copyright.gov facts discoveries data copyright compilation facts",
+  "primary_sources": [
+    "https://www.copyright.gov/what-is-copyright/",
+    "https://www.copyright.gov/register/tx-databases.html"
+  ],
+  "finding": "Official sources distinguish unprotected facts from potentially protected original compilation authorship. This does not by itself determine every jurisdiction, contract or source compilation question. No raw publisher files or author workbook are proposed in numerical candidates.",
+  "decision": "Use an explicit factual numerical-data and original-output basis in the candidate notice, preserve source attribution and derived-mapping provenance, retain final author release gate; do not require a generic permission email solely because no CC statement was located."
+}

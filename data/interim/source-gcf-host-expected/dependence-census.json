@@ -1,0 +1,124 @@
+{
+  "included_observations": 105,
+  "families": [
+    "NRPSPKS_85",
+    "TERPENE_40",
+    "NRPSLIKE_59",
+    "NRPKS_18",
+    "NRPS_66"
+  ],
+  "multiple_observation_inherited_groups": [
+    {
+      "group": "acc:Aspni_NRRL3",
+      "observation_ids": [
+        "source-study:caesar-table2-043",
+        "source-study:caesar-table2-046"
+      ],
+      "source_strains": [
+        "ATCC 9029",
+        "ATCC 64974"
+      ],
+      "assembly_assertions": [
+        "Aspni_NRRL3",
+        "Aspni_NRRL3"
+      ],
+      "membership_vectors": [
+        [
+          "1",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "membership_agrees": true,
+      "media": [
+        [
+          "Cheerios",
+          "Oats",
+          "Rice"
+        ],
+        [
+          "Cheerios",
+          "Oats",
+          "Rice"
+        ]
+      ]
+    },
+    {
+      "group": "asm:000002715",
+      "observation_ids": [
+        "source-study:caesar-table2-020",
+        "source-study:caesar-table2-021"
+      ],
+      "source_strains": [
+        "ATCC 1007",
+        "CBS 513.65"
+      ],
+      "assembly_assertions": [
+        "GCF_000002715.2",
+        "GCA_000002715.1"
+      ],
+      "membership_vectors": [
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "membership_agrees": true,
+      "media": [
+        [
+          "Cheerios",
+          "Oats",
+          "Rice"
+        ],
+        [
+          "Cheerios",
+          "Oats",
+          "Rice"
+        ]
+      ]
+    },
+    {
+      "group": "asm:001890905",
+      "observation_ids": [
+        "source-study:caesar-table2-005",
+        "source-study:caesar-table2-006"
+      ],
+      "source_strains": [
+        "ATCC 16872",
+        "CBS 172-66"
+      ],
+      "assembly_assertions": [
+        "GCA_001890905.1",
+        "GCA_001890905.1"
+      ],
+      "membership_vectors": [
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "membership_agrees": true,
+      "media": [
+        [
+          "Cheerios",
+          "Oats",
+          "Rice"
+        ],
+        [
+          "Cheerios",
+          "Oats",
+          "Rice"
+        ]
+      ]
+    }
+  ],
+  "scope": "metadata assertions only; no new assembly identity verification"
+}

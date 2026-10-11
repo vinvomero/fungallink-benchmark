@@ -1,0 +1,37 @@
+{
+  "utc": "2026-10-11T12:02:59.411031+00:00",
+  "status": "passed",
+  "archive_sha256": "15e0f109e618df4a1645e1e2c4649a277e5bae9d954c4443a91c7aae5c549857",
+  "payload_hashes_checked": 93,
+  "command": [
+    "C:\\Python313\\python.exe",
+    "-I",
+    "scripts/verify_saved_spectral_diagnostics.py",
+    "--root",
+    "."
+  ],
+  "cwd": "data\\interim\\spectral-candidate-verification-2026-10-11",
+  "dependency_restoration": "Exact retained table copied and SHA256 verified; no new download, table absent from ZIP",
+  "external_dependency_sha256": "96268b2e2d20e935976892e4f052c32592073a763cba85f33c7c654215b566ff",
+  "result": {
+    "status": "passed",
+    "results": [
+      {
+        "cohort": "sixmsa",
+        "candidates": 1249,
+        "scored": 291,
+        "unavailable": 958,
+        "status": "matched"
+      },
+      {
+        "cohort": "trichoderma",
+        "candidates": 98,
+        "scored": 89,
+        "unavailable": 9,
+        "status": "matched"
+      }
+    ],
+    "scope": "Same-host reconstruction from frozen predicted classes. No native prediction, raw processing, query annotation or biological adjudication reproduced."
+  },
+  "scope": "Same-host clean archive extraction and saved-class arithmetic reproduction only"
+}

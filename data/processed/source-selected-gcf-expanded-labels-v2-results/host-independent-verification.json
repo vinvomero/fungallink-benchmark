@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "at_utc": "2026-10-07T14:19:12.300249+00:00",
+  "ledger_relationships": 15,
+  "ledger_queries": 11,
+  "gold_products": 9,
+  "gold_queries": 5,
+  "ranking_hashes_checked": 72,
+  "independently_recomputed_per_query_metric_cells": 3600,
+  "method": "Independent Python standard-library combinatorial tie calculation, without importing benchmark evaluator.",
+  "table_sha256": "5efe3b8c3529cf68e299f2f3fc0c6db76aef613e54df2f8d3bdc4c7acac9ba22",
+  "gold_sha256": "b97cc328fef7317bcd432e24856b8d2b936364934fe3a4fe64d6daaccfd2a48a"
+}

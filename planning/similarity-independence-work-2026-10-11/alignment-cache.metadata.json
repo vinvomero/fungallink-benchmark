@@ -1,0 +1,27 @@
+{
+  "signature": {
+    "parameters": {
+      "matrix": "BLOSUM62",
+      "mode": "global",
+      "open_gap_score": -10,
+      "extend_gap_score": -0.5,
+      "terminal_gaps": "same_as_internal",
+      "tie_rule": "first_library_optimal_path",
+      "coverage": 0.8,
+      "identity_flags": [
+        0.7,
+        0.9
+      ]
+    },
+    "biopython": "1.88",
+    "alignment_implementation_sha256": "34abb7194919a586071214d01f62317e4e1d2b36007622a1b0b4e50d2af3946e",
+    "epsilon": 1e-06,
+    "cache_schema": 1
+  },
+  "migration": {
+    "reason": "Existing completed run generated cache before guard implementation; exact alignment function/settings/library verified",
+    "executed_source_sha256": "7536120c54dcefc6c93d84378767495cd9e2e64c8842f2c0d7749725888ab87f",
+    "run_receipt": "run-genomic.json",
+    "cache_sha256_at_migration": "2d6e8a3b334e7e22bb241c5a18e8440849eb2151313a0fd1bc10af03e1f21ee8"
+  }
+}

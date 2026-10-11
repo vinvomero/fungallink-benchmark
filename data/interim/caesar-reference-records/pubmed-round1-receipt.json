@@ -1,0 +1,1 @@
+{"ok": true, "source": "ncbi-entrez", "endpoint": "efetch", "record_path": null, "raw_output_path": "data\\raw\\sources\\expansion-2026-10-03\\caesar-reference\\pubmed-round1.xml", "warnings": [], "summary": {"PubmedArticleSet": {"PubmedArticle": ["...", "...", "...", "...", "...", "...", "...", "...", "...", "..."], "_truncated_children": 10}}, "top_keys": ["PubmedArticleSet"]}

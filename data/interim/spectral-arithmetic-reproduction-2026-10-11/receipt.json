@@ -1,0 +1,60 @@
+{
+  "utc": "2026-10-11T11:51:46.168526+00:00",
+  "status": "passed",
+  "command": [
+    "C:\\Python313\\python.exe",
+    "-I",
+    "scripts/verify_saved_spectral_diagnostics.py",
+    "--root",
+    "."
+  ],
+  "cwd": "data\\interim\\spectral-arithmetic-reproduction-2026-10-11\\workspace",
+  "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+  "copied_files": {
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/MIBiG2.0_compounds_with_AS_BGC_CF_NPC_classes.txt": "96268b2e2d20e935976892e4f052c32592073a763cba85f33c7c654215b566ff",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/sixmsa-genomic-class-input.json": "612ddab9a7ca8f82b32f71670216a45e5b969316b2b84e20ef62ddcf73498b21",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/trichoderma-genomic-class-input.json": "31c952cac7125267a3dc794e90f042cb0fa7934ad4e4b5c4dc17004964f9d854",
+    "data/processed/blackyeast-sixmsa-spec2class-negative-v1-attempt2/coverage.tsv": "d72c6fc8a4e4ce65e0f554cb7a6506c8fee30ba4d93d1789930afeca747a38ff",
+    "data/processed/blackyeast-sixmsa-spec2class-negative-v1-attempt2/predictions.tsv": "271eec5e6b2821cb7b4c0c77297cdb349cac7d66819d58059f0b2c18b895cd48",
+    "data/processed/sixmsa-class-linking-diagnostic-v1/candidate-outputs.json": "8d6775c43725ed75fd05c0b804d29f61661957699c36408e01b6d0bb708c33fb",
+    "data/processed/sixmsa-class-linking-diagnostic-v1/evaluation.json": "6134da2566fce694ea8f645231fb47cfdb1f664f7b46e609bede78b7fdc10b77",
+    "data/processed/sixmsa-class-linking-diagnostic-v1/run.json": "d0ccd029317625079897d611cf413ac45467a00c12bf2b6f178a9e33d27055b2",
+    "data/processed/trichoderma-class-linking-diagnostic-v1/candidate-outputs.json": "fd06f954402d9d01ab19c863a3248f1c5bca204d8672bb6b8f014f4e22dc5f17",
+    "data/processed/trichoderma-class-linking-diagnostic-v1/evaluation.json": "59559362d7cdfa5d86a3545f1ad8d863611b85bdeaeeee0b7cbb03118559f059",
+    "data/processed/trichoderma-class-linking-diagnostic-v1/run.json": "8f05fe59747efa073167d036f1866f88a152b8c017a0b23173e10f59548d63f8",
+    "data/processed/trichoderma-network-candidate-v1/method_inputs/candidates.tsv": "fe5e4868fc6a4624cd1e91ac72e75893339a8c95fe08401cf0818ed8f8fb368a",
+    "data/processed/trichoderma-spec2class-positive-v1-attempt2/coverage.tsv": "1d0332b3744ba9ed4aa30179a1367ead7b98aa2cdd10abce13dbfe82ce7e406f",
+    "data/processed/trichoderma-spec2class-positive-v1-attempt2/run.json": "18f985396fbc353acacfcc3f8806eb0f56de7696d32162819b53733e388bc082",
+    "data/processed/trichoderma-spec2class-positive-v1-attempt2/svm-output.json": "efb65a8bbd165f20bfc99cd01b236c4c4306c477cc1389a476c70fc3c2bfb768",
+    "protocol/trichoderma-class-linking-diagnostic-v1.md": "de862dc729a10dac80bf82a6ab9cacec88d8984b59061a054eb14bb09293cd66",
+    "scripts/npclassscore.py": "4750bb8a21a5bd9f0f409779a0f83ee2a54b9ed40fc2306ff93b7942f781b7ff",
+    "scripts/verify_saved_spectral_diagnostics.py": "0997f621fcb20e11badd823be63c70aa51b7efde9a3ed71730ec75d7f18dbe85"
+  },
+  "result": {
+    "status": "passed",
+    "results": [
+      {
+        "cohort": "sixmsa",
+        "candidates": 1249,
+        "scored": 291,
+        "unavailable": 958,
+        "status": "matched"
+      },
+      {
+        "cohort": "trichoderma",
+        "candidates": 98,
+        "scored": 89,
+        "unavailable": 9,
+        "status": "matched"
+      }
+    ],
+    "scope": "Same-host reconstruction from frozen predicted classes. No native prediction, raw processing, query annotation or biological adjudication reproduced."
+  },
+  "tamper_detection": {
+    "changed": "Trichoderma first candidate score in isolated copy",
+    "exit_code": 1,
+    "rejected": true,
+    "restored": true
+  },
+  "scope": "Isolated same-host execution with Python -I. Reconstructs linking arithmetic from saved predicted classes only. Does not repeat model inference, raw processing or biological review."
+}

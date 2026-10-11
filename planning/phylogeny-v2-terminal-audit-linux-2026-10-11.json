@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "errors": [],
+  "scope": "Checks saved identities, hashes, native-fit selection, score coverage and evaluation arithmetic. Does not establish biological truth, global optimizer convergence, phylogenetic adequacy or publication readiness.",
+  "unique_pairs_checked": 7290,
+  "recovered_pairs": 24
+}

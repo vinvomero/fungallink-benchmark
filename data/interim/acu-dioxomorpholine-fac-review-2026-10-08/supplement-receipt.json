@@ -1,0 +1,7 @@
+{
+  "attempted_utc": "2026-10-08T15:02:25.247135+00:00",
+  "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5959802.1/NIHMS965101-supplement-Supplemental_Figures.pdf",
+  "locator_basis": "Exact supplement filename from retained article XML in versioned public PMC object prefix",
+  "status": "failed",
+  "error": "HTTP Error 404: Not Found"
+}

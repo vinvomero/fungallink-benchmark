@@ -1,0 +1,25 @@
+{
+  "candidate_rows": 98,
+  "sample_columns": [
+    "Molecular Networking_OE_timsOFF.d Peak area",
+    "Molecular Networking_diliE_timsOFF.d Peak area"
+  ],
+  "msms_records": 91,
+  "feature_ids_without_msms": [
+    "4",
+    "15",
+    "20",
+    "34",
+    "38",
+    "41",
+    "67"
+  ],
+  "numeric_validation": "finite nonnegative masses, RTs, areas and spectral intensities; positive fragment masses",
+  "mass_rt_join": "all91 pass combined decimal rounding intervals; CSV minutes converted to MGF seconds",
+  "scan_semantics": "MGF SCANS equals feature ID, not original instrument scan number; native membership unverified",
+  "files": {
+    "full_candidate_pool_quant.csv": "eee096ce16990f97d52c6f9f9c21a62b4e0997a08173833ae971f2365c15864d",
+    "full_candidate_pool.mgf": "ce6e54dafd624c8e0b50910952d3d84c11ca6dc3766c362f097039fa2a6e6d6c"
+  },
+  "status": "pilot export verified, not frozen or admitted"
+}

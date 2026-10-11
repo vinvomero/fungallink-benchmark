@@ -1,0 +1,11 @@
+{
+  "status": "staged",
+  "utc": "2026-10-11T17:28:06.455983+00:00",
+  "files": 116782,
+  "source_bytes": 768324695,
+  "archive_bytes": 1002434560,
+  "archive_sha256": "1365b8d266b0dffd74bba68b2443d5fcb52da5a485aeedddf76e5bf19d01ac76",
+  "index_sha256": "cc0e916e602406682d5751606f4fdab1667768b67e5df33841a65f368ee28250",
+  "script_sha256": "c2e42dca14b4c7e13f55b893f7414603067c59af43e421e68ff82b54a6079c3f",
+  "scope": "Byte-identical audit input staging only. Original run untouched; no fit or evaluation changed."
+}

@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-08T16:38:49.936723+00:00",
+  "page": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5997561/figure/F2/",
+  "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/479e/5997561/ccc9aef3b6f3/nihms959957f2.jpg",
+  "locator": "Observed browser img alt Figure 2 src",
+  "sha256": "8637155b0d9cee66971ef870f8f1d8be6c0b61cb43079badee6336b8da51be10",
+  "bytes": 45266,
+  "inspection": "Panel A has a positive linear-tripeptide bar in intact AtFAC9J20, a smaller bar in delta-benY-C, and no visible bar in delta-benZ-C2. Panel B compares synthetic and measured fragmentation; no numerical abundances extracted."
+}

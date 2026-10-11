@@ -1,0 +1,45 @@
+{
+  "NRPKS_18": [
+    "FMGX0093",
+    "FMGX0099",
+    "FMGX0108",
+    "FMGX0109",
+    "FMGX0114",
+    "FMGX0127",
+    "FMGX0135",
+    "FMGX0137",
+    "FMGX0138",
+    "UNCG0006"
+  ],
+  "TERPENE_40": [
+    "FMGX0012",
+    "FMGX0016",
+    "FMGX0031",
+    "FMGX0043",
+    "FMGX0048",
+    "FMGX0049",
+    "FMGX0050",
+    "FMGX0051",
+    "FMGX0061",
+    "FMGX0069",
+    "FMGX0071"
+  ],
+  "aspernidine_reference_record_count": 6,
+  "aspernidine_sample_region_record_count": 17,
+  "same_contiguous_order": true,
+  "NRPKS_38": [
+    "FMGX0012",
+    "FMGX0023",
+    "FMGX0031",
+    "FMGX0043",
+    "FMGX0048",
+    "FMGX0049",
+    "FMGX0050",
+    "FMGX0051",
+    "FMGX0061",
+    "FMGX0069",
+    "FMGX0071",
+    "FMGX0078"
+  ],
+  "tsv_rows": 2
+}

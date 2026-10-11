@@ -1,0 +1,15 @@
+{
+  "old_rows_unchanged": true,
+  "before_sha256": "7ea94a9b17f5238fa6cacdaf4332f6ac02fca03b6c3a04717ec4d007a1ddd169",
+  "after_sha256": "dd2e2d584e9b25dd4efae6ecf39b29293ec3924b7f9b49d362c53ecc714984d1",
+  "relationships": 15,
+  "queries": 11,
+  "GCF_relationships": 9,
+  "BGC_relationships": 6,
+  "GCF_queries": 5,
+  "BGC_queries": 6,
+  "evidence_counts": {
+    "directly-supported": 8,
+    "reference-supported": 7
+  }
+}

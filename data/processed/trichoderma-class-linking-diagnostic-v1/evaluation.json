@@ -1,0 +1,29 @@
+{
+  "candidate_count": 98,
+  "scored_count": 89,
+  "unavailable_count": 9,
+  "candidate_coverage": 0.9081632653061225,
+  "status_counts": {
+    "ok": 89,
+    "no_spectrum": 7,
+    "unknown_vocabulary": 1,
+    "no_fragments_after_preprocessing": 1
+  },
+  "target_id": "FLTR-C000030",
+  "target_status": "ok",
+  "target_reason": "",
+  "complete_query_ranking": false,
+  "evaluated_count_increment": 0,
+  "interpretation": "Known-reference partial diagnostic, not blind sequence prediction",
+  "target_score": 0.006600660066006601,
+  "higher_count": 15,
+  "tied_count": 6,
+  "scored_only_rank_interval": [
+    16,
+    21
+  ],
+  "full_pool_conservative_rank_interval": [
+    16,
+    30
+  ]
+}

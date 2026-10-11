@@ -1,0 +1,40 @@
+{
+  "run_id": "benzomalvin-two-target-admission-2026-10-09",
+  "utc": "2026-10-09T23:35:54.322151+00:00",
+  "state": "completed",
+  "command": "python data/interim/benzomalvin-additional-targets-2026-10-09/admit_targets.py",
+  "before_sha256": "21598678962d6f854c341eac8c2bd97158ba8f2ba99deef1af6ce0c5d121790a",
+  "after_sha256": "4c13d04e198f1a34923eefc5f79132ef0a6abda3c80c5923cc6dd5e356ae8a1a",
+  "prior28_bytes_preserved": true,
+  "added_ids": [
+    "facms2018:AtFAC9J20:macrocycle2",
+    "facms2018:AtFAC9J20:desmethyl4"
+  ],
+  "relationships": 30,
+  "query_identities": 16,
+  "evidence_counts": {
+    "directly-supported": 20,
+    "reference-supported": 10
+  },
+  "pathway_groups_unchanged": true,
+  "query_envelope_sha256": "b5fc3c3f13f85973c5b402b975f8afaa0410d081f0d9c531c5072e91cb181a72",
+  "query_length_nt": 14158,
+  "query_genes": {
+    "benX": [
+      90489,
+      91727
+    ],
+    "benY": [
+      86356,
+      89688
+    ],
+    "benZ": [
+      77570,
+      84852
+    ]
+  },
+  "frozen_artifacts_preserved": 705,
+  "evaluated_relationships": 11,
+  "manuscript_integrated": false,
+  "scope": "Integrity and source-query verification; scientific disposition is in the evidence review, not inferred from these assertions"
+}

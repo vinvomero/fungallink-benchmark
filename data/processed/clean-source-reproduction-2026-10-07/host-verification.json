@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "at_utc": "2026-10-07T14:37:42.519769+00:00",
+  "source_stage_files_verified": 20,
+  "complete_release_inputs_byte_identical": true,
+  "expanded_gold_equal": true,
+  "primary_method_rankings_and_evaluations_equal": 4,
+  "clean_checkout_status_verified": true,
+  "rights_paths_verified": 152,
+  "rights_file_hashes_verified": 149,
+  "reproduction_receipt_sha256": "61f9b7896da91f19c5409a9bdccc7809eb4677ba69e968dd344bb9ff0823253a"
+}

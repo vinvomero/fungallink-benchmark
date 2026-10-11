@@ -1,0 +1,18 @@
+[
+  {
+    "url": "https://www.biorxiv.org/highwire/filestream/75956/field_highwire_adjunct_files/2/247940-3.zip",
+    "path": "data/interim/pre-correspondence-sprint-2026-10-09/247940-3.zip",
+    "bytes": 534416,
+    "sha256": "406b092a2d77c0fd5c630a681533eba7aa1a4b1edb779df36be4f5722aa86368",
+    "retrieval": "normal in-app browser observed supplementary link, downloadMedia",
+    "utc": "2026-10-09T18:59:37.899303+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/highwire/filestream/75956/field_highwire_adjunct_files/0/247940-1.pdf",
+    "path": "data/interim/pre-correspondence-sprint-2026-10-09/247940-1.pdf",
+    "bytes": 10820769,
+    "sha256": "b5c16efcdf365f0dda38a35b2e5b69382df5ce5abf88a8b2c7491a6788900b92",
+    "retrieval": "normal in-app browser observed supplementary link, downloadMedia",
+    "utc": "2026-10-09T18:59:37.917845+00:00"
+  }
+]

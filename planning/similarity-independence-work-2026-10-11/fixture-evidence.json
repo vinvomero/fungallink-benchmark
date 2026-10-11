@@ -1,0 +1,50 @@
+{
+  "unit": "new_similarity_runner_and_dependence",
+  "behavior_changed": true,
+  "existing_tests_inspected": "No existing similarity/independence tests found by tests filename search; new isolated leaf scripts",
+  "tests_added": [
+    "tests/test_similarity_independence.py",
+    "tests/test_similarity_dependence.py"
+  ],
+  "red_observations": [
+    {
+      "command": "python -m unittest tests.test_similarity_independence",
+      "result": "ModuleNotFoundError scripts.similarity_independence before implementation; one loader failure"
+    },
+    {
+      "command": "python -m unittest tests.test_similarity_dependence",
+      "result": "ModuleNotFoundError scripts.finalize_similarity_independence before implementation; one loader failure"
+    }
+  ],
+  "green_observations": [
+    {
+      "command": "C:/Users/vvome/.cache/fl-similarity-v1/Scripts/python.exe -m unittest tests.test_similarity_independence",
+      "result": "5 tests passed in 63.597s; first matchms import/JIT"
+    },
+    {
+      "command": "C:/Users/vvome/.cache/fl-similarity-v1/Scripts/python.exe -m unittest tests.test_similarity_dependence",
+      "result": "1 test passed in 0.000s"
+    }
+  ],
+  "scientific_review": "not performed; automated fixtures only",
+  "route": {
+    "requested_model": "gpt-6-astra",
+    "requested_effort": "medium",
+    "actual_model": "unverified",
+    "actual_effort": "unverified",
+    "serving_receipt": "not exposed"
+  },
+  "standalone_shipping_skipped": true,
+  "review_fix_tests": {
+    "red": "ImportError validate_cache/structure_identity and separately trichoderma_disposition observed before additions",
+    "green": "9 tests passed in 32.347s",
+    "commands": [
+      "cached-venv python -m unittest tests.test_similarity_independence tests.test_similarity_dependence"
+    ],
+    "changes": [
+      "Reject unproven or changed cache settings",
+      "Check unavailable, multicomponent, conflicting connectivity and source-stereo eligibility branches",
+      "Prevent rejected TriliD search candidate from becoming correspondence"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "assembly": "GCA_000167675.2",
+  "scaffolds_searched": 77,
+  "genome_nt": 33395713,
+  "proteins_screened": 9115,
+  "query_nt": 30604,
+  "exact_nucleotide_hits": [
+    {
+      "accession": "GL985060.1",
+      "start_1based": 21098,
+      "end_1based": 51701,
+      "strand": "+"
+    }
+  ],
+  "query_nt_sha256": "759c315a5e2a32176fd1ca1d4ef261f70c2b55af4c143dfe82a2b91e4bef5d62",
+  "protein_search_method": "Rank entire proteome by shared distinct amino-acid 5-mers; global BLOSUM62 alignment of top three per query, gap open -10 extend -0.5; bounded heuristic alternatives, not exhaustive homology exclusion",
+  "annotation_warning": "Native QM6a annotation lacks triliD and uses short triliR; source RUT-C30 models differ despite identical DNA",
+  "sequence_case_policy": "uppercase comparison; downloaded FASTA is softmasked"
+}

@@ -1,0 +1,9 @@
+record	source_url	status	finding	measurement_readiness	gap
+published_data_summary	https://doi.org/10.1099/mgen.0.001569	existing_source_reused	GenBank deposit and voucher metadata; no measurement accession stated	unresolved	No GNPS task or MassIVE accession
+preprint_data_availability	https://www.researchsquare.com/article/rs-6073935/v1	new_source_inspected	Availability statement refers to article and supplements; no task or accession recovered	unresolved	No feature matrix or spectrum export recovered
+gnps_public_catalog	https://gnps.ucsd.edu/ProteoSAFe/datasets_json.jsp	new_catalog_screened	20313 public records; zero Maonian/Garima/001569/20231007 hits	unresolved	Catalog metadata search is not exhaustive file-content or private-task search
+podp_catalog	https://pairedomicsdata.bioinformatics.nl/api/projects	new_catalog_screened	81 summaries; zero lichen/Maonian/001569/Garima hits	unresolved	Organism details may exist only inside individual records
+coauthor_adjacent_dataset	https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?task=fbeb6b30f7a1409d82bee27fbe6ea0af	MSV000093729	87 listed files; zero exact source-stem matches; different instrument	unproven_relationship	No cohort equivalence or voucher correspondence established
+public_author_repository	https://github.com/dapizarro/Lichenomics	new_repository_inspected	Workflow documentation and example-named tables; no study accession recovered	unresolved	Not accepted as source study data
+source_voucher_metadata	https://www.ebi.ac.uk/biostudies/files/S-EPMC12711211/mgen-11-01569-s002.xlsx	existing_source_reused	109 stems; 108 sample IDs; 107 exact voucher strings; 78 species strings	metadata_only	Repeated voucher occurs in three acquisitions; genomic voucher join unresolved
+measurement_release	https://doi.org/10.1099/mgen.0.001569	not_recovered	No actual measurement matrix or feature-to-spectrum mapping recovered	ineligible_pending_evidence	No canonical admissions; unresolved is not negative

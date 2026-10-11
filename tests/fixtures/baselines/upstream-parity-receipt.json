@@ -1,0 +1,21 @@
+{
+  "source_commit": "1a4603b9171b1a8e1d791cfc4b358bf51f3cfb87",
+  "source_sha256": "adef2ecf33aafc6db0e416d1023671333012454af723829b3afdcbc966bf5d9d",
+  "extracted_functions": [
+    "_calc_raw_score",
+    "_calc_mean_std"
+  ],
+  "scope": "Inspected static function bodies only; full NPLinker workflow not run",
+  "python": "3.13.5",
+  "numpy": "2.4.6",
+  "pandas": "3.0.5",
+  "scipy": "1.18.0",
+  "status": "passed",
+  "raw_cases": 494,
+  "standardized_cases": 406,
+  "declared_invariant_genome_abstentions": 88,
+  "invariant_feature_zero_flags": 56,
+  "max_absolute_standardized_difference": 9.325873406851315e-15,
+  "tolerance": 1e-10,
+  "interpretation": "Synthetic numerical parity of two pinned static function bodies, not full NPLinker workflow or biological validation"
+}

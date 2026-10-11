@@ -1,0 +1,5 @@
+{
+  "retrieved_utc": "2026-10-08T15:04:41.698522+00:00",
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=gene&id=30975624,30975625,30972409&retmode=json",
+  "sha256": "ccfe601afe37be51482899d9722539d3d36e19e49a5590bfdbdd2ebeac68c33f"
+}

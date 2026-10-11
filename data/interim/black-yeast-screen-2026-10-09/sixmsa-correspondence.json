@@ -1,0 +1,22 @@
+{
+  "assembly": "GCA_060307435.1",
+  "scaffold": "JBXSGV010000118.1",
+  "scaffold_length": 7780,
+  "interval_0based_halfopen": [
+    85,
+    5494
+  ],
+  "strand": 1,
+  "reference": "BGC0001276.3 / BAA20102.2",
+  "reference_amino_acids": 1803,
+  "observed_amino_acids": 1803,
+  "differences": [
+    {
+      "position_1based": 1332,
+      "reference": "S",
+      "assembly": "F"
+    }
+  ],
+  "downstream_codon": "TGA",
+  "interpretation": "Anchor-consistent full-length correspondence with listed differences; not an exact protein match or independent product validation."
+}

@@ -1,0 +1,288 @@
+{
+  "schema_version": 1,
+  "status": "complete_with_representation_limits",
+  "created_utc": "2026-10-11T21:45:08.062862+00:00",
+  "command": [
+    "C:\\Users\\vvome\\OneDrive\\Desktop\\Claude Projects\\fungallinkv2\\scripts\\finalize_similarity_independence.py"
+  ],
+  "parameters": {
+    "chemical": {
+      "radius": 2,
+      "bits": 2048,
+      "bond_types": true,
+      "chirality": false,
+      "flags": [
+        0.7,
+        0.9
+      ]
+    },
+    "genomic": {
+      "matrix": "BLOSUM62",
+      "mode": "global",
+      "open_gap_score": -10,
+      "extend_gap_score": -0.5,
+      "terminal_gaps": "same_as_internal",
+      "tie_rule": "first_library_optimal_path",
+      "coverage": 0.8,
+      "identity_flags": [
+        0.7,
+        0.9
+      ]
+    },
+    "spectral": {
+      "tolerance_Da": 0.02,
+      "mz_power": 0,
+      "intensity_power": 1,
+      "min_mz": 10,
+      "precursor_exclusion_Da": 1,
+      "relative_intensity": 0.01,
+      "transform": "sqrt_then_L2",
+      "minimum_matches": 6,
+      "flags": [
+        0.7,
+        0.9
+      ]
+    }
+  },
+  "environment": {
+    "run-all.json": {
+      "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+      "executable": "C:\\Users\\vvome\\.cache\\fl-similarity-v1\\Scripts\\python.exe",
+      "packages": {
+        "rdkit": {
+          "version": "2026.3.5",
+          "RECORD_sha256": "4e1607dd0b408afc36a063a1358275cdeef8cf5c6dcb0c858fbb18eb677aa8d0"
+        },
+        "biopython": {
+          "version": "1.88",
+          "RECORD_sha256": "1b4581827eda8e3ffb6651dd957dd0094a5dbd969fd8fa07d18a0851d7a2e4b0"
+        },
+        "matchms": {
+          "version": "0.33.1",
+          "RECORD_sha256": "8f414900d769471a845c0af6ed8b78c474c26502cf4b223dd2db63791142f8fe"
+        },
+        "numpy": {
+          "version": "2.4.6",
+          "RECORD_sha256": "aee710ad55880c692adf855dfbbb6a1a3429f396c6e4410bf558a6b9c9dcf631"
+        },
+        "scipy": {
+          "version": "1.16.3",
+          "RECORD_sha256": "62f16fd3a0560a3510c114b968556dd3447192f7ad997185fdde91633a9d44d8"
+        },
+        "lxml": {
+          "version": "6.0.2",
+          "RECORD_sha256": "c226b5437e7f8bb802a49588169039b1e75779cac5a05764755617c6f996d00e"
+        }
+      }
+    }
+  },
+  "inputs": {
+    "data/curated/relationship-readiness-v1.tsv": "9b2e7c754830a1eb59086b3f675ca45edef77dffa88efaf0ecdedd04f3ce09e8",
+    "data/curated/label-evidence.tsv": "f35db5f65840e2e11dae4e47eb8a0dab08cb7dac4d0ced079034fd7562333cda",
+    "data/manifests/relationship-traceability-v1.tsv": "64758cb34449ca4b8911c12607084020df1dce167c21c32c9b8b0ac62bada965",
+    "data/manifests/task-exposure-v1.tsv": "36be8944c1c198694e1d6c68f9bf76093a6b06aef36f50801de59dbd9ce3271f",
+    "protocol/similarity-independence-v1.md": "b017b7a6a64f965bb380663708f9bf58f862e7a18e12fc443c83417e4afd1146",
+    "docs/plans/2026-10-11-1704-similarity-independence-plan.md": "4657b96361a483811bfd12427bd52ce6635f908d9ee82b59a7b8c49af6b95479",
+    "scripts/similarity_independence.py": "af415d3a72423c90acbcc6654dafbc05616c46294e82116d762df0387cb8102f",
+    "data/raw/sources/caesar-2023/41589_2023_1276_MOESM3_ESM.zip": "0cef389310eccd261255e51919e7fe5f1f772cc73be2b0d42e0f5f8e30245a54",
+    "planning/similarity-independence-work-2026-10-11/parameters.json": "b35afd8f2ade09def3bf42576224c60c2fe99c5c6c75c69bffb6f485e1b26a6f",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/MIBiG2.0_compounds_with_AS_BGC_CF_NPC_classes.txt": "96268b2e2d20e935976892e4f052c32592073a763cba85f33c7c654215b566ff",
+    "docs/evidence/acetylaszonalenin-sampled-correspondence-2026-10-03.md": "c2085940b6a9c52dee41232eec0c5f99d20455a8f3c5b59b65a0e4af7acc00e4",
+    "docs/evidence/emericellamide-a.md": "6e03396f65f8d7fbb5e8c78c1bb759a6c8e51ad76500ab1499c0c11b7c5a3773",
+    "docs/evidence/chrysogine-aspernidine-review-2026-10-01.md": "b3976904c4891d880c7ed0500c802b7e60703fd327d1139f3051681052150524",
+    "docs/evidence/remaining-reference-appraisals-2026-10-01.md": "a37c830d72c32ec81ad4a4cb00b34aa83df5d3819fadfd18097dbf564fbebf95",
+    "docs/evidence/griseofulvin-review-2026-10-01.md": "18aadccd57d0955c7d5d411208e5c9a8f9d3cc9752552e363d677a6d7d4bab42",
+    "data/processed/trichoderma-network-candidate-v1/method_inputs/spectra.tsv": "bb6f5d75f203ef43b52ed5b7cf343365a1f2fe522d933af55773dca7552cb1d2",
+    "data/processed/trichoderma-network-candidate-v1/method_inputs/spectra.mgf": "6c5e504a8b212eaee532c0fa3df3b8f78facb1ab10af78c805b6291877734e7e",
+    "data/processed/blackyeast-sixmsa-candidate-v1/method_inputs/spectra.tsv": "bd1b30df333a1094dca5dc3d4da0e5b25bcd840b6add10b203a5786c4ee17521",
+    "data/processed/blackyeast-sixmsa-candidate-v1/method_inputs/spectra.mgf": "107cfefba27eefea7d6e5914343664b6420553b941d8a3d33f5a1f50c34f3f58",
+    "scripts/similarity_locus_anchors.py": "3f3e8eeeb23f9338597ac5c929e5e730085c394630a2a8d5e3b79a183371c36f",
+    "data/interim/acetylaszonalenin-sampled-correspondence/sampled_core.gbk": "8c16a36258f4a56a51988d45487bfe0e17ff8fce436614631150a2d90dd08810",
+    "data/raw/trichoderma-qm6a-correspondence-2026-10-07/qm6a-ilicicolin-reference-window.gbk": "62a520825226006a701dd3f0650027dd102b3331fa034d8eea2b8d7912064b98",
+    "data/raw/fac9j20-query-appraisal-2026-10-07/KX449366.1.gb": "8a83376c0937ce3f4ce280a759c67f0712546ccfd418f138b8e2b12873857211",
+    "data/interim/acu-dioxomorpholine-fac-review-2026-10-08/reference-scaffold.gb": "20dd688c15f0fcd6d7164827ab7ac58062f4a6719ae86adda16f9655ec957ba2",
+    "data/interim/terreazepine-fac-review-2026-10-08/fac.gb": "105467322604d7d4177444a3428ed693a9dec44777e8e57325bef6e8fc20aeff",
+    "data/interim/hex-pks17-review-2026-10-08/native-interval.gb": "1cd4070f5af93a3a9413e3cac99defdd0475489bd926fb82f2357abf55b9dba8",
+    "data/interim/hex-pks15-pks23-review-2026-10-08/PKS15.gb": "06f4b80a5a5ff0142466dfdcd7833f8595518dd14ce70c8ff046d5ffc21879f7",
+    "data/processed/blackyeast-sixmsa-candidate-v1/method_inputs/query.fasta": "cd8c12733236d1d38a81afdcbf20fb634ad8e46bdfe469a8720e806bc14d0c93",
+    "data/interim/black-yeast-screen-2026-10-09/sixmsa-correspondence.json": "be1271862a881f6dbf8cf199552bae83387dd0a38b87e3f34f5ef1bc7750a9a2",
+    "data/interim/admitted-input-coverage-2026-10-09/matched_mibig_gnps_update.csv": "cdd9ad6203070a26688b127362c1262c8e734a55920ebe6d238f566b51c2f805",
+    "docs/evidence/pestalamide-b.md": "5b36cba4b6415a606b8db7e14c7bec58c1caea6940719326e06327e331b33ac4",
+    "docs/evidence/nine-reference-resolution-2026-10-02.md": "82df2b1501bdddc1aa89de1eff68862d3d3955bfa86f248c4343eb8cc1caac88",
+    "docs/evidence/griseofulvin-sampled-correspondence-2026-10-02.md": "81ab9d41ecc537cf0ebedf12c2cd22932dca7746744026bd0b400aff5a6fb99a",
+    "docs/evidence/caesar-reference-records-2026-10-03.md": "c837b59acbc3307441128054a76677bb65cf8dbe37f5f9129f346506ff36889e",
+    "docs/evidence/pestalamide-a-expansion-2026-10-03.md": "5b097aee2e327f8c9c3562a5a2b20292fd36d8c12e24da4d9fb39c1d68db98e5",
+    "docs/evidence/notoamide-e-target-appraisal-2026-10-03.md": "f7418036734beba1e7262c2b29aae50c98d88e4a37a8e05ee499c6ac5d42a2cb",
+    "docs/evidence/pestalamide-derivative-census-2026-10-03.md": "e263eb754166aed0c46cb7157c879b8830a3963dcdf4ed13bddf277edd8a764d",
+    "docs/evidence/trichoderma-h-measured-target-bridge-2026-10-07.md": "6a674fb725c1afab6f10b336d125bb2f69d38191b08ebfeee4af06773cb5d14d",
+    "docs/evidence/fac9j20-query-appraisal-2026-10-07.md": "8fc4fc8782d5c67219f2c2d30ba21cb41107bba863d817d6e4be5b2826474fa2",
+    "docs/evidence/fac-valactamide-congener-admission-2026-10-08.md": "f08eddb29f97e584514b31a467720c55ee02ba3d5449d757d96ca88554675ed6",
+    "docs/evidence/acu-dioxomorpholine-fac-admission-2026-10-08.md": "92f5ff5d4afb0db48f4b58b0fff17d7dbbb0dad62d76145ff544416c5c2fb8e9",
+    "docs/evidence/terreazepine-fac-admission-2026-10-08.md": "305f591b6301beb31011b9f65906ab9e6c1a7c25672a0425391fd7f865f48052",
+    "docs/evidence/hex-pks17-admission-2026-10-08.md": "6cb888b88fbdb5786a693762d243492fe06aea72ca0c29e454af0c24333d149d",
+    "docs/evidence/hex-pks15-pks23-review-2026-10-08.md": "517e0d100871c9eb9f0523e6df6a2cf32f556a8e6bacb07aff632f77871048d3",
+    "docs/evidence/benzomalvin-tripeptide-admission-2026-10-08.md": "2a495d9623dcec08448abb96383df1e416e56e5d18180d82815c212688d617b0",
+    "docs/evidence/black-yeast-sixmsa-admission-2026-10-09.md": "2b2943b1a895b523261aee791fe7e3c434678d2cd1212bc1399c82f89fae84b4",
+    "docs/evidence/benzomalvin-additional-targets-admission-2026-10-09.md": "c4638e83652cccf7cb04ecf1b59a38ef589e82c99a66a386d8e8452e0be76e71",
+    "data/curated/seven-admitted-member-eligibility-2026-10-03.tsv": "7df989d08a7f9fcf2989c0aa8f453c3eb428f9794e19ff801f9528c443f6a358",
+    "data/curated/caesar-observation-groups-2026-10-02.tsv": "70c74e3b0dbdcd5a1cc5dcd81bed59cb301036b0c7b109740bc9301cb2266e0c",
+    "data/processed/trichoderma-network-candidate-v1/provenance/candidate-aliases.tsv": "7acc781491e28bfaf7e0c6a68a678e360043fd9e6ed6a6ada42bc875b41de0c1",
+    "data/processed/trichoderma-network-candidate-v1/provenance/processing/native-fragment-membership.tsv": "0a8e2814e6ebdbb4f539a2cb36e0b24ec846a475fdcd755ceecd7ed886b6ccf0",
+    "data/processed/blackyeast-sixmsa-candidate-v1/provenance/native-memberships.tsv": "7ea5981f67ed8682d5952cb2a2e1ab3126c2e66c3d30fcdf2cc6bc53cd53f684",
+    "data/processed/trichoderma-network-candidate-v1/provenance/processing/selected-native-spectrum-check.json": "67f689049bc8d2c6a7e20e9687588ac08c864372b275f8af34ed2965b15de85c",
+    "data/raw/blackyeast-sixmsa-inputs-2026-10-09/selected-native-spectrum-check.json": "b0fa12c7c9216fe5d7f179d1a8534794104579fb2b91f8a1f63bb6a521352291",
+    "data/manifests/npclassscore-method.json": "123e73cfcf6e15e94be32516b3ab6b36c4b48c83dac02edce495784fdd24c951",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/binary_models-manifest.json": "faccad9fae180d6f37eda8cd5ee31b01ed68739f10e9ccb8624cc54f13729bcf",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/binary_models_negative_mode-manifest.json": "2b2101fa1a943fc00ac37a01146443e90b374e772ff595a4522dd6cfc4808d30",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/SVM_model-manifest.json": "2d91c19535db61cad9bad7b566be4dc1d5b6b738635ddcc00c6703d9a41f5491",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/SVM_model_negative_mode-manifest.json": "47202325a4c3829f0ec833322f9954215c84879cc729aff7b4bb6042dbcaa7b0",
+    "data/manifests/baseline-methods.json": "89c7265b16740116947e864649e99d13875434cca837b420581bbe830377af74",
+    "data/manifests/phylogeny-method.json": "221b8f87115603ff8985bd48b90afaaa4049da3dd574c373cdc6c2f7a4abf3ce",
+    "data/manifests/npclassscore-adapter.json": "15b07e8a4182209fbfef6335fee01438498ba2a815dd376f4fe5a727bc28e38c",
+    "data/processed/trichoderma-spec2class-positive-v1-attempt2/run.json": "18f985396fbc353acacfcc3f8806eb0f56de7696d32162819b53733e388bc082",
+    "data/processed/blackyeast-sixmsa-spec2class-negative-v1-attempt2/run.json": "cc4f00d0c85361b8dcafe6af402b1fd6d448abe7b817878e004695475d4830af",
+    "data/curated/griseofulvin-sampled-correspondence-2026-10-02.tsv": "21f57b625ca15720e48637092e553c83e2fd9c27431b2a308b96eed586d6d39b",
+    "data/curated/notoamide-b-sampled-correspondence-2026-10-03.tsv": "359c36356ef2a92c278838a05e83aee9a3cf9688e77f455fe0af08ce8033ca4c",
+    "data/curated/acetylaszonalenin-sampled-correspondence-2026-10-03.tsv": "2e3d4deed2399c211d2590b3bc51cda412fbd39a9fa891a171838194aa84f8fa",
+    "docs/evidence/trichoderma-qm6a-correspondence-2026-10-07.md": "54a3710229fa436795c450a59e854ad103346a38c939ab4818a885dca5b84188",
+    "data/raw/trichoderma-qm6a-correspondence-2026-10-07/protein-comparison.tsv": "086c5c509be55dce3c088930f0e9e7df272c4cb7bfc263354dee6fbbec4ffbee",
+    "scripts/finalize_similarity_independence.py": "f836b687aaa4b0c17ad17d12c0ff9bb504742054604d36e9a8bb96267b6fdc80",
+    "tests/test_similarity_independence.py": "0b5906168e114e3844a4fb1d3d70c3d9c51b6b20c52a26920ee211bbf0102f22",
+    "tests/test_similarity_dependence.py": "16bb9c828fc25429c0d042ef28c11fc50c8a0d25851d0bd45b1ec4b68265adeb",
+    "planning/similarity-independence-work-2026-10-11/executed-runner-before-cache-guard.py": "7536120c54dcefc6c93d84378767495cd9e2e64c8842f2c0d7749725888ab87f",
+    "planning/similarity-independence-work-2026-10-11/alignment-cache.metadata.json": "c4b56d83b4064ecde188afe182307a975197996210a495a1184ad47d3480bcbb",
+    "planning/similarity-independence-work-2026-10-11/anchor-alignment-cache.metadata.json": "0cff46253e1c08301d3e26a28c0e3d948e56fc80a36125e60d388f82969ecdff",
+    "planning/similarity-independence-work-2026-10-11/alignment-settings.txt": "4bfd5ba1ece0559fceb303bede6fb75fd11c48b52c35b91b3d4bdd442f28daa8"
+  },
+  "summary": {
+    "relationships": 30,
+    "queries": 16,
+    "input_states": {
+      "complete": 11,
+      "partial": 2,
+      "missing": 17
+    },
+    "supported_structures": 5,
+    "chemical_computed": 10,
+    "spectra": 382,
+    "spectral_computed": 46290,
+    "spectral_flags_07": 93,
+    "spectral_flags_09": 51,
+    "gcf_members": 79,
+    "gcf_proteins": 1209,
+    "anchor_members": 10,
+    "anchor_proteins": 43,
+    "genomic_pairs": 10516,
+    "genomic_computed": 3575,
+    "dependence_edges": 1378,
+    "group_scenarios": [
+      {
+        "scenario": "query_pathway",
+        "components": 16,
+        "components_with_complete_relationships": 7,
+        "relationships": 30,
+        "queries": 16,
+        "authoritative_complete_analysis_groups": 1,
+        "holdout_established": false
+      },
+      {
+        "scenario": "construct_context",
+        "components": 14,
+        "components_with_complete_relationships": 7,
+        "relationships": 30,
+        "queries": 16,
+        "authoritative_complete_analysis_groups": 1,
+        "holdout_established": false
+      },
+      {
+        "scenario": "conservative_design",
+        "components": 5,
+        "components_with_complete_relationships": 1,
+        "relationships": 30,
+        "queries": 16,
+        "authoritative_complete_analysis_groups": 1,
+        "holdout_established": false
+      },
+      {
+        "scenario": "similarity_sensitivity_0_7",
+        "components": 5,
+        "components_with_complete_relationships": 1,
+        "relationships": 30,
+        "queries": 16,
+        "authoritative_complete_analysis_groups": 1,
+        "holdout_established": false
+      },
+      {
+        "scenario": "similarity_sensitivity_0_9",
+        "components": 5,
+        "components_with_complete_relationships": 1,
+        "relationships": 30,
+        "queries": 16,
+        "authoritative_complete_analysis_groups": 1,
+        "holdout_established": false
+      }
+    ],
+    "exposure_rows": 244,
+    "reused_correspondence_rows": 282
+  },
+  "stage_receipts": [
+    {
+      "path": "planning/similarity-independence-work-2026-10-11/run-all.json",
+      "sha256": "3298b4377ff12d0c87a4e99fb4ee14a61373c508a0db5f825ead58cef41ddd87",
+      "status": "complete",
+      "executed_runner_sha256": "af415d3a72423c90acbcc6654dafbc05616c46294e82116d762df0387cb8102f",
+      "output_hash_scope": "intermediate outputs at that stage; metadata enrichment and review fixes may supersede them"
+    },
+    {
+      "path": "planning/similarity-independence-work-2026-10-11/run-anchors.json",
+      "sha256": "6a3f239e24246ecce9929991d38ec8bc91b6981e9ad71dbe4f04e8254de88d90",
+      "status": "complete",
+      "executed_runner_sha256": "af415d3a72423c90acbcc6654dafbc05616c46294e82116d762df0387cb8102f",
+      "output_hash_scope": "intermediate outputs at that stage; metadata enrichment and review fixes may supersede them"
+    }
+  ],
+  "execution_history": "Original executed runner preserved; cache guard added after completed compute with explicit verified migration. Final output hashes below are authoritative for enriched results.",
+  "outputs": {
+    "data/processed/similarity-independence-v1/all-genomic-locus-pairs.tsv": "a612b2995cd93919792cdd543aa14af44bcf3aeb8b9e9b45159db4447733f647",
+    "data/processed/similarity-independence-v1/all-genomic-pairs.tsv": "d0a60303c641c1ce33cb5569bae2046059170db49f17bcb8d93aa97e74151e5a",
+    "data/processed/similarity-independence-v1/anchor-genomic-pairs.tsv": "01a271550c07d274b0dd582f4de6203dfd7d0ffb9ded3699447753d6732b32cc",
+    "data/processed/similarity-independence-v1/anchor-members.tsv": "66af1f74ebacfae9c8cedac656e056ada134f1ad3ddc6d93b443650633020c6a",
+    "data/processed/similarity-independence-v1/anchor-proteins.tsv": "f5436635dc11394e86a9c8218e0472ef1606394ea17bbc0912f378afc45238c6",
+    "data/processed/similarity-independence-v1/chemical-heatmap.png": "7dfced791e4aa957ed060b111ca5b62fdf4d3ef128be7e9cd1918875eaaa5dc4",
+    "data/processed/similarity-independence-v1/chemical-pairs.tsv": "4921807705d09a925e2d9999a61538403601eed18ed18ecd8f3e42ec50a11fec",
+    "data/processed/similarity-independence-v1/dependence-edges.tsv": "d9ba6b266201060b4d08015f8089950723c482c26446bbc1d49470637e8f6289",
+    "data/processed/similarity-independence-v1/executed-model-assets.tsv": "603d123113340476126b091f698e85fe42de6f74bfe22a36109a7d9d4264d4da",
+    "data/processed/similarity-independence-v1/exposure.tsv": "9e663a048a42869ff0043bca2d0c07b93d391cc02f54104875d15a8697c761e9",
+    "data/processed/similarity-independence-v1/gcf-members.tsv": "3bc8efbed33180cc91007b0ae5a4a11f7f2d414c60a6ff36f38f7c4366bd0949",
+    "data/processed/similarity-independence-v1/genomic-eligibility.tsv": "29ecd90f307461da17ff2d4eb3e03fb2f42f6948d1e6ac4baabc4337484f7e1c",
+    "data/processed/similarity-independence-v1/genomic-family-summary.tsv": "11de0d1b59613fb9c960428307cd1ecd006a7c9666a1e35abdeb2a7f3e08894f",
+    "data/processed/similarity-independence-v1/genomic-locus-pairs.tsv": "57757ded2aff7c6eb68c70915f196e1a43969081aa7723e30a046d0caeb34a88",
+    "data/processed/similarity-independence-v1/genomic-pairs.tsv": "9c1f35bfaee6c3aa0737b7c622b492fedcb6aaef5a5665c7fdb61bf55b4f6de5",
+    "data/processed/similarity-independence-v1/group-scenarios.tsv": "a9910fad3d17d7a7f898cb33955d26513bbfe9e88c0c7884b36620a56a45d7fe",
+    "data/processed/similarity-independence-v1/group-summary.tsv": "d5e9e0e3ad48916f5d31d12ff6c569308972e814fa94bc5d804560c5b1a4062a",
+    "data/processed/similarity-independence-v1/proteins.tsv": "92bdfac838db82d173745348660a736263d618c6287b9cbccf8c3dd282640749",
+    "data/processed/similarity-independence-v1/rejected-sequence-search-candidates.tsv": "e641e6565aeca01c6a0c0f1ec30ad4b61b16a5b7309a9739a8e37e10752527f4",
+    "data/processed/similarity-independence-v1/representations.tsv": "c8a9bc70ecaed0c79f3b7f763ad6974c11f0976f6796430a89f941eaad65a791",
+    "data/processed/similarity-independence-v1/reused-correspondence.tsv": "8085674187224dc32731f88ef96a566fc520db9bf237591018aee5a975b88cb0",
+    "data/processed/similarity-independence-v1/spectra.tsv": "345f1ab88416779cd8d7e61f4a3205f8e0121e05f30134a878e4e6a0b7f2317e",
+    "data/processed/similarity-independence-v1/spectral-pairs.tsv": "374c4167b7542845ad9249e73585fa213b36c4f8ed3dabbe0ad85cdba4c16be5",
+    "data/processed/similarity-independence-v1/spectral-provenance.tsv": "8a189bd73f650ce6d6e8601f4530faa6508d5404f615fe0081d9e93c74ed7f21",
+    "data/processed/similarity-independence-v1/structure-mapping-attempts.tsv": "6576bb4ad8b45887ec5a8d19e5c0a211ef678d4e8818038276d006587e26d4a9",
+    "data/processed/similarity-independence-v1/structures.tsv": "b7bc0051875f80080c85fb0d0c40f7841c8ad64732bc3eb75c618e3e61a1a5b9",
+    "data/processed/similarity-independence-v1/summary.json": "90a27364cdbd68ada59d98d980f01bbf4be6acd8ac858cfe43cac7322eb6cc0a"
+  },
+  "report": {
+    "path": "docs\\evaluation\\similarity-independence-v1.md",
+    "sha256": "42016196981907e407e5858a6f6704bd37e1e8bf2b5590768a2357e083963655"
+  },
+  "failures": [],
+  "limitations": [
+    "25 structures unavailable",
+    "source_stereochemistry_review_pending",
+    "noncore_roles_unclassified",
+    "no complete weight-specific training roster",
+    "no new independent holdout"
+  ],
+  "protected_inputs_unchanged": true,
+  "scientific_review": "pending; automated checks only"
+}

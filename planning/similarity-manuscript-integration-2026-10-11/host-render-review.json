@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "files": [
+    {
+      "path": "manuscript/benchmark-paper-review.pdf",
+      "sha256": "34f732e352392632d32361db6b3dc532383c9da1b9057959bf7df068289bd90c",
+      "pages": 13,
+      "text_blocks_outside_page": [],
+      "visual_contact_sheet_review": "All pages inspected; no visible clipping or overlapping text. Main methods continue across4/5; findings page8; supplementary analysis11/12. Repeated table headers retained."
+    },
+    {
+      "path": "manuscript/similarity-integration-render-2026-10-11/Supplementary-Methods.pdf",
+      "sha256": "89062e1b4d5d81e09df236703799eb882562d04ab1d808536afb5b7e412615cd",
+      "pages": 12,
+      "text_blocks_outside_page": [],
+      "visual_contact_sheet_review": "All pages inspected; no visible clipping or overlapping text. Main methods continue across4/5; findings page8; supplementary analysis11/12. Repeated table headers retained."
+    }
+  ],
+  "scope": "PDF text geometry and visual layout only; no new scientific validation"
+}

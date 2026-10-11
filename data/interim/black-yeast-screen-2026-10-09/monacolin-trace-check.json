@@ -1,0 +1,39 @@
+{
+  "utc": "2026-10-09T21:57:29.380170+00:00",
+  "source_workbook": "41589_2026_2282_MOESM28_ESM.xlsx",
+  "sheet": "Monacolin J",
+  "source_sha256": "ff559a530fca8b1c2cbd71ba29774bc9a0b6558271d981e79c2f8b46c2ff7e03",
+  "traces": [
+    {
+      "label": "standard",
+      "acquisition": "20251111_Ac-C18_POS_UMETAB776-T1_MONJ_STD_1_A2.mzXML",
+      "points": 704,
+      "maximum_intensity_row_values": [
+        8.06283378601074,
+        16883652,
+        321.206298828125
+      ]
+    },
+    {
+      "label": "sample",
+      "acquisition": "20251111_Ac-C18_POS_UMETAB776-T1_1177_I_A4.mzXML",
+      "points": 716,
+      "maximum_intensity_row_values": [
+        7.61730003356933,
+        7163317,
+        321.206298828125
+      ]
+    },
+    {
+      "label": "control",
+      "acquisition": "20251111_Ac-C18_POS_UMETAB776-T1_ELIM_PKS1_PHS1_CONTROL_ND_A8.mzXML",
+      "points": 719,
+      "maximum_intensity_row_values": [
+        9.0398998260498,
+        22639.31640625,
+        321.206237792968
+      ]
+    }
+  ],
+  "interpretation": "Maximum of each selected source trace only; not independently processed raw data, a full feature pool, or proof of chemical identity. Retain authors column labels; do not infer units absent headers."
+}

@@ -1,0 +1,14 @@
+{
+  "checked_utc": "2026-10-11T20:05:16.597427+00:00",
+  "scope": "Record joins and source-byte retrieval, not biological re-adjudication or scientific reproduction",
+  "relationships": 30,
+  "complete_exact_query_target_joins": 11,
+  "partial_target_joins": 2,
+  "source_only_input_missing": 17,
+  "packaged_population_rows": 116,
+  "embedded_historical_row_occurrences_matching_retained_original": 108,
+  "direct_locator_records": 14,
+  "manifest_occurrences_updated": 22,
+  "six_primary_files_downloaded_with_matching_hashes": true,
+  "historical_mapping_limit": "Exact retained assertions verified, not independent public validation of original author workbook."
+}

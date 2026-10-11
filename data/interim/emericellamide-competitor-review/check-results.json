@@ -1,0 +1,161 @@
+{
+  "protein_count": 10534,
+  "unique_protein_ids": 10534,
+  "exact_hash_hits": {
+    "CBF87069.1": [
+      "CBF87069.1"
+    ],
+    "CBF87071.1": [
+      "CBF87071.1"
+    ],
+    "CBF87072.1": [
+      "CBF87072.1"
+    ],
+    "CBF87074.1": [
+      "CBF87074.1"
+    ],
+    "CBF87076.1": [
+      "CBF87076.1"
+    ]
+  },
+  "matched_features": [
+    {
+      "# feature": "CDS",
+      "class": "with_protein",
+      "assembly": "GCA_000011425.1",
+      "assembly_unit": "Primary Assembly",
+      "seq_type": "chromosome",
+      "chromosome": "VII",
+      "genomic_accession": "BN001307.1",
+      "start": "4230453",
+      "end": "4251304",
+      "strand": "-",
+      "product_accession": "CBF87069.1",
+      "non-redundant_refseq": "",
+      "related_accession": "",
+      "name": "nonribosomal peptide synthase, putative (Eurofung)",
+      "symbol": "",
+      "GeneID": "",
+      "locus_tag": "ANIA_02545",
+      "feature_interval_length": "20760",
+      "product_length": "6919",
+      "attributes": ""
+    },
+    {
+      "# feature": "CDS",
+      "class": "with_protein",
+      "assembly": "GCA_000011425.1",
+      "assembly_unit": "Primary Assembly",
+      "seq_type": "chromosome",
+      "chromosome": "VII",
+      "genomic_accession": "BN001307.1",
+      "start": "4253592",
+      "end": "4254391",
+      "strand": "-",
+      "product_accession": "CBF87071.1",
+      "non-redundant_refseq": "",
+      "related_accession": "",
+      "name": "hypothetical protein",
+      "symbol": "",
+      "GeneID": "",
+      "locus_tag": "ANIA_02546",
+      "feature_interval_length": "495",
+      "product_length": "164",
+      "attributes": ""
+    },
+    {
+      "# feature": "CDS",
+      "class": "with_protein",
+      "assembly": "GCA_000011425.1",
+      "assembly_unit": "Primary Assembly",
+      "seq_type": "chromosome",
+      "chromosome": "VII",
+      "genomic_accession": "BN001307.1",
+      "start": "4255090",
+      "end": "4262984",
+      "strand": "-",
+      "product_accession": "CBF87072.1",
+      "non-redundant_refseq": "",
+      "related_accession": "",
+      "name": "polyketide synthase, putative (Eurofung)",
+      "symbol": "",
+      "GeneID": "",
+      "locus_tag": "ANIA_02547",
+      "feature_interval_length": "7605",
+      "product_length": "2534",
+      "attributes": ""
+    },
+    {
+      "# feature": "CDS",
+      "class": "with_protein",
+      "assembly": "GCA_000011425.1",
+      "assembly_unit": "Primary Assembly",
+      "seq_type": "chromosome",
+      "chromosome": "VII",
+      "genomic_accession": "BN001307.1",
+      "start": "4263941",
+      "end": "4265380",
+      "strand": "+",
+      "product_accession": "CBF87074.1",
+      "non-redundant_refseq": "",
+      "related_accession": "",
+      "name": "conserved hypothetical protein",
+      "symbol": "",
+      "GeneID": "",
+      "locus_tag": "ANIA_02548",
+      "feature_interval_length": "1440",
+      "product_length": "479",
+      "attributes": ""
+    },
+    {
+      "# feature": "CDS",
+      "class": "with_protein",
+      "assembly": "GCA_000011425.1",
+      "assembly_unit": "Primary Assembly",
+      "seq_type": "chromosome",
+      "chromosome": "VII",
+      "genomic_accession": "BN001307.1",
+      "start": "4265906",
+      "end": "4267876",
+      "strand": "-",
+      "product_accession": "CBF87076.1",
+      "non-redundant_refseq": "",
+      "related_accession": "",
+      "name": "conserved hypothetical protein",
+      "symbol": "",
+      "GeneID": "",
+      "locus_tag": "ANIA_02549",
+      "feature_interval_length": "1698",
+      "product_length": "565",
+      "attributes": ""
+    }
+  ],
+  "feature_rows": 31728,
+  "feature_types": {
+    "gene": 10597,
+    "mRNA": 10534,
+    "CDS": 10597
+  },
+  "cds_with_protein_count": 10534,
+  "fasta_ids_equal_feature_table_ids": true,
+  "chromosome_cds_counts": {
+    "BN001301.1": 1320,
+    "BN001302.1": 1425,
+    "BN001303.1": 1192,
+    "BN001304.1": 1003,
+    "BN001305.1": 1111,
+    "BN001306.1": 1158,
+    "BN001307.1": 1568,
+    "BN001308.1": 1757
+  },
+  "ncbi_md5_checks": {
+    "GCA_000011425.1_ASM1142v1_protein.faa.gz": true,
+    "GCA_000011425.1_ASM1142v1_feature_table.txt.gz": true,
+    "GCA_000011425.1_ASM1142v1_assembly_report.txt": true
+  },
+  "software": {
+    "python": "3.13.5",
+    "requests": "2.32.5"
+  },
+  "input_receipt_sha256": "e060f9e87191f6a1772bd18c07fb482f27f6c90bed18c997f401938c94200faf"
+}

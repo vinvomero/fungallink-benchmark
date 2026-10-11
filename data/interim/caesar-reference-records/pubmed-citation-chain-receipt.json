@@ -1,0 +1,1 @@
+{"ok": true, "source": "ncbi-entrez", "endpoint": "efetch", "record_path": null, "raw_output_path": "data\\raw\\sources\\expansion-2026-10-03\\caesar-reference\\pubmed-citation-chain.xml", "warnings": [], "summary": {"PubmedArticleSet": {"PubmedArticle": ["...", "...", "..."]}}, "top_keys": ["PubmedArticleSet"]}

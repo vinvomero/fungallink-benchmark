@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "checked_utc": "2026-10-11T21:45:46.070778+00:00",
+  "input_output_hashes_checked": 103,
+  "report_hash_checked": true,
+  "manifest_sha256": "26f55e898a1a1438b787144c2a58d16be4028fee5215891bba1ae8d172523a97",
+  "counts": {
+    "chemical-pairs": {
+      "rows": 435,
+      "computed": 10
+    },
+    "all-genomic-pairs": {
+      "rows": 10516,
+      "computed": 3575
+    },
+    "spectral-pairs": {
+      "rows": 72771,
+      "computed": 46290
+    }
+  },
+  "numeric_projection_comparison": "All four match numeric-before-cache-guard.json; ordered rows/fields, json.dumps default separators, UTF-8 SHA256. These are projection hashes, not file-byte hashes.",
+  "rejected_TriliD_excluded_from_correspondence": true,
+  "focused_tests_after_final_fix": "12 passed in17.523 seconds",
+  "full_suite_before_final_preflight_fix": "198 tests,2 skipped,passed;10 affected tests rerun after final fix",
+  "scientific_correctness_validated": false,
+  "failures": [],
+  "exposure_version_fix": "Final regenerated manifest and report hashes checked; all four numeric projections unchanged"
+}

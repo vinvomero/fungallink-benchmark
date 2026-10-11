@@ -1,0 +1,36 @@
+{
+  "utc": "2026-10-09T19:03:10.528083+00:00",
+  "scope": "Format, counts and hashes only; no chemical validation or active-input admission",
+  "files": [
+    {
+      "accession": "MSV000082097",
+      "path": "data/interim/pre-correspondence-sprint-2026-10-09/MSV000082097/benzomalvin_A,D_ms2.mgf",
+      "bytes": 28233,
+      "sha256": "5ec531a6b83e7ddd7da9da749fba1810d349697f7ebc28c32b638050725b4222",
+      "begin_ions": 1,
+      "end_ions": 1,
+      "headers": [
+        "TITLE=benzomalvin_A,D_ms2.1.1. File:\"benzomalvin_A,D_ms2.raw\", NativeID:\"controllerType=0 controllerNumber=1 scan=1\"",
+        "RTINSECONDS=2725.20078",
+        "PEPMASS=382.066741943359"
+      ],
+      "numeric_peak_rows": 1393
+    },
+    {
+      "accession": "MSV000082100",
+      "path": "data/interim/pre-correspondence-sprint-2026-10-09/MSV000082100/benzomalvin_A,D_ms2.mgf",
+      "bytes": 28233,
+      "sha256": "5ec531a6b83e7ddd7da9da749fba1810d349697f7ebc28c32b638050725b4222",
+      "begin_ions": 1,
+      "end_ions": 1,
+      "headers": [
+        "TITLE=benzomalvin_A,D_ms2.1.1. File:\"benzomalvin_A,D_ms2.raw\", NativeID:\"controllerType=0 controllerNumber=1 scan=1\"",
+        "RTINSECONDS=2725.20078",
+        "PEPMASS=382.066741943359"
+      ],
+      "numeric_peak_rows": 1393
+    }
+  ],
+  "identical_payloads": true,
+  "decision": "One distinct source spectrum; conflicting deposit sample descriptions; do not treat as two independent observations or activate a native feature join."
+}

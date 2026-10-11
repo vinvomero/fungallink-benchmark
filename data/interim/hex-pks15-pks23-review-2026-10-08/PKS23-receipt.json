@@ -1,0 +1,7 @@
+{
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=KE720645&seq_start=48853&seq_stop=80314&rettype=gbwithparts&retmode=text",
+  "utc": "2026-10-08T15:32:44.292022+00:00",
+  "sha256": "505a20adddb3d562daca14e6cdf6f7c5a08a737c262375e5cb35a561514e0aea",
+  "bytes": 54298,
+  "source": "Retained Harvey2018 TableS8 exact endpoints;inclusive request"
+}

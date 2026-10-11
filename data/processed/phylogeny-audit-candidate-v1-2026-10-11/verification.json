@@ -1,0 +1,21 @@
+{
+  "utc": "2026-10-11T17:31:57.466514+00:00",
+  "status": "passed",
+  "command": [
+    "/home/vvomero/.local/share/fungallink-tree-2026-10-07/env/bin/python",
+    "/home/vvomero/.cache/fungallink-terminal-audit-2026-10-11/scripts/check_phylogeny_recovery_completion.py",
+    "--root",
+    "/home/vvomero/.cache/fungallink-terminal-audit-2026-10-11",
+    "--output",
+    "/mnt/c/Users/vvome/OneDrive/Desktop/Claude Projects/fungallinkv2/planning/phylogeny-v2-terminal-audit-linux-2026-10-11.json"
+  ],
+  "returncode": 0,
+  "stdout": "{\n  \"status\": \"passed\",\n  \"errors\": [],\n  \"scope\": \"Checks saved identities, hashes, native-fit selection, score coverage and evaluation arithmetic. Does not establish biological truth, global optimizer convergence, phylogenetic adequacy or publication readiness.\",\n  \"unique_pairs_checked\": 7290,\n  \"recovered_pairs\": 24\n}\n",
+  "stderr": "",
+  "source_archive_sha256": "1365b8d266b0dffd74bba68b2443d5fcb52da5a485aeedddf76e5bf19d01ac76",
+  "verified_files": 116782,
+  "extraction_and_hash_seconds": 180.55693236599998,
+  "audit_seconds": 19.656856844999993,
+  "local_copy": "/home/vvomero/.cache/fungallink-terminal-audit-2026-10-11",
+  "scope": "Unchanged checker in original Linux interpreter on byte-verified local copy; no native fitting or relaxed checks."
+}

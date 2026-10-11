@@ -1,0 +1,480 @@
+{
+  "rows": 116,
+  "measured_population_rows": 114,
+  "existing_literal_label_observations": 116,
+  "acquisitions": 351,
+  "population_dispositions": {
+    "withhold_no_display_identity_bridge": 1,
+    "withhold_no_measured_observation": 2,
+    "proposed_include_internal_source_selected": 105,
+    "withhold_source_identity_conflict": 2,
+    "withhold_no_study_roster_identity": 6
+  },
+  "shared_proposed_observation_denominator": 105,
+  "eligible_literal_label_observations": 106,
+  "eligible_acquisitions": 326,
+  "source_membership_counts": {
+    "NRPSPKS_85": {
+      "unknown": 11,
+      "0": 98,
+      "1": 7
+    },
+    "TERPENE_40": {
+      "unknown": 11,
+      "0": 94,
+      "1": 11
+    },
+    "NRPSLIKE_59": {
+      "unknown": 11,
+      "0": 94,
+      "1": 11
+    },
+    "NRPKS_18": {
+      "unknown": 11,
+      "0": 95,
+      "1": 10
+    },
+    "NRPS_66": {
+      "unknown": 11,
+      "0": 98,
+      "1": 7
+    }
+  },
+  "historical_bridge_study_rows": 108,
+  "historical_bridge_measured_study_rows": 107,
+  "study_rows_represented_in_any_selected_archive": 78,
+  "all_archive_sampled_labels": 81,
+  "all_archive_families": 29,
+  "full_query_rosters": {
+    "NRPSPKS_85": {
+      "archive_member": "Supplementary Data 1/NRPSPKS_85.html",
+      "sha256": "c54b42d8683bd5fed5b3350dbe80d260187e1ce52619aaab771a02933e4f8492",
+      "sampled_members": [
+        {
+          "display_label": "FMGX0077",
+          "region": "KV878176.1.region001",
+          "display_ordinal": 1
+        },
+        {
+          "display_label": "FMGX0067",
+          "region": "KZ851866.1.region004",
+          "display_ordinal": 2
+        },
+        {
+          "display_label": "FMGX0057",
+          "region": "chr_401.region001",
+          "display_ordinal": 3
+        },
+        {
+          "display_label": "FMGX0056",
+          "region": "MCQH01000170.1.region001",
+          "display_ordinal": 4
+        },
+        {
+          "display_label": "FMGX0055",
+          "region": "LMYC01000089.1.region002",
+          "display_ordinal": 5
+        },
+        {
+          "display_label": "FMGX0054",
+          "region": "chr_401.region001",
+          "display_ordinal": 6
+        },
+        {
+          "display_label": "FMGX0053",
+          "region": "KZ851953.1.region002",
+          "display_ordinal": 7
+        },
+        {
+          "display_label": "FMGX0052",
+          "region": "ACJE01000009.1.region001",
+          "display_ordinal": 8
+        },
+        {
+          "display_label": "FMGX0018",
+          "region": "KV878700.1.region001",
+          "display_ordinal": 9
+        }
+      ],
+      "inserted_reference_regions": []
+    },
+    "TERPENE_40": {
+      "archive_member": "Supplementary Data 1/TERPENE_40.html",
+      "sha256": "8a3e7257f951ac875a08e77dbac0361efe1b69f60716fd75550d77161824a8af",
+      "sampled_members": [
+        {
+          "display_label": "FMGX0071",
+          "region": "c00091_NODE_91...region001",
+          "display_ordinal": 1
+        },
+        {
+          "display_label": "FMGX0069",
+          "region": "scaffold_33.region001",
+          "display_ordinal": 2
+        },
+        {
+          "display_label": "FMGX0061",
+          "region": "scaffold_221.region001",
+          "display_ordinal": 3
+        },
+        {
+          "display_label": "FMGX0051",
+          "region": "c00079_NODE_79...region001",
+          "display_ordinal": 4
+        },
+        {
+          "display_label": "FMGX0050",
+          "region": "QPHH01000001.1.region004",
+          "display_ordinal": 5
+        },
+        {
+          "display_label": "FMGX0049",
+          "region": "BN001306.1.region007",
+          "display_ordinal": 6
+        },
+        {
+          "display_label": "FMGX0048",
+          "region": "scaffold_5.region002",
+          "display_ordinal": 7
+        },
+        {
+          "display_label": "FMGX0043",
+          "region": "c00012_NODE_12...region003",
+          "display_ordinal": 8
+        },
+        {
+          "display_label": "FMGX0031",
+          "region": "scaffold_30.region001",
+          "display_ordinal": 9
+        },
+        {
+          "display_label": "FMGX0016",
+          "region": "c00060_NODE_60...region001",
+          "display_ordinal": 10
+        },
+        {
+          "display_label": "FMGX0012",
+          "region": "c00139_NODE_13...region001",
+          "display_ordinal": 11
+        }
+      ],
+      "inserted_reference_regions": [
+        "BGC0001722.1"
+      ]
+    },
+    "NRPSLIKE_59": {
+      "archive_member": "Supplementary Data 1/NRPSLIKE_59.html",
+      "sha256": "559a3012917df46ef9f4f24691a9987cb553e90589065a5b3b2eb25f7c866089",
+      "sampled_members": [
+        {
+          "display_label": "FMGX0080",
+          "region": "KV878131.1.region002",
+          "display_ordinal": 1
+        },
+        {
+          "display_label": "FMGX0072",
+          "region": "KV878601.1.region001",
+          "display_ordinal": 2
+        },
+        {
+          "display_label": "FMGX0070",
+          "region": "c00023_NODE_23...region001",
+          "display_ordinal": 3
+        },
+        {
+          "display_label": "FMGX0069",
+          "region": "scaffold_61.region001",
+          "display_ordinal": 4
+        },
+        {
+          "display_label": "FMGX0061",
+          "region": "scaffold_124.region001",
+          "display_ordinal": 5
+        },
+        {
+          "display_label": "FMGX0051",
+          "region": "c00052_NODE_52...region001",
+          "display_ordinal": 6
+        },
+        {
+          "display_label": "FMGX0050",
+          "region": "QPHH01000033.1.region001",
+          "display_ordinal": 7
+        },
+        {
+          "display_label": "FMGX0049",
+          "region": "BN001302.1.region009",
+          "display_ordinal": 8
+        },
+        {
+          "display_label": "FMGX0048",
+          "region": "scaffold_1.region002",
+          "display_ordinal": 9
+        },
+        {
+          "display_label": "FMGX0039",
+          "region": "c00001_NODE_1_...region008",
+          "display_ordinal": 10
+        },
+        {
+          "display_label": "FMGX0030",
+          "region": "c00001_NODE_1_...region004",
+          "display_ordinal": 11
+        },
+        {
+          "display_label": "FMGX0011",
+          "region": "VTSW01000121.1.region001",
+          "display_ordinal": 12
+        }
+      ],
+      "inserted_reference_regions": [
+        "BGC0001399.1"
+      ]
+    },
+    "NRPKS_18": {
+      "archive_member": "Supplementary Data 1/NRPKS_18.html",
+      "sha256": "c662bd2e7da63410bc1ea06a6613b9a393b1894f41880dbcf5bbf16f981efc03",
+      "sampled_members": [
+        {
+          "display_label": "UNCG0006",
+          "region": "c00003_NODE_3_...region001",
+          "display_ordinal": 1
+        },
+        {
+          "display_label": "FMGX0138",
+          "region": "c00009_NODE_9_...region001",
+          "display_ordinal": 2
+        },
+        {
+          "display_label": "FMGX0137",
+          "region": "c00010_NODE_10...region005",
+          "display_ordinal": 3
+        },
+        {
+          "display_label": "FMGX0135",
+          "region": "c00076_NODE_76...region001",
+          "display_ordinal": 4
+        },
+        {
+          "display_label": "FMGX0127",
+          "region": "scaffold_2.region005",
+          "display_ordinal": 5
+        },
+        {
+          "display_label": "FMGX0114",
+          "region": "c00004_NODE_4_...region001",
+          "display_ordinal": 6
+        },
+        {
+          "display_label": "FMGX0109",
+          "region": "JPLQ01000001.1.region007",
+          "display_ordinal": 7
+        },
+        {
+          "display_label": "FMGX0108",
+          "region": "scaffold_6.region006",
+          "display_ordinal": 8
+        },
+        {
+          "display_label": "FMGX0099",
+          "region": "scaffold_2.region001",
+          "display_ordinal": 9
+        },
+        {
+          "display_label": "FMGX0093",
+          "region": "scaffold_20.region001",
+          "display_ordinal": 10
+        }
+      ],
+      "inserted_reference_regions": [
+        "BGC0001284.1",
+        "BGC0000070.1"
+      ]
+    },
+    "NRPS_66": {
+      "archive_member": "Supplementary Data 1/NRPS_66.html",
+      "sha256": "104490c3fffb4e27a0623ea9587bf8e2ed2ead5ab4317a8de817baeeaabdd843",
+      "sampled_members": [
+        {
+          "display_label": "FMGX0082",
+          "region": "LKBE01000025.1.region009",
+          "display_ordinal": 1
+        },
+        {
+          "display_label": "FMGX0064",
+          "region": "scaffold_55.region001",
+          "display_ordinal": 2
+        },
+        {
+          "display_label": "FMGX0030",
+          "region": "c00013_NODE_13...region003",
+          "display_ordinal": 3
+        },
+        {
+          "display_label": "FMGX0028",
+          "region": "scaffold_78.region001",
+          "display_ordinal": 4
+        },
+        {
+          "display_label": "FMGX0019",
+          "region": "c00193_NODE_19...region001",
+          "display_ordinal": 5
+        },
+        {
+          "display_label": "FMGX0014",
+          "region": "scaffold_14.region003",
+          "display_ordinal": 6
+        },
+        {
+          "display_label": "FMGX0011",
+          "region": "VTSW01000173.1.region002",
+          "display_ordinal": 7
+        }
+      ],
+      "inserted_reference_regions": [
+        "BGC0001084.1",
+        "BGC0000818.1"
+      ]
+    }
+  },
+  "unknown_population_rows": [
+    {
+      "row": "caesar-table2-001",
+      "strain": "ATCC 96836",
+      "literals": [
+        "ATCC 96836",
+        "ATCC96836"
+      ],
+      "disposition": "withhold_no_display_identity_bridge"
+    },
+    {
+      "row": "caesar-table2-002",
+      "strain": "W1",
+      "literals": [],
+      "disposition": "withhold_no_measured_observation"
+    },
+    {
+      "row": "caesar-table2-042",
+      "strain": "ATCC 13490",
+      "literals": [
+        "ATCC13490"
+      ],
+      "disposition": "withhold_source_identity_conflict"
+    },
+    {
+      "row": "caesar-table2-044",
+      "strain": "ATCC 64048",
+      "literals": [
+        "ATCC64048"
+      ],
+      "disposition": "withhold_source_identity_conflict"
+    },
+    {
+      "row": "caesar-table2-060",
+      "strain": "ATCC MYA409",
+      "literals": [],
+      "disposition": "withhold_no_measured_observation"
+    },
+    {
+      "row": "caesar-workbook-extra-001",
+      "strain": "",
+      "literals": [
+        "ATCC48694"
+      ],
+      "disposition": "withhold_no_study_roster_identity"
+    },
+    {
+      "row": "caesar-workbook-extra-002",
+      "strain": "",
+      "literals": [
+        "Kabbage_A.brassicicola"
+      ],
+      "disposition": "withhold_no_study_roster_identity"
+    },
+    {
+      "row": "caesar-workbook-extra-003",
+      "strain": "",
+      "literals": [
+        "NRRL1061"
+      ],
+      "disposition": "withhold_no_study_roster_identity"
+    },
+    {
+      "row": "caesar-workbook-extra-004",
+      "strain": "",
+      "literals": [
+        "NRRL4593"
+      ],
+      "disposition": "withhold_no_study_roster_identity"
+    },
+    {
+      "row": "caesar-workbook-extra-005",
+      "strain": "",
+      "literals": [
+        "NRRL4904"
+      ],
+      "disposition": "withhold_no_study_roster_identity"
+    },
+    {
+      "row": "caesar-workbook-extra-006",
+      "strain": "",
+      "literals": [
+        "NRRL66628"
+      ],
+      "disposition": "withhold_no_study_roster_identity"
+    }
+  ],
+  "source_fingerprints": {
+    "roster": {
+      "path": "data/curated/caesar-study-roster-2026-10-02.tsv",
+      "bytes": 113620,
+      "sha256": "396838ef6097c33eaf32947047c808667d7d046b1d1190294acb199164fe37fb"
+    },
+    "historical": {
+      "path": "data/raw/sources/caesar-2023/historical-label-strain-assembly-crosswalk-2026-09-20.tsv",
+      "bytes": 19186,
+      "sha256": "d5b107a3c6c947a30cca8022b5357eef396fa3b33747314a84ac798d34d8cf99"
+    },
+    "eligibility": {
+      "path": "data/curated/seven-admitted-member-eligibility-2026-10-03.tsv",
+      "bytes": 210656,
+      "sha256": "7df989d08a7f9fcf2989c0aa8f453c3eb428f9794e19ff801f9528c443f6a358"
+    },
+    "labels": {
+      "path": "data/processed/caesar-source-observations-v1/labels.tsv",
+      "bytes": 75486,
+      "sha256": "9f1de4777dd990bb4384d64a6dfe3ca2a096eb1e09a3c3e28785bfbbc6410a66"
+    },
+    "conditions": {
+      "path": "data/processed/caesar-source-observations-v1/conditions.tsv",
+      "bytes": 75620,
+      "sha256": "8e5f266830cccd7e6fc1cb83920da4f1ad572b70f180e38112a1c060c0ec78c4"
+    },
+    "archive": {
+      "path": "data/raw/sources/caesar-2023/41589_2023_1276_MOESM3_ESM.zip",
+      "bytes": 1725974,
+      "sha256": "0cef389310eccd261255e51919e7fe5f1f772cc73be2b0d42e0f5f8e30245a54"
+    },
+    "article": {
+      "path": "research_audit/Caesar-main.txt",
+      "bytes": 82352,
+      "sha256": "32d5a1ce1ee07821af0fa5e385152f7fc0363341077feecdc72e6b6f7d17d86b"
+    },
+    "supplement": {
+      "path": "data/raw/sources/metadata/caesar-supplement-cdn",
+      "bytes": 5911348,
+      "sha256": "259acfe84b6a7033ef3cbd41ba05133ce64ee32c8f102d49541fa4f8b57a2108"
+    }
+  },
+  "output_fingerprint": {
+    "path": "data/curated/caesar-source-gcf-population-2026-10-03.tsv",
+    "bytes": 723375,
+    "sha256": "38f797694322680d5c46b79fcd50311fa5055bda2b9614ee90e2480d924b065a"
+  },
+  "canonical_unchanged": true,
+  "canonical_fingerprint": {
+    "path": "data/curated/label-evidence.tsv",
+    "bytes": 11202,
+    "sha256": "d26d7dddf7ad8a9eaae7c080d990afa682762ecdaf07831a94933b5a70c2ea09"
+  }
+}

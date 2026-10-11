@@ -1,0 +1,4 @@
+locus_tag	protein_id	start_1based	end_1based	strand	reference_length_aa	sampled_length_aa	matching_residues	alignment_columns	identity_percent	reference_coverage_percent	sampled_coverage_percent	translation_sha256	cds_retranslation_equal
+NFIA_055290	EAW16180.1	2428387	2435518	-1	2359	2359	2359	2359	100	100	100	726fcb5c82cfb36457d6a979c8651c88dbd8bc4e7efb7dd0195214a330a46df7	True
+NFIA_055300	EAW16181.1	2437444	2438808	1	437	437	437	437	100	100	100	c6386a15e38495f2b02d39dfeffd959e9affb9975bcf41ee3caa19a3c14766e7	True
+NFIA_055310	EAW16182.1	2439622	2441151	1	509	509	509	509	100	100	100	3f5690038666c0eeb3a4086fc56f9637ef0423f798a0861182a5a62339b9f4e7	True

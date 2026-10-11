@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "release_id": "emericellamide-gcf-extension-v1",
+  "frozen_utc": "2026-10-08T12:45:04.508897+00:00",
+  "activation": "Private retrospective extension under delegated judgment; amendment saved before scoring",
+  "methods": [
+    "global_prevalence",
+    "prevalence_difference",
+    "metcalf_raw",
+    "metcalf_standardized"
+  ],
+  "files": {
+    "analysis-amendment.json": "b01a8b682dcca1e450e21f5f68e0df0d39b379ac27e3397ea9dba7bbf2f40895",
+    "benchmark.json": "ffbac2de4cc43c5688b78328a684772cbdfb85a330de4a757a718ab61549b8bb",
+    "inputs.json": "dba0d9d53d7cf722a4049145c5c0bdd4246bed67e0f8131c9d36f379f705858e",
+    "rosters.json": "c67aad911402f80e45b42fea15e103ddf20f5d68b914a536fd3748f9b058e108",
+    "run_extension.py": "14ecddc7c65e921574d1a8cb324e589d0ee2ec9b5b221421c2996796fca974e3",
+    "snapshots/emericellamide-gcf-projection-2026-10-08.md": "4c9eddb2300a7e9b534e134190a32cbe479fb05da5476dc3215d15c70e8e5c18",
+    "snapshots/evaluate_rankings.py": "740fbad907cfcb8d9bf6c80a4e259a200f39c622c0a906d03b80ba2d383f8c55",
+    "snapshots/label-evidence.tsv": "dd2e2d584e9b25dd4efae6ecf39b29293ec3924b7f9b49d362c53ecc714984d1",
+    "snapshots/membership.tsv": "877496b8b93a25e96993dbbd8ac3563637af7f132eb6ec2936751fecef172c7e",
+    "snapshots/project_roster.py": "b3c030fcc1ddac6768885b38be186ed225675d91e2b45b20042a72efb89e12e2",
+    "snapshots/run_baselines.py": "9449c11a5b8b8136dd639d0685a03ec8e39b6b822db7c6242d83bdde59912839",
+    "snapshots/summary.json": "d59edf3e52256587798510fae1538644f2658e695f322ab42dbef6425985a045"
+  },
+  "query_count": 1,
+  "product_count": 1,
+  "candidate_count": 9339,
+  "roster_count": 18,
+  "group_count": 1
+}

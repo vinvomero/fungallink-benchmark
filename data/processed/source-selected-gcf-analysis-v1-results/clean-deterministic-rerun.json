@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "deterministic_runs_reproduced": 72,
+  "comparison": "All ranking scores, audits, statuses and evaluator fields exactly equal as parsed JSON.",
+  "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+  "site_packages_disabled": true,
+  "cwd": "C:\\Users\\vvome\\AppData\\Local\\Temp\\fungallink-clean-rerun-gzntqll1",
+  "code_directory": "C:\\Users\\vvome\\AppData\\Local\\Temp\\fungallink-clean-rerun-gzntqll1",
+  "elapsed_seconds": 63.93815889999678,
+  "at_utc": "2026-10-07T12:57:12.089373+00:00",
+  "limits": "Same host and automated reproducer, not an independent researcher. Shared 4000-repeat Monte Carlo simulation not rerun."
+}

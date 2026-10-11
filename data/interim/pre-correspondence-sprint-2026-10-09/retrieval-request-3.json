@@ -1,0 +1,63 @@
+[
+  [
+    "benz-followup-si.pdf",
+    "https://ndownloader.figshare.com/files/10786259",
+    "GET",
+    {}
+  ],
+  [
+    "massive-FAC.json",
+    "https://massive.ucsd.edu/ProteoSAFe/QueryDatasets",
+    "GET",
+    {
+      "pageSize": 100,
+      "offset": 0,
+      "query": "{\"title_input\":\"FAC\"}"
+    }
+  ],
+  [
+    "massive-HEx.json",
+    "https://massive.ucsd.edu/ProteoSAFe/QueryDatasets",
+    "GET",
+    {
+      "pageSize": 100,
+      "offset": 0,
+      "query": "{\"title_input\":\"HEx\"}"
+    }
+  ],
+  [
+    "massive-benzomalvin.json",
+    "https://massive.ucsd.edu/ProteoSAFe/QueryDatasets",
+    "GET",
+    {
+      "pageSize": 100,
+      "offset": 0,
+      "query": "{\"title_input\":\"benzomalvin\"}"
+    }
+  ],
+  [
+    "massive-heterologous.json",
+    "https://massive.ucsd.edu/ProteoSAFe/QueryDatasets",
+    "GET",
+    {
+      "pageSize": 100,
+      "offset": 0,
+      "query": "{\"title_input\":\"heterologous\"}"
+    }
+  ],
+  [
+    "zenodo-hex-retry.json",
+    "https://zenodo.org/api/records",
+    "GET",
+    {
+      "q": "aar5459",
+      "size": 25
+    }
+  ],
+  [
+    "biorxiv-landing.html",
+    "https://www.biorxiv.org/content/10.1101/247940v1",
+    "GET",
+    {}
+  ]
+]

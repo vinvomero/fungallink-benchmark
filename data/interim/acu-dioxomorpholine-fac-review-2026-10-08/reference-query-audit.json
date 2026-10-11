@@ -1,0 +1,45 @@
+{
+  "reference_accession": "NW_017962991.1",
+  "query_start_1based": 92289,
+  "query_end_inclusive": 104578,
+  "length": 12290,
+  "sequence_sha256": "1f118a3761a06173e47c01dab2419caeda8752b0a9ccd7e9dd0f5271ae480e0d",
+  "genes": [
+    {
+      "protein": "XP_020052773.1",
+      "start_1based": 92289,
+      "end_inclusive": 100350,
+      "strand": -1,
+      "length": 2413,
+      "translation_matches": true,
+      "protein_sha256": "3ba3caebc601bb5a47ab881b5c58b6dd077431d20766d5b7ef13fff7fd299018",
+      "same_translation_CDS_count_on_scaffold": 1
+    },
+    {
+      "protein": "XP_020052774.1",
+      "start_1based": 100949,
+      "end_inclusive": 102359,
+      "strand": 1,
+      "length": 378,
+      "translation_matches": true,
+      "protein_sha256": "79291b436a4df94cb80333fe60beb806e1e917b74f81c05307f376c7ed01714b",
+      "same_translation_CDS_count_on_scaffold": 1
+    },
+    {
+      "protein": "XP_020052775.1",
+      "start_1based": 103240,
+      "end_inclusive": 104578,
+      "strand": -1,
+      "length": 422,
+      "translation_matches": true,
+      "protein_sha256": "f5ef98a9125dadaee1836817994ffd5b06e4070042ca3658d83e1561d2d5c0ed",
+      "same_translation_CDS_count_on_scaffold": 1
+    }
+  ],
+  "limits": [
+    "Source published protein accessions are explicit; no independent FAC clone sequence recovered.",
+    "FigureS5 depicts adxC in the other orientation; preserved discrepancy, not silently reconciled.",
+    "Exact-translation uniqueness checked on this scaffold only, not whole assembly.",
+    "Source biological assignment and proposed chemical identification distinct from reference-sequence input readiness."
+  ]
+}

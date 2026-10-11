@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "utc": "2026-10-11T18:49:31.284315+00:00",
+  "scope": "Host record/byte-change and ID verification only; not biological validation",
+  "ledger_changed_cells": [
+    [
+      "caesar2023:corrected:5",
+      "alternative_loci_status"
+    ]
+  ],
+  "relationships": 30,
+  "queries": 16,
+  "readiness_fields": 47,
+  "source_receipt": "planning/presubmission-revision-work-2026-10-11/evidence-verification.json"
+}

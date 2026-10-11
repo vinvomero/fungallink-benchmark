@@ -1,0 +1,17 @@
+{
+  "utc": "2026-10-08T15:37:47.854326+00:00",
+  "service": "PMC metadata skill andNCBI efetch;no broadwebsearch",
+  "metadata_request": {
+    "params": {
+      "id": "PMC5895447"
+    },
+    "max_items": 20
+  },
+  "source": "Priorretained TablesS8/S10 and primarytext",
+  "result": "PKS15admitted;PKS23held for5of9matchingproteins",
+  "receipts": [
+    "data/interim/hex-pks15-pks23-review-2026-10-08/PKS15-receipt.json",
+    "data/interim/hex-pks15-pks23-review-2026-10-08/PKS23-receipt.json",
+    "data/interim/hex-pks15-pks23-review-2026-10-08/figure5-receipt.json"
+  ]
+}

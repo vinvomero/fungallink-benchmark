@@ -1,0 +1,10 @@
+{
+  "checked_utc": "2026-10-08T15:08:31.689509+00:00",
+  "before_sha256": "9058205bebc117d2fa7e90a20723af509e106e881805dbab484f1c35d8bc8628",
+  "after_sha256": "a8b8cfe647594aa91a8a4c0ac717ec2ce4594e41ed9758ba7838cd0d77b9e928",
+  "original22_bytes_preserved": true,
+  "relationships": 23,
+  "query_ids": 12,
+  "new_relationship_id": "facms2017:AaFAC6A16:facms0001",
+  "scope": "Record integration checks, not independent scientific validation"
+}

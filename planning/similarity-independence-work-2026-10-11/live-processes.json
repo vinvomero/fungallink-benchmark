@@ -1,0 +1,31 @@
+{
+  "notes": "Cache flushed after every alignment; process presence checked without restarting.",
+  "checked_utc": "2026-10-11T21:23:30.2480189Z",
+  "processes": [
+    {
+      "ProcessId": 25236,
+      "ParentProcessId": 20316,
+      "CreationDate": "2026-10-11T17:17:26.623613-04:00",
+      "CommandLine": "\"C:\\Users\\vvome\\.cache\\fl-similarity-v1\\Scripts\\python.exe\" scripts/similarity_independence.py --stage genomic"
+    },
+    {
+      "ProcessId": 30428,
+      "ParentProcessId": 25236,
+      "CreationDate": "2026-10-11T17:17:26.646365-04:00",
+      "CommandLine": "\"C:\\Users\\vvome\\.cache\\fl-similarity-v1\\Scripts\\python.exe\" scripts/similarity_independence.py --stage genomic"
+    },
+    {
+      "ProcessId": 27132,
+      "ParentProcessId": 29512,
+      "CreationDate": "2026-10-11T17:21:10.649257-04:00",
+      "CommandLine": "\"C:\\Users\\vvome\\.cache\\fl-similarity-v1\\Scripts\\python.exe\" -m scripts.similarity_locus_anchors"
+    },
+    {
+      "ProcessId": 3340,
+      "ParentProcessId": 27132,
+      "CreationDate": "2026-10-11T17:21:10.676627-04:00",
+      "CommandLine": "\"C:\\Users\\vvome\\.cache\\fl-similarity-v1\\Scripts\\python.exe\" -m scripts.similarity_locus_anchors"
+    }
+  ],
+  "genomic_cache_bytes": 514053
+}

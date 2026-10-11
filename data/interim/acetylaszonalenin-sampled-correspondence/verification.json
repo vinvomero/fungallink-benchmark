@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-03",
+  "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+  "biopython": "1.88",
+  "method": "Full string equality and position-by-position comparison; no local alignment, no threshold, no search; independent CDS extraction/retranslation checks",
+  "coordinate_convention": "One-based inclusive for accession intervals; Python zero-based half-open internally",
+  "nucleotide_matches": 12765,
+  "nucleotide_alignment_columns": 12765,
+  "old_coverage_percent": 100,
+  "sampled_coverage_percent": 100,
+  "mibig_core_coverage_percent": 100,
+  "core_nt_sha256": "b95028df97bdb6aabec9b37c7640a8834c9409841765481496e42f33587f1da6",
+  "offset": 2297802,
+  "proteins": [
+    {
+      "locus_tag": "NFIA_055290",
+      "protein_id": "EAW16180.1",
+      "start_1based": 2428387,
+      "end_1based": 2435518,
+      "strand": -1,
+      "reference_length_aa": 2359,
+      "sampled_length_aa": 2359,
+      "matching_residues": 2359,
+      "alignment_columns": 2359,
+      "identity_percent": 100,
+      "reference_coverage_percent": 100,
+      "sampled_coverage_percent": 100,
+      "translation_sha256": "726fcb5c82cfb36457d6a979c8651c88dbd8bc4e7efb7dd0195214a330a46df7",
+      "cds_retranslation_equal": true
+    },
+    {
+      "locus_tag": "NFIA_055300",
+      "protein_id": "EAW16181.1",
+      "start_1based": 2437444,
+      "end_1based": 2438808,
+      "strand": 1,
+      "reference_length_aa": 437,
+      "sampled_length_aa": 437,
+      "matching_residues": 437,
+      "alignment_columns": 437,
+      "identity_percent": 100,
+      "reference_coverage_percent": 100,
+      "sampled_coverage_percent": 100,
+      "translation_sha256": "c6386a15e38495f2b02d39dfeffd959e9affb9975bcf41ee3caa19a3c14766e7",
+      "cds_retranslation_equal": true
+    },
+    {
+      "locus_tag": "NFIA_055310",
+      "protein_id": "EAW16182.1",
+      "start_1based": 2439622,
+      "end_1based": 2441151,
+      "strand": 1,
+      "reference_length_aa": 509,
+      "sampled_length_aa": 509,
+      "matching_residues": 509,
+      "alignment_columns": 509,
+      "identity_percent": 100,
+      "reference_coverage_percent": 100,
+      "sampled_coverage_percent": 100,
+      "translation_sha256": "3f5690038666c0eeb3a4086fc56f9637ef0423f798a0861182a5a62339b9f4e7",
+      "cds_retranslation_equal": true
+    }
+  ],
+  "input_sha256": {
+    "old_core.gbk": "2070d1e28049c08051f4b29803f9018544eca34f2f4a56dace47a5b9d584ad72",
+    "sampled_core.gbk": "8c16a36258f4a56a51988d45487bfe0e17ff8fce436614631150a2d90dd08810",
+    "mibig.gbk": "d7a1c8ecac30c09c24d7712fc47156e652ffcb26fe82c504c99d8ba50cdcf91b",
+    "assembly_report.txt": "dc8c1808cbb7696b3df8b0bc8317d80c0dc522a9cc13489c0eea647c5d65e2a8",
+    "atcc.html": "db0e15036f5e08239285ada879cc82360e9b9ff913316753fb867de1b1ac6363"
+  },
+  "output_table_sha256": "a6bc49999748d7e019fbd86d2216cd1c50ba3a61adc55c36944b78c4501f3bc7",
+  "limitations": [
+    "Same underlying GenBank annotation, not independent resequencing or independent protein alignment evidence.",
+    "Old core has no CDS annotations; its nucleotide identity transfers current annotations only.",
+    "Assembly-wide competing-locus search not performed."
+  ]
+}

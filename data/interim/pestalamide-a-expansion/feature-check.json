@@ -1,0 +1,41 @@
+{
+  "workbook": "data\\raw\\sources\\caesar-2023\\41589_2023_1276_MOESM4_ESM.xlsx",
+  "workbook_sha256": "4726f832f82da431cc7e0a7b048b9e5d3e0d7de0831b8d20e9dab24bb5131fbb",
+  "worksheet": "Sheet1",
+  "physical_row": 733,
+  "feature_metadata": [
+    725,
+    344.1125229,
+    3.101871354,
+    "pestalamide A"
+  ],
+  "anchor_checks": [
+    {
+      "column": "DN",
+      "strain": "CBS 101.740",
+      "medium": "Cheerios",
+      "header": "20210714_lkc6464_MGx_H20190756_FungalCrudeExtract_A_brasiliensis_Cheerios.mzXML Peak height",
+      "feature725_height": 17700000
+    },
+    {
+      "column": "DO",
+      "strain": "CBS 101.740",
+      "medium": "Oats",
+      "header": "20210712_lkc6464_MGx_H20190756_FungalCrudeExtract_Abrasiliensis_Oats.mzXML Peak height",
+      "feature725_height": 749000000
+    },
+    {
+      "column": "DP",
+      "strain": "CBS 101.740",
+      "medium": "Rice",
+      "header": "20210712_lkc6464_MGx_H20190756_FungalCrudeExtract_Abrasiliensis_Rice.mzXML Peak height",
+      "feature725_height": 663000000
+    }
+  ],
+  "feature1955_metadata_only": [
+    1955,
+    687.2138903,
+    3.095314368,
+    "pestalamide A dimer"
+  ]
+}

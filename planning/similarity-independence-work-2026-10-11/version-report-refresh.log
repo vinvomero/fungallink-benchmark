@@ -1,0 +1,71 @@
+{
+  "relationships": 30,
+  "queries": 16,
+  "input_states": {
+    "complete": 11,
+    "partial": 2,
+    "missing": 17
+  },
+  "supported_structures": 5,
+  "chemical_computed": 10,
+  "spectra": 382,
+  "spectral_computed": 46290,
+  "spectral_flags_07": 93,
+  "spectral_flags_09": 51,
+  "gcf_members": 79,
+  "gcf_proteins": 1209,
+  "anchor_members": 10,
+  "anchor_proteins": 43,
+  "genomic_pairs": 10516,
+  "genomic_computed": 3575,
+  "dependence_edges": 1378,
+  "group_scenarios": [
+    {
+      "scenario": "query_pathway",
+      "components": 16,
+      "components_with_complete_relationships": 7,
+      "relationships": 30,
+      "queries": 16,
+      "authoritative_complete_analysis_groups": 1,
+      "holdout_established": false
+    },
+    {
+      "scenario": "construct_context",
+      "components": 14,
+      "components_with_complete_relationships": 7,
+      "relationships": 30,
+      "queries": 16,
+      "authoritative_complete_analysis_groups": 1,
+      "holdout_established": false
+    },
+    {
+      "scenario": "conservative_design",
+      "components": 5,
+      "components_with_complete_relationships": 1,
+      "relationships": 30,
+      "queries": 16,
+      "authoritative_complete_analysis_groups": 1,
+      "holdout_established": false
+    },
+    {
+      "scenario": "similarity_sensitivity_0_7",
+      "components": 5,
+      "components_with_complete_relationships": 1,
+      "relationships": 30,
+      "queries": 16,
+      "authoritative_complete_analysis_groups": 1,
+      "holdout_established": false
+    },
+    {
+      "scenario": "similarity_sensitivity_0_9",
+      "components": 5,
+      "components_with_complete_relationships": 1,
+      "relationships": 30,
+      "queries": 16,
+      "authoritative_complete_analysis_groups": 1,
+      "holdout_established": false
+    }
+  ],
+  "exposure_rows": 244,
+  "reused_correspondence_rows": 282
+}

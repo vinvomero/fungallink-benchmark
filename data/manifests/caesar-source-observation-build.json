@@ -1,0 +1,182 @@
+{
+  "artifact_kind": "source_observation_bundle",
+  "exposure": "Candidate IDs retain public source IDs; annotation removal does not establish novelty or blindness.",
+  "generator": {
+    "bytes": 20216,
+    "name": "build_source_observations.py",
+    "sha256": "d11c18eb2973e4bad7b63fcc8cff8e6b3be07a02ff042b2e8c5aea94684cc4f2",
+    "version": "1.0"
+  },
+  "grouping_ledger": {
+    "bytes": 173606,
+    "sha256": "70c74e3b0dbdcd5a1cc5dcd81bed59cb301036b0c7b109740bc9301cb2266e0c"
+  },
+  "helper": {
+    "bytes": 8523,
+    "name": "build_candidate_bundle.py",
+    "sha256": "eadca9662d30c45765a082b16099f0f4906afb8bf43d211faea168989f6b8fd4"
+  },
+  "host_verification": {
+    "actual_serving_receipt": null,
+    "all_output_fingerprints_verified": true,
+    "code_review_limitations": [
+      "Publication replaces files individually and writes the manifest last. An interrupted rebuild can leave payloads inconsistent with the previous manifest; consumers must verify fingerprints before use. Consumer enforcement is outside this scope.",
+      "The builder checks ledger consistency but cannot verify literal label or medium assignments against the original workbook because acquisition metadata omits those fields. Source review and the fingerprinted ledger carry that provenance boundary.",
+      "Fractional even medians and high-precision values just below the threshold lack dedicated fixtures. Tests for exact TSV rendering and presence would strengthen the Decimal arithmetic coverage.",
+      "Fixtures use one cohort. A repeated literal label/medium across two cohorts would add regression coverage; the current implementation already separates cohorts, so this is not a confirmed defect.",
+      "Peak memory for the full matrix remains unmeasured. Input bytes and parsed abundance rows remain in memory; the documentation states this scaling limit."
+    ],
+    "code_review_run_id": "20261002-source-observations",
+    "code_review_scope": [
+      ".gitattributes",
+      "scripts/build_source_observations.py",
+      "tests/test_build_source_observations.py",
+      "docs/data/source-observation-build.md"
+    ],
+    "code_review_status": "complete",
+    "code_review_verdict": "Ready to merge",
+    "date": "2026-10-02",
+    "final_real_build_seconds": 24.615,
+    "full_suite": {
+      "passed": true,
+      "tests": 109
+    },
+    "git_checkout_bytes_verified_autocrlf": [
+      true,
+      false
+    ],
+    "independent_matrix_value_checks": 8461134,
+    "initial_parallel_test_attempt": "Existing exporter CLI failed with OpenBLAS memory allocation error; sequential full-suite reruns passed.",
+    "payloads_identical_after_simplification": true,
+    "repeat_files_compared": 9,
+    "repeat_site_packages_disabled": true,
+    "requested_implementation_model": "gpt-6-astra",
+    "requested_reasoning_effort": "medium",
+    "same_code_repeat_byte_identical": true
+  },
+  "outputs": [
+    {
+      "bytes": 444419,
+      "path": "candidates.tsv",
+      "rows": 9339,
+      "sha256": "5e928f3e10bb92304ba06d206288a8c88bbfe4361bb55e85276e0349853be2ab"
+    },
+    {
+      "bytes": 75620,
+      "path": "conditions.tsv",
+      "rows": 337,
+      "sha256": "8e5f266830cccd7e6fc1cb83920da4f1ad572b70f180e38112a1c060c0ec78c4"
+    },
+    {
+      "bytes": 75486,
+      "path": "labels.tsv",
+      "rows": 116,
+      "sha256": "9f1de4777dd990bb4384d64a6dfe3ca2a096eb1e09a3c3e28785bfbbc6410a66"
+    },
+    {
+      "bytes": 173606,
+      "path": "grouping-ledger.tsv",
+      "rows": 342,
+      "sha256": "70c74e3b0dbdcd5a1cc5dcd81bed59cb301036b0c7b109740bc9301cb2266e0c"
+    },
+    {
+      "bytes": 14900107,
+      "path": "condition-heights.tsv",
+      "rows": 9339,
+      "sha256": "5c86900f38645a25fcd230e4092d0d130bec43ce716af43c49aff6113b7d536d"
+    },
+    {
+      "bytes": 6542803,
+      "path": "condition-presence.tsv",
+      "rows": 9339,
+      "sha256": "9b7d7639e1f55c0da886bf8b45250d34986e0bb18736248e67c7531f8e4d1435"
+    },
+    {
+      "bytes": 6468159,
+      "path": "label-heights.tsv",
+      "rows": 9339,
+      "sha256": "28e2a0e50cbabaf312132782a6d69c7a8332245259fa244f52bf1385db6ef55a"
+    },
+    {
+      "bytes": 2397926,
+      "path": "label-presence.tsv",
+      "rows": 9339,
+      "sha256": "3fdd4d15acf6489fe1179a6c71f78b9a7b45c0b6b13c5cab2e0edea06f13c6ab"
+    }
+  ],
+  "rules": {
+    "abundance_scale": "raw_unnormalized",
+    "blank_subtraction": false,
+    "candidate_filtering": false,
+    "condition_height": "median of every recorded acquisition; any missing makes group missing",
+    "condition_presence": "condition height >= 10000000",
+    "expected_media": [
+      "Cheerios",
+      "Oats",
+      "Rice"
+    ],
+    "id_rule": "kind prefix plus SHA-256 of compact UTF-8 JSON array of literal key parts",
+    "identity": "exact literal cohort/label/medium; no alias merging",
+    "imputation": false,
+    "label_height": "maximum over recorded media; any missing condition makes maximum missing",
+    "label_presence": "1 if any condition present; 0 if all recorded conditions observed below threshold; missing otherwise",
+    "missing_value": "empty TSV field; measured zero remains zero",
+    "normalization": false,
+    "threshold": "10000000",
+    "unrecorded_media": "unmeasured; excluded from sampled-condition summary"
+  },
+  "runtime": {
+    "python": "3.13.5"
+  },
+  "schema_version": 1,
+  "source_inputs": [
+    {
+      "bytes": 444419,
+      "path": "candidates.tsv",
+      "rows": 9339,
+      "sha256": "da176bc73376afae67cf47867232f0780bce1012a071b7c99b0cd90139b7b39d"
+    },
+    {
+      "bytes": 16008873,
+      "path": "abundances.tsv",
+      "rows": 9339,
+      "sha256": "c739b6faeae712dfa39a4573bf7f10a32727fda83977b524680e133c1163bc3f"
+    },
+    {
+      "bytes": 42255,
+      "path": "acquisitions.tsv",
+      "rows": 363,
+      "sha256": "87a633947beb9551060ce4896ec2ed21fad04dacfe9a8b4404a3dcfa96d646e0"
+    }
+  ],
+  "source_manifest": {
+    "bytes": 1908,
+    "sha256": "918fe94f68998d70aaabeca8e2f106541ac0bb12dfd33b9b9f9f5afec162535d"
+  },
+  "validation": {
+    "abundance_cells": 3380718,
+    "acquisition_metadata_rows": 363,
+    "acquisition_partition_complete": true,
+    "analytical_release_ready": false,
+    "biological_identity": "not_established",
+    "blank_acquisitions": 11,
+    "complete_media_roster_labels": 108,
+    "condition_observations": 337,
+    "export_complete": true,
+    "feature_rows": 9339,
+    "genome_linked_eligibility": "not_established",
+    "included_acquisitions": 351,
+    "literal_label_observations": 116,
+    "map_only_acquisitions": 1,
+    "missing_abundance_cells": 0,
+    "missing_condition_cells": 0,
+    "missing_label_presence_cells": 0,
+    "positive_condition_cells": 55346,
+    "positive_label_cells": 30940,
+    "positives_created": 0,
+    "queries_created": 0,
+    "scoring_ready": false,
+    "workbook_acquisitions": 362,
+    "zero_abundance_cells": 2415267
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "source_supplement_sha256": "6ea1aa7dc34516cf8dcf4b0003b3a9798ab4569106d8f1027dc94f22bcde0d72",
+  "curated_tsv_sha256": "735200cd87ee9fbd04385b2e6cd154fa0277e29982cd12ad0f10991dd19c9882",
+  "rows": 17,
+  "source_table1_fields_checked": [
+    "product id",
+    "FAC",
+    "neutral exact mass",
+    "deleted gene class",
+    "cryptic flag"
+  ],
+  "host_visually_inspected_pdf_pages": [
+    3,
+    12
+  ],
+  "unique_base_FACs": 15,
+  "admissions_added": 0,
+  "scope": "Table transcription and limited visual check; all-panel inspection by source worker, not independent biological adjudication.",
+  "prior_draft_tsv_sha256": "5577cc9b462c24346048523da9ff1c1edae373b32d606ebc927b98658846e4ed",
+  "final_recheck": "Repeated source-table check after worker incorporated verified whole-vector accession metadata; all17 rows pass."
+}

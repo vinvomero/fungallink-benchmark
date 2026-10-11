@@ -1,0 +1,38 @@
+{
+  "run_id": "record-integrity-provenance-amendment-2026-10-11",
+  "utc": "2026-10-11T18:55:22.651167+00:00",
+  "requested_model": "gpt-6-astra",
+  "requested_reasoning": "medium",
+  "serving_receipt": "unavailable",
+  "environment": "3.13.5",
+  "scope": "Exact declared one-cell provenance suffix only; no scientific data edited in this repair",
+  "implementation": "New separate supersession amendment verifies before snapshot and current hashes, removes only declared suffix from exactly one identified TSV cell, proves all prior bytes identical, then runs existing admission-prefix baseline chain checks unchanged. Original baseline and prior amendment remain untouched.",
+  "commands": [
+    "python -m unittest discover -s tests -p test_project_state_records.py -v",
+    "python scripts/check_project_state.py --output planning/presubmission-revision-work-2026-10-11/project-state-after-provenance-amendment.json"
+  ],
+  "results": {
+    "targeted_tests_passed": 2,
+    "negative_conditions_checked": [
+      "changed other cell even with updated after hash",
+      "tampered suffix even with updated after hash",
+      "wrong after hash",
+      "tampered before snapshot"
+    ],
+    "prior_admission_hash_matches_snapshot": true,
+    "original_protected_prefix_matches": true,
+    "record_check_errors": 0,
+    "record_check_warnings": [
+      "phylogeny-comparison-v1: nonterminal stopped; verify live process before resumption"
+    ]
+  },
+  "file_sha256": {
+    "scripts/check_project_state.py": "deb6f1afe150b9b311c0325bec808d1b6872acaefb44314ce464f3fd2f2973ea",
+    "tests/test_project_state_records.py": "e0654efbbc4948537ff12660ecaab28744ef05d3f9b624e799c5d89c56263484",
+    "planning/provenance-supersession-amendments.json": "9ba532c43a43b6deb220b89fd651d5b6bc52bc63cba4a77b165be2d05bfc6dff",
+    "planning/protected-records-before-2026-10-08.json": "c22844388bec7a7360dc58088e1e10aa134bce2bf3d24602ad2ae715bb1e3dca",
+    "planning/authorized-record-amendments.json": "8250c7a76c1ae0c83ec5a1ebeb05401e80ba16701328f855b13164e10d0c0f67",
+    "planning/presubmission-revision-work-2026-10-11/label-evidence-before-readiness.tsv": "4c13d04e198f1a34923eefc5f79132ef0a6abda3c80c5923cc6dd5e356ae8a1a",
+    "data/curated/label-evidence.tsv": "f35db5f65840e2e11dae4e47eb8a0dab08cb7dac4d0ced079034fd7562333cda"
+  }
+}

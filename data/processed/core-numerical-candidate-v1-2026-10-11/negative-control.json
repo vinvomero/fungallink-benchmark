@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "scope": "Changed one newline in extracted inputs.json; rejected by package hash check before scoring; original bytes restored. Production files unchanged.",
+  "returncode": 1,
+  "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\vvome\\OneDrive\\Desktop\\Claude Projects\\fungallinkv2\\data\\interim\\core-numerical-candidate-reproduction-2026-10-11\\expanded\\reproduce.py\", line 13, in <module>\n    raise ValueError('Input changed: '+name)\nValueError: Input changed: expanded/inputs.json\n"
+}

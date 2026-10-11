@@ -1,0 +1,104 @@
+{
+  "status": "completed",
+  "pid": 19340,
+  "command": [
+    "scripts/run_spec2class_positive_inputs.py"
+  ],
+  "python": "3.11.15 (main, Jul 18 2026, 17:06:27) [MSC v.1944 64 bit (AMD64)]",
+  "started_utc": "2026-10-09T23:31:56.797410+00:00",
+  "scope": "Spectral input preparation only; no query ranking or annotation activation",
+  "protocol": "protocol/spec2class-positive-inputs-v1.md",
+  "protocol_sha256": "9e27cee54d13170f95ae7cb333066a256203db4958bd2110c85fe522742f3b99",
+  "implementation_sha256": "919ea74cd7e41853f48bb8371336a0caa9652b30023e5cd275ac424b3add5d59",
+  "reference_run_sha256": "00069e436fc26f39e7d97d020369e250332adf0c52599b5606ac8a1e4361eefb",
+  "environment": {
+    "torch": "2.2.1",
+    "numpy": "1.26.4",
+    "pandas": "2.2.1",
+    "scipy": "1.12.0"
+  },
+  "updated_utc": "2026-10-09T23:33:22.175294+00:00",
+  "source_hashes": {
+    "neural_net.py": "01babfc3d2b6bce3debfa03182307fba9fb06af4e209797428be5a1091fd5328",
+    "binning_functions.py": "b6ea3357d7f9c8ae2e67f36c9f990c54335d090a32890494993a4d81e60d2d53",
+    "dataset_class.py": "4cdbe26c8aa62f8cf7252687bc1259cd2a86b224382ea282310e8f25f8fd5300",
+    "prediction_vectors_functions.py": "457deb26b4a68dd5b7e942db5fce45592ec295ef66e46c44f6f82f59a22c19f1",
+    "utility_functions.py": "18ba55249303f9aaab5176d9f2aaf6869c1398508acb71872949278eeb140960",
+    "config_spec2class.ini": "4f1356eda15195a69bf6fc5f08fdddb0cf9a3828f8b456c6cd28c36052473e3f"
+  },
+  "input_hashes": {
+    "method_inputs/candidates.tsv": "fe5e4868fc6a4624cd1e91ac72e75893339a8c95fe08401cf0818ed8f8fb368a",
+    "method_inputs/spectra.tsv": "bb6f5d75f203ef43b52ed5b7cf343365a1f2fe522d933af55773dca7552cb1d2",
+    "method_inputs/spectra.mgf": "6c5e504a8b212eaee532c0fa3df3b8f78facb1ab10af78c805b6291877734e7e"
+  },
+  "candidate_count": 98,
+  "spectra_supplied": 91,
+  "empty_after_preprocessing": [
+    "FLTR-X000098"
+  ],
+  "weight_hashes": {
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/positive-weights/trained_model_Flavonoids_no_x_val.pt": "efe58dbe5f1ef265be2a4a12b329f43cb6526d33b2920577ff9adfb510dac15c",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/positive-weights/trained_model_Triterpenoids_no_x_val.pt": "0e124677c740fe1ca7ab292180d2782a19be615821b335ae266f28cbb88e2dfc",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/positive-weights/trained_model_Small peptides_no_x_val.pt": "fcd9f3c7905d19307d600a5328f19b251f04d16609264581116969f54d864afb",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/positive-weights/trained_model_Diterpenoids_no_x_val.pt": "5366813787b53a68b08f8fbfcdc3fba59d39fc87726e1c41deb0373c668deeac",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/positive-weights/trained_model_Tryptophan alkaloids_no_x_val.pt": "b842101b3bf7d312cad5c34881aaad440230b92243c313651f3f0aefe2c007d0",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/positive-weights/trained_model_Sesquiterpenoids_no_x_val.pt": "ffd59f22a44fc695af49d7bcb59ba1ba9d3c8ed433d927d917bf3fe2481cc6dc",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/positive-weights/trained_model_Steroids_no_x_val.pt": "edbb921b60355531f0efc3fbfe0137cb8877c16cf71c6ca0778f389fbe7ba239",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/positive-weights/trained_model_Monoterpenoids_no_x_val.pt": "55208307e43021a5708d3983dc54daf581df0ea40cbb8727ef5bd02f4ff75568",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/positive-weights/trained_model_Coumarins_no_x_val.pt": "b778c12ff642d8c3554616fc79359ab0e4d0b93bb1b1ea6ffe41b485862ae392",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/positive-weights/trained_model_Lignans_no_x_val.pt": "3cce97749642041c3acba32584fa8bde65e290f1b2a1f9e03cf44c360c3a1600",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/positive-weights/trained_model_Pseudoalkaloids_no_x_val.pt": "c87f9bebcf67b14d0bd58a6713e64b2bf71258bb528fd3bfacf0f2c6a2765287",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/positive-weights/trained_model_Isoflavonoids_no_x_val.pt": "5f166803efa036339e1c4617e5bbbf2e6cfa6f78bb2c4648d706d0feb2caf9e0",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/positive-weights/trained_model_Tyrosine alkaloids_no_x_val.pt": "3ef91eec022c4877e7b307c6b3d296f20bb4220b3ef9d8cf076838ce32d1a0f7",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/positive-weights/trained_model_Phenylpropanoids (C6-C3)_no_x_val.pt": "27f2b3587c6c98571f986426a585b1259163bd686b9dae95f6f0b22d4f03f824",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/positive-weights/trained_model_Nucleosides_no_x_val.pt": "3c4d1289ce4775ece4db47d0658f50e1135e2210406505697ec32490a79ae834",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/positive-weights/trained_model_Phenolic acids (C6-C1)_no_x_val.pt": "675644c25b100da4c4fb95ceed6ac6c21b9b63f7df2c07493d45d6b8c11c4fb8",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/positive-weights/trained_model_Anthranilic acid alkaloids_no_x_val.pt": "2b7bc52eaf8159da5a4e5c9ebc863721d1200368ef2b28f025928dd007d303f7",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/positive-weights/trained_model_Ornithine alkaloids_no_x_val.pt": "830416c0fbd41ba6a2bb0fa7d1a1980e3234cbb4e88350cc2df1be12c4f7e402",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/positive-weights/trained_model_Fatty Acids and Conjugates_no_x_val.pt": "adf956e4828791b0aee650c05fbd829244034ca198624b036606048dc6b30c82",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/positive-weights/trained_model_Stilbenoids_no_x_val.pt": "6708b915d4cf65528a2b50ef6f02738991311809bfd76decda6007510c7008c4",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/positive-weights/trained_model_Nicotinic acid alkaloids_no_x_val.pt": "fffdb211fa9fb1944004eeebb98ff7dd0d986749fff1b341b19ca5f09baea191",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/positive-weights/trained_model_Diarylheptanoids_no_x_val.pt": "59778879a3c425f960b66dfbce9fe285bac7ec3348457a40df886ce6526de793",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/positive-weights/trained_model_Lysine alkaloids_no_x_val.pt": "51faf88176fc2219abff0b2c197f4fc30fc30f4889d10817d870e960eb41e4be",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/positive-weights/trained_model_Xanthones_no_x_val.pt": "6d447b82587892f20016365481d7bc56e1dcc57933731890c034a2bebf84559d",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/positive-weights/trained_model_Saccharides_no_x_val.pt": "5daef077b328db71598730ef98a0d2ec19bbfb7a51673874b74f8ac76911b541",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/positive-weights/trained_model_Meroterpenoids_no_x_val.pt": "a4d266e1534d08e6dfa5b89d271fb3a332cadd3e1cdb97baf61e87cbfefd5771",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/positive-weights/trained_model_Aromatic polyketides_no_x_val.pt": "c6b91d8f981ea4de883633a75da5d54a2e3616aa31d270c1ec27591ce030c5cb",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/positive-weights/trained_model_Macrolides_no_x_val.pt": "d436c65d5bd3dcfc25418daee227d43076787b78f80d5d0f4eed6304248e8af9",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/positive-weights/trained_model_Cyclic polyketides_no_x_val.pt": "71b17647393989b8de34d3aaf2de6eb6128d4deffc3fee75146e3f13f36ac709",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/positive-weights/trained_model_Phloroglucinols_no_x_val.pt": "46d46405d5d988a0c4d1c4ce4cbbe5646fcf9ca566b7e626d4b970210739777c",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/positive-weights/trained_model_Chromanes_no_x_val.pt": "9e2fc6e9e932a7099cc9d4a69aab79212a13d854e363da81dc751c42cfc01be7",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/positive-weights/trained_model_Naphthalenes_no_x_val.pt": "a0e1d5a06674f27c56802929a483748eb7dc110dc5978c476bccd43a1c693bf6",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/positive-weights/trained_model_Apocarotenoids_no_x_val.pt": "da5939abddc2d72cbe2c7a8519916308f58e7fb35e02bc1ba9d2f71ec405712a",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/positive-weights/trained_model_Fatty amides_no_x_val.pt": "6e3e6752ce704f01f8ebd56133b791fce7ea503c65e9b701761441bd123b0542",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/positive-weights/trained_model_Aminosugars and aminoglycosides_no_x_val.pt": "51591a1d33d5bc1be2d061312565d06c6550233d4728591c3f52fbbaff5a1843",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/positive-weights/trained_model_Histidine alkaloids_no_x_val.pt": "187b2f3c2572453028172060543db72abaceaaf46d71458b5c545a1e9f6aa017",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/positive-weights/trained_model_Oligopeptides_no_x_val.pt": "c4a727d39968f8079d70704908eda8bad4e2788ccfd764febbb9e988c207da76",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/positive-weights/trained_model_Peptide alkaloids_no_x_val.pt": "8fb3943c934b690d7c169bb6a19634c94bcc9bcd37c55e57d2cd82c019b7c115",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/positive-weights/trained_model_Phenylethanoids (C6-C2)_no_x_val.pt": "898bb25c36f0327a7904f148a04bf8db92af3594c3f523bfd8a4bc22b82c1c99",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/positive-weights/trained_model_Fatty acyls_no_x_val.pt": "85ba4c75370f597f071d6e23a79e19eefdd55bed59a35c5f0534d1fcbdc5595c",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/positive-weights/trained_model_Styrylpyrones_no_x_val.pt": "d37e1dd7ba5ce8c41515089fa17bd42726fbab6edf5310d05ed24c34030c51c3",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/positive-weights/trained_model_Fatty acyl glycosides_no_x_val.pt": "04afe205c8b93e1ecc93d6f476cf9fea357b31b01e2525743bd82de086d979bd",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/positive-weights/trained_model_Fatty esters_no_x_val.pt": "967425101cdfed94a95f680fda3c6130edef17fcd0f317c64ba1ca154d75885b"
+  },
+  "binary_classes_completed": 43,
+  "spectra_predicted": 90,
+  "svm_command": [
+    "C:/Users/vvome/.cache/fl-spec2pos-svm/Scripts/python.exe",
+    "C:\\Users\\vvome\\OneDrive\\Desktop\\Claude Projects\\fungallinkv2\\scripts\\apply_spec2class_positive_svm.py",
+    "C:\\Users\\vvome\\OneDrive\\Desktop\\Claude Projects\\fungallinkv2\\data\\processed\\trichoderma-spec2class-positive-v1-attempt2\\vectors.json",
+    "C:\\Users\\vvome\\OneDrive\\Desktop\\Claude Projects\\fungallinkv2\\data\\processed\\trichoderma-spec2class-positive-v1-attempt2\\svm-output.json"
+  ],
+  "coverage_counts": {
+    "predicted": 90,
+    "no_spectrum": 7,
+    "no_fragments_after_preprocessing": 1
+  },
+  "output_hashes": {
+    "coverage.tsv": "1d0332b3744ba9ed4aa30179a1367ead7b98aa2cdd10abce13dbfe82ce7e406f",
+    "predictor-input.json": "e5b53b1a22f90f5363ec252a0a3f02d59f7f4d1a61ecaab6df3057ac896947aa",
+    "svm-output.json": "efb65a8bbd165f20bfc99cd01b236c4c4306c477cc1389a476c70fc3c2bfb768",
+    "svm.log": "9c2307dba1eb7582a96f3a95249869ff0c6a9dacdb95a545db9fd7ab17387842",
+    "vectors.json": "859e6294416a6319cbc5e869a9772822ce12336731ec74e5d5310a4258e8a08f"
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "schema": "fungallink-first-three-evidence-checks-v1",
+  "checked_date": "2026-09-30 America/New_York",
+  "curator": "Codex automated source review; scientific reviewer pending",
+  "requested_route": "gpt-6-astra / medium",
+  "actual_serving_receipt": "unavailable",
+  "workbook_sha256": "4726f832f82da431cc7e0a7b048b9e5d3e0d7de0831b8d20e9dab24bb5131fbb",
+  "gcf_archive_sha256": "0cef389310eccd261255e51919e7fe5f1f772cc73be2b0d42e0f5f8e30245a54",
+  "workbook_observations": [
+    {
+      "feature_id": 2127,
+      "sheet": "Sheet1",
+      "row": 2135,
+      "cell": "EI2135",
+      "strain": "CBS544.65",
+      "medium": "Cheerios",
+      "sample_header": "20210617_nja0922_MGx_H20190756_FungalCrudeExtract_CBS544_65_Cheerios.mzXML Peak height",
+      "peak_height": 1130000000,
+      "at_least_1e7": true,
+      "mz": 416.2000372,
+      "retention_time_min": 3.664442544,
+      "identity": "acetylaszonalenin"
+    },
+    {
+      "feature_id": 2127,
+      "sheet": "Sheet1",
+      "row": 2135,
+      "cell": "EJ2135",
+      "strain": "CBS544.65",
+      "medium": "Oats",
+      "sample_header": "20210617_nja0922_MGx_H20190756_FungalCrudeExtract_CBS544_65_Oats.mzXML Peak height",
+      "peak_height": 639000000,
+      "at_least_1e7": true,
+      "mz": 416.2000372,
+      "retention_time_min": 3.664442544,
+      "identity": "acetylaszonalenin"
+    },
+    {
+      "feature_id": 2127,
+      "sheet": "Sheet1",
+      "row": 2135,
+      "cell": "EK2135",
+      "strain": "CBS544.65",
+      "medium": "Rice",
+      "sample_header": "20210617_nja0922_MGx_H20190756_FungalCrudeExtract_CBS544_65_Rice.mzXML Peak height",
+      "peak_height": 1130000000,
+      "at_least_1e7": true,
+      "mz": 416.2000372,
+      "retention_time_min": 3.664442544,
+      "identity": "acetylaszonalenin"
+    },
+    {
+      "feature_id": 8468,
+      "sheet": "Sheet1",
+      "row": 8476,
+      "cell": "BY8476",
+      "strain": "ATCC38163",
+      "medium": "Cheerios",
+      "sample_header": "20210617_nja0922_MGx_H20190756_FungalCrudeExtract_ATCC38163_Cheerios.mzXML Peak height",
+      "peak_height": 13600000,
+      "at_least_1e7": true,
+      "mz": 610.4233936,
+      "retention_time_min": 4.682688131,
+      "identity": "emericellamide a"
+    },
+    {
+      "feature_id": 8468,
+      "sheet": "Sheet1",
+      "row": 8476,
+      "cell": "BZ8476",
+      "strain": "ATCC38163",
+      "medium": "Oats",
+      "sample_header": "20210617_nja0922_MGx_H20190756_FungalCrudeExtract_ATCC38163_Oats.mzXML Peak height",
+      "peak_height": 4178886.75,
+      "at_least_1e7": false,
+      "mz": 610.4233936,
+      "retention_time_min": 4.682688131,
+      "identity": "emericellamide a"
+    },
+    {
+      "feature_id": 8468,
+      "sheet": "Sheet1",
+      "row": 8476,
+      "cell": "CA8476",
+      "strain": "ATCC38163",
+      "medium": "Rice",
+      "sample_header": "20210617_nja0922_MGx_H20190756_FungalCrudeExtract_ATCC38163_Rice.mzXML Peak height",
+      "peak_height": 5658963.5,
+      "at_least_1e7": false,
+      "mz": 610.4233936,
+      "retention_time_min": 4.682688131,
+      "identity": "emericellamide a"
+    },
+    {
+      "feature_id": 810,
+      "sheet": "Sheet1",
+      "row": 818,
+      "cell": "DN818",
+      "strain": "CBS 101.740",
+      "medium": "Cheerios",
+      "sample_header": "20210714_lkc6464_MGx_H20190756_FungalCrudeExtract_A_brasiliensis_Cheerios.mzXML Peak height",
+      "peak_height": 1250000000,
+      "at_least_1e7": true,
+      "mz": 343.1280596,
+      "retention_time_min": 2.256973731,
+      "identity": "pestalamide B"
+    },
+    {
+      "feature_id": 810,
+      "sheet": "Sheet1",
+      "row": 818,
+      "cell": "DO818",
+      "strain": "CBS 101.740",
+      "medium": "Oats",
+      "sample_header": "20210712_lkc6464_MGx_H20190756_FungalCrudeExtract_Abrasiliensis_Oats.mzXML Peak height",
+      "peak_height": 222000000,
+      "at_least_1e7": true,
+      "mz": 343.1280596,
+      "retention_time_min": 2.256973731,
+      "identity": "pestalamide B"
+    },
+    {
+      "feature_id": 810,
+      "sheet": "Sheet1",
+      "row": 818,
+      "cell": "DP818",
+      "strain": "CBS 101.740",
+      "medium": "Rice",
+      "sample_header": "20210712_lkc6464_MGx_H20190756_FungalCrudeExtract_Abrasiliensis_Rice.mzXML Peak height",
+      "peak_height": 46200000,
+      "at_least_1e7": true,
+      "mz": 343.1280596,
+      "retention_time_min": 2.256973731,
+      "identity": "pestalamide B"
+    }
+  ],
+  "emericellamide_reference_url": "https://mibig.secondarymetabolites.org/repository/BGC0001290.4/BGC0001290.gbk",
+  "emericellamide_reference_sha256": "ae461b418993f199272cb911cf56605642b161580fa7b13315dabf7fa093727b",
+  "emericellamide_match_method": "Extract full openBlast sequence in named source region; compare equal full strings to versioned GenBank CDS translations; no local alignment threshold.",
+  "emericellamide_full_length_matches": [
+    {
+      "protein_id": "CBF87069.1",
+      "length_aa": 6919,
+      "full_sequence_equal": true,
+      "identity_percent": 100,
+      "reference_coverage_percent": 100,
+      "sha256": "4994f43c223d0319d1d563dae387322aa6be624436cb0b4bec118f890856754b"
+    },
+    {
+      "protein_id": "CBF87071.1",
+      "length_aa": 164,
+      "full_sequence_equal": true,
+      "identity_percent": 100,
+      "reference_coverage_percent": 100,
+      "sha256": "23f939f4472a4160f30d831ac386f92d0a9fcc9309610846f052d8ed4df77ab5"
+    },
+    {
+      "protein_id": "CBF87072.1",
+      "length_aa": 2534,
+      "full_sequence_equal": true,
+      "identity_percent": 100,
+      "reference_coverage_percent": 100,
+      "sha256": "dcac44db3cc47f07f123dbe09b2c3470c0ec8820061e4e5e6da7efe5572ef5cf"
+    },
+    {
+      "protein_id": "CBF87074.1",
+      "length_aa": 479,
+      "full_sequence_equal": true,
+      "identity_percent": 100,
+      "reference_coverage_percent": 100,
+      "sha256": "26f91e4300c1fe58bc2bca8ef1fa303184500a9a98692d657ca8ac1d51efef40"
+    },
+    {
+      "protein_id": "CBF87076.1",
+      "length_aa": 565,
+      "full_sequence_equal": true,
+      "identity_percent": 100,
+      "reference_coverage_percent": 100,
+      "sha256": "47d59ef70122d955e0110e243af24236553478fb1791b31e791bcb6a19e86b0e"
+    }
+  ],
+  "pestalamide_source_members": [
+    {
+      "region": "KV878176.1.region001",
+      "genome_label": "FMGX0077",
+      "family_labels": "NRPSPKS_85|MIXED_142"
+    },
+    {
+      "region": "KZ851866.1.region004",
+      "genome_label": "FMGX0067",
+      "family_labels": "NRPSPKS_85|MIXED_142"
+    },
+    {
+      "region": "chr_401.region001",
+      "genome_label": "FMGX0057",
+      "family_labels": "NRPSPKS_85|MIXED_142"
+    },
+    {
+      "region": "MCQH01000170.1.region001",
+      "genome_label": "FMGX0056",
+      "family_labels": "NRPSPKS_85|MIXED_142"
+    },
+    {
+      "region": "LMYC01000089.1.region002",
+      "genome_label": "FMGX0055",
+      "family_labels": "NRPSPKS_85|MIXED_142"
+    },
+    {
+      "region": "chr_401.region001",
+      "genome_label": "FMGX0054",
+      "family_labels": "NRPSPKS_85|MIXED_142"
+    },
+    {
+      "region": "KZ851953.1.region002",
+      "genome_label": "FMGX0053",
+      "family_labels": "NRPSPKS_85|MIXED_142"
+    },
+    {
+      "region": "ACJE01000009.1.region001",
+      "genome_label": "FMGX0052",
+      "family_labels": "NRPSPKS_85|MIXED_142"
+    },
+    {
+      "region": "KV878700.1.region001",
+      "genome_label": "FMGX0018",
+      "family_labels": "NRPSPKS_85|MIXED_142"
+    }
+  ],
+  "pestalamide_pstd": {
+    "protein_id": "OJJ66275.1",
+    "length_aa": 3768,
+    "sha256": "6efcf4caed9b7390019ececfef09442f1611e5e6a307a91e976b0f2ddcd9ee6e",
+    "scope": "Publisher HTML protein matches Table 8 accession and length; not a new assembly-wide alignment"
+  },
+  "html_sha256": {
+    "HRPKS_71": "dbf05efdc8d60c2393af056814e63862abc7fa767aa8134e1845a1e50681ccf8",
+    "NRPSPKS_85": "c54b42d8683bd5fed5b3350dbe80d260187e1ce52619aaab771a02933e4f8492",
+    "DMAT_34": "abc266aef43318cacd513263aeb0eb8d8e9165e30b8697c72f9f74b50a029c73",
+    "NRPS_85": "b016f268e45cfb0eff0ca5063d3cdcd08b603c2fa17e135cfe7efd4f3130b2b2"
+  },
+  "chemical_panel_inspection": {
+    "supplement_pdf_sha256": "259acfe84b6a7033ef3cbd41ba05133ce64ee32c8f102d49541fa4f8b57a2108",
+    "figure": "Supplementary Figure 1",
+    "emericellamide_a": "PDF page 22 printed S21; Type II dereplication; 25 HCD; precursor label 610.4144",
+    "acetylaszonalenin": "PDF page 20 printed S19; Type I dereplication",
+    "tier_scope": "Types I and II are both high-confidence authenticated-standard routes in separate in-house databases; no claim that Type II is an ordinal lower confidence tier"
+  }
+}

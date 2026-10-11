@@ -1,0 +1,21 @@
+{
+  "checked_utc": "2026-10-08T14:49:08.090147+00:00",
+  "before_sha256": "dd2e2d584e9b25dd4efae6ecf39b29293ec3924b7f9b49d362c53ecc714984d1",
+  "after_sha256": "9058205bebc117d2fa7e90a20723af509e106e881805dbab484f1c35d8bc8628",
+  "original_15_rows_unchanged": true,
+  "original_bytes_preserved": true,
+  "added_ids": [
+    "facms2017:AtFAC9J20:valactamide-B",
+    "facms2017:AtFAC9J20:valactamide-C",
+    "facms2017:AtFAC9J20:valactamide-D",
+    "facms2017:AtFAC9J20:valactamide-E",
+    "facms2017:AtFAC9J20:valactamide-F",
+    "facms2017:AtFAC9J20:valactamide-G",
+    "facms2017:AtFAC9J20:valactamide-H"
+  ],
+  "relationships": 22,
+  "query_ids": 11,
+  "directly_supported": 15,
+  "reference_supported": 7,
+  "scope": "Ledger integration checks; not independent scientific validation; evaluated labels and frozen inputs unchanged"
+}

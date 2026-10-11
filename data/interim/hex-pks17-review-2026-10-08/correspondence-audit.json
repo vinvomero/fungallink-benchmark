@@ -1,0 +1,196 @@
+{
+  "native_record": "KN839868.1",
+  "native_interval_length": 44895,
+  "archive_sha256": "59b3676602610d66501953c3dc89d3fef94b14a77192442ae87d8b7a1c9c1c25",
+  "plasmids": [
+    {
+      "name": "pCHKU43.1-2.2",
+      "length": 14594,
+      "sequence_sha256": "7c72c9f4a05a28a744f723307f11f74610f3c2ca0b04583c457ebf84949d6a8a"
+    },
+    {
+      "name": "pCHKU43.2-2.2",
+      "length": 17732,
+      "sequence_sha256": "59483aff76b42ed57a744bd5cf1a38983e36ac8fac61814b7e927fec13c6cc6d"
+    },
+    {
+      "name": "pCHKU43.3-2.2",
+      "length": 21821,
+      "sequence_sha256": "a329f5d149c831fa9cd35c96a9d87d156565df8904b82b63c214e90c646bd8a1"
+    }
+  ],
+  "genes": [
+    {
+      "locus": [
+        "HYDPIDRAFT_97846"
+      ],
+      "protein_id": [
+        "KIJ60837.1"
+      ],
+      "length": 511,
+      "full_length_exact_plasmid_matches": [
+        "pCHKU43.2-2.2"
+      ],
+      "partial_location": false
+    },
+    {
+      "locus": [
+        "HYDPIDRAFT_116697"
+      ],
+      "protein_id": [
+        "KIJ60838.1"
+      ],
+      "length": 67,
+      "full_length_exact_plasmid_matches": [
+        "pCHKU43.3-2.2"
+      ],
+      "partial_location": false
+    },
+    {
+      "locus": [
+        "HYDPIDRAFT_138568"
+      ],
+      "protein_id": [
+        "KIJ60839.1"
+      ],
+      "length": 226,
+      "full_length_exact_plasmid_matches": [
+        "pCHKU43.2-2.2"
+      ],
+      "partial_location": false
+    },
+    {
+      "locus": [
+        "HYDPIDRAFT_97845"
+      ],
+      "protein_id": [
+        "KIJ60840.1"
+      ],
+      "length": 1403,
+      "full_length_exact_plasmid_matches": [
+        "pCHKU43.3-2.2"
+      ],
+      "partial_location": false
+    },
+    {
+      "locus": [
+        "HYDPIDRAFT_97981"
+      ],
+      "protein_id": [
+        "KIJ60841.1"
+      ],
+      "length": 506,
+      "full_length_exact_plasmid_matches": [
+        "pCHKU43.2-2.2"
+      ],
+      "partial_location": false
+    },
+    {
+      "locus": [
+        "HYDPIDRAFT_97813"
+      ],
+      "protein_id": [
+        "KIJ60842.1"
+      ],
+      "length": 269,
+      "full_length_exact_plasmid_matches": [
+        "pCHKU43.3-2.2"
+      ],
+      "partial_location": false
+    },
+    {
+      "locus": [
+        "HYDPIDRAFT_116705"
+      ],
+      "protein_id": [
+        "KIJ60843.1"
+      ],
+      "length": 460,
+      "full_length_exact_plasmid_matches": [
+        "pCHKU43.2-2.2"
+      ],
+      "partial_location": false
+    },
+    {
+      "locus": [
+        "HYDPIDRAFT_189823"
+      ],
+      "protein_id": [
+        "KIJ60886.1"
+      ],
+      "length": 2652,
+      "full_length_exact_plasmid_matches": [
+        "pCHKU43.1-2.2"
+      ],
+      "partial_location": false
+    },
+    {
+      "locus": [
+        "HYDPIDRAFT_31893"
+      ],
+      "protein_id": [
+        "KIJ60844.1"
+      ],
+      "length": 591,
+      "full_length_exact_plasmid_matches": [
+        "pCHKU43.3-2.2"
+      ],
+      "partial_location": false
+    },
+    {
+      "locus": [
+        "HYDPIDRAFT_116706"
+      ],
+      "protein_id": [
+        "KIJ60845.1"
+      ],
+      "length": 83,
+      "full_length_exact_plasmid_matches": [
+        "pCHKU43.3-2.2"
+      ],
+      "partial_location": false
+    },
+    {
+      "locus": [
+        "HYDPIDRAFT_31894"
+      ],
+      "protein_id": [
+        "KIJ60846.1"
+      ],
+      "length": 515,
+      "full_length_exact_plasmid_matches": [
+        "pCHKU43.2-2.2"
+      ],
+      "partial_location": false
+    },
+    {
+      "locus": [
+        "HYDPIDRAFT_177260"
+      ],
+      "protein_id": [
+        "KIJ60847.1"
+      ],
+      "length": 226,
+      "full_length_exact_plasmid_matches": [
+        "pCHKU43.2-2.2"
+      ],
+      "partial_location": false
+    },
+    {
+      "locus": [
+        "HYDPIDRAFT_189826"
+      ],
+      "protein_id": [
+        "KIJ60848.1"
+      ],
+      "length": 1411,
+      "full_length_exact_plasmid_matches": [
+        "pCHKU43.3-2.2"
+      ],
+      "partial_location": false
+    }
+  ],
+  "exact_match_genes": 13,
+  "total_genes": 13,
+  "scope": "Read-only exact protein containment audit; missing matches do not prove gene absence; no sequence design or admission"
+}

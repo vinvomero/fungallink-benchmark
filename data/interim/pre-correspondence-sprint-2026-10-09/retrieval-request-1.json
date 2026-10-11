@@ -1,0 +1,56 @@
+[
+  [
+    "addgene-110672.html",
+    "https://www.addgene.org/110672/",
+    "GET",
+    {}
+  ],
+  [
+    "addgene-110673.html",
+    "https://www.addgene.org/110673/",
+    "GET",
+    {}
+  ],
+  [
+    "figshare-benz-search.json",
+    "https://api.figshare.com/v2/articles/search",
+    "POST",
+    {
+      "search_for": "Interrogation of Benzomalvin",
+      "limit": 20
+    }
+  ],
+  [
+    "figshare-hex-search.json",
+    "https://api.figshare.com/v2/articles/search",
+    "POST",
+    {
+      "search_for": "HEx heterologous expression",
+      "limit": 20
+    }
+  ],
+  [
+    "datacite-fac.json",
+    "https://api.datacite.org/dois",
+    "GET",
+    {
+      "query": "relatedIdentifiers.relatedIdentifier:\"10.1038/nchembio.2408\"",
+      "page[size]": 100
+    }
+  ],
+  [
+    "datacite-hex.json",
+    "https://api.datacite.org/dois",
+    "GET",
+    {
+      "query": "relatedIdentifiers.relatedIdentifier:\"10.1126/sciadv.aar5459\"",
+      "page[size]": 100
+    }
+  ],
+  [
+    "biorxiv-details.json",
+    "https://api.biorxiv.org/details/biorxiv/10.1101/247940",
+    "GET",
+    {}
+  ]
+]

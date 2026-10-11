@@ -1,0 +1,5 @@
+{
+  "retrieved_utc": "2026-10-08T15:04:11.842829+00:00",
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=XM_020201810.1,XM_020201811.1,XM_020198595.1&rettype=gb&retmode=text",
+  "sha256": "c8bdb0b490e3e43130640cd4d38890396f47b48a2e72edbfcea013e84686376e"
+}

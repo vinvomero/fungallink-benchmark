@@ -1,0 +1,113 @@
+{
+  "native_record": "AWSO01000045.1",
+  "native_interval_length": 24132,
+  "archive_sha256": "59b3676602610d66501953c3dc89d3fef94b14a77192442ae87d8b7a1c9c1c25",
+  "plasmids": [
+    {
+      "name": "pCHKU39.1-2.2",
+      "length": 13241,
+      "sequence_sha256": "9c145924b7c320df3fbde2c1c65db0bf3c3f6b34d39ec07780e8414a7836fe15"
+    },
+    {
+      "name": "pCHKU39.2-2.2",
+      "length": 19721,
+      "sequence_sha256": "79f214ec603142076a831e33e3d6af9a09c7dc85a376daa7cc99c54c939d4867"
+    }
+  ],
+  "genes": [
+    {
+      "locus": [
+        "Moror_6828"
+      ],
+      "protein_id": [
+        "ESK96608.1"
+      ],
+      "length": 482,
+      "full_length_exact_plasmid_matches": [
+        "pCHKU39.2-2.2"
+      ],
+      "partial_location": false
+    },
+    {
+      "locus": [
+        "Moror_6829"
+      ],
+      "protein_id": [
+        "ESK96609.1"
+      ],
+      "length": 306,
+      "full_length_exact_plasmid_matches": [
+        "pCHKU39.2-2.2"
+      ],
+      "partial_location": false
+    },
+    {
+      "locus": [
+        "Moror_6830"
+      ],
+      "protein_id": [
+        "ESK96610.1"
+      ],
+      "length": 1086,
+      "full_length_exact_plasmid_matches": [
+        "pCHKU39.2-2.2"
+      ],
+      "partial_location": false
+    },
+    {
+      "locus": [
+        "Moror_6831"
+      ],
+      "protein_id": [
+        "ESK96611.1"
+      ],
+      "length": 291,
+      "full_length_exact_plasmid_matches": [
+        "pCHKU39.2-2.2"
+      ],
+      "partial_location": false
+    },
+    {
+      "locus": [
+        "Moror_6832"
+      ],
+      "protein_id": [
+        "ESK96612.1"
+      ],
+      "length": 691,
+      "full_length_exact_plasmid_matches": [
+        "pCHKU39.2-2.2"
+      ],
+      "partial_location": false
+    },
+    {
+      "locus": [
+        "Moror_6833"
+      ],
+      "protein_id": [
+        "ESK96613.1"
+      ],
+      "length": 2201,
+      "full_length_exact_plasmid_matches": [
+        "pCHKU39.1-2.2"
+      ],
+      "partial_location": false
+    },
+    {
+      "locus": [
+        "Moror_6834"
+      ],
+      "protein_id": [
+        "ESK96614.1"
+      ],
+      "length": 251,
+      "full_length_exact_plasmid_matches": [
+        "pCHKU39.2-2.2"
+      ],
+      "partial_location": false
+    }
+  ],
+  "exact_match_genes": 7,
+  "total_genes": 7,
+  "scope": "Read-only exact protein containment audit; missing matches do not prove gene absence; no sequence design or admission"
+}

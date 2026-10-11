@@ -1,0 +1,43 @@
+{
+  "scope": "evaluator-side ID membership only; no scores",
+  "biological_ledger_sha256": "7ea94a9b17f5238fa6cacdaf4332f6ac02fca03b6c3a04717ec4d007a1ddd169",
+  "method_input_sha256": "9da7da7478693e2ab9fe186cda6b8c7c547d4511c4fcb2561f51221f6419fa1d",
+  "relationships": [
+    {
+      "relationship_id": "caesar2023:pst:810",
+      "query_id": "source:NRPSPKS_85",
+      "target_id": "caesar2023:feature:810",
+      "target_in_full_pool": true
+    },
+    {
+      "relationship_id": "caesar2023:relationship:25",
+      "query_id": "source:TERPENE_40",
+      "target_id": "caesar2023:feature:3485",
+      "target_in_full_pool": true
+    },
+    {
+      "relationship_id": "caesar2023:relationship:23",
+      "query_id": "source:NRPSLIKE_59",
+      "target_id": "caesar2023:feature:1764",
+      "target_in_full_pool": true
+    },
+    {
+      "relationship_id": "caesar2023:relationship:13",
+      "query_id": "source:NRPKS_18",
+      "target_id": "caesar2023:feature:2854",
+      "target_in_full_pool": true
+    },
+    {
+      "relationship_id": "caesar2023:relationship:21",
+      "query_id": "source:NRPS_66",
+      "target_id": "caesar2023:feature:9213",
+      "target_in_full_pool": true
+    },
+    {
+      "relationship_id": "caesar2023:pst:725",
+      "query_id": "source:NRPSPKS_85",
+      "target_id": "caesar2023:feature:725",
+      "target_in_full_pool": true
+    }
+  ]
+}

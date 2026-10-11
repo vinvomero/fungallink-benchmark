@@ -1,0 +1,98 @@
+{
+  "artifact_kind": "candidate_bundle_verification",
+  "bundle_manifest": {
+    "artifact_kind": "acquisition_candidate_bundle",
+    "exposure": "Candidate IDs retain public source IDs; annotation removal does not establish novelty or blindness.",
+    "generator": {
+      "bytes": 8523,
+      "name": "build_candidate_bundle.py",
+      "sha256": "eadca9662d30c45765a082b16099f0f4906afb8bf43d211faea168989f6b8fd4",
+      "version": "1.0"
+    },
+    "outputs": [
+      {
+        "bytes": 444419,
+        "path": "candidates.tsv",
+        "rows": 9339,
+        "sha256": "da176bc73376afae67cf47867232f0780bce1012a071b7c99b0cd90139b7b39d"
+      },
+      {
+        "bytes": 16008873,
+        "path": "abundances.tsv",
+        "rows": 9339,
+        "sha256": "c739b6faeae712dfa39a4573bf7f10a32727fda83977b524680e133c1163bc3f"
+      },
+      {
+        "bytes": 42255,
+        "path": "acquisitions.tsv",
+        "rows": 363,
+        "sha256": "87a633947beb9551060ce4896ec2ed21fad04dacfe9a8b4404a3dcfa96d646e0"
+      }
+    ],
+    "preparation": {
+      "abundance_scale": "raw_unnormalized",
+      "aggregation": false,
+      "filtering": false,
+      "imputation": false,
+      "missing_abundance": "empty TSV field; zero remains zero",
+      "observation_unit": "source acquisition; not an independent genome"
+    },
+    "runtime": {
+      "python": "3.13.5"
+    },
+    "schema_version": 1,
+    "source_manifest": {
+      "bytes": 2233,
+      "sha256": "53e74e1f5161ec7af038a5a9e8adbc033cc245db6b5e6625272c6258053eae15"
+    },
+    "validation": {
+      "abundance_cells": 3380718,
+      "acquisition_metadata_rows": 363,
+      "analytical_release_ready": false,
+      "biological_labels_admitted": false,
+      "export_complete": true,
+      "feature_rows": 9339,
+      "map_only_acquisitions": 1,
+      "missing_abundance_cells": 0,
+      "observed_minus_published": 38,
+      "positives_created": 0,
+      "published_count_discrepancy_status": "unresolved",
+      "published_feature_count": 9301,
+      "queries_created": 0,
+      "workbook_acquisitions": 362,
+      "zero_abundance_cells": 2415267
+    }
+  },
+  "checked_date": "2026-10-02",
+  "code_review": {
+    "actionable_findings": 0,
+    "cross_model_review": false,
+    "depth": "focused",
+    "independent_native_adversarial_read": true,
+    "run_id": "20261002-200536-2402559b",
+    "status": "complete",
+    "verdict": "Ready to merge"
+  },
+  "host_checks": {
+    "abundance_bytes_unchanged": true,
+    "acquisition_projection_matches_source": true,
+    "biological_evaluation_performed": false,
+    "candidate_projection_matches_source": true,
+    "full_suite_tests_passed": 103,
+    "generator_bytes_stable_autocrlf_true_false": true,
+    "rebuild_byte_identical": true,
+    "synthetic_query_format_smoke_candidate_count": 9339
+  },
+  "requested_implementation_route": {
+    "model": "gpt-6-astra",
+    "reasoning": "medium",
+    "serving_receipt": "unavailable"
+  },
+  "schema_version": 1,
+  "simplification_review": {
+    "changes_required": false,
+    "efficiency_findings": 0,
+    "quality_findings": 0,
+    "reuse_findings": 0
+  }
+}

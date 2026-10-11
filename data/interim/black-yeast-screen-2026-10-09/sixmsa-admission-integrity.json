@@ -1,0 +1,20 @@
+{
+  "utc": "2026-10-09T22:06:08.512931+00:00",
+  "status": "admitted",
+  "relationship_id": "blackyeast2026:sixmsa:POP4",
+  "before_sha256": "9ff25c5802b8fdf53129e3354b8fa2a8b161a9455bee8f095f8d0fda0426c9e2",
+  "after_sha256": "21598678962d6f854c341eac8c2bd97158ba8f2ba99deef1af6ce0c5d121790a",
+  "previous_rows_preserved_bytes": true,
+  "relationships": 28,
+  "query_identities": 16,
+  "evidence_counts": {
+    "directly-supported": 18,
+    "reference-supported": 10
+  },
+  "query_fasta_sha256": "a6a3787fb06f8e3468f27e63b178a2df156cc377b6f6c1b38a3996b7854dcf98",
+  "query_length_nt": 5412,
+  "evaluated_relationships": 11,
+  "manuscript_integrated": true,
+  "frozen_analyses_changed": false,
+  "manuscript_receipt": "manuscript/sixmsa-integration-verification-2026-10-09.json"
+}

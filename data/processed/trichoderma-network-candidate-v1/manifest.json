@@ -1,0 +1,119 @@
+{
+  "package_id": "trichoderma-network-candidate-v1",
+  "status": "candidate_only_unfrozen",
+  "created_on": "2026-10-07",
+  "gold_labels_admitted": 0,
+  "ready_for_scoring": false,
+  "queries": 1,
+  "candidates": 98,
+  "samples": 2,
+  "conditions": 2,
+  "independent_genetic_backgrounds": 1,
+  "spectra": 91,
+  "without_spectra_source_rows": [
+    "4",
+    "15",
+    "20",
+    "34",
+    "38",
+    "41",
+    "67"
+  ],
+  "method_input_allowlist": [
+    "method_inputs/abundances.tsv",
+    "method_inputs/candidates.tsv",
+    "method_inputs/queries.tsv",
+    "method_inputs/query.fasta",
+    "method_inputs/samples.tsv",
+    "method_inputs/spectra.mgf",
+    "method_inputs/spectra.tsv"
+  ],
+  "proposal_files": [
+    "proposed_labels/ilicicolin-h-proposal.tsv"
+  ],
+  "source_dataset": "MSV000095813",
+  "article_doi": "10.1186/s13068-025-02628-3",
+  "query_reference": {
+    "assembly": "GCA_000167675.2",
+    "accession": "GL985060.1",
+    "start_1based": 21098,
+    "end_1based": 51701,
+    "strand": "+",
+    "length_nt": 30604,
+    "sequence_sha256": "759c315a5e2a32176fd1ca1d4ef261f70c2b55af4c143dfe82a2b91e4bef5d62",
+    "identity_to_source_window_percent": 100,
+    "scope": "QM6a reference window; not authenticated mutant genome"
+  },
+  "processing": {
+    "actual_version": "MZmine 3.9.0",
+    "source_version": "MZmine 4.0.3",
+    "deviations": [
+      "4.0.3 command line required login; official3.9.0 alternative used",
+      "unsupported false Never remove annotated rows parameter",
+      "metaCorrelate advanced stats/simplification parameter absent in3.9",
+      "native TSF import added because deposited recipe begins after import",
+      "full candidate export added with ALL rows; source-filtered export kept separately in originating work",
+      "portable recipe rewrites local paths only; not executed during packaging"
+    ],
+    "source_thresholds_changed_using_labels": false,
+    "raw_total_bytes": 682009092,
+    "aligned_rows_before_filter": 110,
+    "rows_removed_by_declared_source_filter": 12
+  },
+  "sample_scope": "two January2024 TIMS-off acquisitions from two QM6a derivative conditions; no independent-strain variation",
+  "current_compatibility": {
+    "sequence_to_feature": "candidate inputs available; annotation limitations documented; scientific and analysis decisions outstanding",
+    "spectral": "91 selected native spectra checked;91 candidates only;7 spectrum-free candidates retained",
+    "independent_strain_cooccurrence": "not supported by treating two conditions as two genomes",
+    "gene_annotation_dependent": "native triliD missing and A/C/E/R model differences; reviewed model set required"
+  },
+  "source_hashes": {
+    "provenance/originals/full_candidate_pool_quant.csv": "eee096ce16990f97d52c6f9f9c21a62b4e0997a08173833ae971f2365c15864d",
+    "provenance/originals/full_candidate_pool.mgf": "ce6e54dafd624c8e0b50910952d3d84c11ca6dc3766c362f097039fa2a6e6d6c"
+  },
+  "requested_route": {
+    "model": "gpt-6-astra",
+    "reasoning": "medium",
+    "actual_serving_receipt": "unverified"
+  },
+  "file_hashes": {
+    "method_inputs/abundances.tsv": "c299c63693678db4c83fb8ec10fb59a006a0ca85496f773c8c505cbd475233d8",
+    "method_inputs/candidates.tsv": "fe5e4868fc6a4624cd1e91ac72e75893339a8c95fe08401cf0818ed8f8fb368a",
+    "method_inputs/queries.tsv": "966e2b97bb615d3a6c0a7e478f6197b067f65e82b100d9e59582ef30093db370",
+    "method_inputs/query.fasta": "95095bfddfc0a9ec843005f4dce41ab103161efd615a9f54fbf0421381a44ba2",
+    "method_inputs/samples.tsv": "1480f476b8b02c2d42fc9c41d860eaea57bf32d014b552f4680886c6a989b0c8",
+    "method_inputs/spectra.mgf": "6c5e504a8b212eaee532c0fa3df3b8f78facb1ab10af78c805b6291877734e7e",
+    "method_inputs/spectra.tsv": "bb6f5d75f203ef43b52ed5b7cf343365a1f2fe522d933af55773dca7552cb1d2",
+    "proposed_labels/ilicicolin-h-proposal.tsv": "1186eeb4186f9adea359cd1a70e353b4b86855370f0716b1e79b039afc938d27",
+    "provenance/candidate-aliases.tsv": "7acc781491e28bfaf7e0c6a68a678e360043fd9e6ed6a6ada42bc875b41de0c1",
+    "provenance/evidence/trichoderma-h-measured-target-bridge-2026-10-07.md": "6a674fb725c1afab6f10b336d125bb2f69d38191b08ebfeee4af06773cb5d14d",
+    "provenance/evidence/trichoderma-qm6a-correspondence-2026-10-07.md": "54a3710229fa436795c450a59e854ad103346a38c939ab4818a885dca5b84188",
+    "provenance/originals/full_candidate_pool.mgf": "ce6e54dafd624c8e0b50910952d3d84c11ca6dc3766c362f097039fa2a6e6d6c",
+    "provenance/originals/full_candidate_pool_quant.csv": "eee096ce16990f97d52c6f9f9c21a62b4e0997a08173833ae971f2365c15864d",
+    "provenance/originals/qm6a-reference-native-annotations.gbk": "62a520825226006a701dd3f0650027dd102b3331fa034d8eea2b8d7912064b98",
+    "provenance/originals/qm6a-reference.fasta": "0de6e7c91ba88a9e2dd20ba3ca7480b7afbfced5e1dbe29e87522749234ac629",
+    "provenance/processing/aligned-row-removals.tsv": "ca1ec34446ad98b86e289f088d7b8e3f507928f8dbff82bca319296071959743",
+    "provenance/processing/executed-3.9.0-recipe.mzbatch": "9a2d11b0073c10cd250cd107ce015676b8250f616112b9d6dd46a1d5a9e98959",
+    "provenance/processing/host-manifest-verification.json": "2906b78eb1f1c956da14820de401da774f723f404390c8b3233e1797eb831a25",
+    "provenance/processing/LICENSE.txt": "0879519fa128ce1eedf7040fc9b6d83e87b344e20f71d66cab279df7d6083f55",
+    "provenance/processing/mgf-membership.json": "8c642f94fb04f00029138c561493b7e13c6eaae156bfde6fcd3fd48cd72a5938",
+    "provenance/processing/native-event-host-verification.json": "c008cb028b53438fa2e324dad9393591b8705497f6ecd7370197fb95f7e855a7",
+    "provenance/processing/native-fragment-membership.tsv": "0a8e2814e6ebdbb4f539a2cb36e0b24ec846a475fdcd755ceecd7ed886b6ccf0",
+    "provenance/processing/pilot-export-host-verification.json": "a35b08f77cfcdd1085cf3b8f5ef3eb5780f72bea45cdb346798b4fff883eb46b",
+    "provenance/processing/pipeline-featurelists.json": "94f414e2e8c9bac3266b8875b47b0ca0f43727ab4ab50ecab0c0f13fadd5852d",
+    "provenance/processing/portable-3.9.0-recipe.mzbatch": "462b13074f0b73d1ca9469442ec6fa6d53f8c4899dba4e0ea42e45c3a4a5a93b",
+    "provenance/processing/processing-report.md": "f97c0160616f0e1c3988e5b83454e77788670ad23eef9818f315e31311ffd432",
+    "provenance/processing/raw-verification.json": "0998705a51760d5bb4336de5acbe2e18cecbfdcb02e682ddfd8d621680a04aa8",
+    "provenance/processing/recipe-changes.json": "addadf289045b5f53d421addacb6006f432731eec655aa272caf1c2b99863a62",
+    "provenance/processing/selected-native-spectrum-check.json": "67f689049bc8d2c6a7e20e9687588ac08c864372b275f8af34ed2965b15de85c",
+    "provenance/processing/software-retrieval.json": "63c610415e832eadd26e4579419f67257c2f656743caf2c5b8ca892fcc63cc93",
+    "provenance/processing/source-4.0.3-recipe.mzbatch": "2b267dab7fadb8061710a675108f502e843ee36af0920d1040158b571f78f5a1",
+    "provenance/processing/source-processing-manifest.json": "2f828b6c537c9b8644941a6ec6435f3018101197e16d160891e19afab24d9119",
+    "provenance/processing/verify_native_membership.py": "4e140830004545868746c6b921180e7e079757f5948da504817c09fd078190e4",
+    "provenance/raw-file-manifest.json": "7826b3a9a9e0d355cc6c77724c561955fd12a031567e3e5fa5fb4efdea1cdda9",
+    "provenance/sample-crosswalk.tsv": "3ffffcab0534a95bae7e4c6c4d1802f85b0518b5446197bddbac518baeaf7c77",
+    "README.md": "25117423c7b096381fb1f8c2d1ca4cb915d08e396c5b3538ff0476b885710811",
+    "validate.py": "58e057bfa9c0cf06ae67440ee8202d9e4ffc873b8801037c0273db504eb0aa78"
+  },
+  "native_provenance_status": "91selected spectra verified;1097 memberships; no merging"
+}

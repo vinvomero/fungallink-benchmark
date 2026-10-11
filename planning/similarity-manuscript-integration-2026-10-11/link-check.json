@@ -1,0 +1,551 @@
+{
+  "links": [
+    {
+      "source": "docs/release/release-map-v1.md",
+      "target": "docs/release/mapping-traceability-v1.md",
+      "packaged": true
+    },
+    {
+      "source": "docs/release/release-map-v1.md",
+      "target": "manuscript/benchmark-paper-review.md",
+      "packaged": true
+    },
+    {
+      "source": "docs/release/release-map-v1.md",
+      "target": "manuscript/Supplementary-Methods.md",
+      "packaged": true
+    },
+    {
+      "source": "docs/release/release-map-v1.md",
+      "target": "docs/release/reproduction-stages-v1.md",
+      "packaged": true
+    },
+    {
+      "source": "docs/release/release-map-v1.md",
+      "target": "manuscript/comparative-results-v1.md",
+      "packaged": true
+    },
+    {
+      "source": "docs/release/release-map-v1.md",
+      "target": "manuscript/scientific-review-v1.tsv",
+      "packaged": true
+    },
+    {
+      "source": "docs/release/release-map-v1.md",
+      "target": "docs/release/reproduction-stages-v1.tsv",
+      "packaged": true
+    },
+    {
+      "source": "docs/release/release-map-v1.md",
+      "target": "docs/release/environment/phylogeny-linux-explicit.txt",
+      "packaged": true
+    },
+    {
+      "source": "docs/release/release-map-v1.md",
+      "target": "data/curated/relationship-readiness-v1.tsv",
+      "packaged": true
+    },
+    {
+      "source": "docs/release/release-map-v1.md",
+      "target": "data/curated/label-evidence.tsv",
+      "packaged": true
+    },
+    {
+      "source": "docs/release/release-map-v1.md",
+      "target": "docs/release/relationship-readiness-v1.md",
+      "packaged": true
+    },
+    {
+      "source": "docs/release/release-map-v1.md",
+      "target": "data/manifests/task-exposure-v1.tsv",
+      "packaged": true
+    },
+    {
+      "source": "docs/release/release-map-v1.md",
+      "target": "data/manifests/release-evidence-v1.tsv",
+      "packaged": true
+    },
+    {
+      "source": "docs/release/release-map-v1.md",
+      "target": "docs/release/numerical-source-notice-2026-10-11.md",
+      "packaged": true
+    },
+    {
+      "source": "docs/release/release-map-v1.md",
+      "target": "data/manifests/release-assembly-attribution-2026-10-11.tsv",
+      "packaged": true
+    },
+    {
+      "source": "docs/release/release-map-v1.md",
+      "target": "docs/release/licenses/SCOPE.md",
+      "packaged": true
+    },
+    {
+      "source": "docs/release/release-map-v1.md",
+      "target": "docs/release/npclassscore-dependency-route-2026-10-11.md",
+      "packaged": true
+    },
+    {
+      "source": "docs/release/release-map-v1.md",
+      "target": "docs/release/similarity-independence-v1.md",
+      "packaged": true
+    },
+    {
+      "source": "docs/release/release-map-v1.md",
+      "target": "data/manifests/similarity-input-disposition-v1.tsv",
+      "packaged": true
+    },
+    {
+      "source": "docs/release/reproduction-stages-v1.md",
+      "target": "docs/release/reproduction-stages-v1.tsv",
+      "packaged": true
+    },
+    {
+      "source": "docs/release/reproduction-stages-v1.md",
+      "target": "data/manifests/task-exposure-v1.tsv",
+      "packaged": true
+    },
+    {
+      "source": "docs/release/reproduction-stages-v1.md",
+      "target": "data/processed/core-numerical-candidate-v1-2026-10-11/fungallink-core-numerical-private-v1.zip",
+      "packaged": true
+    },
+    {
+      "source": "docs/release/reproduction-stages-v1.md",
+      "target": "data/processed/core-numerical-candidate-v1-2026-10-11/reproduction.json",
+      "packaged": true
+    },
+    {
+      "source": "docs/release/reproduction-stages-v1.md",
+      "target": "protocol/decisions/2026-10-08-acetylaszonalenin-family-source-correction.md",
+      "packaged": true
+    },
+    {
+      "source": "docs/release/reproduction-stages-v1.md",
+      "target": "data/processed/spectral-release-candidate-v1-2026-10-11/fungallink-spectral-private-candidate-v1.zip",
+      "packaged": true
+    },
+    {
+      "source": "docs/release/reproduction-stages-v1.md",
+      "target": "docs/release/npclassscore-dependency-route-2026-10-11.md",
+      "packaged": true
+    },
+    {
+      "source": "docs/release/reproduction-stages-v1.md",
+      "target": "data/interim/spectral-arithmetic-reproduction-2026-10-11/receipt.json",
+      "packaged": true
+    },
+    {
+      "source": "docs/release/reproduction-stages-v1.md",
+      "target": "data/processed/phylogeny-audit-candidate-v1-2026-10-11/fungallink-phylogeny-audit-private-v1.tar.gz",
+      "packaged": true
+    },
+    {
+      "source": "docs/release/reproduction-stages-v1.md",
+      "target": "docs/release/environment/phylogeny-linux-explicit.txt",
+      "packaged": true
+    },
+    {
+      "source": "docs/release/reproduction-stages-v1.md",
+      "target": "docs/release/environment/phylogeny-linux-environment.json",
+      "packaged": true
+    },
+    {
+      "source": "docs/release/reproduction-stages-v1.md",
+      "target": "data/processed/phylogeny-audit-candidate-v1-2026-10-11/verification.json",
+      "packaged": true
+    },
+    {
+      "source": "docs/release/reproduction-stages-v1.md",
+      "target": "docs/release/similarity-independence-v1.md",
+      "packaged": true
+    },
+    {
+      "source": "docs/release/similarity-independence-v1.md",
+      "target": "docs/evaluation/similarity-independence-v1.md",
+      "packaged": true
+    },
+    {
+      "source": "docs/release/similarity-independence-v1.md",
+      "target": "protocol/similarity-independence-v1.md",
+      "packaged": true
+    },
+    {
+      "source": "docs/release/similarity-independence-v1.md",
+      "target": "data/processed/similarity-independence-v1/manifest.json",
+      "packaged": true
+    },
+    {
+      "source": "docs/release/similarity-independence-v1.md",
+      "target": "data/manifests/similarity-input-disposition-v1.tsv",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "protocol/decisions/2026-10-09-benzomalvin-two-measured-targets.md",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "manuscript/spectral-diagnostics-integration-2026-10-09.md",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "protocol/decisions/2026-10-08-hex-pks17-admission.md",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "protocol/decisions/2026-10-08-hex-pks15-admission.md",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "protocol/decisions/2026-10-08-acu-dioxomorpholine-admission.md",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "protocol/decisions/2026-10-08-terreazepine-admission.md",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "protocol/decisions/2026-10-08-valactamide-congener-admissions.md",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "protocol/decisions/2026-10-07-delegated-admission-dispositions.md",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "data/curated/label-evidence.tsv",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "manuscript/tables/benchmark-capacity.tsv",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "manuscript/tables/evidence-ledger.tsv",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "data/processed/source-selected-gcf-analysis-v1/manifest.json",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "data/processed/source-selected-gcf-analysis-v1/benchmark.json",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "data/processed/source-selected-gcf-analysis-v1/inputs.json",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "data/processed/source-selected-gcf-analysis-v1/snapshots/data/manifests/sources.tsv",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "data/processed/source-selected-gcf-analysis-v1-results/freeze.json",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "docs/data/source-selected-gcf-analysis-v1.md",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "data/processed/source-selected-gcf-analysis-v1/snapshots/protocol/source-selected-gcf-analysis-decision-2026-10-07.md",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "data/processed/source-selected-gcf-analysis-v1/rosters.json",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "data/processed/source-selected-gcf-analysis-v1/snapshots/data/manifests/baseline-methods.json",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "data/processed/source-selected-gcf-analysis-v1/snapshots/scripts/evaluate_rankings.py",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "docs/evaluation/ranking-evaluator.md",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "data/processed/source-selected-gcf-analysis-v1-results/deterministic-summary.json",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "data/processed/source-selected-gcf-analysis-v1-results/random-resources.json",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "data/processed/source-selected-gcf-analysis-v1-results/primary-independent-audit.json",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "data/processed/source-selected-gcf-analysis-v1-results/clean-deterministic-rerun.json",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "docs/release/clean-source-reproduction-2026-10-07.md",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "data/processed/clean-source-reproduction-2026-10-07/host-verification.json",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "docs/data/source-selected-gcf-analysis-v1.md",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "manuscript/initial-comparison-results-2026-10-07.tsv",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "data/processed/trichoderma-network-candidate-v1/manifest.json",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "data/processed/trichoderma-network-candidate-v1/proposed_labels/ilicicolin-h-proposal.tsv",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "docs/data/trichoderma-mzmine390-processing-2026-10-07.md",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "data/processed/source-selected-gcf-expanded-labels-v2/analysis-amendment.json",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "data/processed/source-selected-gcf-expanded-labels-v2-results/validation.json",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "data/processed/source-selected-gcf-expanded-labels-v2-results/exact-random.json",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "manuscript/expanded-label-results-2026-10-07.tsv",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "manuscript/comparative-results-v1.md",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "data/processed/source-selected-gcf-expanded-labels-v2-results/host-independent-verification.json",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "data/processed/source-selected-gcf-expanded-labels-v2/evaluate_cached.py",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "manuscript/expanded-label-results-2026-10-07.md",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "docs/release/source-rights-review-2026-10-07.md",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "manuscript/benchmark-paper-review.md",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "manuscript/references.bib",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "manuscript/resource-costs-2026-10-07.tsv",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "manuscript/resource-costs-2026-10-07.md",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "manuscript/tables/marker-batch-completion-2026-10-08.tsv",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "manuscript/tables/marker-batch-completion-2026-10-08.json",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "protocol/decisions/2026-10-08-native-archive-reader-fix.md",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "manuscript/emericellamide-extension-results-2026-10-08.md",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "manuscript/comparative-results-v1.md",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "manuscript/acetylaszonalenin-extension-results-2026-10-08.md",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "protocol/decisions/2026-10-08-benzomalvin-tripeptide-admission.md",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "manuscript/tables/phylogeny-comparison-v2/README.md",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "protocol/decisions/2026-10-07-phylogeny-comparison-population.md",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "protocol/decisions/2026-10-07-phylogeny-alignment-rooting.md",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "data/manifests/phylogeny-method.json",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "protocol/decisions/2026-10-11-phylogeny-optimizer-recovery.md",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "docs/release/core-numerical-candidate-v1-2026-10-11.md",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "manuscript/comparative-results-v1.md",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "protocol/similarity-independence-v1.md",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "data/processed/similarity-independence-v1/manifest.json",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "docs/evaluation/similarity-independence-v1.md",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/Supplementary-Methods.md",
+      "target": "docs/release/similarity-independence-v1.md",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/benchmark-paper-review.md",
+      "target": "protocol/decisions/2026-10-08-acetylaszonalenin-family-source-correction.md",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/benchmark-paper-review.md",
+      "target": "manuscript/Supplementary-Methods.md",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/benchmark-paper-review.md",
+      "target": "manuscript/comparative-results-v1.md",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/benchmark-paper-review.md",
+      "target": "protocol/similarity-independence-v1.md",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/benchmark-paper-review.md",
+      "target": "docs/evaluation/similarity-independence-v1.md",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/benchmark-paper-review.md",
+      "target": "docs/release/similarity-independence-v1.md",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/benchmark-paper-review.md",
+      "target": "manuscript/ai-use-record-v1.md",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/benchmark-paper-review.md",
+      "target": "manuscript/figures/figure1-task-provenance.png",
+      "packaged": true
+    },
+    {
+      "source": "manuscript/benchmark-paper-review.md",
+      "target": "manuscript/figures/figure2-curation-coverage.png",
+      "packaged": true
+    }
+  ],
+  "missing": [],
+  "scope": "Local Markdown destinations in current edited documents; no external retrieval"
+}
