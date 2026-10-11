@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2941195/",
+    "http_status": 200,
+    "bytes": 21202,
+    "sha256": "291f0726ef17381bc55d979c1d767293cf9042e10a306a2f1d6fa9964fb1bdfc",
+    "browser_challenge": true
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3146567/",
+    "http_status": 200,
+    "bytes": 21201,
+    "sha256": "966125636edba49cdf4a2ef39b1fe5cab62791effcba286c9f169aceabb2346d",
+    "browser_challenge": true
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3549551/",
+    "http_status": 200,
+    "bytes": 21204,
+    "sha256": "7b1d2f800930c4923e8941fa44b10d3ed5e400fd218cd242eae4187cbbca2494",
+    "browser_challenge": true
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7483341/",
+    "http_status": 200,
+    "bytes": 176892,
+    "sha256": "543c163f7add6f8c01803952a7e064f75afa60e2081606b4fa010b1d7c8bbc72",
+    "browser_challenge": false
+  }
+]

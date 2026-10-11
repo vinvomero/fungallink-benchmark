@@ -1,0 +1,91 @@
+{
+  "status": "counterevidence_to_historical_region_number_transfer",
+  "checks": [
+    {
+      "family": "DMAT_34",
+      "archive_member": "Supplementary Data 1/DMAT_34.html",
+      "html_sha256": "abc266aef43318cacd513263aeb0eb8d8e9165e30b8697c72f9f74b50a029c73",
+      "sampled_display": "FMGX0033",
+      "historical_region": "DS027698.1.region002",
+      "scoped_to_sampled_svg_not_inserted_reference": true,
+      "genes": [
+        {
+          "protein_id": "EAW16180.1",
+          "residues": 2359,
+          "sha256": "726fcb5c82cfb36457d6a979c8651c88dbd8bc4e7efb7dd0195214a330a46df7",
+          "full_string_equal": true,
+          "svg_polygon_points": "251.25,7.5,199.94,7.5,199.94,0,179.94,12.5,199.94,25,199.94,17.5,251.25,17.5"
+        },
+        {
+          "protein_id": "EAW16181.1",
+          "residues": 437,
+          "sha256": "c6386a15e38495f2b02d39dfeffd959e9affb9975bcf41ee3caa19a3c14766e7",
+          "full_string_equal": true,
+          "svg_polygon_points": "270.51,7.5,270.51,7.5,270.51,0,284.15,12.5,270.51,25,270.51,17.5,270.51,17.5"
+        },
+        {
+          "protein_id": "EAW16182.1",
+          "residues": 509,
+          "sha256": "3f5690038666c0eeb3a4086fc56f9637ef0423f798a0861182a5a62339b9f4e7",
+          "full_string_equal": true,
+          "svg_polygon_points": "292.29,7.5,292.29,7.5,292.29,0,307.58,12.5,292.29,25,292.29,17.5,292.29,17.5"
+        }
+      ]
+    },
+    {
+      "family": "NRPS_85",
+      "archive_member": "Supplementary Data 1/NRPS_85.html",
+      "html_sha256": "b016f268e45cfb0eff0ca5063d3cdcd08b603c2fa17e135cfe7efd4f3130b2b2",
+      "sampled_display": "FMGX0033",
+      "historical_region": "DS027698.1.region002",
+      "scoped_to_sampled_svg_not_inserted_reference": true,
+      "genes": [
+        {
+          "protein_id": "EAW16180.1",
+          "residues": 2359,
+          "sha256": "726fcb5c82cfb36457d6a979c8651c88dbd8bc4e7efb7dd0195214a330a46df7",
+          "full_string_equal": true,
+          "svg_polygon_points": "251.25,7.5,199.94,7.5,199.94,0,179.94,12.5,199.94,25,199.94,17.5,251.25,17.5"
+        },
+        {
+          "protein_id": "EAW16181.1",
+          "residues": 437,
+          "sha256": "c6386a15e38495f2b02d39dfeffd959e9affb9975bcf41ee3caa19a3c14766e7",
+          "full_string_equal": true,
+          "svg_polygon_points": "270.51,7.5,270.51,7.5,270.51,0,284.15,12.5,270.51,25,270.51,17.5,270.51,17.5"
+        },
+        {
+          "protein_id": "EAW16182.1",
+          "residues": 509,
+          "sha256": "3f5690038666c0eeb3a4086fc56f9637ef0423f798a0861182a5a62339b9f4e7",
+          "full_string_equal": true,
+          "svg_polygon_points": "292.29,7.5,292.29,7.5,292.29,0,307.58,12.5,292.29,25,292.29,17.5,292.29,17.5"
+        }
+      ]
+    }
+  ],
+  "legacy_source": "..\\fungallink\\docs\\research\\evidence\\caesar-relationship-evidence-ledger.json",
+  "legacy_source_sha256": "345bc6796e5d3c8eb2b3d6fd9a0a6a69f0c4dd281bd9b0fe2a3a34f3e60f0aa7",
+  "legacy_claim": "Source region002 assigned to 778075-809148; same legacy record states antiSMASH 8.0.4.",
+  "finding": "Exact accepted-core translations occur in the publisher sampled FMGX0033 SVG. A same-numbered successor region does not identify that historical source locus.",
+  "limits": "No historical full nucleotide region retrieved; exact whole-region boundary equivalence unclaimed. Original approved named core and assembly caveats preserved.",
+  "primary_projection": "DMAT_34 as original source association; NRPS_85 alternate representation not selected by scores",
+  "source_family_members": {
+    "DMAT_34": [
+      "FMGX0075",
+      "FMGX0033",
+      "FMGX0009"
+    ],
+    "NRPS_85": [
+      "FMGX0075",
+      "FMGX0033",
+      "FMGX0009"
+    ]
+  },
+  "projection_counts": {
+    "unknown": 11,
+    "0": 102,
+    "1": 3
+  },
+  "scores_computed": false
+}

@@ -1,0 +1,33 @@
+{
+  "release_id": "source-selected-gcf-expanded-labels-v2",
+  "recorded_at_utc": "2026-10-07T14:12:00.041470+00:00",
+  "attribution": "Assistant-curated private analysis amendment under user delegation: Use your judgment and finish the paper; parent explicitly authorized cached-ranking evaluation",
+  "biological_basis": "protocol/decisions/2026-10-07-delegated-admission-dispositions.md; retained source evidence, no performance-based admission",
+  "prior_exposure": "Initial six-product scores/results were visible. Added positive ranks have not been inspected in this amendment before this record. Source-selected retrospective analysis, not prospective blind validation.",
+  "scope": {
+    "queries": 5,
+    "products_or_scoped_measured_targets": 9,
+    "candidates": 9339,
+    "rosters": 18,
+    "deterministic_methods": 4,
+    "reuse": "Exact original cached score files; no new scoring, changed inputs, parameters or filters",
+    "new_labels": [
+      "caesar2023:relationship:22",
+      "caesar2023:pst:1950",
+      "caesar2023:pst:895"
+    ],
+    "excluded": "H and FAC; all BGC relationships"
+  },
+  "metrics": [
+    "expected_hit@1/10/100",
+    "expected_reciprocal_rank",
+    "product_recovery@1/10/100",
+    "all_products@1/10/100",
+    "coverage",
+    "per_query",
+    "direct/reference_strata"
+  ],
+  "random": "Exact expectations only; no Monte Carlo rerun or inherited six-product MCSE",
+  "limitations": "One conservative group; no independent-pathway, biological confidence interval, or superiority claim; unknown candidates unlabeled",
+  "activation": "This amendment authorizes evaluation against new versioned gold after identity/input/hash checks; original package and results remain immutable."
+}

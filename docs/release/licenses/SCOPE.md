@@ -1,0 +1,7 @@
+# Approved original contribution licenses
+
+Vin Vomero approved Apache-2.0 for original code and CC BY4.0 for original curation, generated results and documentation on11 October2026, and confirmed his authority to license those contributions. The [approval receipt](../../../planning/original-contribution-license-approval-2026-10-11.json) preserves the direct answer and official licence-text retrievals.
+
+The scope is the original contributions identified in the [numerical proposal](../../../data/manifests/numerical-release-proposal-2026-10-11.tsv) and [spectral version3 proposal](../../../data/manifests/spectral-release-scope-draft-v3-2026-10-11.tsv). LICENSE-CODE rows are Apache-2.0; LICENSE-DATA rows are CC BY4.0. Original generated content in CAESAR-DERIVED and ASSEMBLY-ATTRIBUTION rows is CC BY4.0 only to the extent it is an original contribution. Underlying source data, software, sequence records and third-party prose retain their own terms and attribution. This is not a grant over the publisher supplements or privately supplied source workbook.
+
+Use attribution: Vin Vomero, FungalLink v2,2026, with the released version and repository/DOI when available. Preserve individual third-party notices and identify transformations. [Apache-2.0](Apache-2.0.txt) and [CC BY4.0](CC-BY-4.0.txt) contain the full terms. No repository-wide licence is implied for unselected historical evidence. Public posting, deposition and submission have not been authorized by this licence approval.

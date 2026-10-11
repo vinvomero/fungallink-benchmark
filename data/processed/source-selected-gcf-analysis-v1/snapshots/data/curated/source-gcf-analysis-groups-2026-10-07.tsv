@@ -1,0 +1,6 @@
+query_id	group_id	rationale
+source:NRPSPKS_85	caesar2023:source-selected-set-v1	Conservative shared-cohort source-selected analysis group; cross-query independence is unadjudicated; pestalamides A and B remain products within this one query.
+source:TERPENE_40	caesar2023:source-selected-set-v1	Conservative shared-cohort source-selected analysis group; cross-query independence is unadjudicated; not a claim of one biological pathway.
+source:NRPSLIKE_59	caesar2023:source-selected-set-v1	Conservative shared-cohort source-selected analysis group; cross-query independence is unadjudicated; not a claim of one biological pathway.
+source:NRPKS_18	caesar2023:source-selected-set-v1	Conservative shared-cohort source-selected analysis group; cross-query independence is unadjudicated; not a claim of one biological pathway.
+source:NRPS_66	caesar2023:source-selected-set-v1	Conservative shared-cohort source-selected analysis group; cross-query independence is unadjudicated; not a claim of one biological pathway.

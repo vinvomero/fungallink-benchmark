@@ -1,0 +1,36 @@
+{
+  "status": "completed",
+  "utc": "2026-10-09T22:29:35.945986+00:00",
+  "input": {
+    "url": "ftp://massive-ftp.ucsd.edu/v12/MSV000101420/raw/Raw_masspec_data/Sup_Figure_5_raw_files/20231206_Ac-C18_NEG_UMETAB420_14092_EXT_SC_6MSA_C2.raw",
+    "transport": "FTP_TLS",
+    "path": "data/raw/blackyeast-sixmsa-inputs-2026-10-09/20231206_Ac-C18_NEG_UMETAB420_14092_EXT_SC_6MSA_C2.raw",
+    "bytes": 136137045,
+    "sha256": "f1567e4d0228f00a90de99983b19f81b64356a96c1b71a4ebd3750620e957c04",
+    "retrieved_utc": "2026-10-09T22:28:36.901936+00:00"
+  },
+  "software": "ThermoRawFileParser1.4.5",
+  "exe_sha256": "478df50558a9809ec0dac58180570e317242c48f210b1e5d3f916bc2a0d44162",
+  "software_receipt": "data/raw/fac-native-donor-pilot-2026-10-07/software-retrievals.json",
+  "arguments": [
+    "-i=data/raw/blackyeast-sixmsa-inputs-2026-10-09/20231206_Ac-C18_NEG_UMETAB420_14092_EXT_SC_6MSA_C2.raw",
+    "-o=data\\raw\\blackyeast-sixmsa-inputs-2026-10-09\\converted",
+    "-f=2",
+    "-m=0"
+  ],
+  "scope": "Native conversion and metadata inspection only; no feature filtering or scientific scoring",
+  "host": "Windows-11-10.0.26300-SP0",
+  "exit_code": 0,
+  "log": "data/raw/blackyeast-sixmsa-inputs-2026-10-09/conversion.log",
+  "validation": "data/raw/blackyeast-sixmsa-inputs-2026-10-09/conversion-validation.json",
+  "outputs": {
+    "converted\\20231206_Ac-C18_NEG_UMETAB420_14092_EXT_SC_6MSA_C2-metadata.json": {
+      "bytes": 2957,
+      "sha256": "b91e48c28183f42a88bae42cd03c58af3c76ee7cd8db320375ca43dfc433a76e"
+    },
+    "converted\\20231206_Ac-C18_NEG_UMETAB420_14092_EXT_SC_6MSA_C2.mzML": {
+      "bytes": 41743526,
+      "sha256": "8b71b881e0e46b76a45ebb6f599fd45afd272d87dad9ff1770b669350dd3c195"
+    }
+  }
+}

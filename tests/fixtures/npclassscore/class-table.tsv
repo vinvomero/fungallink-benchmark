@@ -1,0 +1,11 @@
+compound_name	class:subclass	as_classes	smiles	inchi_key	cf_kingdom	cf_superclass	cf_class	cf_subclass	cf_direct_parent	npc_class	npc_superclass	npc_pathway	npc_isglycoside
+BGC1_a	b1:s1	a1			k					m1		p1	0
+BGC1_b	b1:s1	a1			k					m1		p1	0
+BGC1_c	b1:s1	a1			k					m1		p1	0
+BGC1_d	b1:s1	a1			k					m2		p1	0
+BGC2_a	b2:s2	a2			k					m1		p2	0
+BGC2_b	b2:s2	a2			k					m1		p2	0
+BGC2_c	b2:s2	a2			k					m2		p2	0
+BGC2_d	b2:s2	a2			k					m2		p2	0
+BGC2_e	b2:s2	a2			k					m2		p2	0
+BGC2_f	b2:s2	a2			k					m2		p2	0

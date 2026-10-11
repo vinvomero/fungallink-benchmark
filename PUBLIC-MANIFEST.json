@@ -1,0 +1,2222 @@
+{
+  "version": "1.0.0",
+  "files": {
+    "CITATION.cff": {
+      "bytes": 412,
+      "sha256": "70bef0552b71a347b7ba3e236aeb7583f60466c38378c4bff2e37621c9625f3c"
+    },
+    "data/curated/acetylaszonalenin-sampled-correspondence-2026-10-03.tsv": {
+      "bytes": 4124,
+      "sha256": "2e3d4deed2399c211d2590b3bc51cda412fbd39a9fa891a171838194aa84f8fa"
+    },
+    "data/curated/admission-decision-queue-2026-10-03-notoamide.tsv": {
+      "bytes": 1580,
+      "sha256": "3f6eb49c8225103097eead6c69dfdb3a244e53a43b8bbbbff883daee1a6f642a"
+    },
+    "data/curated/admission-decision-queue-2026-10-03.tsv": {
+      "bytes": 4566,
+      "sha256": "e89e43f4c313744a348a3b98634e9042b9cba866dfb6d00090a90441a027762c"
+    },
+    "data/curated/approved-query-inputs-2026-10-02.tsv": {
+      "bytes": 29103,
+      "sha256": "8b7192312b0c6121248219319b709f9f1fa06adebaa14422fc1a3cfbf552cc6f"
+    },
+    "data/curated/benchmark-capacity-2026-10-02.tsv": {
+      "bytes": 45494,
+      "sha256": "49d7639c1b7f370dbd0bd73d8649d2f30f8b78953e81883c5657f4856080047a"
+    },
+    "data/curated/benign-provisional-criteria-audit-2026-10-03.tsv": {
+      "bytes": 4098,
+      "sha256": "10102d19e5ca7bb6eb0c8563f89407349ee2cf34be4d60574f6d7746611aabbe"
+    },
+    "data/curated/caesar-observation-groups-2026-10-02.tsv": {
+      "bytes": 173606,
+      "sha256": "70c74e3b0dbdcd5a1cc5dcd81bed59cb301036b0c7b109740bc9301cb2266e0c"
+    },
+    "data/curated/caesar-public-acquisition-labels-2026-10-07.tsv": {
+      "bytes": 91652,
+      "sha256": "32ecd9547f76f117eedc3cdba08364c307ddb1fc59c96d0967bd04630001f33f"
+    },
+    "data/curated/caesar-reference-records-2026-10-03.tsv": {
+      "bytes": 2270,
+      "sha256": "1864dee73079ed635cf13647ba9d9138902e452ab813dddaad0573678f26c6d4"
+    },
+    "data/curated/caesar-source-gcf-population-2026-10-03.tsv": {
+      "bytes": 723375,
+      "sha256": "38f797694322680d5c46b79fcd50311fa5055bda2b9614ee90e2480d924b065a"
+    },
+    "data/curated/caesar-source-gcf-sensitivity-rosters-2026-10-03.tsv": {
+      "bytes": 278672,
+      "sha256": "6621d68824e4f9362305693eda932b2982c881bc22e6f3651d7a9e863da52ab4"
+    },
+    "data/curated/caesar-study-roster-2026-10-02.tsv": {
+      "bytes": 113620,
+      "sha256": "396838ef6097c33eaf32947047c808667d7d046b1d1190294acb199164fe37fb"
+    },
+    "data/curated/emericellamide-competing-locus-review-2026-10-02.tsv": {
+      "bytes": 2770,
+      "sha256": "04b8a086f38d1011d76f635e1691a660acdc57df811ec04feecedc5ae5789c11"
+    },
+    "data/curated/evidence-review-index-2026-10-01.tsv": {
+      "bytes": 7636,
+      "sha256": "f1b07dc45c1ffa883c318d3441d5d3eb68069ee2b75939a2994fcec4563f75d1"
+    },
+    "data/curated/exact-product-gap-resolution-2026-10-02.tsv": {
+      "bytes": 3426,
+      "sha256": "07a48e723ee850da252babf2fe8d42ea1e8171842a5ee611b41fb5a6ea1b7a31"
+    },
+    "data/curated/expansion-readiness-2026-10-01.tsv": {
+      "bytes": 2066,
+      "sha256": "1d94fd3e0bd2f457bb21313070d8e68fc50a4e1040ae0d2ac1071b1ed60785b0"
+    },
+    "data/curated/fac-supplement-evidence-2026-10-07.tsv": {
+      "bytes": 16778,
+      "sha256": "735200cd87ee9fbd04385b2e6cd154fa0277e29982cd12ad0f10991dd19c9882"
+    },
+    "data/curated/fac9j20-query-appraisal-2026-10-07.tsv": {
+      "bytes": 5003,
+      "sha256": "14e55f72d054058abe37d8305ff38ff1f8238cb60d846ddb4a16f3ef0c6b2ece"
+    },
+    "data/curated/first-three-admission-decisions-2026-10-02.tsv": {
+      "bytes": 10205,
+      "sha256": "14c61b8ed3611f679a16b41c35ce65b77d89b02a25fa15c8102777d2fb530f27"
+    },
+    "data/curated/griseofulvin-sampled-correspondence-2026-10-02.tsv": {
+      "bytes": 11778,
+      "sha256": "21f57b625ca15720e48637092e553c83e2fd9c27431b2a308b96eed586d6d39b"
+    },
+    "data/curated/label-evidence.tsv": {
+      "bytes": 61068,
+      "sha256": "f35db5f65840e2e11dae4e47eb8a0dab08cb7dac4d0ced079034fd7562333cda"
+    },
+    "data/curated/lichen-measurement-recovery-2026-10-03.tsv": {
+      "bytes": 1974,
+      "sha256": "1f71f9f21c72915a0662883adea6294374fd05484636bc1ab29efe0dd70ef9a7"
+    },
+    "data/curated/nine-reference-resolution-2026-10-02.tsv": {
+      "bytes": 6300,
+      "sha256": "46d69f3a7b495c89306b479fb2da89cd688a6330f363c5f00ce928ed0b3fd90b"
+    },
+    "data/curated/notoamide-b-sampled-correspondence-2026-10-03.tsv": {
+      "bytes": 241152,
+      "sha256": "359c36356ef2a92c278838a05e83aee9a3cf9688e77f455fe0af08ce8033ca4c"
+    },
+    "data/curated/notoamide-e-target-appraisal-2026-10-03.tsv": {
+      "bytes": 1964,
+      "sha256": "b0914d006347b386c8cdee334ded46e6f069fc4942814e298560c5f25a217461"
+    },
+    "data/curated/pestalamide-a-expansion-2026-10-03.tsv": {
+      "bytes": 5056,
+      "sha256": "9986554cf8a6777a9b638642309b9b3ce84dc971ba7db0b91b13d2688c6bd448"
+    },
+    "data/curated/pestalamide-derivative-census-2026-10-03.tsv": {
+      "bytes": 11930,
+      "sha256": "a86380c3d90f195ab2fb626de3ef53e609ec6e349a6471ba92b6ed10bfa523de"
+    },
+    "data/curated/phoenicin-spectrum-availability-2026-10-07.tsv": {
+      "bytes": 44988,
+      "sha256": "77c67bc4a3e052f9e425bbc57eb581ce422f8a7094ed94621816f1378c6fc1b9"
+    },
+    "data/curated/relationship-readiness-v1.tsv": {
+      "bytes": 97356,
+      "sha256": "9b2e7c754830a1eb59086b3f675ca45edef77dffa88efaf0ecdedd04f3ce09e8"
+    },
+    "data/curated/remaining-chemical-admission-2026-10-02.tsv": {
+      "bytes": 20318,
+      "sha256": "4e1fb90223be21123a1475d94e853c8caf3ca1c9185d47dd7b9c00ae59cac848"
+    },
+    "data/curated/remaining-four-identity-followup-2026-10-03.tsv": {
+      "bytes": 5423,
+      "sha256": "1b20cff9f321aa1ec034279c4b266d459ed69d6a580d218a7e2985a46582d6bb"
+    },
+    "data/curated/sample-crosswalk.tsv": {
+      "bytes": 233460,
+      "sha256": "69553d85647cc92784ebf49db50da46098da976b44c2bcf3edd15f286b2db79e"
+    },
+    "data/curated/seven-admitted-input-inventory-2026-10-03.tsv": {
+      "bytes": 35335,
+      "sha256": "b4273f0b8d220774f704679ab703bad9fbf350494fd89a5853f0c5ea4d0cfff9"
+    },
+    "data/curated/seven-admitted-member-eligibility-2026-10-03.tsv": {
+      "bytes": 210656,
+      "sha256": "7df989d08a7f9fcf2989c0aa8f453c3eb428f9794e19ff801f9528c443f6a358"
+    },
+    "data/curated/seven-admitted-member-staging-2026-10-03.tsv": {
+      "bytes": 60353,
+      "sha256": "b76c114d8b3647da764311b1974f435af2e44998eb7a066da5aa7da797527a15"
+    },
+    "data/curated/source-association-inventory.tsv": {
+      "bytes": 3750,
+      "sha256": "34da9d5e3777554fb80ec61564c3b57509d5920f0d4f42fe125027135c2934b7"
+    },
+    "data/curated/source-gcf-analysis-groups-2026-10-07.tsv": {
+      "bytes": 1010,
+      "sha256": "08024f584abccdf5371ca4b7af026d8d9efbcae61cff9b6339d18dfcc46394f1"
+    },
+    "data/interim/acetylaszonalenin-family-reconciliation-2026-10-08/verification.json": {
+      "bytes": 3907,
+      "sha256": "2dcedc98439af782043d0587dc752e1310af03e6eb1c85665860133868ae5f88"
+    },
+    "data/interim/acetylaszonalenin-sampled-correspondence/protein_comparison.tsv": {
+      "bytes": 664,
+      "sha256": "a6bc49999748d7e019fbd86d2216cd1c50ba3a61adc55c36944b78c4501f3bc7"
+    },
+    "data/interim/acetylaszonalenin-sampled-correspondence/sampled_core.gbk": {
+      "bytes": 24152,
+      "sha256": "8c16a36258f4a56a51988d45487bfe0e17ff8fce436614631150a2d90dd08810"
+    },
+    "data/interim/acetylaszonalenin-sampled-correspondence/source_manifest.json": {
+      "bytes": 1934,
+      "sha256": "3a0c6cdd158ff68e71dc156792b8d1041f8fd7bbfaf81e3253bd84bd111de7e3"
+    },
+    "data/interim/acetylaszonalenin-sampled-correspondence/verification.json": {
+      "bytes": 3277,
+      "sha256": "a3b0a967ca8791a80db5508793a729919e752cced7f3136ec0c0d0eb41a3ddbd"
+    },
+    "data/interim/acetylaszonalenin-sampled-correspondence/verify.py": {
+      "bytes": 2792,
+      "sha256": "643f11e19dada302cf3039ff3c59ace208ed324447603f8bb428c40b006a6089"
+    },
+    "data/interim/acu-dioxomorpholine-fac-review-2026-10-08/acs-supplement-receipt.json": {
+      "bytes": 305,
+      "sha256": "b424ea4d6206341d87894a16ced5149330bb7634c4bd2aa294b6b475f2c1b3d3"
+    },
+    "data/interim/acu-dioxomorpholine-fac-review-2026-10-08/admission-integrity.json": {
+      "bytes": 456,
+      "sha256": "2ae3376a7eae33bee14f546300fc67930efdbf8ae64136410d3aa72223d2cbaf"
+    },
+    "data/interim/acu-dioxomorpholine-fac-review-2026-10-08/gene-summary-receipt.json": {
+      "bytes": 266,
+      "sha256": "c3004858749587a0a508f0b9778ab0222676ca4a03ccf8acc049eaeefbc0f52c"
+    },
+    "data/interim/acu-dioxomorpholine-fac-review-2026-10-08/protein-receipt.json": {
+      "bytes": 780,
+      "sha256": "b32157f28c5862924d8f5a921cf6ab809cb33fcbdf3e43c4bf1a8e49721031cc"
+    },
+    "data/interim/acu-dioxomorpholine-fac-review-2026-10-08/receipt.json": {
+      "bytes": 421,
+      "sha256": "58d99f90e68c4be3bf09d5d05f88296032a9cc110b11f24de60548a129862a00"
+    },
+    "data/interim/acu-dioxomorpholine-fac-review-2026-10-08/reference-query-audit.json": {
+      "bytes": 1693,
+      "sha256": "26a5b150bc282d1741312c3b8476974facc8952b0f2879e3e717a2c643cb0a32"
+    },
+    "data/interim/acu-dioxomorpholine-fac-review-2026-10-08/reference-scaffold.gb": {
+      "bytes": 1705849,
+      "sha256": "20dd688c15f0fcd6d7164827ab7ac58062f4a6719ae86adda16f9655ec957ba2"
+    },
+    "data/interim/acu-dioxomorpholine-fac-review-2026-10-08/scaffold-receipt.json": {
+      "bytes": 393,
+      "sha256": "14cf620206463d0ce0feae89a093a58f36974502e4ad62ca849c49ce247e0965"
+    },
+    "data/interim/acu-dioxomorpholine-fac-review-2026-10-08/supplement-receipt.json": {
+      "bytes": 353,
+      "sha256": "bc53b82cc6d801d685589b4cad4dd3aa14491e59700603675574fdeba3ea4172"
+    },
+    "data/interim/acu-dioxomorpholine-fac-review-2026-10-08/transcript-receipt.json": {
+      "bytes": 296,
+      "sha256": "d16136aaacb48e9faddfecaa0d5ad7bb9ffde1b0ba9324851b114373fb0f351b"
+    },
+    "data/interim/admitted-input-coverage-2026-10-09/all-admitted-relationships.tsv": {
+      "bytes": 15170,
+      "sha256": "86a3bafcc72a39d83b609172e90e65d06b26146c7b9e5b11ce0c003ae2102f71"
+    },
+    "data/interim/admitted-input-coverage-2026-10-09/relationships.tsv": {
+      "bytes": 10171,
+      "sha256": "f3d241c93c4097a260bb93ea6e5be73a222da417af140d474922816adb808461"
+    },
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/binary_models-manifest.json": {
+      "bytes": 11297,
+      "sha256": "faccad9fae180d6f37eda8cd5ee31b01ed68739f10e9ccb8624cc54f13729bcf"
+    },
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/binary_models_negative_mode-manifest.json": {
+      "bytes": 8819,
+      "sha256": "2b2101fa1a943fc00ac37a01146443e90b374e772ff595a4522dd6cfc4808d30"
+    },
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/commit.json": {
+      "bytes": 9716,
+      "sha256": "e78615d77e24e8a44c2832c9ebc1da1e0e86888410dfe8ff5615124ba64eb535"
+    },
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/README.md": {
+      "bytes": 5421,
+      "sha256": "8646d0b3bc09f48b48074ee3f6644fdc6f3840eb19169e15f3d2ef43f74c4bb7"
+    },
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/SVM_model-manifest.json": {
+      "bytes": 869,
+      "sha256": "2d91c19535db61cad9bad7b566be4dc1d5b6b738635ddcc00c6703d9a41f5491"
+    },
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/SVM_model_negative_mode-manifest.json": {
+      "bytes": 902,
+      "sha256": "47202325a4c3829f0ec833322f9954215c84879cc729aff7b4bb6042dbcaa7b0"
+    },
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/web-search-receipt.json": {
+      "bytes": 49388,
+      "sha256": "dba03c3f045e37e76469f08f074c716f8f03c3f5fe5f124c7bf30262b5b45f19"
+    },
+    "data/interim/approved-query-inputs/workbook-manifest-check.json": {
+      "bytes": 16003,
+      "sha256": "42e6e91f86ef94bfa0e8b468b246475bb331010beeb1a466390c0eae32c0f10b"
+    },
+    "data/interim/benzomalvin-additional-targets-2026-10-09/admission-integrity.json": {
+      "bytes": 1273,
+      "sha256": "9674b7bd05af8aaea4d723cd2372a08aa4cdd82a3d7315db36f8db4d2a250682"
+    },
+    "data/interim/benzomalvin-additional-targets-2026-10-09/goal-completion-audit.json": {
+      "bytes": 1545,
+      "sha256": "a8cbef92856f8770bdb1f1df9fe4f0bd5a00e47d514fced4ac37372a414b90b1"
+    },
+    "data/interim/benzomalvin-additional-targets-2026-10-09/retrievals.jsonl": {
+      "bytes": 884,
+      "sha256": "e70fd663c0120237b32f43105bb8c6f14d2e5b47fed8e4c1dafc35179d626374"
+    },
+    "data/interim/benzomalvin-extension-review-2026-10-08/article-receipt.json": {
+      "bytes": 475,
+      "sha256": "5b7403f33a2f7022843a5b31480266b56fedd0a28a92800ae3249efded432599"
+    },
+    "data/interim/benzomalvin-extension-review-2026-10-08/figure2-browser-receipt.json": {
+      "bytes": 618,
+      "sha256": "44a021b18372e9567fb5c448db04a8083b7313e319fd42214e11e1b1d41b41b8"
+    },
+    "data/interim/benzomalvin-extension-review-2026-10-08/search-request.json": {
+      "bytes": 593,
+      "sha256": "3f7d7ccffffb595e41d9e25f11499f312ae49eddd55a5e18b4c24957fcab8112"
+    },
+    "data/interim/black-yeast-screen-2026-10-09/check_sixmsa_anchors.py": {
+      "bytes": 1195,
+      "sha256": "04a39b043986b7b32abd6e4dfa3ca8e4ec64322fce4a85dffa8a0826027585b5"
+    },
+    "data/interim/black-yeast-screen-2026-10-09/check_sixmsa_sequence.py": {
+      "bytes": 2039,
+      "sha256": "fa6a9f49539672e038805e2c28e1935437657bd38d26de4b2905e7668f2d82a5"
+    },
+    "data/interim/black-yeast-screen-2026-10-09/check_ynp1_measurement_crosswalk.py": {
+      "bytes": 3632,
+      "sha256": "8bd3a8da5401d7110ed3a409c8476d6d8bfccc7771c6971f74ddeb5044c649a6"
+    },
+    "data/interim/black-yeast-screen-2026-10-09/check_ynp1_source_anchors.py": {
+      "bytes": 5271,
+      "sha256": "8c45dc1d18898b52f004d17c25049ba4cc1fa4c382b3f85ab1e3ea383df73188"
+    },
+    "data/interim/black-yeast-screen-2026-10-09/monacolin-trace-check.json": {
+      "bytes": 1274,
+      "sha256": "18fb190bbafde63c467bf10c744cb5dc4de9170f30be4a2440cb5c796473fef6"
+    },
+    "data/interim/black-yeast-screen-2026-10-09/retrievals.jsonl": {
+      "bytes": 11312,
+      "sha256": "95a5cd46b37540b253329703d2696234abf4fd4368f5a586feebca81c58b7fe2"
+    },
+    "data/interim/black-yeast-screen-2026-10-09/retrieve_sixmsa_raw.py": {
+      "bytes": 2348,
+      "sha256": "c76c11d18e98855f829e058557b30facc95abc87546451d907ee0f48796f47f7"
+    },
+    "data/interim/black-yeast-screen-2026-10-09/sixmsa-admission-integrity.json": {
+      "bytes": 801,
+      "sha256": "3157548dd7fa1406dba9063f079be127e6062d5107bd7d07d294a462f275a540"
+    },
+    "data/interim/black-yeast-screen-2026-10-09/sixmsa-correspondence.json": {
+      "bytes": 595,
+      "sha256": "be1271862a881f6dbf8cf199552bae83387dd0a38b87e3f34f5ef1bc7750a9a2"
+    },
+    "data/interim/black-yeast-screen-2026-10-09/ynp1-source-anchor-audit.json": {
+      "bytes": 3007,
+      "sha256": "2924f356d1437de5542ef85096cb66788bd77356fbbe4822ccb29f8f79ba74fd"
+    },
+    "data/interim/caesar-reference-records/emericellamide-search-round1-receipt.json": {
+      "bytes": 443,
+      "sha256": "d552da169b11b8b3afafcbfd0644324eb8006948952043d100a44ab1e22fc5eb"
+    },
+    "data/interim/caesar-reference-records/emericellamide-search-round2-receipt.json": {
+      "bytes": 333,
+      "sha256": "9539716f9dae2e42ad21d9a30483649b19194a839d39146629b03e001a970b91"
+    },
+    "data/interim/caesar-reference-records/notoamide-search-round1-receipt.json": {
+      "bytes": 438,
+      "sha256": "1b15d17120a4fa145891c6b4fd719a32c2f199a402ae4a90b72d13c960d73129"
+    },
+    "data/interim/caesar-reference-records/notoamide-search-round2-receipt.json": {
+      "bytes": 412,
+      "sha256": "ef17187e612789017c97053a3cc54dbdb994c3553ad19dbb71dfd74c81e3c26b"
+    },
+    "data/interim/caesar-reference-records/pubmed-citation-chain-receipt.json": {
+      "bytes": 313,
+      "sha256": "4fe9889a72a942199c32b5cd19ec1022e492c6ce9c7e346cee369f036735042f"
+    },
+    "data/interim/caesar-reference-records/pubmed-round1-receipt.json": {
+      "bytes": 381,
+      "sha256": "96d61c1f5a508ea3f0386c739dc8a0a07f981e7160efcecea3b6976955230cb1"
+    },
+    "data/interim/caesar-reference-records/pubmed-round2-receipt.json": {
+      "bytes": 347,
+      "sha256": "743d633f9a53f10ee84182cb5c9aa3b081cc38a1af1088347903c2735d843077"
+    },
+    "data/interim/caesar-source-gcf-population/verification.json": {
+      "bytes": 13904,
+      "sha256": "993a28711d1500f262dc665e69943dd97f8d33f5ee9fcd52f03dc809e9c82e81"
+    },
+    "data/interim/caesar-study-roster/checks.json": {
+      "bytes": 1765,
+      "sha256": "4d67913147d159d19da436bd09a3669e9932d9d57645b59d098e471d08180c12"
+    },
+    "data/interim/chemical-annotation-records/retrievals.json": {
+      "bytes": 1121,
+      "sha256": "18609162a3af13a072eaa0ff17d81162d276a36851f8242034bc66da1b14b847"
+    },
+    "data/interim/chrysogine-aspernidine/checks.json": {
+      "bytes": 411,
+      "sha256": "e7a1730a29c73267110915736ac485b374db0e624159e3c62941742113ca1657"
+    },
+    "data/interim/emericellamide-competitor-review/check-results.json": {
+      "bytes": 4516,
+      "sha256": "c07d3ecb2f098869effa3d944ef0bfe633505cc923fa65a45ccbf2ee5068697d"
+    },
+    "data/interim/emericellamide-competitor-review/source-receipts.json": {
+      "bytes": 2293,
+      "sha256": "9c8ce4759cee0f745d30742235000d853990407bc927e8d7df9a20d4cc99f418"
+    },
+    "data/interim/fac-input-location-check-2026-10-08.json": {
+      "bytes": 1239,
+      "sha256": "a33348dc4aeb9d3fc3c1344166e9f257a8e818bf9c9fdbc7788a0e7ae70e894e"
+    },
+    "data/interim/feature-annotation-recovery/checks.json": {
+      "bytes": 188,
+      "sha256": "55c9f8b598c557700d246d4bdc93045061e078a3b3182e1b0b929120228e72a1"
+    },
+    "data/interim/feature-annotation-recovery/retrievals.json": {
+      "bytes": 1903,
+      "sha256": "462d7900c53addd529ffa8ce37e127ed747fb66c2f9d9a590eed740d7fcee51c"
+    },
+    "data/interim/feature-annotation-recovery/retrieve.py": {
+      "bytes": 1001,
+      "sha256": "f30c47786f46599d0adc11052b1f7188f551c8abfc0a4f799d3dea71c9b724b8"
+    },
+    "data/interim/feature-annotation-recovery/retrieve_additional.py": {
+      "bytes": 826,
+      "sha256": "3f1202857d4421d0531635fb01742d4d9410fa9c461937b3f9d8ed7031281859"
+    },
+    "data/interim/feature-annotation-recovery/verify_outputs.py": {
+      "bytes": 721,
+      "sha256": "a71d88bd4cffa120105a4e330c504e156ef6d8991b047631bff4bd8b994f71cc"
+    },
+    "data/interim/griseofulvin-four-resolution/verification.json": {
+      "bytes": 223,
+      "sha256": "ff841187ba1af4b2c0eaf022bd029c4ed76c0dedb38b214323ef2ae102d6bf56"
+    },
+    "data/interim/griseofulvin-sampled-correspondence/check_top_score_uniqueness.py": {
+      "bytes": 2638,
+      "sha256": "da0b55a14e69d431f470cd300d3f96f44af9d9e72522cf87de20d115c198219a"
+    },
+    "data/interim/griseofulvin-sampled-correspondence/compare.py": {
+      "bytes": 2375,
+      "sha256": "4c7ddec715619d30ea4ae27ea143caa6482e3e6a28ca39feacce794e318b845a"
+    },
+    "data/interim/griseofulvin-sampled-correspondence/comparison.json": {
+      "bytes": 13463,
+      "sha256": "02080b7458ce5ca838382b316623baa5fd92d0130331a0ccb1d1e4ecf4625ace"
+    },
+    "data/interim/griseofulvin-sampled-correspondence/verification.json": {
+      "bytes": 616,
+      "sha256": "6c6f060b8294a8ff25ad91b6b90ff2c937f2d23d7ff777f4b31720612c066dbd"
+    },
+    "data/interim/griseofulvin-sampled-correspondence/verify.py": {
+      "bytes": 1110,
+      "sha256": "61b9784be1bc599d209d4abe9412b37a59fd7170a3db98911b481cbe036a55ec"
+    },
+    "data/interim/hex-input-location-check-2026-10-08.json": {
+      "bytes": 1036,
+      "sha256": "04f931dd1a861b287bbadf57037b524f57bd07aeb9d2d322694e62fc50039a3e"
+    },
+    "data/interim/hex-pks15-pks23-review-2026-10-08/admission-integrity.json": {
+      "bytes": 428,
+      "sha256": "e37010c001990c306bb017c9976cd2bf6278d71ca60020836436a22679ea5148"
+    },
+    "data/interim/hex-pks15-pks23-review-2026-10-08/audit_correspondence.py": {
+      "bytes": 1864,
+      "sha256": "d21827b26c7b131eb4d0622453884034c56bc645eb4e9f75e9caf43f55a8ff5d"
+    },
+    "data/interim/hex-pks15-pks23-review-2026-10-08/figure5-receipt.json": {
+      "bytes": 406,
+      "sha256": "e8db3a72a3bee98bf4a1cf0e6ee4a0254cfe27cce89b27c9d77e6d073fc2e74f"
+    },
+    "data/interim/hex-pks15-pks23-review-2026-10-08/PKS15-correspondence-audit.json": {
+      "bytes": 2512,
+      "sha256": "ede15c6d51b73a6009b36e6a0fb20bbd34f21e6848896b8543909d247b327247"
+    },
+    "data/interim/hex-pks15-pks23-review-2026-10-08/PKS15-receipt.json": {
+      "bytes": 391,
+      "sha256": "7693ecbca1ae399082db12c689ec1dc66cca431d3aaa94cf7d652fbc65348889"
+    },
+    "data/interim/hex-pks15-pks23-review-2026-10-08/PKS15.gb": {
+      "bytes": 45170,
+      "sha256": "06f4b80a5a5ff0142466dfdcd7833f8595518dd14ce70c8ff046d5ffc21879f7"
+    },
+    "data/interim/hex-pks15-pks23-review-2026-10-08/PKS23-correspondence-audit.json": {
+      "bytes": 2887,
+      "sha256": "9b6aade0133bfc5d729d9ff51ac32f6307ed7f5b7a378df0e02c8054d2b13380"
+    },
+    "data/interim/hex-pks15-pks23-review-2026-10-08/PKS23-receipt.json": {
+      "bytes": 385,
+      "sha256": "961f1dfbc1ebf247f87a6717bf44fffa614f1ae7e154fe4d1c6c286a3a6d80a4"
+    },
+    "data/interim/hex-pks15-pks23-review-2026-10-08/retrieval-request.json": {
+      "bytes": 592,
+      "sha256": "7afd05f02c04b449ac896985dd1b7bfe0d0a40706895a8c9962efbbcbe73a61a"
+    },
+    "data/interim/hex-pks17-review-2026-10-08/audit_correspondence.py": {
+      "bytes": 1784,
+      "sha256": "0e922e6ae7071a7492f6ae0de567eba12d5961dccc633242376518e6d70675c9"
+    },
+    "data/interim/hex-pks17-review-2026-10-08/correspondence-audit.json": {
+      "bytes": 4294,
+      "sha256": "1a78557b4b96de1f00d954c9b69410003ff88093494a40163d42521fed708fe1"
+    },
+    "data/interim/hex-pks17-review-2026-10-08/native-interval.gb": {
+      "bytes": 86925,
+      "sha256": "1cd4070f5af93a3a9413e3cac99defdd0475489bd926fb82f2357abf55b9dba8"
+    },
+    "data/interim/lichen-measurement-recovery/audit.json": {
+      "bytes": 662,
+      "sha256": "7e51ec965906d9e299bf8d0db66d50db5a8c746c8a3e69394f61d72585c72f45"
+    },
+    "data/interim/nine-reference-resolution/verification.json": {
+      "bytes": 461,
+      "sha256": "4f7364748065677261ec13f4d1ebd102b45114ef6639efc4732ca349382a9b22"
+    },
+    "data/interim/notoamide-b-sampled-correspondence/compare.py": {
+      "bytes": 2633,
+      "sha256": "d49e0297ab9f14e33f582f79cc0bd7cd7ba0198e02cfca20e2aeab8ecdbf2464"
+    },
+    "data/interim/notoamide-b-sampled-correspondence/compare_family.py": {
+      "bytes": 3202,
+      "sha256": "e9d8150ce2d3706f550a6bbcebccbcc4433fbebd8e36321d0b646ebb4a15a332"
+    },
+    "data/interim/notoamide-b-sampled-correspondence/comparison.json": {
+      "bytes": 28676,
+      "sha256": "593b0f7e6257884a6f74be7845f902cbf932ab1e28fd16142967a1de0697a3af"
+    },
+    "data/interim/notoamide-b-sampled-correspondence/family-comparison.json": {
+      "bytes": 851725,
+      "sha256": "85bbf74bdb23277efbf2a3c211ae0f950dd47cbc63331434aa9bf7e216261bb0"
+    },
+    "data/interim/notoamide-b-sampled-correspondence/feature-check.json": {
+      "bytes": 243,
+      "sha256": "491feb6ba951c81ebbd39fad024788d42760d51c9a34977e73bc0fbe8faea2ce"
+    },
+    "data/interim/notoamide-b-sampled-correspondence/feature-family-check.json": {
+      "bytes": 192,
+      "sha256": "a9df594229c9a2cf850c89b7cedda04ca2f11cf8e8eb53d49c7e7bcc8d56cb58"
+    },
+    "data/interim/notoamide-b-sampled-correspondence/source-receipts.json": {
+      "bytes": 1293,
+      "sha256": "320b7c8e8fbc299bd2f0e46f7a4f3ede6d4a315e553369b76b7f4152d41bb277"
+    },
+    "data/interim/notoamide-b-sampled-correspondence/verification.json": {
+      "bytes": 516,
+      "sha256": "a59ac3335786090b5c0f5c73796f92c6a3d87c93f946fa04a78e26ad1f5a3a20"
+    },
+    "data/interim/notoamide-b-sampled-correspondence/verify_family.py": {
+      "bytes": 3852,
+      "sha256": "feb35de3e028e198bea1f2e6dd8dae2862c03b7ba64314bf3a98c1d91b10b689"
+    },
+    "data/interim/notoamide-e-target-appraisal/download-receipts.json": {
+      "bytes": 1311,
+      "sha256": "f9aaaa15e1de6da0769317b32e79a915f32b32ba4b4e90d29840057deb1e4fcc"
+    },
+    "data/interim/npclassscore-dependency-route-2026-10-11/receipt.json": {
+      "bytes": 1688,
+      "sha256": "9f526d83c046a2776d63afa27571a4bbafa369a838ecf96181d1a6bfa58b6c2e"
+    },
+    "data/interim/numerical-source-content-review-2026-10-11/receipt.json": {
+      "bytes": 4193,
+      "sha256": "283389bbf63fc81470cb7d5d6d69d78c9831d23d6fe9b8df46a7ffddd10bffbf"
+    },
+    "data/interim/pestalamide-a-expansion/feature-check.json": {
+      "bytes": 1195,
+      "sha256": "49916594133f9923122b6ce9f693adf7743e107830a8969dbf2c6fbfcec849ae"
+    },
+    "data/interim/pestalamide-derivative-census/full-candidate-vector-check.json": {
+      "bytes": 1412,
+      "sha256": "10da374c24e29ab0faae9e28937b38ffdb1d45850a6f6d808e429a5d6cc5c6fb"
+    },
+    "data/interim/pestalamide-derivative-census/host-processed-vector-check.json": {
+      "bytes": 231,
+      "sha256": "eb5d625343b7c19ff8c0b3f7d3c39fbaf95ae9e46920a6a92301d464bd2981fa"
+    },
+    "data/interim/pestalamide-derivative-census/workbook-check.json": {
+      "bytes": 45001,
+      "sha256": "952d63f64417021e7f34694cb162ecf8f4e9673458c0cee6581c0eb34d260823"
+    },
+    "data/interim/phoenicin-source-review/gnps-download-receipt.json": {
+      "bytes": 2348,
+      "sha256": "f886c8cb191f82557327552fa1bc56993a53eca6ff9ec9c8b5c15fd5e629e330"
+    },
+    "data/interim/phoenicin-source-review/spectrum-content-audit-2026-10-07.json": {
+      "bytes": 152440,
+      "sha256": "1150c230d6d353333057c1498773df2c76c45d3f4ff574f3441797aa3a986566"
+    },
+    "data/interim/pre-correspondence-sprint-2026-10-09/biorxiv-browser-receipts.json": {
+      "bytes": 879,
+      "sha256": "5b9f8c49161ef7e4aa11672eabf89fa35f396d3ddd674be1c885d8421125a3d2"
+    },
+    "data/interim/pre-correspondence-sprint-2026-10-09/hex-preprint-sequence-comparison.json": {
+      "bytes": 506,
+      "sha256": "7b67124d01181e100aa2c9e1716c8eeb64da12f096af957547540e736024cff1"
+    },
+    "data/interim/pre-correspondence-sprint-2026-10-09/record-check.json": {
+      "bytes": 323,
+      "sha256": "3671a873b2f94b5cf817b5a4690864ce655e7b80f09c93a9c924869792ebcb9f"
+    },
+    "data/interim/pre-correspondence-sprint-2026-10-09/retrieval-request-1.json": {
+      "bytes": 1077,
+      "sha256": "155042e64ec64ee297aad4a4ea98f0b8626ec260467c16be51bb2153932d98a6"
+    },
+    "data/interim/pre-correspondence-sprint-2026-10-09/retrieval-request-2.json": {
+      "bytes": 884,
+      "sha256": "d1b4ce1e5bc6242ed29421e39cac1284ebe11a1f45810caca9ed2deef6565934"
+    },
+    "data/interim/pre-correspondence-sprint-2026-10-09/retrieval-request-3.json": {
+      "bytes": 1188,
+      "sha256": "f24577964c8c3ba5687cca260483f37c78a1b80d2234a1586b75868bf6dcdf96"
+    },
+    "data/interim/pre-correspondence-sprint-2026-10-09/retrieval-request-4.json": {
+      "bytes": 1381,
+      "sha256": "1fa21caa1dd113e40a6297ed5262205227874edc9a5638f3afc334a65ae0f045"
+    },
+    "data/interim/pre-correspondence-sprint-2026-10-09/retrieval-request-5.json": {
+      "bytes": 1301,
+      "sha256": "004e935d9c4adcf6983f16f2c2bbf30a80f16f2bbc3abd2b2d6ac6ff354ca9f1"
+    },
+    "data/interim/pre-correspondence-sprint-2026-10-09/retrieval-request-6.json": {
+      "bytes": 810,
+      "sha256": "17d4c98c8d070c649edcf1c1731f63790bfba18848ae22f9f8dcb596b4a381b0"
+    },
+    "data/interim/pre-correspondence-sprint-2026-10-09/retrieval-request-7.json": {
+      "bytes": 417,
+      "sha256": "4cca8f020b8b9fef88fe0eca8ddaf6aa7a8801340e751c84f8f137c94fc6e432"
+    },
+    "data/interim/pre-correspondence-sprint-2026-10-09/retrieval-request-8.json": {
+      "bytes": 439,
+      "sha256": "07c1db70cb4f9e41257b5cfd63fd17ffbb6e300816455fdbe4321d1d64327181"
+    },
+    "data/interim/pre-correspondence-sprint-2026-10-09/retrievals.jsonl": {
+      "bytes": 23321,
+      "sha256": "5796ec7deb705237a061df5cab7d9412207f9ef5807a821118d2148f5609cb40"
+    },
+    "data/interim/pre-correspondence-sprint-2026-10-09/spectral-file-audit.json": {
+      "bytes": 1518,
+      "sha256": "e912b6203e41d3976df23e7c7600c83ff98b7eee7f83eb1410df8381810b88cc"
+    },
+    "data/interim/release-scope-finalization-2026-10-11/web-check.json": {
+      "bytes": 1714,
+      "sha256": "6f4ca808ffc611c60c1fbdd7a4f3578ce02ef58bc1ddcb4a09d63758c2908c94"
+    },
+    "data/interim/seven-admitted-input-inventory/verification.json": {
+      "bytes": 966,
+      "sha256": "8e4e1971756b56623e40c61c411f026e965c756e395971cc364986d135d86a61"
+    },
+    "data/interim/seven-admitted-member-eligibility/verification.json": {
+      "bytes": 33109,
+      "sha256": "154a5d6d7074538189888fe8da7ba3bea687f524b8c04055e4829b3bc33a3c53"
+    },
+    "data/interim/source-gcf-host-expected/dependence-census.json": {
+      "bytes": 2427,
+      "sha256": "88f10cea5ef609c9a1c9b5ea8b227b144a93e77dcbf87493cb0baedad49dc6c2"
+    },
+    "data/interim/source-gcf-host-expected/gold-pool-audit.json": {
+      "bytes": 1421,
+      "sha256": "0f2bef586317b1e0e9ef547217c594e48f346282bdb93b9817d336df3acf3d17"
+    },
+    "data/interim/source-gcf-host-expected/sensitivity-roster-receipt.json": {
+      "bytes": 1745,
+      "sha256": "b7d6a24e76b96ada1c9aaa6b39006850269c7ed8199e78097878446598eecf9e"
+    },
+    "data/interim/source-gcf-host-expected/simplification-verification.json": {
+      "bytes": 603,
+      "sha256": "171dd42a47a29b2a6d8a34183bc6aed439fe12391363750b4e251ecc3db5bfbe"
+    },
+    "data/interim/source-gcf-host-expected/verification.json": {
+      "bytes": 1297,
+      "sha256": "09214c0daae95f4b40777b59b2dcd1ebd6e2da67841802522f1a91661a4fc8c2"
+    },
+    "data/interim/source-observation-spec/checks.json": {
+      "bytes": 1961,
+      "sha256": "c55c63ca34357a7869d8ff09beb3f61038671cc00a6815f746a40d9fe6808798"
+    },
+    "data/interim/spectral-arithmetic-reproduction-2026-10-11/receipt.json": {
+      "bytes": 3930,
+      "sha256": "5ef0bc7359c1ae1c45c4215764601eaf38849897a274e731199ee619e60e2331"
+    },
+    "data/interim/strong-case-correspondence/verification.json": {
+      "bytes": 777,
+      "sha256": "f79dd7d30910fcdea5a7ed18f1b8387ebc98b3e43f36420e1186c0c6dc4640c4"
+    },
+    "data/interim/terreazepine-fac-review-2026-10-08/admission-integrity.json": {
+      "bytes": 433,
+      "sha256": "fb27f902b6310564b7643233e50e7b94f993db78e101ee6ef2da9f0b45088de6"
+    },
+    "data/interim/terreazepine-fac-review-2026-10-08/audit_query.py": {
+      "bytes": 1288,
+      "sha256": "7035a172ce6932c87d1ff8dd151daf3f81710470df76915728b60123b42e35b2"
+    },
+    "data/interim/terreazepine-fac-review-2026-10-08/fac-receipt.json": {
+      "bytes": 308,
+      "sha256": "193393dbda2f57bff5a46e23ae9c42df25f72cb78e7bc6d4ad2d73a39d8de8c3"
+    },
+    "data/interim/terreazepine-fac-review-2026-10-08/fac.gb": {
+      "bytes": 189685,
+      "sha256": "105467322604d7d4177444a3428ed693a9dec44777e8e57325bef6e8fc20aeff"
+    },
+    "data/interim/terreazepine-fac-review-2026-10-08/figure-s5-receipt.json": {
+      "bytes": 241,
+      "sha256": "7f5423f6dca1c7f23609b29bfe501e7b4c9744c5d4dbb3aa829473983b086bab"
+    },
+    "data/interim/terreazepine-fac-review-2026-10-08/query-audit.json": {
+      "bytes": 851,
+      "sha256": "7c1330654eef26e17cd37d6ca726b51fbfa0426e1a621ae1d0349e7352a965ff"
+    },
+    "data/interim/terreazepine-fac-review-2026-10-08/receipt.json": {
+      "bytes": 378,
+      "sha256": "3f4448985c44aef0707217bc19db6e68e830c6f162adb77029d9c4febad3eaff"
+    },
+    "data/interim/terreazepine-fac-review-2026-10-08/table-s1-receipt.json": {
+      "bytes": 241,
+      "sha256": "433fc5e0c92d18f3a3ff45cd435cf57a69a0e7c8f8c1495a84242e693fabea71"
+    },
+    "data/manifests/baseline-methods.json": {
+      "bytes": 13249,
+      "sha256": "89c7265b16740116947e864649e99d13875434cca837b420581bbe830377af74"
+    },
+    "data/manifests/caesar-candidate-build.json": {
+      "bytes": 3099,
+      "sha256": "7df5e669a89784925ee5cb1ee7c80dd237900f2df41f2ae34efc6a7a0854cb1e"
+    },
+    "data/manifests/caesar-feature-build.json": {
+      "bytes": 2233,
+      "sha256": "53e74e1f5161ec7af038a5a9e8adbc033cc245db6b5e6625272c6258053eae15"
+    },
+    "data/manifests/caesar-source-observation-build.json": {
+      "bytes": 6876,
+      "sha256": "118ddfef574f92ae782c40ea3915ecb61df66d86e582cf4da09f808a86a97ee1"
+    },
+    "data/manifests/historical-inclusion-reconciliation.json": {
+      "bytes": 3370,
+      "sha256": "6aaae0b570ef570fc1d29606ee068bf4c11f55231c6a87a59070d0227566c19d"
+    },
+    "data/manifests/legacy-imports.tsv": {
+      "bytes": 1792,
+      "sha256": "bc2825c3bb8a147aa47679950e1752366d1db504cec103e44b558ddf3549868c"
+    },
+    "data/manifests/new-cohort-discovery-2026-10-03.tsv": {
+      "bytes": 4610,
+      "sha256": "da309f4e34f48c4121e04471b4c9757a13b815a5fd4b5b0b55c07e8aae01a912"
+    },
+    "data/manifests/npclassscore-adapter.json": {
+      "bytes": 3025,
+      "sha256": "15b07e8a4182209fbfef6335fee01438498ba2a815dd376f4fe5a727bc28e38c"
+    },
+    "data/manifests/npclassscore-method.json": {
+      "bytes": 4615,
+      "sha256": "123e73cfcf6e15e94be32516b3ab6b36c4b48c83dac02edce495784fdd24c951"
+    },
+    "data/manifests/numerical-release-proposal-2026-10-11.tsv": {
+      "bytes": 56810306,
+      "sha256": "f16175e5786d12a521c6b92122f5298ef88bee2a97f72fc6a4badeef668e2a67"
+    },
+    "data/manifests/phylogeny-method.json": {
+      "bytes": 2803,
+      "sha256": "221b8f87115603ff8985bd48b90afaaa4049da3dd574c373cdc6c2f7a4abf3ce"
+    },
+    "data/manifests/relationship-traceability-v1.tsv": {
+      "bytes": 29245,
+      "sha256": "64758cb34449ca4b8911c12607084020df1dce167c21c32c9b8b0ac62bada965"
+    },
+    "data/manifests/release-assembly-attribution-2026-10-11.tsv": {
+      "bytes": 28581,
+      "sha256": "9a3748b6bd35fb6aa3272fece128dd682e0bc6f735c45a2b57cfc75454a11956"
+    },
+    "data/manifests/release-evidence-v1.tsv": {
+      "bytes": 589536,
+      "sha256": "4474dac400b3727e642529a47b9aad0f2e069f4315f8aa395cc4352ecfd164b5"
+    },
+    "data/manifests/release-rights-2026-10-07.tsv": {
+      "bytes": 97936,
+      "sha256": "ee4e251389ee92f5999c29fe804bd5789f9446cd185b212e0bcd4d6e18c47d6f"
+    },
+    "data/manifests/seven-admitted-candidate-staging-2026-10-03.tsv": {
+      "bytes": 4389,
+      "sha256": "725d4a4aade80c6907b9bb44a687610a8c3f6a401b8d49f0baad73950e2a0b8f"
+    },
+    "data/manifests/similarity-input-disposition-v1.tsv": {
+      "bytes": 26908,
+      "sha256": "2a7fcf43bf822da770b5e9e972fc0df05c941d5b15e325576cbd01a27d63d373"
+    },
+    "data/manifests/sources.tsv": {
+      "bytes": 56322,
+      "sha256": "d1893d9afc030b7182fa9205da43080e71784f7955e51240e8bee5cdae2b8dd4"
+    },
+    "data/manifests/spectral-release-scope-draft-v3-2026-10-11.tsv": {
+      "bytes": 36508,
+      "sha256": "949f379de4028b1d132cb9df154a04ea64cb462b5b2d0df6a3501e2adc5be2b5"
+    },
+    "data/manifests/task-exposure-v1.tsv": {
+      "bytes": 42610,
+      "sha256": "36be8944c1c198694e1d6c68f9bf76093a6b06aef36f50801de59dbd9ce3271f"
+    },
+    "data/processed/acetylaszonalenin-gcf-extension-v1/benchmark.json": {
+      "bytes": 242116,
+      "sha256": "ce21addfefa23a0beb7cd14458c519bbae806d83707929eca97a29812bc7bd4a"
+    },
+    "data/processed/acetylaszonalenin-gcf-extension-v1/manifest.json": {
+      "bytes": 1537,
+      "sha256": "33e5a0422b25b7b8c6f8a0fdcf9c910258c0af8567c45ee30e009bfc24257afd"
+    },
+    "data/processed/acetylaszonalenin-gcf-extension-v1-results/execution-complete.json": {
+      "bytes": 20975,
+      "sha256": "a6550064690c9e00c7516d5f2cac9d3f2e30344e47156521a7e634f6b54df27e"
+    },
+    "data/processed/acetylaszonalenin-gcf-extension-v1-results/independent-numerical-verification.json": {
+      "bytes": 32920,
+      "sha256": "2ba9dd65d8f91dda014612f350476f45b185c13523dff5c4abd51de115a12796"
+    },
+    "data/processed/acetylaszonalenin-gcf-extension-v1-results/results.tsv": {
+      "bytes": 14473,
+      "sha256": "7a3e83f32dbab6b30e4ca5b92dd22156ce1d8c15a53131a4787fbff0f9fbcb97"
+    },
+    "data/processed/blackyeast-sixmsa-candidate-v1/method_inputs/query.fasta": {
+      "bytes": 5560,
+      "sha256": "cd8c12733236d1d38a81afdcbf20fb634ad8e46bdfe469a8720e806bc14d0c93"
+    },
+    "data/processed/blackyeast-sixmsa-candidate-v1/method_inputs/spectra.mgf": {
+      "bytes": 168729,
+      "sha256": "107cfefba27eefea7d6e5914343664b6420553b941d8a3d33f5a1f50c34f3f58"
+    },
+    "data/processed/blackyeast-sixmsa-candidate-v1/method_inputs/spectra.tsv": {
+      "bytes": 15173,
+      "sha256": "bd1b30df333a1094dca5dc3d4da0e5b25bcd840b6add10b203a5786c4ee17521"
+    },
+    "data/processed/blackyeast-sixmsa-candidate-v1/provenance/conversion-run.json": {
+      "bytes": 1762,
+      "sha256": "8c1b519bd321ee8ca0438901827b95f48d7eb353dfd7ea8c0d17bf295154b3e9"
+    },
+    "data/processed/blackyeast-sixmsa-candidate-v1/provenance/feature-processing-run.json": {
+      "bytes": 1373,
+      "sha256": "1691fa78171cc956caddfdb25f2e5ae66646f8b853232d9d4963f2a59897be8d"
+    },
+    "data/processed/blackyeast-sixmsa-candidate-v1/provenance/feature-recipe-before-run.json": {
+      "bytes": 1684,
+      "sha256": "9571f3ca2aaae1fa7f1cc9e10ae8c1cb407ab43280e4abf1911bb68f2efe9204"
+    },
+    "data/processed/blackyeast-sixmsa-candidate-v1/provenance/native-memberships.tsv": {
+      "bytes": 65782,
+      "sha256": "7ea5981f67ed8682d5952cb2a2e1ab3126c2e66c3d30fcdf2cc6bc53cd53f684"
+    },
+    "data/processed/blackyeast-sixmsa-spec2class-negative-v1-attempt2/run.json": {
+      "bytes": 9495,
+      "sha256": "cc4f00d0c85361b8dcafe6af402b1fd6d448abe7b817878e004695475d4830af"
+    },
+    "data/processed/caesar-feature-source-v1/features.tsv": {
+      "bytes": 611087,
+      "sha256": "075a06513dd29250c3810ee725549766718d804d7923c83c6fefbdda76cd1dfc"
+    },
+    "data/processed/caesar-marker-phylogeny-2026-10-07/analysis-manifest.json": {
+      "bytes": 67639,
+      "sha256": "9c1c281fb00d248d32aebe0e82b6ed5fde9f8c5804470ee8f239a3cdf54e227a"
+    },
+    "data/processed/caesar-marker-phylogeny-2026-10-07/markers/100249at4751.receipt.json": {
+      "bytes": 857,
+      "sha256": "a7526a7d84ce950db6c587f97c06587f752afcd262a5e7832d67e0d341577b3c"
+    },
+    "data/processed/caesar-source-observations-v1/conditions.tsv": {
+      "bytes": 75620,
+      "sha256": "8e5f266830cccd7e6fc1cb83920da4f1ad572b70f180e38112a1c060c0ec78c4"
+    },
+    "data/processed/caesar-source-observations-v1/labels.tsv": {
+      "bytes": 75486,
+      "sha256": "9f1de4777dd990bb4384d64a6dfe3ca2a096eb1e09a3c3e28785bfbbc6410a66"
+    },
+    "data/processed/clean-source-reproduction-2026-10-07/host-verification.json": {
+      "bytes": 470,
+      "sha256": "5324d368e74745b0bee2b6f3a0ae46de8ae32d2163dfad5d6c3b8d4c809f5f42"
+    },
+    "data/processed/core-numerical-candidate-v1-2026-10-11/acetylaszonalenin-replay.json": {
+      "bytes": 4990,
+      "sha256": "41c34f267db3d3f3198942ab7933bc79dc320aece66a4dfd6e2d2932994a92c6"
+    },
+    "data/processed/core-numerical-candidate-v1-2026-10-11/build-receipt.json": {
+      "bytes": 579,
+      "sha256": "07e6e69e0c2481e24bf696cbea6e317a64be0107b7ba4f6f0118c60706ac1871"
+    },
+    "data/processed/core-numerical-candidate-v1-2026-10-11/emericellamide-replay.json": {
+      "bytes": 4984,
+      "sha256": "7ce58a6c67ee82d96162b7efb1b92f9f6609bf92ecbd2f63c0fee7f27ddee9aa"
+    },
+    "data/processed/core-numerical-candidate-v1-2026-10-11/expanded-replay.json": {
+      "bytes": 4972,
+      "sha256": "5a6e9cff7e3764f95e6d4db7c29b1645c557236d2cff3d8238311a38c2934378"
+    },
+    "data/processed/core-numerical-candidate-v1-2026-10-11/fungallink-core-numerical-private-v1.zip": {
+      "bytes": 39957780,
+      "sha256": "61ddcc9245279255b5eaf486322cd8c22d558b088683c390be7cdda004dc1ed9"
+    },
+    "data/processed/core-numerical-candidate-v1-2026-10-11/negative-control.json": {
+      "bytes": 547,
+      "sha256": "afe190f7e94708428ca70e79bdba8a42f78ecf3e3858c7538756a280e4fdf902"
+    },
+    "data/processed/core-numerical-candidate-v1-2026-10-11/reproduction.json": {
+      "bytes": 16681,
+      "sha256": "83289079920e8276c67844c5e339588bdc545e07e462a2426f4e9e40721bd550"
+    },
+    "data/processed/emericellamide-gcf-extension-v1/analysis-amendment.json": {
+      "bytes": 1455,
+      "sha256": "b01a8b682dcca1e450e21f5f68e0df0d39b379ac27e3397ea9dba7bbf2f40895"
+    },
+    "data/processed/emericellamide-gcf-extension-v1/benchmark.json": {
+      "bytes": 242117,
+      "sha256": "ffbac2de4cc43c5688b78328a684772cbdfb85a330de4a757a718ab61549b8bb"
+    },
+    "data/processed/emericellamide-gcf-extension-v1/manifest.json": {
+      "bytes": 1714,
+      "sha256": "660fb27e447c8e292188ab5e4619ff6fafb1ea427d18a6fc5330e99a75dd3875"
+    },
+    "data/processed/emericellamide-gcf-extension-v1-results/execution-complete.json": {
+      "bytes": 20976,
+      "sha256": "aaa1bd25f6ad90036f60157663225acebf68edd956bb5a1d7712c9cc84bb146a"
+    },
+    "data/processed/emericellamide-gcf-extension-v1-results/independent-numerical-verification.json": {
+      "bytes": 33504,
+      "sha256": "76e297be9c61f8b670a3dd9211b9484b3eb4f7bc139c5cede464a4c5de0915b5"
+    },
+    "data/processed/emericellamide-gcf-extension-v1-results/results.tsv": {
+      "bytes": 15108,
+      "sha256": "49b2f1c3ba0d86f4188567cc921b97fefe036358539766efebf084ca52169547"
+    },
+    "data/processed/phylogeny-audit-candidate-v1-2026-10-11/build-receipt.json": {
+      "bytes": 516,
+      "sha256": "fd5d32b67c32ead41a77cdc703a80583acdfdefce7cd4615ef7f4f2e6b3f9ddb"
+    },
+    "data/processed/phylogeny-audit-candidate-v1-2026-10-11/environment.json": {
+      "bytes": 300,
+      "sha256": "2de463972e97803366c1c65ba44c2fdec0c8293dc383397ac17a5a965391db17"
+    },
+    "data/processed/phylogeny-audit-candidate-v1-2026-10-11/fungallink-phylogeny-audit-private-v1.tar.gz": {
+      "bytes": 136326334,
+      "sha256": "16c763eeb86d3823a9ce6aba4a51892b9fd2fea7ea89ddca13cdcd586a1f04f0"
+    },
+    "data/processed/phylogeny-audit-candidate-v1-2026-10-11/no-site-audit.json": {
+      "bytes": 324,
+      "sha256": "068864d94de2a2835ecab54a8ce1365e1631ee523b1c0622e3c7bd24b3120a86"
+    },
+    "data/processed/phylogeny-audit-candidate-v1-2026-10-11/README.md": {
+      "bytes": 2776,
+      "sha256": "a21f71b2a3fe28576c388ba25b4586b0f7f10d6de437f7ba488b0d2aa9229396"
+    },
+    "data/processed/phylogeny-audit-candidate-v1-2026-10-11/staging.json": {
+      "bytes": 530,
+      "sha256": "682a62c775f7621ff75af42f473d46349457d01775db567b85ff3e3bfaf42296"
+    },
+    "data/processed/phylogeny-audit-candidate-v1-2026-10-11/verification.json": {
+      "bytes": 1319,
+      "sha256": "719ecca424a156a679bee1788be6ad67d1e2b6240d6214dd6448d6626235e85b"
+    },
+    "data/processed/release-review-candidate-2026-10-07/fungallink-software-review-candidate.zip": {
+      "bytes": 83535,
+      "sha256": "28358169c493367446c611106d06bcc11bcf09477fd48a839639104d422c6246"
+    },
+    "data/processed/similarity-independence-v1/all-genomic-locus-pairs.tsv": {
+      "bytes": 832587,
+      "sha256": "a612b2995cd93919792cdd543aa14af44bcf3aeb8b9e9b45159db4447733f647"
+    },
+    "data/processed/similarity-independence-v1/all-genomic-pairs.tsv": {
+      "bytes": 2836609,
+      "sha256": "d0a60303c641c1ce33cb5569bae2046059170db49f17bcb8d93aa97e74151e5a"
+    },
+    "data/processed/similarity-independence-v1/anchor-genomic-pairs.tsv": {
+      "bytes": 523071,
+      "sha256": "01a271550c07d274b0dd582f4de6203dfd7d0ffb9ded3699447753d6732b32cc"
+    },
+    "data/processed/similarity-independence-v1/anchor-members.tsv": {
+      "bytes": 3911,
+      "sha256": "66af1f74ebacfae9c8cedac656e056ada134f1ad3ddc6d93b443650633020c6a"
+    },
+    "data/processed/similarity-independence-v1/anchor-proteins.tsv": {
+      "bytes": 60717,
+      "sha256": "f5436635dc11394e86a9c8218e0472ef1606394ea17bbc0912f378afc45238c6"
+    },
+    "data/processed/similarity-independence-v1/chemical-heatmap.png": {
+      "bytes": 201486,
+      "sha256": "7dfced791e4aa957ed060b111ca5b62fdf4d3ef128be7e9cd1918875eaaa5dc4"
+    },
+    "data/processed/similarity-independence-v1/chemical-pairs.tsv": {
+      "bytes": 111948,
+      "sha256": "4921807705d09a925e2d9999a61538403601eed18ed18ecd8f3e42ec50a11fec"
+    },
+    "data/processed/similarity-independence-v1/dependence-edges.tsv": {
+      "bytes": 404120,
+      "sha256": "d9ba6b266201060b4d08015f8089950723c482c26446bbc1d49470637e8f6289"
+    },
+    "data/processed/similarity-independence-v1/executed-model-assets.tsv": {
+      "bytes": 25487,
+      "sha256": "603d123113340476126b091f698e85fe42de6f74bfe22a36109a7d9d4264d4da"
+    },
+    "data/processed/similarity-independence-v1/exposure.tsv": {
+      "bytes": 190840,
+      "sha256": "9e663a048a42869ff0043bca2d0c07b93d391cc02f54104875d15a8697c761e9"
+    },
+    "data/processed/similarity-independence-v1/gcf-members.tsv": {
+      "bytes": 26669,
+      "sha256": "3bc8efbed33180cc91007b0ae5a4a11f7f2d414c60a6ff36f38f7c4366bd0949"
+    },
+    "data/processed/similarity-independence-v1/genomic-eligibility.tsv": {
+      "bytes": 169662,
+      "sha256": "29ecd90f307461da17ff2d4eb3e03fb2f42f6948d1e6ac4baabc4337484f7e1c"
+    },
+    "data/processed/similarity-independence-v1/genomic-family-summary.tsv": {
+      "bytes": 13027,
+      "sha256": "11de0d1b59613fb9c960428307cd1ecd006a7c9666a1e35abdeb2a7f3e08894f"
+    },
+    "data/processed/similarity-independence-v1/genomic-locus-pairs.tsv": {
+      "bytes": 649700,
+      "sha256": "57757ded2aff7c6eb68c70915f196e1a43969081aa7723e30a046d0caeb34a88"
+    },
+    "data/processed/similarity-independence-v1/genomic-pairs.tsv": {
+      "bytes": 2305023,
+      "sha256": "9c1f35bfaee6c3aa0737b7c622b492fedcb6aaef5a5665c7fdb61bf55b4f6de5"
+    },
+    "data/processed/similarity-independence-v1/group-scenarios.tsv": {
+      "bytes": 451174,
+      "sha256": "a9910fad3d17d7a7f898cb33955d26513bbfe9e88c0c7884b36620a56a45d7fe"
+    },
+    "data/processed/similarity-independence-v1/group-summary.tsv": {
+      "bytes": 338,
+      "sha256": "d5e9e0e3ad48916f5d31d12ff6c569308972e814fa94bc5d804560c5b1a4062a"
+    },
+    "data/processed/similarity-independence-v1/manifest.json": {
+      "bytes": 20389,
+      "sha256": "26f55e898a1a1438b787144c2a58d16be4028fee5215891bba1ae8d172523a97"
+    },
+    "data/processed/similarity-independence-v1/proteins.tsv": {
+      "bytes": 1252539,
+      "sha256": "92bdfac838db82d173745348660a736263d618c6287b9cbccf8c3dd282640749"
+    },
+    "data/processed/similarity-independence-v1/rejected-sequence-search-candidates.tsv": {
+      "bytes": 722,
+      "sha256": "e641e6565aeca01c6a0c0f1ec30ad4b61b16a5b7309a9739a8e37e10752527f4"
+    },
+    "data/processed/similarity-independence-v1/representations.tsv": {
+      "bytes": 86941,
+      "sha256": "c8a9bc70ecaed0c79f3b7f763ad6974c11f0976f6796430a89f941eaad65a791"
+    },
+    "data/processed/similarity-independence-v1/reused-correspondence.tsv": {
+      "bytes": 133361,
+      "sha256": "8085674187224dc32731f88ef96a566fc520db9bf237591018aee5a975b88cb0"
+    },
+    "data/processed/similarity-independence-v1/spectra.tsv": {
+      "bytes": 164461,
+      "sha256": "345f1ab88416779cd8d7e61f4a3205f8e0121e05f30134a878e4e6a0b7f2317e"
+    },
+    "data/processed/similarity-independence-v1/spectral-pairs.tsv": {
+      "bytes": 19764947,
+      "sha256": "374c4167b7542845ad9249e73585fa213b36c4f8ed3dabbe0ad85cdba4c16be5"
+    },
+    "data/processed/similarity-independence-v1/spectral-provenance.tsv": {
+      "bytes": 292391,
+      "sha256": "8a189bd73f650ce6d6e8601f4530faa6508d5404f615fe0081d9e93c74ed7f21"
+    },
+    "data/processed/similarity-independence-v1/structure-mapping-attempts.tsv": {
+      "bytes": 23586,
+      "sha256": "6576bb4ad8b45887ec5a8d19e5c0a211ef678d4e8818038276d006587e26d4a9"
+    },
+    "data/processed/similarity-independence-v1/structures.tsv": {
+      "bytes": 21318,
+      "sha256": "b7bc0051875f80080c85fb0d0c40f7841c8ad64732bc3eb75c618e3e61a1a5b9"
+    },
+    "data/processed/similarity-independence-v1/summary.json": {
+      "bytes": 1935,
+      "sha256": "90a27364cdbd68ada59d98d980f01bbf4be6acd8ac858cfe43cac7322eb6cc0a"
+    },
+    "data/processed/sixmsa-class-linking-diagnostic-v1/evaluation.json": {
+      "bytes": 550,
+      "sha256": "6134da2566fce694ea8f645231fb47cfdb1f664f7b46e609bede78b7fdc10b77"
+    },
+    "data/processed/source-selected-gcf-analysis-v1/benchmark.json": {
+      "bytes": 1209986,
+      "sha256": "032f05385280cc9a003799362c937426394b194ee0071b6f0737b54c6873b28c"
+    },
+    "data/processed/source-selected-gcf-analysis-v1/inputs.json": {
+      "bytes": 34863167,
+      "sha256": "84e5f7b9b766ef6f7feae78fc7997af7d1760a1a98287834994cab6ed151de51"
+    },
+    "data/processed/source-selected-gcf-analysis-v1/manifest.json": {
+      "bytes": 23528,
+      "sha256": "db5c9a653e873adf1c19781086ed287d65cb8836cad9a7f3bd1b6c6d33a04c84"
+    },
+    "data/processed/source-selected-gcf-analysis-v1/rosters.json": {
+      "bytes": 66700,
+      "sha256": "f951e31bad1616394fa4a8a27e23e06365d64f6fa94de15b25cb61f8de62d75b"
+    },
+    "data/processed/source-selected-gcf-analysis-v1/snapshots/data/curated/caesar-observation-groups-2026-10-02.tsv": {
+      "bytes": 173606,
+      "sha256": "70c74e3b0dbdcd5a1cc5dcd81bed59cb301036b0c7b109740bc9301cb2266e0c"
+    },
+    "data/processed/source-selected-gcf-analysis-v1/snapshots/data/curated/caesar-source-gcf-population-2026-10-03.tsv": {
+      "bytes": 723375,
+      "sha256": "38f797694322680d5c46b79fcd50311fa5055bda2b9614ee90e2480d924b065a"
+    },
+    "data/processed/source-selected-gcf-analysis-v1/snapshots/data/curated/caesar-source-gcf-sensitivity-rosters-2026-10-03.tsv": {
+      "bytes": 278672,
+      "sha256": "6621d68824e4f9362305693eda932b2982c881bc22e6f3651d7a9e863da52ab4"
+    },
+    "data/processed/source-selected-gcf-analysis-v1/snapshots/data/curated/source-gcf-analysis-groups-2026-10-07.tsv": {
+      "bytes": 1010,
+      "sha256": "08024f584abccdf5371ca4b7af026d8d9efbcae61cff9b6339d18dfcc46394f1"
+    },
+    "data/processed/source-selected-gcf-analysis-v1/snapshots/data/manifests/baseline-methods.json": {
+      "bytes": 13249,
+      "sha256": "89c7265b16740116947e864649e99d13875434cca837b420581bbe830377af74"
+    },
+    "data/processed/source-selected-gcf-analysis-v1/snapshots/data/manifests/sources.tsv": {
+      "bytes": 30540,
+      "sha256": "b4f0a04d5b6813f35702c851c5efc15da648067cc64fe0dd07e78ab150448111"
+    },
+    "data/processed/source-selected-gcf-analysis-v1/snapshots/docs/data/source-gcf-inputs.md": {
+      "bytes": 5084,
+      "sha256": "b351290749be3c6718aa968c7a0b5636f582e750b4220983dc0de5f6ecae93e9"
+    },
+    "data/processed/source-selected-gcf-analysis-v1/snapshots/docs/plans/2026-09-30-2052-benchmark-paper-plan.md": {
+      "bytes": 29561,
+      "sha256": "594b5e57785132a66f4fe9bf526ceedc20cceba9569e2e8f40b6006df724d24f"
+    },
+    "data/processed/source-selected-gcf-analysis-v1/snapshots/protocol/analysis-plan.md": {
+      "bytes": 14053,
+      "sha256": "fa1050a0281cb0547ac943421fa901d5fd38a1a176f895034f32613d41c864e7"
+    },
+    "data/processed/source-selected-gcf-analysis-v1/snapshots/protocol/benchmark-contract.md": {
+      "bytes": 14377,
+      "sha256": "f416930467ecffebc2e3d95921d984ba00805a8e1b47a8f3ffe3eb2bd72b8464"
+    },
+    "data/processed/source-selected-gcf-analysis-v1/snapshots/protocol/caesar-source-observations-2026-10-02.md": {
+      "bytes": 11150,
+      "sha256": "72f3f27113cb546eca99746353838bd25ae1dcb768bfd1a82e906dc1e014a0ce"
+    },
+    "data/processed/source-selected-gcf-analysis-v1/snapshots/protocol/source-selected-gcf-analysis-decision-2026-10-07.md": {
+      "bytes": 9618,
+      "sha256": "fc2d5c6f2b2a7a27701e320d76b3cf115ba787cda5466e351267722e826c2a1c"
+    },
+    "data/processed/source-selected-gcf-analysis-v1/snapshots/protocol/source-selected-gcf-draft-analysis-2026-10-07.md": {
+      "bytes": 10201,
+      "sha256": "c22b5bd085c44853160ae61691f777cd3ad0c877dc8a4cfb46f8758a0ae56a45"
+    },
+    "data/processed/source-selected-gcf-analysis-v1/snapshots/scripts/evaluate_rankings.py": {
+      "bytes": 14973,
+      "sha256": "740fbad907cfcb8d9bf6c80a4e259a200f39c622c0a906d03b80ba2d383f8c55"
+    },
+    "data/processed/source-selected-gcf-analysis-v1-results/clean-deterministic-rerun.json": {
+      "bytes": 715,
+      "sha256": "497d9207146bf2f8717b60bd9c41168458e7b65aeb63bb0e9df603ca0c0a680e"
+    },
+    "data/processed/source-selected-gcf-analysis-v1-results/deterministic-summary.json": {
+      "bytes": 127331,
+      "sha256": "4a84af9adc687eeb9729cb00dba3b0e4d17109dd2959aed0c76a3c014c1f4f47"
+    },
+    "data/processed/source-selected-gcf-analysis-v1-results/freeze.json": {
+      "bytes": 4264,
+      "sha256": "6a7f02c298417ef0df0f1d3f10af1eddf36f51b8aea2ca1d98ebb07fbf8ed793"
+    },
+    "data/processed/source-selected-gcf-analysis-v1-results/primary-independent-audit.json": {
+      "bytes": 496,
+      "sha256": "eba78b7cdf22d56ba88ed3e7e0337a7851dce063924e401d7d7e4e860b3c144a"
+    },
+    "data/processed/source-selected-gcf-analysis-v1-results/random-resources.json": {
+      "bytes": 971,
+      "sha256": "c7302f542cbc651b6ade0908db58ba65ffd133b0c8ad14db29303d29a418c8bf"
+    },
+    "data/processed/source-selected-gcf-analysis-v1-results/shared-random.json": {
+      "bytes": 10422,
+      "sha256": "0ec8c9f1ec9bf0045d1a360c23a25d24ed6b1d1885926a56b5fa67025bb211b3"
+    },
+    "data/processed/source-selected-gcf-expanded-labels-v2/analysis-amendment.json": {
+      "bytes": 1756,
+      "sha256": "357109e09118ffcb65a749f4e60217b4d8e308b6c9846dc549b930765416eafb"
+    },
+    "data/processed/source-selected-gcf-expanded-labels-v2/evaluate_cached.py": {
+      "bytes": 9182,
+      "sha256": "459ee75b8168c70488c1b1194926d6067c52edeb5d3683594659f2c419bb0083"
+    },
+    "data/processed/source-selected-gcf-expanded-labels-v2/gold/benchmark.json": {
+      "bytes": 1631050,
+      "sha256": "b97cc328fef7317bcd432e24856b8d2b936364934fe3a4fe64d6daaccfd2a48a"
+    },
+    "data/processed/source-selected-gcf-expanded-labels-v2/manifest.json": {
+      "bytes": 12766,
+      "sha256": "c93028e27330142c05e6af7e9daecd4be54b25c4e63e2ced0d2109519ac48cd0"
+    },
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/exact-random.json": {
+      "bytes": 4020,
+      "sha256": "2eb6b4504abfa3c704ee97966b35898160dd19c963e0f5c8a7884f0512f26845"
+    },
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/host-independent-verification.json": {
+      "bytes": 566,
+      "sha256": "31856ddfdf597906ba631d79ad1e08b71c413bc38013a879d5fb2ca380f6bdde"
+    },
+    "data/processed/source-selected-gcf-expanded-labels-v2-results/validation.json": {
+      "bytes": 64920,
+      "sha256": "b5df0869367883e5de1f682342c36b457f694795fa4ea78bbcd9de5c41dab49b"
+    },
+    "data/processed/source-selected-phylogeny-candidate-v1/gold/benchmark.json": {
+      "bytes": 1677837,
+      "sha256": "36df77decb766b0b64b1551e496493679e93144d38da663cefb0f7e6477622fa"
+    },
+    "data/processed/source-selected-phylogeny-comparison-v2-results/execution-identity.json": {
+      "bytes": 1105,
+      "sha256": "343f4292d8f025fa96b175de6b48bc453c7a965c1ac33d59c6c06d8d87123f4d"
+    },
+    "data/processed/source-selected-phylogeny-comparison-v2-results/summary.json": {
+      "bytes": 84431,
+      "sha256": "25307ac439e5bdb114283957deabcedc1cf6b798498ba688b58bc357197eddaa"
+    },
+    "data/processed/spectral-release-candidate-v1-2026-10-11/build-receipt.json": {
+      "bytes": 829,
+      "sha256": "4d9150535e437e64bb5f873fdcfce7d4e40c5e0379b94bc87cac3e4e8108dc33"
+    },
+    "data/processed/spectral-release-candidate-v1-2026-10-11/extraction-verification.json": {
+      "bytes": 1282,
+      "sha256": "48eadbb4a847bd0bdab4f6b1a4a737b7345df3280d4e01bd4330d284c11a1d46"
+    },
+    "data/processed/spectral-release-candidate-v1-2026-10-11/fungallink-spectral-private-candidate-v1.zip": {
+      "bytes": 588884,
+      "sha256": "15e0f109e618df4a1645e1e2c4649a277e5bae9d954c4443a91c7aae5c549857"
+    },
+    "data/processed/trichoderma-class-linking-diagnostic-v1/evaluation.json": {
+      "bytes": 717,
+      "sha256": "59559362d7cdfa5d86a3545f1ad8d863611b85bdeaeeee0b7cbb03118559f059"
+    },
+    "data/processed/trichoderma-network-candidate-v1/manifest.json": {
+      "bytes": 7630,
+      "sha256": "fa56495a8909f9d85a34c2a75777997fe1bff5f7bbfa625e407ce3906797cf43"
+    },
+    "data/processed/trichoderma-network-candidate-v1/method_inputs/spectra.mgf": {
+      "bytes": 76112,
+      "sha256": "6c5e504a8b212eaee532c0fa3df3b8f78facb1ab10af78c805b6291877734e7e"
+    },
+    "data/processed/trichoderma-network-candidate-v1/method_inputs/spectra.tsv": {
+      "bytes": 4773,
+      "sha256": "bb6f5d75f203ef43b52ed5b7cf343365a1f2fe522d933af55773dca7552cb1d2"
+    },
+    "data/processed/trichoderma-network-candidate-v1/proposed_labels/ilicicolin-h-proposal.tsv": {
+      "bytes": 300,
+      "sha256": "1186eeb4186f9adea359cd1a70e353b4b86855370f0716b1e79b039afc938d27"
+    },
+    "data/processed/trichoderma-network-candidate-v1/provenance/candidate-aliases.tsv": {
+      "bytes": 7144,
+      "sha256": "7acc781491e28bfaf7e0c6a68a678e360043fd9e6ed6a6ada42bc875b41de0c1"
+    },
+    "data/processed/trichoderma-network-candidate-v1/provenance/processing/native-fragment-membership.tsv": {
+      "bytes": 129878,
+      "sha256": "0a8e2814e6ebdbb4f539a2cb36e0b24ec846a475fdcd755ceecd7ed886b6ccf0"
+    },
+    "data/processed/trichoderma-network-candidate-v1/provenance/processing/selected-native-spectrum-check.json": {
+      "bytes": 56016,
+      "sha256": "67f689049bc8d2c6a7e20e9687588ac08c864372b275f8af34ed2965b15de85c"
+    },
+    "data/processed/trichoderma-network-candidate-v1/provenance/raw-file-manifest.json": {
+      "bytes": 74845,
+      "sha256": "7826b3a9a9e0d355cc6c77724c561955fd12a031567e3e5fa5fb4efdea1cdda9"
+    },
+    "data/processed/trichoderma-spec2class-positive-v1-attempt2/run.json": {
+      "bytes": 11482,
+      "sha256": "18f985396fbc353acacfcc3f8806eb0f56de7696d32162819b53733e388bc082"
+    },
+    "data/raw/blackyeast-sixmsa-inputs-2026-10-09/selected-native-spectrum-check.json": {
+      "bytes": 132250,
+      "sha256": "b0fa12c7c9216fe5d7f179d1a8534794104579fb2b91f8a1f63bb6a521352291"
+    },
+    "data/raw/expression-dataset-screen-2026-10-07/fac-host-verification.json": {
+      "bytes": 851,
+      "sha256": "4d8176650f4b979bc53861ad8c1e44215e88b34196a67111a997b749dddea299"
+    },
+    "data/raw/fac9j20-query-appraisal-2026-10-07/appraisal-provenance.json": {
+      "bytes": 5128,
+      "sha256": "3f0bf5606b80a27890fc24f749d397d152e248afd794e542da2353953c222f91"
+    },
+    "data/raw/fac9j20-query-appraisal-2026-10-07/host-verification.json": {
+      "bytes": 1813,
+      "sha256": "b70e1b60fae7b6cff2137608782032cb9ac66109a2fb311808355f512c35d556"
+    },
+    "data/raw/fac9j20-query-appraisal-2026-10-07/KX449366.1.gb": {
+      "bytes": 185066,
+      "sha256": "8a83376c0937ce3f4ce280a759c67f0712546ccfd418f138b8e2b12873857211"
+    },
+    "data/raw/hex-measured-data-screen-2026-10-07/host-verification.json": {
+      "bytes": 930,
+      "sha256": "cc337b887cdc97de740158aaa52552fac472c754103bda794db1d9071048aba4"
+    },
+    "data/raw/sources/expansion-2026-10-03/caesar-reference/fulltext-download-receipts.json": {
+      "bytes": 949,
+      "sha256": "6127f62d1395c84b4d0915f622a9a26657d1252413dbdb1673abf550ccb9df61"
+    },
+    "data/raw/trichoderma-measurements-2026-10-07/pilot-export-host-verification.json": {
+      "bytes": 932,
+      "sha256": "a35b08f77cfcdd1085cf3b8f5ef3eb5780f72bea45cdb346798b4fff883eb46b"
+    },
+    "data/raw/trichoderma-measurements-2026-10-07/processing-mzmine390/host-manifest-verification.json": {
+      "bytes": 275,
+      "sha256": "2906b78eb1f1c956da14820de401da774f723f404390c8b3233e1797eb831a25"
+    },
+    "data/raw/trichoderma-measurements-2026-10-07/processing-mzmine390/selected-native-spectrum-check.json": {
+      "bytes": 56016,
+      "sha256": "67f689049bc8d2c6a7e20e9687588ac08c864372b275f8af34ed2965b15de85c"
+    },
+    "data/raw/trichoderma-qm6a-correspondence-2026-10-07/compare_references.py": {
+      "bytes": 3578,
+      "sha256": "b1e60505d5dcbfb33a450683412579a0776b4b9ac7e61e71e99c56e8391d133f"
+    },
+    "data/raw/trichoderma-qm6a-correspondence-2026-10-07/comparison-summary.json": {
+      "bytes": 850,
+      "sha256": "6eda82966b015de6109136134dc613de24b3da4201996a0ac711d3df0d1d8f5c"
+    },
+    "data/raw/trichoderma-qm6a-correspondence-2026-10-07/host-exact-sequence-verification.json": {
+      "bytes": 583,
+      "sha256": "e0eb9c5fdee3d9292ed277cc299814e7d3d95cc5282be81118cb39e7939cabf2"
+    },
+    "data/raw/trichoderma-qm6a-correspondence-2026-10-07/host-final-artifact-verification.json": {
+      "bytes": 312,
+      "sha256": "6c467678b3a75a3f136e818b250524a5af8ae3cb7453956864e2cbb0da430d57"
+    },
+    "data/raw/trichoderma-qm6a-correspondence-2026-10-07/protein-comparison.tsv": {
+      "bytes": 3113,
+      "sha256": "086c5c509be55dce3c088930f0e9e7df272c4cb7bfc263354dee6fbbec4ffbee"
+    },
+    "data/raw/trichoderma-qm6a-correspondence-2026-10-07/qm6a-ilicicolin-reference-window.gbk": {
+      "bytes": 54196,
+      "sha256": "62a520825226006a701dd3f0650027dd102b3331fa034d8eea2b8d7912064b98"
+    },
+    "data/raw/trichoderma-qm6a-correspondence-2026-10-07/retrieval-manifest.tsv": {
+      "bytes": 4185,
+      "sha256": "33abc011211b13f9bea1cbe34b5475e2cebd85d8f5d615897db53c90af1043f7"
+    },
+    "docs/data/approved-query-inputs-2026-10-02.md": {
+      "bytes": 11020,
+      "sha256": "804f00a9f9b4ecf9cd8f91a8bac7d3a85c310d0f8aff8135faf98303771b1b7a"
+    },
+    "docs/data/caesar-correspondence-reconciliation-2026-10-07.md": {
+      "bytes": 4176,
+      "sha256": "f939f3b35e28e5373756b5f9317f379042b02939e4d40cdd54e418be16aed238"
+    },
+    "docs/data/caesar-source-gcf-population-2026-10-03.md": {
+      "bytes": 10802,
+      "sha256": "22bae3ee91a7cb098e43212263a781d584bc17585701a21243164d8747aed5a0"
+    },
+    "docs/data/caesar-study-roster-2026-10-02.md": {
+      "bytes": 8433,
+      "sha256": "8ca3d8c55c967e567a0abe2b9ab47aa9cde5d3cc680bc0451f26f4bc48ed9966"
+    },
+    "docs/data/candidate-bundle.md": {
+      "bytes": 3460,
+      "sha256": "127a1c73bdb18a048855366f91167be310630fba93a199c5cbf4ee09ff5a146a"
+    },
+    "docs/data/emericellamide-gcf-projection-2026-10-08.md": {
+      "bytes": 2538,
+      "sha256": "4c9eddb2300a7e9b534e134190a32cbe479fb05da5476dc3215d15c70e8e5c18"
+    },
+    "docs/data/expansion-readiness-2026-10-01.md": {
+      "bytes": 8118,
+      "sha256": "4696f3e82268c3a48d8ea22a0ba8684b39381f109c69f46bb9cce01f10fbe254"
+    },
+    "docs/data/fac-supplement-evidence-2026-10-07.md": {
+      "bytes": 10932,
+      "sha256": "5553c95696f40e6baa4638768b1bb366fda58e9e24dcfacbadd962c4fbb456c1"
+    },
+    "docs/data/feature-build.md": {
+      "bytes": 5582,
+      "sha256": "03c9fd2a83b6e9c98db3626072186a8b0a1748a782dfcd9836c2498174708963"
+    },
+    "docs/data/hex-contact-update-2026-10-09.md": {
+      "bytes": 1487,
+      "sha256": "a168d6e7252f5d39560270babf0202085d770041c6d71093f090183244b041cf"
+    },
+    "docs/data/hex-data-request-2026-10-08.md": {
+      "bytes": 2494,
+      "sha256": "8d41b11373d6eaf9590f64ab08c88148e824045633b4a3f4500be33e2e0f3e87"
+    },
+    "docs/data/hex-measured-data-screen-2026-10-07.md": {
+      "bytes": 7282,
+      "sha256": "62b8d9c9ca7db50e23e4f85967e5ae5a97fa67f52d0783f5701b61652b22d6bb"
+    },
+    "docs/data/historical-inclusion-reconciliation.md": {
+      "bytes": 1874,
+      "sha256": "e99cf0498cda9d8a2aed935273158b8fdd1d56521f0a9c54621e02fd2d7e93c5"
+    },
+    "docs/data/kelleher-combined-request-2026-10-07.md": {
+      "bytes": 2927,
+      "sha256": "732baba78f8a0de5a7fced18dcc4411db4f92b63ada43d571769e57b71d0ebad"
+    },
+    "docs/data/lichen-measurement-recovery-2026-10-03.md": {
+      "bytes": 5316,
+      "sha256": "dee3fa2c9d3cc5d3839c0d514e7b25cacd39db6f7527a7e7d59bc26abae0a415"
+    },
+    "docs/data/phoenicin-source-review-2026-10-03.md": {
+      "bytes": 11339,
+      "sha256": "588b76d12ef9028d53f086ca7b3c5b91ead9de31050b9592e6ec0120d08d58f3"
+    },
+    "docs/data/pre-correspondence-research-sprint-2026-10-09.md": {
+      "bytes": 8800,
+      "sha256": "b27ce0fd6ff243eb0749f0e312c7bfc69fb16da972018b36f6c95f4b15aa7d54"
+    },
+    "docs/data/public-metadata-before-correspondence-2026-10-07.md": {
+      "bytes": 4077,
+      "sha256": "5430722ba8c16ac63a3f6a220b0893c112663aaba4f121662c85dce630cc634f"
+    },
+    "docs/data/seven-admitted-input-inventory-2026-10-03.md": {
+      "bytes": 6412,
+      "sha256": "49d62868795ea8aac91d43e591f0b82b1da88b3df756b5dfb68ab5b8ce703ba7"
+    },
+    "docs/data/seven-admitted-member-eligibility-2026-10-03.md": {
+      "bytes": 7128,
+      "sha256": "9bd1921ec576fe9355b7230233b464647c0d5287a3e4ed783428168cf99dc0bc"
+    },
+    "docs/data/source-gcf-inputs.md": {
+      "bytes": 5084,
+      "sha256": "b351290749be3c6718aa968c7a0b5636f582e750b4220983dc0de5f6ecae93e9"
+    },
+    "docs/data/source-gcf-release-gap-audit-2026-10-03.md": {
+      "bytes": 4809,
+      "sha256": "071ca1ab8e32ec2e333e259fb79181f80c1d2a07b9c2878806d6ca55bdf15d9f"
+    },
+    "docs/data/source-observation-build.md": {
+      "bytes": 6232,
+      "sha256": "28fe98b0e40b474ebe1226c789e3482b844c4e8ea7288314dd3c21ce7c4a492c"
+    },
+    "docs/data/source-selected-gcf-analysis-v1.md": {
+      "bytes": 7324,
+      "sha256": "98c1a0a665db8ae01305c59e8d2a26c0f4b208a41d7a8a3417ba638192eb897b"
+    },
+    "docs/data/trichoderma-mzmine390-processing-2026-10-07.md": {
+      "bytes": 6659,
+      "sha256": "f97c0160616f0e1c3988e5b83454e77788670ad23eef9818f315e31311ffd432"
+    },
+    "docs/evaluation/baseline-methods.md": {
+      "bytes": 13388,
+      "sha256": "7165294decb88a6f6cac31d0b747e341e78eb50102c7521b7e992017e788b024"
+    },
+    "docs/evaluation/npclassscore-adapter.md": {
+      "bytes": 8269,
+      "sha256": "9653caf62017ac4673d7476c4b313d9b0a90483eb4c9fe898fc7bd2390ec132d"
+    },
+    "docs/evaluation/npclassscore-kernel.md": {
+      "bytes": 11801,
+      "sha256": "2f8514190fecf59fced9b633e93374dfee67dd3199a251dc1c8821e58afc1a09"
+    },
+    "docs/evaluation/paired-comparisons.md": {
+      "bytes": 4974,
+      "sha256": "9a839101b9479dade77a6961ff8f6a84d34943fd7931bd592ba185f5351dcbe7"
+    },
+    "docs/evaluation/random-controls.md": {
+      "bytes": 5423,
+      "sha256": "632e3a5fc36fb175a501659c14a389b7754d8f762d1c4d13c2f1ec26096e38f2"
+    },
+    "docs/evaluation/ranking-evaluator.md": {
+      "bytes": 12633,
+      "sha256": "f21233e89e7dcf4342353900d83e5a04609d8e259b08c20c22254a6677e06885"
+    },
+    "docs/evaluation/similarity-independence-v1.md": {
+      "bytes": 6435,
+      "sha256": "42016196981907e407e5858a6f6704bd37e1e8bf2b5590768a2357e083963655"
+    },
+    "docs/evidence/acetylaszonalenin-sampled-correspondence-2026-10-03.md": {
+      "bytes": 9618,
+      "sha256": "c2085940b6a9c52dee41232eec0c5f99d20455a8f3c5b59b65a0e4af7acc00e4"
+    },
+    "docs/evidence/acetylaszonalenin.md": {
+      "bytes": 4594,
+      "sha256": "9591b0020a948539df35ebfc8b795a2766596e7d7f97abb8619a6fefe883ae1b"
+    },
+    "docs/evidence/acu-dioxomorpholine-fac-admission-2026-10-08.md": {
+      "bytes": 4585,
+      "sha256": "92f5ff5d4afb0db48f4b58b0fff17d7dbbb0dad62d76145ff544416c5c2fb8e9"
+    },
+    "docs/evidence/all-relationships-status-2026-10-03.md": {
+      "bytes": 8827,
+      "sha256": "3732cdbf5173e243f099be98525587db34d43b3c1ef119983ccf8f112e8de1ea"
+    },
+    "docs/evidence/benign-provisional-criteria-audit-2026-10-03.md": {
+      "bytes": 7168,
+      "sha256": "6fd36580dfd06d8befa469c3a76387605e05c846b6e7e9c02f8d4d67bcfcc3f7"
+    },
+    "docs/evidence/benzomalvin-additional-targets-admission-2026-10-09.md": {
+      "bytes": 7107,
+      "sha256": "c4638e83652cccf7cb04ecf1b59a38ef589e82c99a66a386d8e8452e0be76e71"
+    },
+    "docs/evidence/benzomalvin-extension-review-2026-10-08.md": {
+      "bytes": 3396,
+      "sha256": "d0e08d10f2461df06da08c84cf472677bf4fae2ad53107ba9ccdfa087d798445"
+    },
+    "docs/evidence/benzomalvin-tripeptide-admission-2026-10-08.md": {
+      "bytes": 3359,
+      "sha256": "2a495d9623dcec08448abb96383df1e416e56e5d18180d82815c212688d617b0"
+    },
+    "docs/evidence/black-yeast-sixmsa-admission-2026-10-09.md": {
+      "bytes": 4253,
+      "sha256": "2b2943b1a895b523261aee791fe7e3c434678d2cd1212bc1399c82f89fae84b4"
+    },
+    "docs/evidence/caesar-reference-records-2026-10-03.md": {
+      "bytes": 7512,
+      "sha256": "c837b59acbc3307441128054a76677bb65cf8dbe37f5f9129f346506ff36889e"
+    },
+    "docs/evidence/chemical-annotation-records-2026-10-02.md": {
+      "bytes": 8588,
+      "sha256": "e2e3a001a56bb869815b19287421917b7d941723b78783065c1f3be2d1e8c3e7"
+    },
+    "docs/evidence/chrysogine-aspernidine-review-2026-10-01.md": {
+      "bytes": 10534,
+      "sha256": "b3976904c4891d880c7ed0500c802b7e60703fd327d1139f3051681052150524"
+    },
+    "docs/evidence/emericellamide-a.md": {
+      "bytes": 4851,
+      "sha256": "6e03396f65f8d7fbb5e8c78c1bb759a6c8e51ad76500ab1499c0c11b7c5a3773"
+    },
+    "docs/evidence/emericellamide-competing-locus-review-2026-10-02.md": {
+      "bytes": 7499,
+      "sha256": "e58f1e288f52e08ff04f573c874a523e34d5a2c308fd51f194c2fdaa70a17120"
+    },
+    "docs/evidence/exact-product-gap-resolution-2026-10-02.md": {
+      "bytes": 7309,
+      "sha256": "fb28cf6bd688dc69b469f7ddda6edac4c89e880689dab4af471600d450835284"
+    },
+    "docs/evidence/fac-valactamide-congener-admission-2026-10-08.md": {
+      "bytes": 4154,
+      "sha256": "f08eddb29f97e584514b31a467720c55ee02ba3d5449d757d96ca88554675ed6"
+    },
+    "docs/evidence/fac9j20-query-appraisal-2026-10-07.md": {
+      "bytes": 12039,
+      "sha256": "8fc4fc8782d5c67219f2c2d30ba21cb41107bba863d817d6e4be5b2826474fa2"
+    },
+    "docs/evidence/feature-annotation-recovery-2026-10-02.md": {
+      "bytes": 9887,
+      "sha256": "9dda345fb092b5d45e48b845b6a8030700e03a4b772f73238c603c2cb4bb5097"
+    },
+    "docs/evidence/first-three-admission-decisions-2026-10-02.md": {
+      "bytes": 7706,
+      "sha256": "ace5dbb4e8e856b04d9410e71d7758392e50d38d738cfa26961754b9f8388d1f"
+    },
+    "docs/evidence/first-three-source-checks.json": {
+      "bytes": 8828,
+      "sha256": "e060f9e87191f6a1772bd18c07fb482f27f6c90bed18c997f401938c94200faf"
+    },
+    "docs/evidence/griseofulvin-congeners-review-2026-10-01.md": {
+      "bytes": 7937,
+      "sha256": "1bc02ee81a2639565866a4e666d388fb438de4fec0a46652ea449d9cde0d1fb7"
+    },
+    "docs/evidence/griseofulvin-four-resolution-2026-10-02.md": {
+      "bytes": 9951,
+      "sha256": "85ac97f35809fd6536d82dd1215770ee02eea445e6c2d6f29b253ffc51254ac2"
+    },
+    "docs/evidence/griseofulvin-review-2026-10-01.md": {
+      "bytes": 5599,
+      "sha256": "18aadccd57d0955c7d5d411208e5c9a8f9d3cc9752552e363d677a6d7d4bab42"
+    },
+    "docs/evidence/griseofulvin-sampled-correspondence-2026-10-02.md": {
+      "bytes": 13167,
+      "sha256": "81ab9d41ecc537cf0ebedf12c2cd22932dca7746744026bd0b400aff5a6fb99a"
+    },
+    "docs/evidence/hex-pks15-pks23-review-2026-10-08.md": {
+      "bytes": 4323,
+      "sha256": "517e0d100871c9eb9f0523e6df6a2cf32f556a8e6bacb07aff632f77871048d3"
+    },
+    "docs/evidence/hex-pks17-admission-2026-10-08.md": {
+      "bytes": 4445,
+      "sha256": "6cb888b88fbdb5786a693762d243492fe06aea72ca0c29e454af0c24333d149d"
+    },
+    "docs/evidence/nine-reference-resolution-2026-10-02.md": {
+      "bytes": 13404,
+      "sha256": "82df2b1501bdddc1aa89de1eff68862d3d3955bfa86f248c4343eb8cc1caac88"
+    },
+    "docs/evidence/notoamide-b-sampled-correspondence-2026-10-03.md": {
+      "bytes": 12912,
+      "sha256": "593cbc8281e110cf44d37effb7f757355afda094074ed855d4064b2a0af97204"
+    },
+    "docs/evidence/notoamide-e-target-appraisal-2026-10-03.md": {
+      "bytes": 8264,
+      "sha256": "f7418036734beba1e7262c2b29aae50c98d88e4a37a8e05ee499c6ac5d42a2cb"
+    },
+    "docs/evidence/pestalamide-a-expansion-2026-10-03.md": {
+      "bytes": 7283,
+      "sha256": "5b097aee2e327f8c9c3562a5a2b20292fd36d8c12e24da4d9fb39c1d68db98e5"
+    },
+    "docs/evidence/pestalamide-b.md": {
+      "bytes": 4437,
+      "sha256": "5b36cba4b6415a606b8db7e14c7bec58c1caea6940719326e06327e331b33ac4"
+    },
+    "docs/evidence/pestalamide-derivative-census-2026-10-03.md": {
+      "bytes": 8201,
+      "sha256": "e263eb754166aed0c46cb7157c879b8830a3963dcdf4ed13bddf277edd8a764d"
+    },
+    "docs/evidence/phoenicin-query-reference-2026-10-03.md": {
+      "bytes": 5722,
+      "sha256": "07695fab84e5ee8ae8db751703b7009603962f7ca447bee7d2aaa2b08d416662"
+    },
+    "docs/evidence/remaining-chemical-admission-2026-10-02.md": {
+      "bytes": 9573,
+      "sha256": "244175369015db4d197c29874f5e47fc3cc4a4b1fe57fbbcae056125343094f3"
+    },
+    "docs/evidence/remaining-four-identity-followup-2026-10-03.md": {
+      "bytes": 7328,
+      "sha256": "8d2f7a5cafd0a8b49024da4b9e55e71bedcff28ecf88fdc52b5dc26b794c7e55"
+    },
+    "docs/evidence/remaining-measurement-review-2026-10-01.md": {
+      "bytes": 5988,
+      "sha256": "42c2f4f2051c6cce8695700804b17be65b9158c2305412bd673531e5fba347ba"
+    },
+    "docs/evidence/remaining-reference-appraisals-2026-10-01.md": {
+      "bytes": 12955,
+      "sha256": "a37c830d72c32ec81ad4a4cb00b34aa83df5d3819fadfd18097dbf564fbebf95"
+    },
+    "docs/evidence/strong-case-correspondence-2026-10-01.md": {
+      "bytes": 10325,
+      "sha256": "dec9cf27109c37c11d5ff78d95b99038a5f1e23b5026ccbbd3d98d6dc972d56a"
+    },
+    "docs/evidence/terreazepine-fac-admission-2026-10-08.md": {
+      "bytes": 4258,
+      "sha256": "305f591b6301beb31011b9f65906ab9e6c1a7c25672a0425391fd7f865f48052"
+    },
+    "docs/evidence/trichoderma-h-measured-target-bridge-2026-10-07.md": {
+      "bytes": 8953,
+      "sha256": "6a674fb725c1afab6f10b336d125bb2f69d38191b08ebfeee4af06773cb5d14d"
+    },
+    "docs/evidence/trichoderma-ilicicolin-appraisal-2026-10-07.md": {
+      "bytes": 8443,
+      "sha256": "4ff8c02a96fbf2d823571913df426dc00653f95315ac02a370ab166beea4f9df"
+    },
+    "docs/evidence/trichoderma-qm6a-correspondence-2026-10-07.md": {
+      "bytes": 7477,
+      "sha256": "54a3710229fa436795c450a59e854ad103346a38c939ab4818a885dca5b84188"
+    },
+    "docs/plans/2026-09-30-2052-benchmark-paper-plan.md": {
+      "bytes": 30073,
+      "sha256": "58dcb4dca6ed1f76b3379b43f884756ffb7d12fc189f8e24e1a1857bc09926b4"
+    },
+    "docs/plans/2026-10-11-1704-similarity-independence-plan.md": {
+      "bytes": 19481,
+      "sha256": "4657b96361a483811bfd12427bd52ce6635f908d9ee82b59a7b8c49af6b95479"
+    },
+    "docs/release/author-review-candidate-readme-2026-10-11.md": {
+      "bytes": 3976,
+      "sha256": "5082b39af337b20883ece223cee9bd4273ab5ef60b35da52995e03c9afffcac2"
+    },
+    "docs/release/clean-source-reproduction-2026-10-07.md": {
+      "bytes": 6384,
+      "sha256": "5554697fe3a651f0abd1d2c4b93b39b6c86792b067235c303341bbfcb7ec5a92"
+    },
+    "docs/release/core-numerical-candidate-v1-2026-10-11.md": {
+      "bytes": 2676,
+      "sha256": "b400c111ebd5770b8105dc2eefff2e81ffd1445f7d29e285079feec0b9d5c45f"
+    },
+    "docs/release/deposition-metadata-draft.json": {
+      "bytes": 6786,
+      "sha256": "957785476a460e95fcc7cbb6fa0eb69b35cfb64bb4bf2309ae691fb02325e34c"
+    },
+    "docs/release/environment/phylogeny-linux-environment.json": {
+      "bytes": 15492,
+      "sha256": "2a7cece6e11669403348465336d25a818e78ff623ad71af5ac3b22e11155859d"
+    },
+    "docs/release/environment/phylogeny-linux-explicit.txt": {
+      "bytes": 5268,
+      "sha256": "94237529f72dd654f3454c5190a5a36aeb5875a6ee1bcc352a423cc08d99aa89"
+    },
+    "docs/release/final-release-decisions-2026-10-11.md": {
+      "bytes": 7901,
+      "sha256": "99d9524524cb5676ede9ea77dd062c0da284462684369efbc1cd7f073abe9dcd"
+    },
+    "docs/release/licenses/Apache-2.0.txt": {
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    "docs/release/licenses/CC-BY-4.0.txt": {
+      "bytes": 18657,
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    },
+    "docs/release/licenses/SCOPE.md": {
+      "bytes": 1496,
+      "sha256": "8ba13cbfc3841c22ba271ef84230235d3170860b97966fcbdd08c8e7ebe031cb"
+    },
+    "docs/release/mapping-traceability-v1.md": {
+      "bytes": 4826,
+      "sha256": "edd024f38a66b6aa726dc2c0680c081dc10218f0311a15776a2b0f6ce778af1c"
+    },
+    "docs/release/npclassscore-dependency-route-2026-10-11.md": {
+      "bytes": 2632,
+      "sha256": "d9728c0ca733819322ad0c59c840c7626b5414c22db9a59a106f70d8f61de1dc"
+    },
+    "docs/release/numerical-source-notice-2026-10-11.md": {
+      "bytes": 5058,
+      "sha256": "d5b2507bd732926c5efecdb1d28b4f80a5485bd69063b808139c99561ddedc19"
+    },
+    "docs/release/phylogeny-audit-candidate-v1-2026-10-11.md": {
+      "bytes": 1130,
+      "sha256": "bfb1292ddf6f474cde48c549a35992ff55ab7e5b776ed30902804f39ea784d26"
+    },
+    "docs/release/relationship-readiness-v1.md": {
+      "bytes": 10468,
+      "sha256": "c813efaadec4be184152e523bd245db09dc9d4130e3b155e4fb37efeeec9c91b"
+    },
+    "docs/release/release-map-v1.md": {
+      "bytes": 9580,
+      "sha256": "039d267397ad4685387190a94390f7afb6e52032cdec081e6637be3c9fe4c405"
+    },
+    "docs/release/reproduction-stages-v1.md": {
+      "bytes": 9779,
+      "sha256": "7ce50e552a458ea9701da98eea575c6f973cf115151fb7b0625a1fc3c20e7a27"
+    },
+    "docs/release/reproduction-stages-v1.tsv": {
+      "bytes": 13666,
+      "sha256": "1416c38069ced22748c6db5cf07943afa02d579c021e9dc24579e916f48c60ac"
+    },
+    "docs/release/sample-map-origin-verification-2026-10-07.json": {
+      "bytes": 1288,
+      "sha256": "321c3adeda5c35375022a51e29612619607a1dd70c1cb3bfd132d94984a26e91"
+    },
+    "docs/release/similarity-independence-v1.md": {
+      "bytes": 13336,
+      "sha256": "28b425ecd3aeefefc50ffece2fff4f944de20c9b73635c979136b1c4d14f095f"
+    },
+    "docs/release/source-provenance-addendum-2026-10-07.md": {
+      "bytes": 2837,
+      "sha256": "b35960f99f4ee6e2ee9f3b07d80530079953b7364fc5c41acf3d4b71713de286"
+    },
+    "docs/release/source-rights-review-2026-10-07.md": {
+      "bytes": 10364,
+      "sha256": "c39c8540a1ca218dbaf8c5c67fbe0a22c785525ed6e62a5470bc529683cd3c9b"
+    },
+    "docs/release/spectral-arithmetic-reproduction-2026-10-11.md": {
+      "bytes": 1585,
+      "sha256": "2b73a6fa459d45b2e71ea824cd446a1445435edebb61cef216956d1fbbfb4264"
+    },
+    "docs/release/spectral-private-candidate-v1-2026-10-11.md": {
+      "bytes": 2020,
+      "sha256": "7b69bb4aba9006a625f184dbe5c81889f59b2c81e81760c0cdb2a1c8e6422b8f"
+    },
+    "examples/npclassscore_adapter.py": {
+      "bytes": 12125,
+      "sha256": "7ee480a98816b74700776d9d58809fc45ee2f9d8ec15791e32ebadd898ce0c01"
+    },
+    "LICENSE-CODE": {
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    "LICENSE-DATA": {
+      "bytes": 18657,
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    },
+    "manuscript/ai-assistance-disclosure.md": {
+      "bytes": 3581,
+      "sha256": "96ec613dd9a110ac8e1abd51181df930bfcf43326c7020aea0fe9aa8d511c237"
+    },
+    "manuscript/ai-use-record-v1.md": {
+      "bytes": 2286,
+      "sha256": "a943fd35bf0af78081a110d6c7edafec30faa78ea0a8bf93032d31eb20eace4a"
+    },
+    "manuscript/claim-evidence.tsv": {
+      "bytes": 46375,
+      "sha256": "73943a188f6cac160a855f0a577b4843947d2384d0bbd371ca893837759b3464"
+    },
+    "manuscript/expanded-label-results-2026-10-07.tsv": {
+      "bytes": 180493,
+      "sha256": "5efe3b8c3529cf68e299f2f3fc0c6db76aef613e54df2f8d3bdc4c7acac9ba22"
+    },
+    "manuscript/initial-comparison-results-2026-10-07.tsv": {
+      "bytes": 135911,
+      "sha256": "91e1b0a80185c690b24e8ecf7d8b09823821edfea484dbd79822232e84dea661"
+    },
+    "manuscript/tables/benchmark-capacity.tsv": {
+      "bytes": 1557,
+      "sha256": "7446c81d5063e88c76c2bc6d0a472e8be4876996dea8a7b12499acf17c2269db"
+    },
+    "manuscript/tables/delegated-admission-integrity.json": {
+      "bytes": 439,
+      "sha256": "7d03dc4b5d50f9146763d6aacbfd896130a6e951486ecfbf3ce83357168509d4"
+    },
+    "manuscript/tables/evidence-ledger.tsv": {
+      "bytes": 47225,
+      "sha256": "f851bf5b7468213edd29b210c613cbdcfac89f47a84bb55e5d7685aa134c16d1"
+    },
+    "manuscript/tables/marker-batch-completion-2026-10-08.json": {
+      "bytes": 43394,
+      "sha256": "469921dd022fdd6ee0c6fcee6e84b18235cb85ac5d40bf76b0b8efc0769bfe91"
+    },
+    "manuscript/tables/marker-batch-completion-2026-10-08.tsv": {
+      "bytes": 7597,
+      "sha256": "f0e24eef46fc27d6aac3be1d7e1e90b9b4cabec806754598a3901ffcaf86ae52"
+    },
+    "manuscript/tables/phylogeny-comparison-v2/method-summary.tsv": {
+      "bytes": 1278,
+      "sha256": "7d5292e8e050e9579dd18c223091a0606bcac9f5e09dd153b79a727d9e96938b"
+    },
+    "manuscript/tables/phylogeny-comparison-v2/product-results.tsv": {
+      "bytes": 6315,
+      "sha256": "189e3fdd4afce737e9cdc08f9d5cfb89dfd613ae72fc6a8df909f4c4ace5e472"
+    },
+    "manuscript/tables/phylogeny-comparison-v2/query-results.tsv": {
+      "bytes": 5885,
+      "sha256": "d6bfeb9290d7c73076eecc44a4b3b72b8b7e965761477ab45fd12778233cd2be"
+    },
+    "manuscript/tables/phylogeny-comparison-v2/README.md": {
+      "bytes": 681,
+      "sha256": "d5376753a6a2938c7c8e336703652a12d8283321ff134bb57df40c3b9d8ce7fc"
+    },
+    "manuscript/tables/phylogeny-comparison-v2/receipt.json": {
+      "bytes": 2426,
+      "sha256": "7d42a3bac7e55bd6dc4eaa4f3ffdd639464f923b837cea1bec734f28adf3cc28"
+    },
+    "manuscript/tables/sixmsa-class-diagnostic-2026-10-09.tsv": {
+      "bytes": 252,
+      "sha256": "6b30c1d7bf4cf799aa037f9d1d295ea092419a460e4b8d31a6ca084ff66584ad"
+    },
+    "manuscript/tables/supplement-verification.json": {
+      "bytes": 1590,
+      "sha256": "29a7e5b86bb47fdd7eee9d5a6346287bfa961bf3543ea8028c5d1d556034b4c3"
+    },
+    "manuscript/tables/trichoderma-class-diagnostic-2026-10-11.tsv": {
+      "bytes": 283,
+      "sha256": "3fafac78e5dd2d60869828600637a692e72eb943ea514a4d49dd39b91775027f"
+    },
+    "manuscript/tables/valactamide-admission-integrity-2026-10-08.json": {
+      "bytes": 855,
+      "sha256": "0e48aa6435df7571aa0a64735d45c49653ce2a741d0400a7c690026014126de1"
+    },
+    "planning/authorized-record-amendments.json": {
+      "bytes": 616,
+      "sha256": "8250c7a76c1ae0c83ec5a1ebeb05401e80ba16701328f855b13164e10d0c0f67"
+    },
+    "planning/numerical-release-proposal-2026-10-11.json": {
+      "bytes": 597,
+      "sha256": "b8b0f0f6c23b87b09fefd9e201a45b4f802c3b86f3b48ccf240428a0644cb182"
+    },
+    "planning/original-contribution-license-approval-2026-10-11.json": {
+      "bytes": 1107,
+      "sha256": "fbdb648d17f0f6d1410fc0273fd7e1fd0570e16cfa50e90080511d2405767b64"
+    },
+    "planning/phylogeny-audit-no-site-2026-10-11.json": {
+      "bytes": 324,
+      "sha256": "068864d94de2a2835ecab54a8ce1365e1631ee523b1c0622e3c7bd24b3120a86"
+    },
+    "planning/phylogeny-v2-terminal-audit-linux-2026-10-11.json": {
+      "bytes": 324,
+      "sha256": "068864d94de2a2835ecab54a8ce1365e1631ee523b1c0622e3c7bd24b3120a86"
+    },
+    "planning/presubmission-revision-work-2026-10-11/evidence-verification.json": {
+      "bytes": 14625,
+      "sha256": "0d92f2a6b83c3154eabcaf714d5e2ad66a230c542650d5679b839823cd722466"
+    },
+    "planning/presubmission-revision-work-2026-10-11/host-evidence-verification.json": {
+      "bytes": 448,
+      "sha256": "2456f538f6f644d588352154b3c60558977d604575a5dfebad1038af102a8000"
+    },
+    "planning/presubmission-revision-work-2026-10-11/label-evidence-before-readiness.tsv": {
+      "bytes": 60692,
+      "sha256": "4c13d04e198f1a34923eefc5f79132ef0a6abda3c80c5923cc6dd5e356ae8a1a"
+    },
+    "planning/presubmission-revision-work-2026-10-11/project-state-after-provenance-amendment.json": {
+      "bytes": 323,
+      "sha256": "513b66a7887b84b453564541778d07217846a1657dd3e72237471e7b592b47b5"
+    },
+    "planning/presubmission-revision-work-2026-10-11/provenance-amendment-verification.json": {
+      "bytes": 2361,
+      "sha256": "71ad3885f8ee19c45f4151b96ca537f7bad94ba3cb2f5d5135fd7255c3569673"
+    },
+    "planning/presubmission-revision-work-2026-10-11/task-exposure-extension-correction.json": {
+      "bytes": 3180,
+      "sha256": "1351fead3b3177b9eafbd2649c44ed8d439728540cd874612819d9defb65c2f6"
+    },
+    "planning/protected-records-before-2026-10-08.json": {
+      "bytes": 3724,
+      "sha256": "c22844388bec7a7360dc58088e1e10aa134bce2bf3d24602ad2ae715bb1e3dca"
+    },
+    "planning/provenance-links-2026-10-11/link-request.json": {
+      "bytes": 7091,
+      "sha256": "7378dcb84ac4604173e304d242198ef6913ea98ed66aed3bb77be97722e0dd43"
+    },
+    "planning/provenance-links-2026-10-11/link-results.json": {
+      "bytes": 3682,
+      "sha256": "682358ba99cb753a3bf728dcbcc94feaf1f5f110384e415321a180f3e7c134ec"
+    },
+    "planning/provenance-links-2026-10-11/mapping-audit.json": {
+      "bytes": 683,
+      "sha256": "23bdcadaf1494c654e4a0abbdf2325aba3f2b3781e24955a3d62f1c86b597446"
+    },
+    "planning/provenance-links-2026-10-11/repair.py": {
+      "bytes": 7966,
+      "sha256": "59dc838b0c4566c07db21b6b0372a69f2ac0d6204c5f59c2139088893cf30bc1"
+    },
+    "planning/provenance-supersession-amendments.json": {
+      "bytes": 1300,
+      "sha256": "9ba532c43a43b6deb220b89fd651d5b6bc52bc63cba4a77b165be2d05bfc6dff"
+    },
+    "planning/resource-estimate.tsv": {
+      "bytes": 11411,
+      "sha256": "7f470f2f5da928431dc00a5f49c3e57f2ccf021cf5f6dfdd178dba0ade5e8a29"
+    },
+    "planning/similarity-independence-work-2026-10-11/alignment-cache.jsonl": {
+      "bytes": 1544559,
+      "sha256": "2d6e8a3b334e7e22bb241c5a18e8440849eb2151313a0fd1bc10af03e1f21ee8"
+    },
+    "planning/similarity-independence-work-2026-10-11/alignment-cache.metadata.json": {
+      "bytes": 936,
+      "sha256": "c4b56d83b4064ecde188afe182307a975197996210a495a1184ad47d3480bcbb"
+    },
+    "planning/similarity-independence-work-2026-10-11/alignment-settings.txt": {
+      "bytes": 688,
+      "sha256": "4bfd5ba1ece0559fceb303bede6fb75fd11c48b52c35b91b3d4bdd442f28daa8"
+    },
+    "planning/similarity-independence-work-2026-10-11/anchor-alignment-cache.jsonl": {
+      "bytes": 296315,
+      "sha256": "9f64bf59b4ed47dc93784ceff6c833c11548f9c97478b3e1086cb03db7228644"
+    },
+    "planning/similarity-independence-work-2026-10-11/anchor-alignment-cache.metadata.json": {
+      "bytes": 936,
+      "sha256": "0cff46253e1c08301d3e26a28c0e3d948e56fc80a36125e60d388f82969ecdff"
+    },
+    "planning/similarity-independence-work-2026-10-11/executed-runner-before-cache-guard.py": {
+      "bytes": 23489,
+      "sha256": "7536120c54dcefc6c93d84378767495cd9e2e64c8842f2c0d7749725888ab87f"
+    },
+    "planning/similarity-independence-work-2026-10-11/exposure-version-fix.json": {
+      "bytes": 2595,
+      "sha256": "a89256a64d36c64296fd1ed4863c7ac8d77835a0bc26f85365255a8923cb5282"
+    },
+    "planning/similarity-independence-work-2026-10-11/fixture-evidence.json": {
+      "bytes": 2112,
+      "sha256": "7bbca53f88c7e49bb4dd9e7937b2d84cd47ab1939878a9a8c455f5c31187aee1"
+    },
+    "planning/similarity-independence-work-2026-10-11/host-verification.json": {
+      "bytes": 1129,
+      "sha256": "0e34e244a8691867ce5040c86de1d57969f266282bddcbee3bccb606cab248d2"
+    },
+    "planning/similarity-independence-work-2026-10-11/install-receipt.json": {
+      "bytes": 219911,
+      "sha256": "43b1e3f570c3d40945190944056651054bdc825f2fe696c8d65f4cc1f0e667b6"
+    },
+    "planning/similarity-independence-work-2026-10-11/live-processes.json": {
+      "bytes": 1286,
+      "sha256": "ce5a4ef0d3d711e2a1786616b040aba0496b307514f1acce095f80892d3bf7ab"
+    },
+    "planning/similarity-independence-work-2026-10-11/numeric-after-cache-guard.json": {
+      "bytes": 674,
+      "sha256": "22195bb99b23e54401de80e172f309b7f8f6a666cd6950b3771e5726ca5365c4"
+    },
+    "planning/similarity-independence-work-2026-10-11/numeric-before-cache-guard.json": {
+      "bytes": 1028,
+      "sha256": "72b03d544e0ca8d8f920a873254483909ced11a96f1224ffe6fb969016d7f35c"
+    },
+    "planning/similarity-independence-work-2026-10-11/parameters.json": {
+      "bytes": 748,
+      "sha256": "b35afd8f2ade09def3bf42576224c60c2fe99c5c6c75c69bffb6f485e1b26a6f"
+    },
+    "planning/similarity-independence-work-2026-10-11/prerequisite-preflight-fix.json": {
+      "bytes": 1538,
+      "sha256": "83bad3ecfd143310d690394b67873f04e41b13c5a75b17e78c5e54439a18c8e3"
+    },
+    "planning/similarity-independence-work-2026-10-11/review-dispositions.json": {
+      "bytes": 1686,
+      "sha256": "7ba0bcaf6c29532de544a736da65005aaddcc79c739558558bef429670f0eeb5"
+    },
+    "planning/similarity-independence-work-2026-10-11/run-all.json": {
+      "bytes": 13303,
+      "sha256": "3298b4377ff12d0c87a4e99fb4ee14a61373c508a0db5f825ead58cef41ddd87"
+    },
+    "planning/similarity-independence-work-2026-10-11/run-anchors.json": {
+      "bytes": 4676,
+      "sha256": "6a3f239e24246ecce9929991d38ec8bc91b6981e9ad71dbe4f04e8254de88d90"
+    },
+    "planning/similarity-independence-work-2026-10-11/run-chemical.json": {
+      "bytes": 4407,
+      "sha256": "2237253da52cdd9fa64cb50b496979a7fd3def7f20cf1f152b95d4dacf2c9cb3"
+    },
+    "planning/similarity-independence-work-2026-10-11/run-genomic.json": {
+      "bytes": 5636,
+      "sha256": "a1c4681f246a60151feea5f047da5d8ca71b04c40e83b659068de5e8d1e908dc"
+    },
+    "planning/similarity-independence-work-2026-10-11/run-spectral.json": {
+      "bytes": 4702,
+      "sha256": "66cfe9007c28c46931e1d75c286f84639e281977c78c3425d789d296ea03098a"
+    },
+    "planning/similarity-independence-work-2026-10-11/version-report-refresh.log": {
+      "bytes": 1935,
+      "sha256": "90a27364cdbd68ada59d98d980f01bbf4be6acd8ac858cfe43cac7322eb6cc0a"
+    },
+    "planning/similarity-independence-work-2026-10-11/worker-return.json": {
+      "bytes": 5775,
+      "sha256": "c0afc32107af88d82341277acd534ce67798fe0887b5d52835124882ef9ed522"
+    },
+    "planning/similarity-manuscript-integration-2026-10-11/authoring-receipt.json": {
+      "bytes": 623,
+      "sha256": "fac13f9b126fa308e08e91409ca427d92d5dcd8bbd3b55197f8caa9e58f4b8b9"
+    },
+    "planning/similarity-manuscript-integration-2026-10-11/build-v3.py": {
+      "bytes": 10547,
+      "sha256": "e3bce917309fb97f71362c049bb596193a1e3c12ea02d08ccb4cbb6d5bf2b4bc"
+    },
+    "planning/similarity-manuscript-integration-2026-10-11/check-render.py": {
+      "bytes": 2827,
+      "sha256": "4ad0748b339086ab64a2301cfe7f64f049ec20574fe65a4278c7ac212f3d9b13"
+    },
+    "planning/similarity-manuscript-integration-2026-10-11/host-render-review.json": {
+      "bytes": 1029,
+      "sha256": "c190a01385a5e9ab913c963c3f7c224488c8ccac567224a51c531d962dbe13bc"
+    },
+    "planning/similarity-manuscript-integration-2026-10-11/integrate.py": {
+      "bytes": 14900,
+      "sha256": "01f796839e5b615c5063a657f3dbee3416f0c98cf987d6965f7322c19a7c6637"
+    },
+    "planning/similarity-manuscript-integration-2026-10-11/link-check.json": {
+      "bytes": 18737,
+      "sha256": "617c369a7c06574b945acd06141256d4f6e4d92e399e0b40085286aab6948da2"
+    },
+    "planning/similarity-manuscript-integration-2026-10-11/payload-delta.json": {
+      "bytes": 9068,
+      "sha256": "5ac7488e4a3f5d57a48a725d47147d6829b018c242959a276d780a985d11034e"
+    },
+    "protocol/analysis-plan.md": {
+      "bytes": 14053,
+      "sha256": "fa1050a0281cb0547ac943421fa901d5fd38a1a176f895034f32613d41c864e7"
+    },
+    "protocol/benchmark-contract.md": {
+      "bytes": 14377,
+      "sha256": "f416930467ecffebc2e3d95921d984ba00805a8e1b47a8f3ffe3eb2bd72b8464"
+    },
+    "protocol/caesar-source-observations-2026-10-02.md": {
+      "bytes": 11150,
+      "sha256": "72f3f27113cb546eca99746353838bd25ae1dcb768bfd1a82e906dc1e014a0ce"
+    },
+    "protocol/decisions/2026-10-02-first-admissions.md": {
+      "bytes": 6583,
+      "sha256": "bd0a65cfc52242cc908e2c93da8e934cb2136dad7d521f23142b1fb96ed58dba"
+    },
+    "protocol/decisions/2026-10-03-four-additional-admissions.md": {
+      "bytes": 3820,
+      "sha256": "f80229a76e4dfa0ac23f564511f5aed686550c751ec722333efbad3e89d4499c"
+    },
+    "protocol/decisions/2026-10-03-notoamide-delegated-admission.md": {
+      "bytes": 3419,
+      "sha256": "0c79bf00bff7ecec019349dfcfe7006df7ba687e717bd780c7096929d1d52588"
+    },
+    "protocol/decisions/2026-10-03-pestalamide-a-delegated-admission.md": {
+      "bytes": 2856,
+      "sha256": "65e3da2cc6cf0e68d59256203e7027fa9a94d2b1db65e60b03da0ebd601205f0"
+    },
+    "protocol/decisions/2026-10-07-delegated-admission-dispositions.md": {
+      "bytes": 8461,
+      "sha256": "8fc4fb78695d43d605f9b64f502164ac0e165d130a44cef3d96dac2f60f54c25"
+    },
+    "protocol/decisions/2026-10-07-phylogeny-alignment-rooting.md": {
+      "bytes": 6234,
+      "sha256": "018875e095736f233c2ba8adac5095e3db144e8870ce9a0230bb557c8167dc01"
+    },
+    "protocol/decisions/2026-10-07-phylogeny-comparison-population.md": {
+      "bytes": 2974,
+      "sha256": "afb2e2b92a92d3d9a3b822d1d684de8d162c86bfb691bb394813946b96e20ec8"
+    },
+    "protocol/decisions/2026-10-08-acetylaszonalenin-family-source-correction.md": {
+      "bytes": 3581,
+      "sha256": "8c09c9af68713310052c036e2eb9183c7ea352eed4aca0581fe5011e1558e14c"
+    },
+    "protocol/decisions/2026-10-08-acu-dioxomorpholine-admission.md": {
+      "bytes": 1109,
+      "sha256": "5dff3a878e25fcd6dfa482d09246dce596e8790034cdddee135e0f10b0405ced"
+    },
+    "protocol/decisions/2026-10-08-benzomalvin-tripeptide-admission.md": {
+      "bytes": 600,
+      "sha256": "0d3177beac6d8ffb67cd0f4fa076440268680fff610a24c4eb29fd1ea5059faa"
+    },
+    "protocol/decisions/2026-10-08-hex-pks15-admission.md": {
+      "bytes": 709,
+      "sha256": "d89e4a58998684277844dc9a7dd6f0c54af3d8f6459b89262debaf6b26d3500b"
+    },
+    "protocol/decisions/2026-10-08-hex-pks17-admission.md": {
+      "bytes": 755,
+      "sha256": "783de2093ec7a632f142edfa4739321e0cd57973f00dbf6853b97bf9a25b8f75"
+    },
+    "protocol/decisions/2026-10-08-native-archive-reader-fix.md": {
+      "bytes": 1551,
+      "sha256": "378b051ee5f77c79631f71f186398aad2b0d6d615cf6b367813221545927ff06"
+    },
+    "protocol/decisions/2026-10-08-terreazepine-admission.md": {
+      "bytes": 740,
+      "sha256": "e12029c445348166d3573741531fae9a2326e69be3879c6470174f3a7ad32fd6"
+    },
+    "protocol/decisions/2026-10-08-valactamide-congener-admissions.md": {
+      "bytes": 1528,
+      "sha256": "b65713c0f21d650f55bf287b3d4416b8eceb2fc2114f34f098171197ce33ec3d"
+    },
+    "protocol/decisions/2026-10-09-benzomalvin-two-measured-targets.md": {
+      "bytes": 1107,
+      "sha256": "165c29a0e0bac2241c78b4e807428b30e7c17aa02010efc9fb8c066b7e80f0d9"
+    },
+    "protocol/decisions/2026-10-09-black-yeast-sixmsa-admission.md": {
+      "bytes": 704,
+      "sha256": "fc96bf6dc975287f40ea73d93caa08b8a5d8271f654ce2de343432f1aea3548a"
+    },
+    "protocol/decisions/2026-10-11-phylogeny-optimizer-recovery.md": {
+      "bytes": 2757,
+      "sha256": "71047ba7c782a7e600a7a4255df4b5c28adda95a6c6134012116b91c7c552fb4"
+    },
+    "protocol/similarity-independence-v1.md": {
+      "bytes": 6312,
+      "sha256": "b017b7a6a64f965bb380663708f9bf58f862e7a18e12fc443c83417e4afd1146"
+    },
+    "protocol/source-selected-gcf-analysis-decision-2026-10-07.md": {
+      "bytes": 9618,
+      "sha256": "fc2d5c6f2b2a7a27701e320d76b3cf115ba787cda5466e351267722e826c2a1c"
+    },
+    "protocol/source-selected-gcf-draft-analysis-2026-10-07.md": {
+      "bytes": 10201,
+      "sha256": "c22b5bd085c44853160ae61691f777cd3ad0c877dc8a4cfb46f8758a0ae56a45"
+    },
+    "PUBLIC-DISPOSITION.json": {
+      "bytes": 127103,
+      "sha256": "30d1bba0c028b008f80c3aebe6dbea2e96bbb656339b4bb424b46b52d87da279"
+    },
+    "README.md": {
+      "bytes": 5042,
+      "sha256": "2ab62a21f77b5147c2202f078e4bfad50e24004535060fcf8fabc9db60f2e8ce"
+    },
+    "scripts/build_core_numerical_candidate.py": {
+      "bytes": 8707,
+      "sha256": "06c2a18349b2db8d4d2157d10721e0bebfe1dd0c278e68f4fc5e0e61aa31fb2c"
+    },
+    "scripts/build_spectral_release_candidate.py": {
+      "bytes": 8431,
+      "sha256": "e1f3c0b9fc3dc31e217da2888384147116336f28d07f6257a6c3586695537230"
+    },
+    "scripts/check_project_state.py": {
+      "bytes": 10346,
+      "sha256": "deb6f1afe150b9b311c0325bec808d1b6872acaefb44314ce464f3fd2f2973ea"
+    },
+    "scripts/compare_rankings.py": {
+      "bytes": 11477,
+      "sha256": "dd6da29ffe5eee3c4cdd18066d7140b376bfcf5001154509791c8259af2d73af"
+    },
+    "scripts/evaluate_random.py": {
+      "bytes": 10052,
+      "sha256": "c4f6da4aaad31dc23bc4b62cde3af99ca513b95be1c34ad0fe0b4eef74a00347"
+    },
+    "scripts/evaluate_rankings.py": {
+      "bytes": 14973,
+      "sha256": "740fbad907cfcb8d9bf6c80a4e259a200f39c622c0a906d03b80ba2d383f8c55"
+    },
+    "scripts/finalize_similarity_independence.py": {
+      "bytes": 50154,
+      "sha256": "f836b687aaa4b0c17ad17d12c0ff9bb504742054604d36e9a8bb96267b6fdc80"
+    },
+    "scripts/npclassscore.py": {
+      "bytes": 7320,
+      "sha256": "4750bb8a21a5bd9f0f409779a0f83ee2a54b9ed40fc2306ff93b7942f781b7ff"
+    },
+    "scripts/reproduce_public_core.py": {
+      "bytes": 2124,
+      "sha256": "5d7deb826bc0ce5b18b99ff72159c602d04904ed001c63eb7bce07465d88edab"
+    },
+    "scripts/retrieve_public_dependencies.py": {
+      "bytes": 1196,
+      "sha256": "a5b863a0804fc19db615dfd9dfcd0523bb9a9ed10bc78b92f44f14576a403c3d"
+    },
+    "scripts/run_baselines.py": {
+      "bytes": 13951,
+      "sha256": "9449c11a5b8b8136dd639d0685a03ec8e39b6b822db7c6242d83bdde59912839"
+    },
+    "scripts/similarity_independence.py": {
+      "bytes": 26843,
+      "sha256": "af415d3a72423c90acbcc6654dafbc05616c46294e82116d762df0387cb8102f"
+    },
+    "scripts/similarity_locus_anchors.py": {
+      "bytes": 9184,
+      "sha256": "3f3e8eeeb23f9338597ac5c929e5e730085c394630a2a8d5e3b79a183371c36f"
+    },
+    "scripts/verify_private_review_archive.py": {
+      "bytes": 1538,
+      "sha256": "b3d29e2a2d129821725f9db8e2179365d51c0e609cfceb742b10573d9227a7b3"
+    },
+    "scripts/verify_public_release.py": {
+      "bytes": 874,
+      "sha256": "cf3cb96af4b2b5cdef5e827bf70b0f26a5de3391b6be69ef19f77d215831035b"
+    },
+    "tests/fixtures/baselines/benchmark.json": {
+      "bytes": 435,
+      "sha256": "271524631f2766537e579a4edfabffc41aa7eb5091cd5ab9936454c7c8209c01"
+    },
+    "tests/fixtures/baselines/inputs.json": {
+      "bytes": 1144,
+      "sha256": "2830eecf8be69636539461c79f643c15d823145bc6fc946cb3110cd7e523500e"
+    },
+    "tests/fixtures/baselines/upstream-parity-receipt.json": {
+      "bytes": 801,
+      "sha256": "20d4fd5a5f86b4271c92f5021e2ee15fd28abb8a1549d1978f771c7aa457d424"
+    },
+    "tests/fixtures/evaluator/benchmark.json": {
+      "bytes": 325,
+      "sha256": "3a15d05eafa98ec58fabd4c4c13f9c7488d671c7048cc47c5e2a4fb1b38263f1"
+    },
+    "tests/fixtures/evaluator/run.json": {
+      "bytes": 502,
+      "sha256": "d92008e7774acf1c8f32778bb2daefec8bd201991dbcb19460cbceeec5af7dde"
+    },
+    "tests/fixtures/npclassscore/adapter-inputs.json": {
+      "bytes": 2469,
+      "sha256": "791a08d66d7c1ff35c2cbfa3760d8a63da4752967c33a38793a8eb3bb2fe9ac9"
+    },
+    "tests/fixtures/npclassscore/benchmark.json": {
+      "bytes": 882,
+      "sha256": "f819ecf27baf1185dc4295239226fbd72ee5e802d7c79e8f2a115fec011eda74"
+    },
+    "tests/fixtures/npclassscore/class-table.tsv": {
+      "bytes": 503,
+      "sha256": "de3381bf6d9fc72a5c3f75ca7c1c4544e8717e9eed5604480e8266f1e51d2801"
+    },
+    "tests/fixtures/npclassscore/metcalf-run.json": {
+      "bytes": 1188,
+      "sha256": "aef6c5ea39b1bb15717151a99f635eaa6ca57dd1de2cd6cc096d1aa58a3e468d"
+    },
+    "tests/test_compare_rankings.py": {
+      "bytes": 12782,
+      "sha256": "eb9fd450b589fcbe50eb98a0642de78a3dfcc871665ccedaaac60710558c13b5"
+    },
+    "tests/test_evaluate_random.py": {
+      "bytes": 12441,
+      "sha256": "fd96ee59a6830efd4a72e20499c6be4a515baaae37714817025f46970902549f"
+    },
+    "tests/test_evaluate_rankings.py": {
+      "bytes": 19139,
+      "sha256": "b14d8c2150aac3bb6f5f461afa67ecbf74fd56f638f7c9a4f2c1011708043321"
+    },
+    "tests/test_npclassscore.py": {
+      "bytes": 7476,
+      "sha256": "6de0b009efafa30faabcca48b26baef377d533fe8a140f23c821ae88351e3021"
+    },
+    "tests/test_npclassscore_adapter.py": {
+      "bytes": 12662,
+      "sha256": "e4c2710b32782d75f93a9174d0e50503c81453a80f192d55b49c42b757ed2e4b"
+    },
+    "tests/test_project_state_records.py": {
+      "bytes": 4883,
+      "sha256": "e0654efbbc4948537ff12660ecaab28744ef05d3f9b624e799c5d89c56263484"
+    },
+    "tests/test_run_baselines.py": {
+      "bytes": 15128,
+      "sha256": "1185125953188a98eb5556f2ebc49417a41147a990b8a4b99453914df4604f76"
+    },
+    "tests/test_similarity_dependence.py": {
+      "bytes": 3401,
+      "sha256": "16bb9c828fc25429c0d042ef28c11fc50c8a0d25851d0bd45b1ec4b68265adeb"
+    },
+    "tests/test_similarity_independence.py": {
+      "bytes": 4131,
+      "sha256": "0b5906168e114e3844a4fb1d3d70c3d9c51b6b20c52a26920ee211bbf0102f22"
+    },
+    "THIRD-PARTY-NOTICE.md": {
+      "bytes": 961,
+      "sha256": "5f7690269a3aef58f24edef0ac7d4ec6881f4a86909ddcd9764b54e908669f74"
+    },
+    "UPSTREAM-INPUTS.json": {
+      "bytes": 1124,
+      "sha256": "97ef75b763ac50525d3c34a0d4a9c06c0968c42924cdb131987bf1ce2e2ebe25"
+    }
+  },
+  "scope": "Public numerical data, evidence and software selection; upstream omissions in UPSTREAM-INPUTS.json"
+}

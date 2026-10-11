@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "at_utc": "2026-10-07T12:45:32.894118+00:00",
+  "primary_scores_independently_checked": 186780,
+  "primary_any_hit_and_rr_metrics_checked": 80,
+  "method": "Set-based contingency counts and independent combinatorial first-positive tie calculations; no baseline/evaluator helpers used.",
+  "scope": "All candidate scores and primary any-hit/RR metrics for four primary-roster workflows; does not establish biological validity or cover every sensitivity score."
+}

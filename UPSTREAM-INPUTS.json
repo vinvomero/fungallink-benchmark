@@ -1,0 +1,20 @@
+[
+  {
+    "path": "data/interim/admitted-input-coverage-2026-10-09/matched_mibig_gnps_update.csv",
+    "url": "https://raw.githubusercontent.com/NPLinker/nplinker/d01a68a4b0569907d7e28d1a673a82a6790b7346/prototype/nplinker/data/matched_mibig_gnps_update.csv",
+    "sha256": "cdd9ad6203070a26688b127362c1262c8e734a55920ebe6d238f566b51c2f805",
+    "bytes": 688123
+  },
+  {
+    "path": "data/interim/admitted-input-coverage-2026-10-09/spec2class/MIBiG2.0_compounds_with_AS_BGC_CF_NPC_classes.txt",
+    "url": "https://raw.githubusercontent.com/NPLinker/nplinker/d01a68a4b0569907d7e28d1a673a82a6790b7346/prototype/nplinker/data/MIBiG2.0_compounds_with_AS_BGC_CF_NPC_classes.txt",
+    "sha256": "96268b2e2d20e935976892e4f052c32592073a763cba85f33c7c654215b566ff",
+    "bytes": 732160
+  },
+  {
+    "path": "data/raw/sources/caesar-2023/41589_2023_1276_MOESM3_ESM.zip",
+    "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41589-023-01276-8/MediaObjects/41589_2023_1276_MOESM3_ESM.zip",
+    "sha256": "0cef389310eccd261255e51919e7fe5f1f772cc73be2b0d42e0f5f8e30245a54",
+    "bytes": 1725974
+  }
+]

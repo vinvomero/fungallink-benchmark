@@ -1,0 +1,21 @@
+{
+  "checked_utc": "2026-10-08T14:57:56.091188+00:00",
+  "queries": [
+    "\"FAC-MS\" \"data\" \"XCMS\" Clevenger download",
+    "\"nchembio.2408\" \"Supplementary Data\"",
+    "site.kelleher.northwestern.edu \"n-kelleher\" contact",
+    "\"FAC-MS\" \"feature table\" data",
+    "\"MSV000081097\" XCMS csv"
+  ],
+  "service": "web.run",
+  "outcome": "No new complete feature-table locator identified in returned results; retained FAC article/inventory reused. Official Northwestern Chemistry page confirms recipient address.",
+  "contact_source": "https://chemistry.northwestern.edu/people/faculty/profiles/neil-kelleher.html",
+  "retained_evidence": [
+    "docs/data/fac-data-request-2026-10-07.md",
+    "docs/evidence/fac-native-donor-target-bridge-2026-10-07.md",
+    "data/raw/expression-dataset-screen-2026-10-07/fac-file-inventory.json",
+    "data/raw/expression-dataset-screen-2026-10-07/fac-reanalyses.json"
+  ],
+  "reopen_when": "Author provides a new deposit/export, new exact locator appears, or existing uninspected material supplies full table and sample map. Do not repeat empty reanalysis lookup or treat native-donor pilot as FAC-expression cohort.",
+  "correspondence_status": "Draft only; not sent"
+}

@@ -1,0 +1,18 @@
+{
+  "all_six_output_bytes_unchanged": true,
+  "validation_unchanged": true,
+  "full_suite_passed": 117,
+  "generator_before": {
+    "bytes": 18424,
+    "name": "build_source_gcf_inputs.py",
+    "sha256": "864b7a9553519119d2ab754c58efdf8afd7d237cda6a6f2f7fdb7ea7bb6d265b",
+    "version": "1.0"
+  },
+  "generator_after": {
+    "bytes": 18564,
+    "name": "build_source_gcf_inputs.py",
+    "sha256": "72bc46868158a1a7e14eb548cc4f18d41ece339cb7a03e11adcf88a3c9f07954",
+    "version": "1.0"
+  },
+  "new_manifest_sha256": "26b6cac03441c6013fd29816da1b405399953ab71d2e5e6c6e5b318dbe99b692"
+}

@@ -1,0 +1,6 @@
+scenario	components	components_with_complete_relationships	relationships	queries	authoritative_complete_analysis_groups	holdout_established
+query_pathway	16	7	30	16	1	False
+construct_context	14	7	30	16	1	False
+conservative_design	5	1	30	16	1	False
+similarity_sensitivity_0_7	5	1	30	16	1	False
+similarity_sensitivity_0_9	5	1	30	16	1	False

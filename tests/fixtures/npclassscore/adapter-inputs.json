@@ -1,0 +1,99 @@
+{
+  "schema_version": "1",
+  "track_id": "synthetic-feature",
+  "query_type": "GCF",
+  "candidate_universe_id": "synthetic-npclass-v1",
+  "candidate_pools": {
+    "pool": [
+      "d",
+      "b",
+      "c",
+      "a"
+    ]
+  },
+  "queries": [
+    {
+      "query_id": "q-missing",
+      "cohort_id": "missing",
+      "candidate_pool_id": "pool",
+      "genomic_classes": {
+        "mibig_classes": [
+          "b1"
+        ]
+      }
+    },
+    {
+      "query_id": "q-complete",
+      "cohort_id": "complete",
+      "candidate_pool_id": "pool",
+      "genomic_classes": {
+        "mibig_classes": [
+          "b1"
+        ]
+      }
+    }
+  ],
+  "cohorts": {
+    "complete": {
+      "features": {
+        "d": {
+          "spectrum_id": "invented-spectrum-d",
+          "spectral_classes": {
+            "npc_class": "m1"
+          }
+        },
+        "b": {
+          "spectrum_id": "invented-spectrum-b",
+          "spectral_classes": {
+            "npc_class": "m2"
+          }
+        },
+        "a": {
+          "spectrum_id": "invented-spectrum-a",
+          "spectral_classes": {
+            "npc_class": "m1"
+          }
+        },
+        "c": {
+          "spectrum_id": "invented-spectrum-c",
+          "spectral_classes": {
+            "npc_class": "m1"
+          }
+        }
+      }
+    },
+    "missing": {
+      "features": {
+        "a": {
+          "spectrum_id": null,
+          "spectral_classes": {
+            "npc_class": "m1"
+          }
+        },
+        "b": {
+          "spectrum_id": "invented-b",
+          "spectral_classes": null
+        },
+        "c": {
+          "spectrum_id": "invented-spectrum-c",
+          "spectral_classes": {
+            "npc_class": "m1"
+          }
+        },
+        "d": {
+          "spectrum_id": "invented-spectrum-d",
+          "spectral_classes": {
+            "npc_class": "m1"
+          }
+        }
+      }
+    }
+  },
+  "expected_class_table_sha256": "de3381bf6d9fc72a5c3f75ca7c1c4544e8717e9eed5604480e8266f1e51d2801",
+  "provenance": {
+    "genomic_classes": "Invented synthetic b1 annotation; no predictor or biological source.",
+    "spectral_class_predictions": "Invented synthetic labels, no trained predictor.",
+    "feature_spectrum_joins": "Invented synthetic feature-to-spectrum joins.",
+    "class_reference_exposure": "unknown; synthetic development fixture; no biological exposure audit."
+  }
+}

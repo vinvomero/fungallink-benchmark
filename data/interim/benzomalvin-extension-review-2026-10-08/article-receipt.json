@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-08T16:34:25.975161+00:00",
+  "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5997561.1/PMC5997561.1.xml?md5=439618e1a26d8c1c696a368dc1616304",
+  "sha256": "4c4add302b61d9ce9f5c36cd6efbc8799c414627a514a72035b4baf1865b7ef8",
+  "bytes": 83951,
+  "metadata_route": "life-sciences-literature ncbi-pmc-skill scripts/ncbi_pmc.py params.id PMC5997561",
+  "license_code": "TDM",
+  "is_pmc_openaccess": false,
+  "is_retracted": false,
+  "version": 1
+}

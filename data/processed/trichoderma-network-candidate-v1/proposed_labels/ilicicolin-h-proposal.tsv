@@ -1,0 +1,2 @@
+query_id	candidate_id	proposed_product	admitted	decision_status	evidence_file	competing_candidates
+FLTR-Q001	FLTR-C000030	ilicicolin H	false	requires_attributed_scientific_adjudication	../provenance/evidence/trichoderma-h-measured-target-bridge-2026-10-07.md	FLTR-C000035;FLTR-C000043;FLTR-C000064

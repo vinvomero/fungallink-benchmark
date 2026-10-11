@@ -1,0 +1,10 @@
+{
+  "scope": "Record structure and file presence only; not scientific validation or a live process probe.",
+  "questions_checked": 122,
+  "protected_records_checked": 27,
+  "errors": [],
+  "warnings": [
+    "phylogeny-comparison-v1: nonterminal running; verify live process before resumption"
+  ],
+  "ok": true
+}

@@ -1,0 +1,85 @@
+{
+  "biological_aliases_adopted": false,
+  "counts": {
+    "accession_bearing_map_acquisitions": 337,
+    "currently_mapped_but_historically_excluded": 0,
+    "historical_added_corrections": 2,
+    "historical_included": 338,
+    "map_only_with_accession": 1,
+    "workbook_mapped_with_accession": 336
+  },
+  "external_reviewers": [],
+  "historical_corrections": [
+    {
+      "current_mapping": {
+        "acquisition_id": "acquisition:35324fd3bbd928834765a27df76456c973df102c503d1e40b51f82cc3c068ebd",
+        "raw_genome_accession": "",
+        "raw_resolution": "no_genome_in_this_corpus",
+        "raw_strain": "NRRL 136277",
+        "source_stem": "20210617_nja0922_MGx_H20190756_FungalCrudeExtract_NRRL136277_Cheerios",
+        "workbook_column_number": "193",
+        "workbook_strain": "NRRL13627"
+      },
+      "disposition": "historical_assertion_not_adopted; scientific_identity_verification_pending",
+      "historical_record": {
+        "benchmark_role": "observation",
+        "condition": "cheerios",
+        "exclusion_reason": null,
+        "include_in_benchmark": true,
+        "is_blank": false,
+        "resolved_genome_strain": "NRRL 13627",
+        "sample_id": "sample_0189",
+        "source_column_number": 193,
+        "source_file": "20210617_nja0922_MGx_H20190756_FungalCrudeExtract_NRRL136277_Cheerios.mzXML",
+        "source_strain_label": "NRRL13627"
+      }
+    },
+    {
+      "current_mapping": {
+        "acquisition_id": "acquisition:b935a7e7b39ff3a6cb5faade19d83f58b3e45bee78b9ba7524046ff1f6d9e194",
+        "raw_genome_accession": "",
+        "raw_resolution": "no_genome_in_this_corpus",
+        "raw_strain": "NRRL 60501",
+        "source_stem": "20210715_ddj6956_MgxJuly_H20_190756_NRRL60501_oats",
+        "workbook_column_number": "324",
+        "workbook_strain": "NRRL62501"
+      },
+      "disposition": "historical_assertion_not_adopted; scientific_identity_verification_pending",
+      "historical_record": {
+        "benchmark_role": "observation",
+        "condition": "oats",
+        "exclusion_reason": null,
+        "include_in_benchmark": true,
+        "is_blank": false,
+        "resolved_genome_strain": "NRRL 62501",
+        "sample_id": "sample_0320",
+        "source_column_number": 324,
+        "source_file": "20210715_ddj6956_MgxJuly_H20_190756_NRRL60501_oats.mzXML",
+        "source_strain_label": "NRRL62501"
+      }
+    }
+  ],
+  "identity": "337 - 1 + 2 = 338",
+  "map_only_acquisitions": [
+    "20220128_fab6970_MGx_H20190756_Rerunfrombatch1_NRRL2393_cheerios"
+  ],
+  "reproducibility_note": "This portable receipt retains the relevant ledger rows and source hash. Re-extracting the original ledger requires the retained historical source; it is not a benchmark runtime dependency.",
+  "research_lead": "Vin Vomero",
+  "schema_version": 1,
+  "scope": "mechanical historical inclusion accounting only",
+  "sources": [
+    {
+      "bytes": 9116,
+      "origin_path": "output/p3-custody-successor-2026-09-22/samples.parquet",
+      "origin_project": "terralabv2",
+      "role": "historical_inclusion_ledger",
+      "sha256": "68d82ae547234849cbc8c8b981f04bb2b7c10dd9e3917ad7649a731c12eedbf3"
+    },
+    {
+      "bytes": 93626,
+      "path": "MSV000089848sampletostrainmap.csv",
+      "role": "supplied_mapping",
+      "sha256": "e435346d3f4752c9ae615eef819cba6d777fa8e5ad932f0e28694dfa3d384ce0"
+    }
+  ]
+}

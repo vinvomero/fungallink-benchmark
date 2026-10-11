@@ -1,0 +1,29 @@
+{
+  "command": [
+    "/home/vvomero/.local/share/fungallink-tree-2026-10-07/env/bin/mafft",
+    "--amino",
+    "--localpair",
+    "--maxiterate",
+    "1000",
+    "--thread",
+    "4",
+    "/mnt/c/Users/vvome/OneDrive/Desktop/Claude Projects/fungallinkv2/data/processed/caesar-marker-phylogeny-2026-10-07/markers/100249at4751.input.faa"
+  ],
+  "files": [
+    {
+      "bytes": 14942,
+      "path": "markers/100249at4751.aligned.faa",
+      "sha256": "37ac26c6156f94f1a2fdaa1ac2daf67c85f1743397bd46dfd97598496d76cd01"
+    },
+    {
+      "bytes": 8506,
+      "path": "markers/100249at4751.input.faa",
+      "sha256": "69de2c4f445dc0d36625ccdaf7efe7714c179bb702655c2ee8e846f1f30d6334"
+    },
+    {
+      "bytes": 13963,
+      "path": "markers/100249at4751.mafft.log",
+      "sha256": "bf8c1096417534019940ceacdb650261cfd839e8daa27d6ea8c448af801d9a52"
+    }
+  ]
+}

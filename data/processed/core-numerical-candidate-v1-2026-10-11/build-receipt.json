@@ -1,0 +1,16 @@
+{
+  "status": "built_and_verified",
+  "utc": "2026-10-11T12:08:06.577556+00:00",
+  "command": [
+    "C:\\Python313\\python.exe",
+    "scripts/build_core_numerical_candidate.py"
+  ],
+  "archive": "data\\processed\\core-numerical-candidate-v1-2026-10-11\\fungallink-core-numerical-private-v1.zip",
+  "archive_sha256": "61ddcc9245279255b5eaf486322cd8c22d558b088683c390be7cdda004dc1ed9",
+  "bytes": 39957780,
+  "members": 459,
+  "tracks": 3,
+  "rosters_per_track": 18,
+  "method_runs": 216,
+  "scope": "Private packaging integrity; execution is checked separately"
+}

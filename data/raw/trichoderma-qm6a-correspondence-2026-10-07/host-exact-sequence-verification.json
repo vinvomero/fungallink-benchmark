@@ -1,0 +1,14 @@
+{
+  "length_nt": 30604,
+  "sequence_sha256": "759c315a5e2a32176fd1ca1d4ef261f70c2b55af4c143dfe82a2b91e4bef5d62",
+  "exact_whole_query_matches": [
+    {
+      "accession": "GL985060.1",
+      "start_1based": 21098,
+      "end_1based_inclusive": 51701,
+      "strand": "+"
+    }
+  ],
+  "assembly_record_count": 77,
+  "scope": "Independent exact full-query search on both strands of every sequence in downloaded reference assembly. This excludes another exact full-length copy only, not diverged alternatives or gene-model differences; no mutant genome authentication."
+}

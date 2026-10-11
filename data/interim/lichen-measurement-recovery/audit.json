@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-03",
+  "catalog_records": 20313,
+  "catalog_term_hits": {
+    "lichen": 46,
+    "maonian": 0,
+    "garima": 0,
+    "001569": 0,
+    "20231007": 0,
+    "olafsd": 0,
+    "medema": 5,
+    "zdouc": 1
+  },
+  "podp_records": 81,
+  "podp_scope_terms": [
+    "lichen",
+    "maonian",
+    "001569",
+    "garima"
+  ],
+  "podp_hit_count": 0,
+  "sample_map_counts": {
+    "source_file_stem": 109,
+    "sample_id": 108,
+    "species": 78,
+    "voucher": 107
+  },
+  "sample_id_duplicates": {
+    "PSU3": 2
+  },
+  "voucher_duplicates": {
+    "IT_MtLim_ParmeliaSp_2 (AMNH)": 3
+  },
+  "cyanolichen_stem_intersection": []
+}

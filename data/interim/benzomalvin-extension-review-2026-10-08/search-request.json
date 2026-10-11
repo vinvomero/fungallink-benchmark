@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-08T16:36:42.338479+00:00",
+  "queries": [
+    "\"benzomalvin E\" \"ben\" biosynthesis",
+    "\"ATEG_07500\" \"facms0006\"",
+    "\"Interrogation of Benzomalvin Biosynthesis\" PMC"
+  ],
+  "outcome": "Located and retrieved primary follow-up PMC5997561.1; exact FAC gene query found original source, not a resolved contradictory deletion assignment. PMC web challenge and Europe PMC web error; plugin metadata supplied successful public XML URL. Original-paper company PDF retrieval returned404.",
+  "primary_followup": "https://doi.org/10.1021/acs.biochem.8b00076"
+}

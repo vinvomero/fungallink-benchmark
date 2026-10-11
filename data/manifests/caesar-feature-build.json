@@ -1,0 +1,78 @@
+{
+  "artifact_kind": "source_feature_export",
+  "candidate_id_rule": "caesar2023:feature: + UTF-8 percent-encoded source row ID; integral numeric IDs use decimal integer text",
+  "generator": {
+    "bytes": 11742,
+    "name": "build_caesar_features.py",
+    "sha256": "84bbe3b6be36a82ed29d7e06567e4197e7d7acea230c2b953877aa7201e8bd71",
+    "version": "1.0"
+  },
+  "inputs": [
+    {
+      "bytes": 19251141,
+      "role": "workbook",
+      "sha256": "4726f832f82da431cc7e0a7b048b9e5d3e0d7de0831b8d20e9dab24bb5131fbb"
+    },
+    {
+      "bytes": 233460,
+      "role": "crosswalk",
+      "sha256": "69553d85647cc92784ebf49db50da46098da976b44c2bcf3edd15f286b2db79e"
+    }
+  ],
+  "missing_abundance": "empty TSV field; zero is 0; no imputation",
+  "outputs": [
+    {
+      "bytes": 611087,
+      "path": "features.tsv",
+      "rows": 9339,
+      "sha256": "075a06513dd29250c3810ee725549766718d804d7923c83c6fefbdda76cd1dfc"
+    },
+    {
+      "bytes": 16008873,
+      "path": "abundances.tsv",
+      "rows": 9339,
+      "sha256": "c739b6faeae712dfa39a4573bf7f10a32727fda83977b524680e133c1163bc3f"
+    },
+    {
+      "bytes": 233460,
+      "path": "acquisitions.tsv",
+      "rows": 363,
+      "sha256": "69553d85647cc92784ebf49db50da46098da976b44c2bcf3edd15f286b2db79e"
+    }
+  ],
+  "runtime": {
+    "openpyxl": "3.1.5",
+    "python": "3.13.5"
+  },
+  "schema_version": 1,
+  "source_layout": {
+    "first_acquisition_column": "E",
+    "first_feature_row": 9,
+    "header_row": 8,
+    "metadata_headers": [
+      "row ID",
+      "row m/z",
+      "row retention time",
+      "row identity"
+    ],
+    "sheet": "Sheet1"
+  },
+  "validation": {
+    "abundance_cells": 3380718,
+    "acquisition_metadata_rows": 363,
+    "analytical_release_ready": false,
+    "biological_labels_admitted": false,
+    "exact_crosswalk_coverage": true,
+    "export_complete": true,
+    "feature_rows": 9339,
+    "finite_nonnegative_observed_abundances": true,
+    "map_only_acquisitions": 1,
+    "missing_abundance_cells": 0,
+    "observed_minus_published": 38,
+    "published_count_discrepancy_status": "unresolved",
+    "published_feature_count": 9301,
+    "source_row_ids_unique": true,
+    "workbook_acquisitions": 362,
+    "zero_abundance_cells": 2415267
+  }
+}

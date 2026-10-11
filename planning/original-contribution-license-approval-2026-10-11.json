@@ -1,0 +1,24 @@
+{
+  "utc": "2026-10-11T17:55:22.323786+00:00",
+  "authority": "Direct user reply in this task",
+  "license_approval": "Approve those scoped licenses and confirm authority",
+  "originality_statement": "Yes this is original. It's not under consideration anywhere right now.",
+  "scope": "Original code Apache-2.0; original curation, generated results and documentation CC BY4.0; third-party content not relicensed; no publication authorization.",
+  "license_text_receipts": [
+    {
+      "url": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "status": 200,
+      "path": "docs/release/licenses/Apache-2.0.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358
+    },
+    {
+      "url": "https://creativecommons.org/licenses/by/4.0/legalcode.txt",
+      "status": 200,
+      "path": "docs/release/licenses/CC-BY-4.0.txt",
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+      "bytes": 18657
+    }
+  ],
+  "prior_attempt": "Default urllib request returned403 on first official text."
+}

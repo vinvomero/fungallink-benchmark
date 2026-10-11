@@ -1,0 +1,131 @@
+{
+  "native_record": "KE720645.1",
+  "native_interval_length": 31462,
+  "archive_sha256": "59b3676602610d66501953c3dc89d3fef94b14a77192442ae87d8b7a1c9c1c25",
+  "plasmids": [
+    {
+      "name": "pCHSU70.1-2.2",
+      "length": 13130,
+      "sequence_sha256": "1a35ba98c70541b500d34a9d7da39d8dfa52024706c4bcb4ac79d50d5c342ba0"
+    },
+    {
+      "name": "pCHSU70.2-2.2",
+      "length": 13377,
+      "sequence_sha256": "16ee2676c929d7081b22b4b8955fa57a5b1ea5bf19c950ff0de7983779b379a9"
+    }
+  ],
+  "genes": [
+    {
+      "locus": [
+        "EPUS_05787"
+      ],
+      "protein_id": [
+        "ERF77218.1"
+      ],
+      "length": 264,
+      "full_length_exact_plasmid_matches": [
+        "pCHSU70.2-2.2"
+      ],
+      "partial_location": false
+    },
+    {
+      "locus": [
+        "EPUS_05788"
+      ],
+      "protein_id": [
+        "ERF77219.1"
+      ],
+      "length": 780,
+      "full_length_exact_plasmid_matches": [],
+      "partial_location": false
+    },
+    {
+      "locus": [
+        "EPUS_05789"
+      ],
+      "protein_id": [
+        "ERF77220.1"
+      ],
+      "length": 520,
+      "full_length_exact_plasmid_matches": [
+        "pCHSU70.2-2.2"
+      ],
+      "partial_location": false
+    },
+    {
+      "locus": [
+        "EPUS_05790"
+      ],
+      "protein_id": [
+        "ERF77221.1"
+      ],
+      "length": 2164,
+      "full_length_exact_plasmid_matches": [
+        "pCHSU70.1-2.2"
+      ],
+      "partial_location": false
+    },
+    {
+      "locus": [
+        "EPUS_05791"
+      ],
+      "protein_id": [
+        "ERF77222.1"
+      ],
+      "length": 143,
+      "full_length_exact_plasmid_matches": [],
+      "partial_location": false
+    },
+    {
+      "locus": [
+        "EPUS_05792"
+      ],
+      "protein_id": [
+        "ERF77223.1"
+      ],
+      "length": 381,
+      "full_length_exact_plasmid_matches": [
+        "pCHSU70.2-2.2"
+      ],
+      "partial_location": false
+    },
+    {
+      "locus": [
+        "EPUS_05793"
+      ],
+      "protein_id": [
+        "ERF77224.1"
+      ],
+      "length": 359,
+      "full_length_exact_plasmid_matches": [
+        "pCHSU70.2-2.2"
+      ],
+      "partial_location": false
+    },
+    {
+      "locus": [
+        "EPUS_05794"
+      ],
+      "protein_id": [
+        "ERF77225.1"
+      ],
+      "length": 436,
+      "full_length_exact_plasmid_matches": [],
+      "partial_location": false
+    },
+    {
+      "locus": [
+        "EPUS_05795"
+      ],
+      "protein_id": [
+        "ERF77226.1"
+      ],
+      "length": 339,
+      "full_length_exact_plasmid_matches": [],
+      "partial_location": false
+    }
+  ],
+  "exact_match_genes": 5,
+  "total_genes": 9,
+  "scope": "Read-only exact protein containment audit; missing matches do not prove gene absence; no sequence design or admission"
+}

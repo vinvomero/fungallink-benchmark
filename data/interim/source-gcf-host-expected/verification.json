@@ -1,0 +1,51 @@
+{
+  "output_fingerprints_verified": 6,
+  "canonical_presence_sha256": "92775f1928b91160aa49ffdde490fe69a9fb2640bc45326d65d5c3ba4bdd3a3b",
+  "all_per_observation_counts_match": true,
+  "focused_tests_passed": 28,
+  "draft_validation": {
+    "analytical_release_ready": false,
+    "candidate_count": 9339,
+    "excluded_observations": 11,
+    "export_complete": true,
+    "included_acquisitions": 326,
+    "included_condition_observations": 312,
+    "included_observations": 105,
+    "missing_height_cells": 0,
+    "missing_presence_cells": 0,
+    "population_rows": 116,
+    "positive_presence_cells": 28066,
+    "presence_cells": 980595,
+    "query_count": 5,
+    "scoring_ready": false,
+    "source_membership_counts": {
+      "NRPKS_18": {
+        "0": 95,
+        "1": 10,
+        "unknown": 11
+      },
+      "NRPSLIKE_59": {
+        "0": 94,
+        "1": 11,
+        "unknown": 11
+      },
+      "NRPSPKS_85": {
+        "0": 98,
+        "1": 7,
+        "unknown": 11
+      },
+      "NRPS_66": {
+        "0": 98,
+        "1": 7,
+        "unknown": 11
+      },
+      "TERPENE_40": {
+        "0": 94,
+        "1": 11,
+        "unknown": 11
+      }
+    },
+    "zero_presence_cells": 952529
+  },
+  "height_cells_independently_verified": 980595
+}

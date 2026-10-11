@@ -1,0 +1,109 @@
+{
+  "state": "frozen_for_initial_private_retrospective_analysis",
+  "scoring_ready": true,
+  "approved_at_utc": "2026-10-07T12:42:57.176059+00:00",
+  "adopted_by": "Codex host under user-authorized execution",
+  "release_manifest_sha256": "db5c9a653e873adf1c19781086ed287d65cb8836cad9a7f3bd1b6c6d33a04c84",
+  "candidate_manifest_state_preserved": "candidate_awaiting_host_integrity_verification",
+  "activation_rule": "This external host receipt activates the exact hashed candidate package without modifying it. Applies only to the scoped initial comparison.",
+  "verified_payload_files": 123,
+  "verified_rosters": [
+    {
+      "roster": "draft_all_source_observations",
+      "observations": 105,
+      "sha256": "84e5f7b9b766ef6f7feae78fc7997af7d1760a1a98287834994cab6ed151de51"
+    },
+    {
+      "roster": "draft_assembly_representative_01",
+      "observations": 102,
+      "sha256": "e2e909690178531ec2926dd6d80021136dad14a970992b9994ad60bab5886014"
+    },
+    {
+      "roster": "draft_assembly_representative_01_three_media",
+      "observations": 99,
+      "sha256": "2e57120716c2645cafd9d13ce1da36b9818a1359a0abf21eff3fc0d480b4fc3d"
+    },
+    {
+      "roster": "draft_assembly_representative_02",
+      "observations": 102,
+      "sha256": "ef16fd3d36a0733993cf3ff48b655f165784ec9a175e8bf1deb79878dba13bc3"
+    },
+    {
+      "roster": "draft_assembly_representative_02_three_media",
+      "observations": 99,
+      "sha256": "706279e64baa758984a8c7573d8596416d1e7dcc289ced859e6b184a97691f3d"
+    },
+    {
+      "roster": "draft_assembly_representative_03",
+      "observations": 102,
+      "sha256": "e9009f100c5cb9f78a0a45994c5a4ee7d2b916f9018f97cfe39a12440b89446f"
+    },
+    {
+      "roster": "draft_assembly_representative_03_three_media",
+      "observations": 99,
+      "sha256": "f0cff6c3c868775b42b69f4464b339c31e9827932c7aa6c0c657b2a326834cd3"
+    },
+    {
+      "roster": "draft_assembly_representative_04",
+      "observations": 102,
+      "sha256": "5bf01e25370568cd2e7f8990331d1aef268ddef2b957551c101968c711dfb645"
+    },
+    {
+      "roster": "draft_assembly_representative_04_three_media",
+      "observations": 99,
+      "sha256": "56bf9334d19ab9423ff633147eabc89dc8ebd6dea8ca3b54e853a24116f49e8b"
+    },
+    {
+      "roster": "draft_assembly_representative_05",
+      "observations": 102,
+      "sha256": "3b0317665258b9a49333e5493704160cb7574143124aef87072b211f3b986994"
+    },
+    {
+      "roster": "draft_assembly_representative_05_three_media",
+      "observations": 99,
+      "sha256": "11bac302182c80e21abe310494fe71412a6c26569345b82e2d4150b38204282a"
+    },
+    {
+      "roster": "draft_assembly_representative_06",
+      "observations": 102,
+      "sha256": "6b402996d84f5f0a44e24bd65f26371bdeee9a1faceff05cd10ec44201e43196"
+    },
+    {
+      "roster": "draft_assembly_representative_06_three_media",
+      "observations": 99,
+      "sha256": "d9d414c8dfe4b3a64a7a2586c03f2026e2168e85c13a53bf2cd2aca2918c73c1"
+    },
+    {
+      "roster": "draft_assembly_representative_07",
+      "observations": 102,
+      "sha256": "bfd6e2d7ae683302bb01af3771a46308c89fff3e89120b8bd2a697d3a2b30e1e"
+    },
+    {
+      "roster": "draft_assembly_representative_07_three_media",
+      "observations": 99,
+      "sha256": "7d5e5075ba180e696f7bff4dacc55f694698f89bda632c0fcecea8feaffdee31"
+    },
+    {
+      "roster": "draft_assembly_representative_08",
+      "observations": 102,
+      "sha256": "07996828e17bb5aa5da97eaabc2e14a3444c06a9696f07bc66add847b462d3df"
+    },
+    {
+      "roster": "draft_assembly_representative_08_three_media",
+      "observations": 99,
+      "sha256": "74ed77b712ca372bb626f0729168f60c23ae3287cbdadeac246277a063db629e"
+    },
+    {
+      "roster": "draft_three_media_only",
+      "observations": 102,
+      "sha256": "7e9e9be8a2f1656c41900971abdc93384fd565c8241092e64d5419bcab075436"
+    }
+  ],
+  "queries": 5,
+  "products": 6,
+  "candidates": 9339,
+  "independent_biological_groups_claimed": false,
+  "shared_random_equality_verified": true,
+  "no_scores_inspected_before_freeze": true,
+  "scientific_admissions": "Existing attributed approvals only; no new admissions or human statistical review."
+}

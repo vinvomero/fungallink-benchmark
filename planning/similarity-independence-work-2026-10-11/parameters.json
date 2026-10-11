@@ -1,0 +1,39 @@
+{
+  "chemical": {
+    "radius": 2,
+    "bits": 2048,
+    "bond_types": true,
+    "chirality": false,
+    "flags": [
+      0.7,
+      0.9
+    ]
+  },
+  "genomic": {
+    "matrix": "BLOSUM62",
+    "mode": "global",
+    "open_gap_score": -10,
+    "extend_gap_score": -0.5,
+    "terminal_gaps": "same_as_internal",
+    "tie_rule": "first_library_optimal_path",
+    "coverage": 0.8,
+    "identity_flags": [
+      0.7,
+      0.9
+    ]
+  },
+  "spectral": {
+    "tolerance_Da": 0.02,
+    "mz_power": 0,
+    "intensity_power": 1,
+    "min_mz": 10,
+    "precursor_exclusion_Da": 1,
+    "relative_intensity": 0.01,
+    "transform": "sqrt_then_L2",
+    "minimum_matches": 6,
+    "flags": [
+      0.7,
+      0.9
+    ]
+  }
+}

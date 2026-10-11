@@ -1,0 +1,13 @@
+{
+  "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5895447.1/aar5459-f5.jpg?md5=6a4c00797706800963eba32e1344f03a",
+  "utc": "2026-10-08T15:35:30.090504+00:00",
+  "sha256": "7aa4f41a1e64d94848b55851f0163dbc7c51eba388e04499729ea489a8fa3813",
+  "bytes": 256963,
+  "license_metadata": "CC BY-NC",
+  "metadata_lookup": {
+    "params": {
+      "id": "PMC5895447"
+    },
+    "max_items": 20
+  }
+}

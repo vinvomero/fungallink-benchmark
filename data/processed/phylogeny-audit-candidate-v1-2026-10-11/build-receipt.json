@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-11T17:45:49.827777+00:00",
+  "status": "passed",
+  "archive": "fungallink-phylogeny-audit-private-v1.tar.gz",
+  "bytes": 136326334,
+  "sha256": "16c763eeb86d3823a9ce6aba4a51892b9fd2fea7ea89ddca13cdcd586a1f04f0",
+  "decompressed_sha256": "1365b8d266b0dffd74bba68b2443d5fcb52da5a485aeedddf76e5bf19d01ac76",
+  "verified_payloads": 116782,
+  "scope": "Private saved-fit reconstruction snapshot, not raw-to-fit reproduction or redistribution approval.",
+  "no_native_fits_executed": true
+}

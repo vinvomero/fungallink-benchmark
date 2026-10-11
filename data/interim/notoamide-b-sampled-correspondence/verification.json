@@ -1,0 +1,14 @@
+{
+  "tsv_rows": 259,
+  "unique_member_reference_pairs": 259,
+  "reference_proteins": 37,
+  "displayed_sample_proteins": 98,
+  "cross_record_scores": 3626,
+  "member_count": 7,
+  "FMGX0064_reciprocal_core_records": 10,
+  "feature9213_NRRL420_values_verified": true,
+  "formula_checks": "all259_pass",
+  "local_markdown_links": "pass",
+  "note_sha256": "593cbc8281e110cf44d37effb7f757355afda094074ed855d4064b2a0af97204",
+  "tsv_sha256": "359c36356ef2a92c278838a05e83aee9a3cf9688e77f455fe0af08ce8033ca4c"
+}

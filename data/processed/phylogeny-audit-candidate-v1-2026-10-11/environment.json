@@ -1,0 +1,11 @@
+{
+  "python": "3.12.15",
+  "compiler": "GCC 15.3.0",
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "check_flags": [
+    "-S",
+    "-B"
+  ],
+  "third_party_site_packages_used": false,
+  "scope": "Observed original interpreter; environment not bundled."
+}

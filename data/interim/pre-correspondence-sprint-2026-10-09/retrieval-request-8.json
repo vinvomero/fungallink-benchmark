@@ -1,0 +1,22 @@
+[
+  [
+    "massive-uploader-kdclevenger.json",
+    "https://massive.ucsd.edu/ProteoSAFe/QueryDatasets",
+    "GET",
+    {
+      "pageSize": 100,
+      "offset": 0,
+      "query": "{\"user_input\":\"kdclevenger\"}"
+    }
+  ],
+  [
+    "massive-uploader-mtrobey.json",
+    "https://massive.ucsd.edu/ProteoSAFe/QueryDatasets",
+    "GET",
+    {
+      "pageSize": 100,
+      "offset": 0,
+      "query": "{\"user_input\":\"mtrobey\"}"
+    }
+  ]
+]

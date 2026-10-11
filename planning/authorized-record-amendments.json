@@ -1,0 +1,10 @@
+{
+  "data/curated/label-evidence.tsv": {
+    "baseline_sha256": "dd2e2d584e9b25dd4efae6ecf39b29293ec3924b7f9b49d362c53ecc714984d1",
+    "current_sha256": "4c13d04e198f1a34923eefc5f79132ef0a6abda3c80c5923cc6dd5e356ae8a1a",
+    "preserved_prefix_bytes": 28051,
+    "decision_path": "protocol/decisions/2026-10-09-benzomalvin-two-measured-targets.md",
+    "verification_path": "data/interim/benzomalvin-additional-targets-2026-10-09/admission-integrity.json",
+    "scope": "Protected15-row prefix retained; prior28rows preserved byte-for-byte; two source-defined parent-FAC targets appended to reach30"
+  }
+}

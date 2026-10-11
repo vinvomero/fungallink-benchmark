@@ -1,0 +1,29 @@
+{
+  "status": "completed",
+  "utc": "2026-10-09T22:36:17.400912+00:00",
+  "exit_code": 0,
+  "command": "MZmine_console.exe --batch data/raw/blackyeast-sixmsa-inputs-2026-10-09/sixmsa-full-pool-v1.mzbatch --threads 2 --memory none --temp data/raw/blackyeast-sixmsa-inputs-2026-10-09/temp",
+  "software": "MZmine3.9.0",
+  "input_receipt": "data/raw/blackyeast-sixmsa-inputs-2026-10-09/conversion-run.json",
+  "recipe_receipt": "data/raw/blackyeast-sixmsa-inputs-2026-10-09/feature-recipe-before-run.json",
+  "log": "data/raw/blackyeast-sixmsa-inputs-2026-10-09/feature-processing.log",
+  "warnings": [
+    "Cannot read user .mzmine3.conf; explicit batch ran7steps; no SEVERE/ERROR message observed"
+  ],
+  "validation": "data/raw/blackyeast-sixmsa-inputs-2026-10-09/validation.json",
+  "outputs": {
+    "full_candidate_pool.mgf": {
+      "bytes": 163515,
+      "sha256": "cd318517d5cfaf290475e50cbe740b8cab0999cd80a2042a1b853b00c9b6fbc1"
+    },
+    "full_candidate_pool_quant.csv": {
+      "bytes": 66383,
+      "sha256": "9599a1e320ccc274fdcb3f1c3f6ecf0f5d8fa21f6730860d3b137350963a3fd3"
+    },
+    "sixmsa-full-pool.mzmine": {
+      "bytes": 1945160,
+      "sha256": "a88f67f66e0497c5c59d21109ff5c263117864b4f01eedc147cd69471dfbb7fa"
+    }
+  },
+  "scope": "Unfrozen full candidate pool. Not a ranking result or chemical identity validation."
+}

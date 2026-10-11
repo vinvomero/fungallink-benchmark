@@ -1,0 +1,12 @@
+{
+  "scope": "independent check using retained processed label heights",
+  "candidate_count": 9339,
+  "matches": {
+    "E": [
+      "caesar2023:feature:1950"
+    ],
+    "F": [
+      "caesar2023:feature:895"
+    ]
+  }
+}

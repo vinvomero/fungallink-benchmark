@@ -1,0 +1,11 @@
+{
+  "openpyxl": "3.1.5",
+  "workbook_sha256": "4726f832f82da431cc7e0a7b048b9e5d3e0d7de0831b8d20e9dab24bb5131fbb",
+  "feature_id": 9213,
+  "row": 9221,
+  "values": {
+    "HZ": 251854.6719,
+    "IA": 27700000,
+    "IB": 207000000
+  }
+}

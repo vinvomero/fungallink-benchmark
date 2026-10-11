@@ -1,0 +1,1 @@
+{"ok": true, "source": "ncbi-entrez", "endpoint": "esearch", "record_path": "esearchresult.idlist", "raw_output_path": "data\\raw\\sources\\expansion-2026-10-03\\caesar-reference\\emericellamide-search-round2.json", "warnings": [], "record_count_returned": 1, "record_count_available": 1, "truncated": false, "records": ["17323993"]}

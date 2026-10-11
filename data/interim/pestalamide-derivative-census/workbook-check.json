@@ -1,0 +1,1661 @@
+{
+  "fingerprints": {
+    "data\\raw\\sources\\caesar-2023\\41589_2023_1276_MOESM4_ESM.xlsx": {
+      "bytes": 19251141,
+      "sha256": "4726f832f82da431cc7e0a7b048b9e5d3e0d7de0831b8d20e9dab24bb5131fbb"
+    },
+    "data\\raw\\sources\\metadata\\caesar-supplement-cdn": {
+      "bytes": 5911348,
+      "sha256": "259acfe84b6a7033ef3cbd41ba05133ce64ee32c8f102d49541fa4f8b57a2108"
+    },
+    "data\\interim\\feature-annotation-recovery\\pmc-bioc.xml": {
+      "bytes": 113653,
+      "sha256": "b507fb31770451e358060fe63c8dd42718b553351a84d9ae4e0d7dd6c0523701"
+    },
+    "data\\processed\\caesar-feature-source-v1\\features.tsv": {
+      "bytes": 611087,
+      "sha256": "075a06513dd29250c3810ee725549766718d804d7923c83c6fefbdda76cd1dfc"
+    }
+  },
+  "worksheet": "Sheet1",
+  "rows": [
+    {
+      "physical_row": 765,
+      "feature_id": 757,
+      "mz": 361.137445,
+      "rt_min": 3.101109048,
+      "source_name": "pestalamide derivative 5",
+      "strain_checks": [
+        {
+          "strain": "CBS 101.740",
+          "maximum": 90600000,
+          "cells": [
+            {
+              "cell": "DN765",
+              "header_strain": "CBS 101.740",
+              "medium": "Cheerios",
+              "height": 279783.8125
+            },
+            {
+              "cell": "DO765",
+              "header_strain": "CBS 101.740",
+              "medium": "Oats",
+              "height": 90600000
+            },
+            {
+              "cell": "DP765",
+              "header_strain": "CBS 101.740",
+              "medium": "Rice",
+              "height": 76900000
+            }
+          ]
+        },
+        {
+          "strain": "ATCC9029",
+          "maximum": 214000000,
+          "cells": [
+            {
+              "cell": "CV765",
+              "header_strain": "ATCC9029",
+              "medium": "Oats",
+              "height": 24700000
+            },
+            {
+              "cell": "CW765",
+              "header_strain": "ATCC9029",
+              "medium": "Cheerios",
+              "height": 0
+            },
+            {
+              "cell": "CX765",
+              "header_strain": "ATCC9029",
+              "medium": "Rice",
+              "height": 214000000
+            }
+          ]
+        },
+        {
+          "strain": "CBS113.46",
+          "maximum": 119000000,
+          "cells": [
+            {
+              "cell": "DT765",
+              "header_strain": "CBS113.46",
+              "medium": "Rice",
+              "height": 119000000
+            },
+            {
+              "cell": "DU765",
+              "header_strain": "CBS113.46",
+              "medium": "Cheerios",
+              "height": 0
+            },
+            {
+              "cell": "DV765",
+              "header_strain": "CBS113.46",
+              "medium": "Oats",
+              "height": 16009.21973
+            }
+          ]
+        },
+        {
+          "strain": "ATCC13490",
+          "maximum": 4976416,
+          "cells": [
+            {
+              "cell": "AS765",
+              "header_strain": "ATCC13490",
+              "medium": "Oats",
+              "height": 0
+            },
+            {
+              "cell": "AT765",
+              "header_strain": "ATCC13490",
+              "medium": "Cheerios",
+              "height": 0
+            },
+            {
+              "cell": "AU765",
+              "header_strain": "ATCC13490",
+              "medium": "Rice",
+              "height": 4976416
+            }
+          ]
+        },
+        {
+          "strain": "ATCC13157",
+          "maximum": 97400000,
+          "cells": [
+            {
+              "cell": "AP765",
+              "header_strain": "ATCC13157",
+              "medium": "Cheerios",
+              "height": 62600000
+            },
+            {
+              "cell": "AQ765",
+              "header_strain": "ATCC13157",
+              "medium": "Rice",
+              "height": 97400000
+            },
+            {
+              "cell": "AR765",
+              "header_strain": "ATCC13157",
+              "medium": "Oats",
+              "height": 40300000
+            }
+          ]
+        },
+        {
+          "strain": "ATCC64974",
+          "maximum": 54900000,
+          "cells": [
+            {
+              "cell": "CS765",
+              "header_strain": "ATCC64974",
+              "medium": "Cheerios",
+              "height": 2160013.75
+            },
+            {
+              "cell": "CT765",
+              "header_strain": "ATCC64974",
+              "medium": "Rice",
+              "height": 54900000
+            },
+            {
+              "cell": "CU765",
+              "header_strain": "ATCC64974",
+              "medium": "Oats",
+              "height": 0
+            }
+          ]
+        },
+        {
+          "strain": "ATCC10864",
+          "maximum": 11600000,
+          "cells": [
+            {
+              "cell": "AJ765",
+              "header_strain": "ATCC10864",
+              "medium": "Cheerios",
+              "height": 0
+            },
+            {
+              "cell": "AK765",
+              "header_strain": "ATCC10864",
+              "medium": "Oats",
+              "height": 160839.8125
+            },
+            {
+              "cell": "AL765",
+              "header_strain": "ATCC10864",
+              "medium": "Rice",
+              "height": 11600000
+            }
+          ]
+        },
+        {
+          "strain": "ATCC64048",
+          "maximum": 150454.8594,
+          "cells": [
+            {
+              "cell": "CM765",
+              "header_strain": "ATCC64048",
+              "medium": "Rice",
+              "height": 0
+            },
+            {
+              "cell": "CN765",
+              "header_strain": "ATCC64048",
+              "medium": "Cheerios",
+              "height": 0
+            },
+            {
+              "cell": "CO765",
+              "header_strain": "ATCC64048",
+              "medium": "Oats",
+              "height": 150454.8594
+            }
+          ]
+        },
+        {
+          "strain": "NRRL62979",
+          "maximum": 35400000,
+          "cells": [
+            {
+              "cell": "LO765",
+              "header_strain": "NRRL62979",
+              "medium": "Cheerios",
+              "height": 1347156.875
+            },
+            {
+              "cell": "LP765",
+              "header_strain": "NRRL62979",
+              "medium": "Oats",
+              "height": 23600000
+            },
+            {
+              "cell": "LQ765",
+              "header_strain": "NRRL62979",
+              "medium": "Rice",
+              "height": 35400000
+            }
+          ]
+        },
+        {
+          "strain": "ATCC1007",
+          "maximum": 0,
+          "cells": [
+            {
+              "cell": "K765",
+              "header_strain": "ATCC1007",
+              "medium": "Cheerios",
+              "height": 0
+            },
+            {
+              "cell": "L765",
+              "header_strain": "ATCC1007",
+              "medium": "Oats",
+              "height": 0
+            },
+            {
+              "cell": "M765",
+              "header_strain": "ATCC1007",
+              "medium": "Rice",
+              "height": 0
+            }
+          ]
+        },
+        {
+          "strain": "CBS134.48",
+          "maximum": 0,
+          "cells": [
+            {
+              "cell": "DW765",
+              "header_strain": "CBS134.48",
+              "medium": "Cheerios",
+              "height": 0
+            },
+            {
+              "cell": "DX765",
+              "header_strain": "CBS134.48",
+              "medium": "Rice",
+              "height": 0
+            },
+            {
+              "cell": "DY765",
+              "header_strain": "CBS134.48",
+              "medium": "Oats",
+              "height": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "physical_row": 903,
+      "feature_id": 895,
+      "mz": 387.157844,
+      "rt_min": 2.219772902,
+      "source_name": "pestalamide B derivative 1",
+      "strain_checks": [
+        {
+          "strain": "CBS 101.740",
+          "maximum": 61100000,
+          "cells": [
+            {
+              "cell": "DN903",
+              "header_strain": "CBS 101.740",
+              "medium": "Cheerios",
+              "height": 61100000
+            },
+            {
+              "cell": "DO903",
+              "header_strain": "CBS 101.740",
+              "medium": "Oats",
+              "height": 46300000
+            },
+            {
+              "cell": "DP903",
+              "header_strain": "CBS 101.740",
+              "medium": "Rice",
+              "height": 20700000
+            }
+          ]
+        },
+        {
+          "strain": "ATCC9029",
+          "maximum": 24700000,
+          "cells": [
+            {
+              "cell": "CV903",
+              "header_strain": "ATCC9029",
+              "medium": "Oats",
+              "height": 3419774.5
+            },
+            {
+              "cell": "CW903",
+              "header_strain": "ATCC9029",
+              "medium": "Cheerios",
+              "height": 2087547.625
+            },
+            {
+              "cell": "CX903",
+              "header_strain": "ATCC9029",
+              "medium": "Rice",
+              "height": 24700000
+            }
+          ]
+        },
+        {
+          "strain": "CBS113.46",
+          "maximum": 1966591.5,
+          "cells": [
+            {
+              "cell": "DT903",
+              "header_strain": "CBS113.46",
+              "medium": "Rice",
+              "height": 1966591.5
+            },
+            {
+              "cell": "DU903",
+              "header_strain": "CBS113.46",
+              "medium": "Cheerios",
+              "height": 441310.4375
+            },
+            {
+              "cell": "DV903",
+              "header_strain": "CBS113.46",
+              "medium": "Oats",
+              "height": 1384038.625
+            }
+          ]
+        },
+        {
+          "strain": "ATCC13490",
+          "maximum": 16800000,
+          "cells": [
+            {
+              "cell": "AS903",
+              "header_strain": "ATCC13490",
+              "medium": "Oats",
+              "height": 2178452
+            },
+            {
+              "cell": "AT903",
+              "header_strain": "ATCC13490",
+              "medium": "Cheerios",
+              "height": 1466727.75
+            },
+            {
+              "cell": "AU903",
+              "header_strain": "ATCC13490",
+              "medium": "Rice",
+              "height": 16800000
+            }
+          ]
+        },
+        {
+          "strain": "ATCC13157",
+          "maximum": 42800000,
+          "cells": [
+            {
+              "cell": "AP903",
+              "header_strain": "ATCC13157",
+              "medium": "Cheerios",
+              "height": 42800000
+            },
+            {
+              "cell": "AQ903",
+              "header_strain": "ATCC13157",
+              "medium": "Rice",
+              "height": 16100000
+            },
+            {
+              "cell": "AR903",
+              "header_strain": "ATCC13157",
+              "medium": "Oats",
+              "height": 36500000
+            }
+          ]
+        },
+        {
+          "strain": "ATCC64974",
+          "maximum": 3141254.5,
+          "cells": [
+            {
+              "cell": "CS903",
+              "header_strain": "ATCC64974",
+              "medium": "Cheerios",
+              "height": 1682564.125
+            },
+            {
+              "cell": "CT903",
+              "header_strain": "ATCC64974",
+              "medium": "Rice",
+              "height": 3141254.5
+            },
+            {
+              "cell": "CU903",
+              "header_strain": "ATCC64974",
+              "medium": "Oats",
+              "height": 1079157.375
+            }
+          ]
+        },
+        {
+          "strain": "ATCC10864",
+          "maximum": 1352751.5,
+          "cells": [
+            {
+              "cell": "AJ903",
+              "header_strain": "ATCC10864",
+              "medium": "Cheerios",
+              "height": 141612.7344
+            },
+            {
+              "cell": "AK903",
+              "header_strain": "ATCC10864",
+              "medium": "Oats",
+              "height": 384689.8125
+            },
+            {
+              "cell": "AL903",
+              "header_strain": "ATCC10864",
+              "medium": "Rice",
+              "height": 1352751.5
+            }
+          ]
+        },
+        {
+          "strain": "ATCC64048",
+          "maximum": 74200.5625,
+          "cells": [
+            {
+              "cell": "CM903",
+              "header_strain": "ATCC64048",
+              "medium": "Rice",
+              "height": 0
+            },
+            {
+              "cell": "CN903",
+              "header_strain": "ATCC64048",
+              "medium": "Cheerios",
+              "height": 0
+            },
+            {
+              "cell": "CO903",
+              "header_strain": "ATCC64048",
+              "medium": "Oats",
+              "height": 74200.5625
+            }
+          ]
+        },
+        {
+          "strain": "NRRL62979",
+          "maximum": 3655892.75,
+          "cells": [
+            {
+              "cell": "LO903",
+              "header_strain": "NRRL62979",
+              "medium": "Cheerios",
+              "height": 1110147.875
+            },
+            {
+              "cell": "LP903",
+              "header_strain": "NRRL62979",
+              "medium": "Oats",
+              "height": 3655892.75
+            },
+            {
+              "cell": "LQ903",
+              "header_strain": "NRRL62979",
+              "medium": "Rice",
+              "height": 2762678.75
+            }
+          ]
+        },
+        {
+          "strain": "ATCC1007",
+          "maximum": 18808.77344,
+          "cells": [
+            {
+              "cell": "K903",
+              "header_strain": "ATCC1007",
+              "medium": "Cheerios",
+              "height": 8646.242188
+            },
+            {
+              "cell": "L903",
+              "header_strain": "ATCC1007",
+              "medium": "Oats",
+              "height": 0
+            },
+            {
+              "cell": "M903",
+              "header_strain": "ATCC1007",
+              "medium": "Rice",
+              "height": 18808.77344
+            }
+          ]
+        },
+        {
+          "strain": "CBS134.48",
+          "maximum": 13056.66602,
+          "cells": [
+            {
+              "cell": "DW903",
+              "header_strain": "CBS134.48",
+              "medium": "Cheerios",
+              "height": 13056.66602
+            },
+            {
+              "cell": "DX903",
+              "header_strain": "CBS134.48",
+              "medium": "Rice",
+              "height": 0
+            },
+            {
+              "cell": "DY903",
+              "header_strain": "CBS134.48",
+              "medium": "Oats",
+              "height": 8665.973633
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "physical_row": 1895,
+      "feature_id": 1887,
+      "mz": 429.1623053,
+      "rt_min": 2.433723878,
+      "source_name": "pestalamide derivative 4",
+      "strain_checks": [
+        {
+          "strain": "CBS 101.740",
+          "maximum": 18000000,
+          "cells": [
+            {
+              "cell": "DN1895",
+              "header_strain": "CBS 101.740",
+              "medium": "Cheerios",
+              "height": 2337082.25
+            },
+            {
+              "cell": "DO1895",
+              "header_strain": "CBS 101.740",
+              "medium": "Oats",
+              "height": 18000000
+            },
+            {
+              "cell": "DP1895",
+              "header_strain": "CBS 101.740",
+              "medium": "Rice",
+              "height": 7918943
+            }
+          ]
+        },
+        {
+          "strain": "ATCC9029",
+          "maximum": 790713.4375,
+          "cells": [
+            {
+              "cell": "CV1895",
+              "header_strain": "ATCC9029",
+              "medium": "Oats",
+              "height": 0
+            },
+            {
+              "cell": "CW1895",
+              "header_strain": "ATCC9029",
+              "medium": "Cheerios",
+              "height": 28359.80664
+            },
+            {
+              "cell": "CX1895",
+              "header_strain": "ATCC9029",
+              "medium": "Rice",
+              "height": 790713.4375
+            }
+          ]
+        },
+        {
+          "strain": "CBS113.46",
+          "maximum": 608742.375,
+          "cells": [
+            {
+              "cell": "DT1895",
+              "header_strain": "CBS113.46",
+              "medium": "Rice",
+              "height": 608742.375
+            },
+            {
+              "cell": "DU1895",
+              "header_strain": "CBS113.46",
+              "medium": "Cheerios",
+              "height": 13044.05469
+            },
+            {
+              "cell": "DV1895",
+              "header_strain": "CBS113.46",
+              "medium": "Oats",
+              "height": 118163.5703
+            }
+          ]
+        },
+        {
+          "strain": "ATCC13490",
+          "maximum": 4558281,
+          "cells": [
+            {
+              "cell": "AS1895",
+              "header_strain": "ATCC13490",
+              "medium": "Oats",
+              "height": 635873.8125
+            },
+            {
+              "cell": "AT1895",
+              "header_strain": "ATCC13490",
+              "medium": "Cheerios",
+              "height": 0
+            },
+            {
+              "cell": "AU1895",
+              "header_strain": "ATCC13490",
+              "medium": "Rice",
+              "height": 4558281
+            }
+          ]
+        },
+        {
+          "strain": "ATCC13157",
+          "maximum": 10200000,
+          "cells": [
+            {
+              "cell": "AP1895",
+              "header_strain": "ATCC13157",
+              "medium": "Cheerios",
+              "height": 6818240
+            },
+            {
+              "cell": "AQ1895",
+              "header_strain": "ATCC13157",
+              "medium": "Rice",
+              "height": 1790017.25
+            },
+            {
+              "cell": "AR1895",
+              "header_strain": "ATCC13157",
+              "medium": "Oats",
+              "height": 10200000
+            }
+          ]
+        },
+        {
+          "strain": "ATCC64974",
+          "maximum": 1853327,
+          "cells": [
+            {
+              "cell": "CS1895",
+              "header_strain": "ATCC64974",
+              "medium": "Cheerios",
+              "height": 426564.6563
+            },
+            {
+              "cell": "CT1895",
+              "header_strain": "ATCC64974",
+              "medium": "Rice",
+              "height": 1853327
+            },
+            {
+              "cell": "CU1895",
+              "header_strain": "ATCC64974",
+              "medium": "Oats",
+              "height": 38377.97266
+            }
+          ]
+        },
+        {
+          "strain": "ATCC10864",
+          "maximum": 335308.3125,
+          "cells": [
+            {
+              "cell": "AJ1895",
+              "header_strain": "ATCC10864",
+              "medium": "Cheerios",
+              "height": 45868.35938
+            },
+            {
+              "cell": "AK1895",
+              "header_strain": "ATCC10864",
+              "medium": "Oats",
+              "height": 47717.65625
+            },
+            {
+              "cell": "AL1895",
+              "header_strain": "ATCC10864",
+              "medium": "Rice",
+              "height": 335308.3125
+            }
+          ]
+        },
+        {
+          "strain": "ATCC64048",
+          "maximum": 7968849,
+          "cells": [
+            {
+              "cell": "CM1895",
+              "header_strain": "ATCC64048",
+              "medium": "Rice",
+              "height": 0
+            },
+            {
+              "cell": "CN1895",
+              "header_strain": "ATCC64048",
+              "medium": "Cheerios",
+              "height": 0
+            },
+            {
+              "cell": "CO1895",
+              "header_strain": "ATCC64048",
+              "medium": "Oats",
+              "height": 7968849
+            }
+          ]
+        },
+        {
+          "strain": "NRRL62979",
+          "maximum": 464001.4063,
+          "cells": [
+            {
+              "cell": "LO1895",
+              "header_strain": "NRRL62979",
+              "medium": "Cheerios",
+              "height": 464001.4063
+            },
+            {
+              "cell": "LP1895",
+              "header_strain": "NRRL62979",
+              "medium": "Oats",
+              "height": 373584.8125
+            },
+            {
+              "cell": "LQ1895",
+              "header_strain": "NRRL62979",
+              "medium": "Rice",
+              "height": 298096.5313
+            }
+          ]
+        },
+        {
+          "strain": "ATCC1007",
+          "maximum": 11759.00488,
+          "cells": [
+            {
+              "cell": "K1895",
+              "header_strain": "ATCC1007",
+              "medium": "Cheerios",
+              "height": 0
+            },
+            {
+              "cell": "L1895",
+              "header_strain": "ATCC1007",
+              "medium": "Oats",
+              "height": 11759.00488
+            },
+            {
+              "cell": "M1895",
+              "header_strain": "ATCC1007",
+              "medium": "Rice",
+              "height": 0
+            }
+          ]
+        },
+        {
+          "strain": "CBS134.48",
+          "maximum": 0,
+          "cells": [
+            {
+              "cell": "DW1895",
+              "header_strain": "CBS134.48",
+              "medium": "Cheerios",
+              "height": 0
+            },
+            {
+              "cell": "DX1895",
+              "header_strain": "CBS134.48",
+              "medium": "Rice",
+              "height": 0
+            },
+            {
+              "cell": "DY1895",
+              "header_strain": "CBS134.48",
+              "medium": "Oats",
+              "height": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "physical_row": 1958,
+      "feature_id": 1950,
+      "mz": 361.1374241,
+      "rt_min": 2.114501449,
+      "source_name": "pestalamide derivative 6",
+      "strain_checks": [
+        {
+          "strain": "CBS 101.740",
+          "maximum": 384000000,
+          "cells": [
+            {
+              "cell": "DN1958",
+              "header_strain": "CBS 101.740",
+              "medium": "Cheerios",
+              "height": 384000000
+            },
+            {
+              "cell": "DO1958",
+              "header_strain": "CBS 101.740",
+              "medium": "Oats",
+              "height": 109294.4766
+            },
+            {
+              "cell": "DP1958",
+              "header_strain": "CBS 101.740",
+              "medium": "Rice",
+              "height": 0
+            }
+          ]
+        },
+        {
+          "strain": "ATCC9029",
+          "maximum": 28700000,
+          "cells": [
+            {
+              "cell": "CV1958",
+              "header_strain": "ATCC9029",
+              "medium": "Oats",
+              "height": 25600000
+            },
+            {
+              "cell": "CW1958",
+              "header_strain": "ATCC9029",
+              "medium": "Cheerios",
+              "height": 28700000
+            },
+            {
+              "cell": "CX1958",
+              "header_strain": "ATCC9029",
+              "medium": "Rice",
+              "height": 30654.25586
+            }
+          ]
+        },
+        {
+          "strain": "CBS113.46",
+          "maximum": 84400000,
+          "cells": [
+            {
+              "cell": "DT1958",
+              "header_strain": "CBS113.46",
+              "medium": "Rice",
+              "height": 16896.01953
+            },
+            {
+              "cell": "DU1958",
+              "header_strain": "CBS113.46",
+              "medium": "Cheerios",
+              "height": 6692206
+            },
+            {
+              "cell": "DV1958",
+              "header_strain": "CBS113.46",
+              "medium": "Oats",
+              "height": 84400000
+            }
+          ]
+        },
+        {
+          "strain": "ATCC13490",
+          "maximum": 3321342,
+          "cells": [
+            {
+              "cell": "AS1958",
+              "header_strain": "ATCC13490",
+              "medium": "Oats",
+              "height": 754356
+            },
+            {
+              "cell": "AT1958",
+              "header_strain": "ATCC13490",
+              "medium": "Cheerios",
+              "height": 3321342
+            },
+            {
+              "cell": "AU1958",
+              "header_strain": "ATCC13490",
+              "medium": "Rice",
+              "height": 44722.60547
+            }
+          ]
+        },
+        {
+          "strain": "ATCC13157",
+          "maximum": 1205932.375,
+          "cells": [
+            {
+              "cell": "AP1958",
+              "header_strain": "ATCC13157",
+              "medium": "Cheerios",
+              "height": 154631.2344
+            },
+            {
+              "cell": "AQ1958",
+              "header_strain": "ATCC13157",
+              "medium": "Rice",
+              "height": 55096.13281
+            },
+            {
+              "cell": "AR1958",
+              "header_strain": "ATCC13157",
+              "medium": "Oats",
+              "height": 1205932.375
+            }
+          ]
+        },
+        {
+          "strain": "ATCC64974",
+          "maximum": 2713841,
+          "cells": [
+            {
+              "cell": "CS1958",
+              "header_strain": "ATCC64974",
+              "medium": "Cheerios",
+              "height": 829564.4375
+            },
+            {
+              "cell": "CT1958",
+              "header_strain": "ATCC64974",
+              "medium": "Rice",
+              "height": 26108.0957
+            },
+            {
+              "cell": "CU1958",
+              "header_strain": "ATCC64974",
+              "medium": "Oats",
+              "height": 2713841
+            }
+          ]
+        },
+        {
+          "strain": "ATCC10864",
+          "maximum": 718317.1875,
+          "cells": [
+            {
+              "cell": "AJ1958",
+              "header_strain": "ATCC10864",
+              "medium": "Cheerios",
+              "height": 718317.1875
+            },
+            {
+              "cell": "AK1958",
+              "header_strain": "ATCC10864",
+              "medium": "Oats",
+              "height": 342589
+            },
+            {
+              "cell": "AL1958",
+              "header_strain": "ATCC10864",
+              "medium": "Rice",
+              "height": 18972.7168
+            }
+          ]
+        },
+        {
+          "strain": "ATCC64048",
+          "maximum": 0,
+          "cells": [
+            {
+              "cell": "CM1958",
+              "header_strain": "ATCC64048",
+              "medium": "Rice",
+              "height": 0
+            },
+            {
+              "cell": "CN1958",
+              "header_strain": "ATCC64048",
+              "medium": "Cheerios",
+              "height": 0
+            },
+            {
+              "cell": "CO1958",
+              "header_strain": "ATCC64048",
+              "medium": "Oats",
+              "height": 0
+            }
+          ]
+        },
+        {
+          "strain": "NRRL62979",
+          "maximum": 39443.75391,
+          "cells": [
+            {
+              "cell": "LO1958",
+              "header_strain": "NRRL62979",
+              "medium": "Cheerios",
+              "height": 39443.75391
+            },
+            {
+              "cell": "LP1958",
+              "header_strain": "NRRL62979",
+              "medium": "Oats",
+              "height": 0
+            },
+            {
+              "cell": "LQ1958",
+              "header_strain": "NRRL62979",
+              "medium": "Rice",
+              "height": 22775.22656
+            }
+          ]
+        },
+        {
+          "strain": "ATCC1007",
+          "maximum": 0,
+          "cells": [
+            {
+              "cell": "K1958",
+              "header_strain": "ATCC1007",
+              "medium": "Cheerios",
+              "height": 0
+            },
+            {
+              "cell": "L1958",
+              "header_strain": "ATCC1007",
+              "medium": "Oats",
+              "height": 0
+            },
+            {
+              "cell": "M1958",
+              "header_strain": "ATCC1007",
+              "medium": "Rice",
+              "height": 0
+            }
+          ]
+        },
+        {
+          "strain": "CBS134.48",
+          "maximum": 0,
+          "cells": [
+            {
+              "cell": "DW1958",
+              "header_strain": "CBS134.48",
+              "medium": "Cheerios",
+              "height": 0
+            },
+            {
+              "cell": "DX1958",
+              "header_strain": "CBS134.48",
+              "medium": "Rice",
+              "height": 0
+            },
+            {
+              "cell": "DY1958",
+              "header_strain": "CBS134.48",
+              "medium": "Oats",
+              "height": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "physical_row": 6699,
+      "feature_id": 6691,
+      "mz": 415.1477082,
+      "rt_min": 2.269766667,
+      "source_name": "pestalamide derivative 3",
+      "strain_checks": [
+        {
+          "strain": "CBS 101.740",
+          "maximum": 35900000,
+          "cells": [
+            {
+              "cell": "DN6699",
+              "header_strain": "CBS 101.740",
+              "medium": "Cheerios",
+              "height": 9001982
+            },
+            {
+              "cell": "DO6699",
+              "header_strain": "CBS 101.740",
+              "medium": "Oats",
+              "height": 35900000
+            },
+            {
+              "cell": "DP6699",
+              "header_strain": "CBS 101.740",
+              "medium": "Rice",
+              "height": 17100000
+            }
+          ]
+        },
+        {
+          "strain": "ATCC9029",
+          "maximum": 1922859.375,
+          "cells": [
+            {
+              "cell": "CV6699",
+              "header_strain": "ATCC9029",
+              "medium": "Oats",
+              "height": 1922859.375
+            },
+            {
+              "cell": "CW6699",
+              "header_strain": "ATCC9029",
+              "medium": "Cheerios",
+              "height": 131657.1875
+            },
+            {
+              "cell": "CX6699",
+              "header_strain": "ATCC9029",
+              "medium": "Rice",
+              "height": 878565.1875
+            }
+          ]
+        },
+        {
+          "strain": "CBS113.46",
+          "maximum": 439804.7813,
+          "cells": [
+            {
+              "cell": "DT6699",
+              "header_strain": "CBS113.46",
+              "medium": "Rice",
+              "height": 407778.9063
+            },
+            {
+              "cell": "DU6699",
+              "header_strain": "CBS113.46",
+              "medium": "Cheerios",
+              "height": 76978.95313
+            },
+            {
+              "cell": "DV6699",
+              "header_strain": "CBS113.46",
+              "medium": "Oats",
+              "height": 439804.7813
+            }
+          ]
+        },
+        {
+          "strain": "ATCC13490",
+          "maximum": 1853247.625,
+          "cells": [
+            {
+              "cell": "AS6699",
+              "header_strain": "ATCC13490",
+              "medium": "Oats",
+              "height": 334668
+            },
+            {
+              "cell": "AT6699",
+              "header_strain": "ATCC13490",
+              "medium": "Cheerios",
+              "height": 69960.73438
+            },
+            {
+              "cell": "AU6699",
+              "header_strain": "ATCC13490",
+              "medium": "Rice",
+              "height": 1853247.625
+            }
+          ]
+        },
+        {
+          "strain": "ATCC13157",
+          "maximum": 54300000,
+          "cells": [
+            {
+              "cell": "AP6699",
+              "header_strain": "ATCC13157",
+              "medium": "Cheerios",
+              "height": 54300000
+            },
+            {
+              "cell": "AQ6699",
+              "header_strain": "ATCC13157",
+              "medium": "Rice",
+              "height": 3157371.75
+            },
+            {
+              "cell": "AR6699",
+              "header_strain": "ATCC13157",
+              "medium": "Oats",
+              "height": 19300000
+            }
+          ]
+        },
+        {
+          "strain": "ATCC64974",
+          "maximum": 916718.0625,
+          "cells": [
+            {
+              "cell": "CS6699",
+              "header_strain": "ATCC64974",
+              "medium": "Cheerios",
+              "height": 251423.25
+            },
+            {
+              "cell": "CT6699",
+              "header_strain": "ATCC64974",
+              "medium": "Rice",
+              "height": 916718.0625
+            },
+            {
+              "cell": "CU6699",
+              "header_strain": "ATCC64974",
+              "medium": "Oats",
+              "height": 556487.25
+            }
+          ]
+        },
+        {
+          "strain": "ATCC10864",
+          "maximum": 182632.1406,
+          "cells": [
+            {
+              "cell": "AJ6699",
+              "header_strain": "ATCC10864",
+              "medium": "Cheerios",
+              "height": 20146.62695
+            },
+            {
+              "cell": "AK6699",
+              "header_strain": "ATCC10864",
+              "medium": "Oats",
+              "height": 51092.57422
+            },
+            {
+              "cell": "AL6699",
+              "header_strain": "ATCC10864",
+              "medium": "Rice",
+              "height": 182632.1406
+            }
+          ]
+        },
+        {
+          "strain": "ATCC64048",
+          "maximum": 1371946.375,
+          "cells": [
+            {
+              "cell": "CM6699",
+              "header_strain": "ATCC64048",
+              "medium": "Rice",
+              "height": 0
+            },
+            {
+              "cell": "CN6699",
+              "header_strain": "ATCC64048",
+              "medium": "Cheerios",
+              "height": 10193.37695
+            },
+            {
+              "cell": "CO6699",
+              "header_strain": "ATCC64048",
+              "medium": "Oats",
+              "height": 1371946.375
+            }
+          ]
+        },
+        {
+          "strain": "NRRL62979",
+          "maximum": 343768.0938,
+          "cells": [
+            {
+              "cell": "LO6699",
+              "header_strain": "NRRL62979",
+              "medium": "Cheerios",
+              "height": 125696.1406
+            },
+            {
+              "cell": "LP6699",
+              "header_strain": "NRRL62979",
+              "medium": "Oats",
+              "height": 143707.3438
+            },
+            {
+              "cell": "LQ6699",
+              "header_strain": "NRRL62979",
+              "medium": "Rice",
+              "height": 343768.0938
+            }
+          ]
+        },
+        {
+          "strain": "ATCC1007",
+          "maximum": 0,
+          "cells": [
+            {
+              "cell": "K6699",
+              "header_strain": "ATCC1007",
+              "medium": "Cheerios",
+              "height": 0
+            },
+            {
+              "cell": "L6699",
+              "header_strain": "ATCC1007",
+              "medium": "Oats",
+              "height": 0
+            },
+            {
+              "cell": "M6699",
+              "header_strain": "ATCC1007",
+              "medium": "Rice",
+              "height": 0
+            }
+          ]
+        },
+        {
+          "strain": "CBS134.48",
+          "maximum": 33045.32031,
+          "cells": [
+            {
+              "cell": "DW6699",
+              "header_strain": "CBS134.48",
+              "medium": "Cheerios",
+              "height": 0
+            },
+            {
+              "cell": "DX6699",
+              "header_strain": "CBS134.48",
+              "medium": "Rice",
+              "height": 33045.32031
+            },
+            {
+              "cell": "DY6699",
+              "header_strain": "CBS134.48",
+              "medium": "Oats",
+              "height": 8681.563477
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "physical_row": 6724,
+      "feature_id": 6716,
+      "mz": 491.1858105,
+      "rt_min": 3.225169831,
+      "source_name": "pestalamide derivative 2",
+      "strain_checks": [
+        {
+          "strain": "CBS 101.740",
+          "maximum": 28900000,
+          "cells": [
+            {
+              "cell": "DN6724",
+              "header_strain": "CBS 101.740",
+              "medium": "Cheerios",
+              "height": 9793753
+            },
+            {
+              "cell": "DO6724",
+              "header_strain": "CBS 101.740",
+              "medium": "Oats",
+              "height": 28900000
+            },
+            {
+              "cell": "DP6724",
+              "header_strain": "CBS 101.740",
+              "medium": "Rice",
+              "height": 20400000
+            }
+          ]
+        },
+        {
+          "strain": "ATCC9029",
+          "maximum": 569816.1875,
+          "cells": [
+            {
+              "cell": "CV6724",
+              "header_strain": "ATCC9029",
+              "medium": "Oats",
+              "height": 260964.0938
+            },
+            {
+              "cell": "CW6724",
+              "header_strain": "ATCC9029",
+              "medium": "Cheerios",
+              "height": 0
+            },
+            {
+              "cell": "CX6724",
+              "header_strain": "ATCC9029",
+              "medium": "Rice",
+              "height": 569816.1875
+            }
+          ]
+        },
+        {
+          "strain": "CBS113.46",
+          "maximum": 607123.8125,
+          "cells": [
+            {
+              "cell": "DT6724",
+              "header_strain": "CBS113.46",
+              "medium": "Rice",
+              "height": 607123.8125
+            },
+            {
+              "cell": "DU6724",
+              "header_strain": "CBS113.46",
+              "medium": "Cheerios",
+              "height": 0
+            },
+            {
+              "cell": "DV6724",
+              "header_strain": "CBS113.46",
+              "medium": "Oats",
+              "height": 270544.2188
+            }
+          ]
+        },
+        {
+          "strain": "ATCC13490",
+          "maximum": 660034.75,
+          "cells": [
+            {
+              "cell": "AS6724",
+              "header_strain": "ATCC13490",
+              "medium": "Oats",
+              "height": 47682.82422
+            },
+            {
+              "cell": "AT6724",
+              "header_strain": "ATCC13490",
+              "medium": "Cheerios",
+              "height": 0
+            },
+            {
+              "cell": "AU6724",
+              "header_strain": "ATCC13490",
+              "medium": "Rice",
+              "height": 660034.75
+            }
+          ]
+        },
+        {
+          "strain": "ATCC13157",
+          "maximum": 20000000,
+          "cells": [
+            {
+              "cell": "AP6724",
+              "header_strain": "ATCC13157",
+              "medium": "Cheerios",
+              "height": 20000000
+            },
+            {
+              "cell": "AQ6724",
+              "header_strain": "ATCC13157",
+              "medium": "Rice",
+              "height": 3429131.5
+            },
+            {
+              "cell": "AR6724",
+              "header_strain": "ATCC13157",
+              "medium": "Oats",
+              "height": 2573750.75
+            }
+          ]
+        },
+        {
+          "strain": "ATCC64974",
+          "maximum": 694796.0625,
+          "cells": [
+            {
+              "cell": "CS6724",
+              "header_strain": "ATCC64974",
+              "medium": "Cheerios",
+              "height": 51648.36328
+            },
+            {
+              "cell": "CT6724",
+              "header_strain": "ATCC64974",
+              "medium": "Rice",
+              "height": 694796.0625
+            },
+            {
+              "cell": "CU6724",
+              "header_strain": "ATCC64974",
+              "medium": "Oats",
+              "height": 115193.2969
+            }
+          ]
+        },
+        {
+          "strain": "ATCC10864",
+          "maximum": 0,
+          "cells": [
+            {
+              "cell": "AJ6724",
+              "header_strain": "ATCC10864",
+              "medium": "Cheerios",
+              "height": 0
+            },
+            {
+              "cell": "AK6724",
+              "header_strain": "ATCC10864",
+              "medium": "Oats",
+              "height": 0
+            },
+            {
+              "cell": "AL6724",
+              "header_strain": "ATCC10864",
+              "medium": "Rice",
+              "height": 0
+            }
+          ]
+        },
+        {
+          "strain": "ATCC64048",
+          "maximum": 0,
+          "cells": [
+            {
+              "cell": "CM6724",
+              "header_strain": "ATCC64048",
+              "medium": "Rice",
+              "height": 0
+            },
+            {
+              "cell": "CN6724",
+              "header_strain": "ATCC64048",
+              "medium": "Cheerios",
+              "height": 0
+            },
+            {
+              "cell": "CO6724",
+              "header_strain": "ATCC64048",
+              "medium": "Oats",
+              "height": 0
+            }
+          ]
+        },
+        {
+          "strain": "NRRL62979",
+          "maximum": 0,
+          "cells": [
+            {
+              "cell": "LO6724",
+              "header_strain": "NRRL62979",
+              "medium": "Cheerios",
+              "height": 0
+            },
+            {
+              "cell": "LP6724",
+              "header_strain": "NRRL62979",
+              "medium": "Oats",
+              "height": 0
+            },
+            {
+              "cell": "LQ6724",
+              "header_strain": "NRRL62979",
+              "medium": "Rice",
+              "height": 0
+            }
+          ]
+        },
+        {
+          "strain": "ATCC1007",
+          "maximum": 0,
+          "cells": [
+            {
+              "cell": "K6724",
+              "header_strain": "ATCC1007",
+              "medium": "Cheerios",
+              "height": 0
+            },
+            {
+              "cell": "L6724",
+              "header_strain": "ATCC1007",
+              "medium": "Oats",
+              "height": 0
+            },
+            {
+              "cell": "M6724",
+              "header_strain": "ATCC1007",
+              "medium": "Rice",
+              "height": 0
+            }
+          ]
+        },
+        {
+          "strain": "CBS134.48",
+          "maximum": 0,
+          "cells": [
+            {
+              "cell": "DW6724",
+              "header_strain": "CBS134.48",
+              "medium": "Cheerios",
+              "height": 0
+            },
+            {
+              "cell": "DX6724",
+              "header_strain": "CBS134.48",
+              "medium": "Rice",
+              "height": 0
+            },
+            {
+              "cell": "DY6724",
+              "header_strain": "CBS134.48",
+              "medium": "Oats",
+              "height": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

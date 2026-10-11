@@ -1,0 +1,35 @@
+{
+  "records": [
+    {
+      "name": "class-table",
+      "url": "https://raw.githubusercontent.com/NPLinker/nplinker/d01a68a4b0569907d7e28d1a673a82a6790b7346/prototype/nplinker/data/MIBiG2.0_compounds_with_AS_BGC_CF_NPC_classes.txt",
+      "requested_utc": "2026-10-11T11:37:03.721805+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/NPLinker/nplinker/d01a68a4b0569907d7e28d1a673a82a6790b7346/prototype/nplinker/data/MIBiG2.0_compounds_with_AS_BGC_CF_NPC_classes.txt",
+      "bytes": 732160,
+      "sha256": "96268b2e2d20e935976892e4f052c32592073a763cba85f33c7c654215b566ff",
+      "matches_pinned_sha256": true
+    },
+    {
+      "name": "LICENSE",
+      "url": "https://raw.githubusercontent.com/NPLinker/nplinker/d01a68a4b0569907d7e28d1a673a82a6790b7346/LICENSE",
+      "requested_utc": "2026-10-11T11:37:04.193290+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/NPLinker/nplinker/d01a68a4b0569907d7e28d1a673a82a6790b7346/LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "matches_pinned_sha256": true
+    }
+  ],
+  "web_checks": [
+    {
+      "url": "https://github.com/NPLinker/nplinker/blob/d01a68a4b0569907d7e28d1a673a82a6790b7346/LICENSE",
+      "result": "Apache License Version2.0 displayed"
+    },
+    {
+      "url": "https://mibig.secondarymetabolites.org/about",
+      "result": "web open returned Internal Error; no license conclusion"
+    }
+  ],
+  "scope": "Current upstream retrieval and pinned-byte comparison, not redistribution-rights clearance. Table bytes were checked in memory; existing scientific input was not changed."
+}

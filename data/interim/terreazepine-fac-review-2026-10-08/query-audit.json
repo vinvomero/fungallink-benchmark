@@ -1,0 +1,30 @@
+{
+  "accession": "MT376588.1",
+  "record_length": 114922,
+  "genes": [
+    {
+      "gene": "FAC38_35",
+      "start": 92115,
+      "end": 99708,
+      "strand": -1,
+      "protein_id": "QMS79067.1",
+      "protein_length": 2510,
+      "translation_match": true
+    },
+    {
+      "gene": "FAC38_36",
+      "start": 101178,
+      "end": 102627,
+      "strand": -1,
+      "protein_id": "QMS79068.1",
+      "protein_length": 420,
+      "translation_match": true
+    }
+  ],
+  "query_start": 92115,
+  "query_end": 102627,
+  "query_length": 10513,
+  "sequence_sha256": "4d64bd11eedae00718de04e96cc5c6ab1fe98cb2bf4c308c0bff5d59a7006f29",
+  "genbank_sha256": "105467322604d7d4177444a3428ed693a9dec44777e8e57325bef6e8fc20aeff",
+  "scope": "Deposited tested-gene envelope; no whole-genome exclusivity or native input activation"
+}

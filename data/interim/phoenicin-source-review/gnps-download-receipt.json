@@ -1,0 +1,90 @@
+{
+  "url": "https://gnps.ucsd.edu/ProteoSAFe/DownloadResult?task=a52c88509a7741f59c7bc95c2ea39ce2&view=download_cytoscape_data",
+  "method": "POST read-only result download",
+  "status": 200,
+  "bytes": 3087838,
+  "sha256": "a5d0ac6ab8e32858b920e9921792dbad44ba4ec97be56145fa05adc4bd2d12e4",
+  "saved": true,
+  "members": [
+    {
+      "name": "FEATURE-BASED-MOLECULAR-NETWORKING-a52c8850-download_cytoscape_data-main.graphml",
+      "bytes": 1185980
+    },
+    {
+      "name": "params.xml",
+      "bytes": 6902
+    },
+    {
+      "name": "networking_pairs_results_file_filtered/eb8472f7d8954f2da7a852edd2b36f9f.tsv",
+      "bytes": 9181
+    },
+    {
+      "name": "networkedges_selfloop/8b7185874f424e5cb72a9c0c850b0803..selfloop",
+      "bytes": 26540
+    },
+    {
+      "name": "clusterinfo_summary/f9b4ba6d5ae74a129fdb544a737479c1.tsv",
+      "bytes": 324704
+    },
+    {
+      "name": "gnps_molecular_network_graphml/97c03314c7784b328807d760250c5167.graphml",
+      "bytes": 1185980
+    },
+    {
+      "name": "spectra/specs_ms.mgf",
+      "bytes": 171961
+    },
+    {
+      "name": "quantification_table_reformatted/dc69a1792ada4e38998b375e4844f9e7.csv",
+      "bytes": 202067
+    },
+    {
+      "name": "DB_result/901dfdadebc34dcca788c8e9b9f6e5e8.tsv",
+      "bytes": 31174
+    },
+    {
+      "name": "qiime2_output/qiime2_biplot_emperor.qzv",
+      "bytes": 772100
+    },
+    {
+      "name": "qiime2_output/permanova_ATTRIBUTE_SampleType.qzv",
+      "bytes": 334939
+    },
+    {
+      "name": "qiime2_output/qiime2_relative_table.qza",
+      "bytes": 101632
+    },
+    {
+      "name": "qiime2_output/qiime2_emperor.qzv",
+      "bytes": 761349
+    },
+    {
+      "name": "qiime2_output/qiime2_metadata.tsv",
+      "bytes": 2295
+    },
+    {
+      "name": "qiime2_output/permanova_ATTRIBUTE_medium.qzv",
+      "bytes": 454755
+    },
+    {
+      "name": "qiime2_output/qiime2_distance.qza",
+      "bytes": 21285
+    },
+    {
+      "name": "qiime2_output/qiime2_biplot.qza",
+      "bytes": 179561
+    },
+    {
+      "name": "qiime2_output/qiime2_table.qza",
+      "bytes": 96728
+    },
+    {
+      "name": "qiime2_output/qiime2_manifest.tsv",
+      "bytes": 1353
+    },
+    {
+      "name": "qiime2_output/qiime2_pcoa.qza",
+      "bytes": 27018
+    }
+  ]
+}

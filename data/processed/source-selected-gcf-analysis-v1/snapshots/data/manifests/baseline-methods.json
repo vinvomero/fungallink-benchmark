@@ -1,0 +1,304 @@
+{
+  "schema_version": "1",
+  "status": "synthetic-verified local baseline implementation; not a frozen biological experiment roster",
+  "implementation_version": "0.1.0",
+  "documentation": "docs/evaluation/baseline-methods.md",
+  "methods": [
+    {
+      "method_id": "uniform_random",
+      "name": "Uniform random ranking",
+      "implementation": "FungalLink local baselines",
+      "implementation_version": "0.1.0",
+      "source_path": "scripts/run_baselines.py",
+      "allowed_inputs": [
+        "candidate_pools",
+        "queries.query_id",
+        "queries.cohort_id",
+        "queries.candidate_pool_id"
+      ],
+      "definition": "Seeded permutation of sorted canonical candidate IDs; unique descending integer scores",
+      "degenerate_behavior": "No strain requirements",
+      "pretrained_assets": [],
+      "reference_databases": [],
+      "score_direction": "higher",
+      "score_cutoff": null,
+      "tiebreaking": "none; exact score ties preserved",
+      "preprocessing": "none; normalized abundance and binary presence supplied by release",
+      "failure_behavior": {
+        "missing_required_values": "input_unavailable with field/cell reason; no reduced candidate set or strain denominator",
+        "malformed_supplied_data": "ValueError in API; exit 2 in CLI",
+        "abstention": "reason without scores when declared above",
+        "fallback": null
+      }
+    },
+    {
+      "method_id": "global_prevalence",
+      "name": "Global prevalence",
+      "implementation": "FungalLink local baselines",
+      "implementation_version": "0.1.0",
+      "source_path": "scripts/run_baselines.py",
+      "allowed_inputs": [
+        "candidate_pools",
+        "queries.query_id",
+        "queries.cohort_id",
+        "queries.candidate_pool_id",
+        "queries.eligible_strain_ids",
+        "cohorts.feature_presence"
+      ],
+      "definition": "Feature-positive count divided by eligible-strain count",
+      "degenerate_behavior": "Empty eligible set: input_unavailable",
+      "pretrained_assets": [],
+      "reference_databases": [],
+      "score_direction": "higher",
+      "score_cutoff": null,
+      "tiebreaking": "none; exact score ties preserved",
+      "preprocessing": "none; normalized abundance and binary presence supplied by release",
+      "failure_behavior": {
+        "missing_required_values": "input_unavailable with field/cell reason; no reduced candidate set or strain denominator",
+        "malformed_supplied_data": "ValueError in API; exit 2 in CLI",
+        "abstention": "reason without scores when declared above",
+        "fallback": null
+      }
+    },
+    {
+      "method_id": "global_abundance",
+      "name": "Global abundance",
+      "implementation": "FungalLink local baselines",
+      "implementation_version": "0.1.0",
+      "source_path": "scripts/run_baselines.py",
+      "allowed_inputs": [
+        "candidate_pools",
+        "queries.query_id",
+        "queries.cohort_id",
+        "queries.candidate_pool_id",
+        "queries.eligible_strain_ids",
+        "cohorts.normalized_abundance"
+      ],
+      "definition": "Arithmetic mean of released normalized abundance across eligible strains",
+      "degenerate_behavior": "Empty eligible set: input_unavailable",
+      "pretrained_assets": [],
+      "reference_databases": [],
+      "score_direction": "higher",
+      "score_cutoff": null,
+      "tiebreaking": "none; exact score ties preserved",
+      "preprocessing": "none; normalized abundance and binary presence supplied by release",
+      "failure_behavior": {
+        "missing_required_values": "input_unavailable with field/cell reason; no reduced candidate set or strain denominator",
+        "malformed_supplied_data": "ValueError in API; exit 2 in CLI",
+        "abstention": "reason without scores when declared above",
+        "fallback": null
+      }
+    },
+    {
+      "method_id": "prevalence_difference",
+      "name": "Prevalence difference",
+      "implementation": "FungalLink local baselines",
+      "implementation_version": "0.1.0",
+      "source_path": "scripts/run_baselines.py",
+      "allowed_inputs": [
+        "candidate_pools",
+        "queries.query_id",
+        "queries.cohort_id",
+        "queries.candidate_pool_id",
+        "queries.eligible_strain_ids",
+        "cohorts.feature_presence",
+        "queries.genomic_presence"
+      ],
+      "definition": "n11/g - n01/(N-g), genomic index first",
+      "degenerate_behavior": "Either genomic denominator zero: abstention",
+      "pretrained_assets": [],
+      "reference_databases": [],
+      "score_direction": "higher",
+      "score_cutoff": null,
+      "tiebreaking": "none; exact score ties preserved",
+      "preprocessing": "none; normalized abundance and binary presence supplied by release",
+      "failure_behavior": {
+        "missing_required_values": "input_unavailable with field/cell reason; no reduced candidate set or strain denominator",
+        "malformed_supplied_data": "ValueError in API; exit 2 in CLI",
+        "abstention": "reason without scores when declared above",
+        "fallback": null
+      }
+    },
+    {
+      "method_id": "metcalf_raw",
+      "name": "Raw Metcalf measured-feature adaptation",
+      "implementation": "FungalLink local baselines",
+      "implementation_version": "0.1.0",
+      "source_path": "scripts/run_baselines.py",
+      "allowed_inputs": [
+        "candidate_pools",
+        "queries.query_id",
+        "queries.cohort_id",
+        "queries.candidate_pool_id",
+        "queries.eligible_strain_ids",
+        "cohorts.feature_presence",
+        "queries.genomic_presence"
+      ],
+      "definition": "10*n11 - 10*n01 + 0*n10 + n00, genomic index first",
+      "degenerate_behavior": "Constant vectors allowed, with contingency counts",
+      "pretrained_assets": [],
+      "reference_databases": [],
+      "score_direction": "higher",
+      "score_cutoff": null,
+      "tiebreaking": "none; exact score ties preserved",
+      "preprocessing": "none; normalized abundance and binary presence supplied by release",
+      "failure_behavior": {
+        "missing_required_values": "input_unavailable with field/cell reason; no reduced candidate set or strain denominator",
+        "malformed_supplied_data": "ValueError in API; exit 2 in CLI",
+        "abstention": "reason without scores when declared above",
+        "fallback": null
+      }
+    },
+    {
+      "method_id": "metcalf_standardized",
+      "name": "Standardized Metcalf measured-feature adaptation",
+      "implementation": "FungalLink local baselines",
+      "implementation_version": "0.1.0",
+      "source_path": "scripts/run_baselines.py",
+      "allowed_inputs": [
+        "candidate_pools",
+        "queries.query_id",
+        "queries.cohort_id",
+        "queries.candidate_pool_id",
+        "queries.eligible_strain_ids",
+        "cohorts.feature_presence",
+        "queries.genomic_presence"
+      ],
+      "definition": "(raw - fixed-margin hypergeometric mean) / standard deviation",
+      "degenerate_behavior": "Invariant genome: abstention; invariant feature: zero with zero_variance flag",
+      "pretrained_assets": [],
+      "reference_databases": [],
+      "score_direction": "higher",
+      "score_cutoff": null,
+      "tiebreaking": "none; exact score ties preserved",
+      "preprocessing": "none; normalized abundance and binary presence supplied by release",
+      "failure_behavior": {
+        "missing_required_values": "input_unavailable with field/cell reason; no reduced candidate set or strain denominator",
+        "malformed_supplied_data": "ValueError in API; exit 2 in CLI",
+        "abstention": "reason without scores when declared above",
+        "fallback": null
+      }
+    }
+  ],
+  "interpretation": "Six workflows are controls and related score variants, not six independent substantive approaches.",
+  "input_contract": {
+    "schema_version": "1",
+    "gold_access": "not accepted",
+    "tables": "cohort-shared candidate-to-strain maps",
+    "unknown_values": "missing or null; never absence",
+    "normalization": "supplied by versioned release; no normalization fitted here"
+  },
+  "runtime": {
+    "dependencies": "Python standard library only",
+    "verified_python": "CPython 3.13.5",
+    "per_run_record": [
+      "python_implementation",
+      "python_version",
+      "random_state_version"
+    ]
+  },
+  "random_parameters": {
+    "default_seed": 20260930,
+    "default_repeat_index": 0,
+    "repeat_scope": "one repeat per call",
+    "seed_derivation": "SHA256 of UTF-8 compact JSON array, ensure_ascii=False; unsigned big-endian digest",
+    "seed_fields_in_order": [
+      "literal:fungallink-baseline-random-v1",
+      "seed",
+      "repeat_index",
+      "track_id",
+      "query_type",
+      "candidate_universe_id",
+      "cohort_id",
+      "candidate_pool_id",
+      "query_id"
+    ],
+    "generator": "Python random.Random.shuffle",
+    "candidate_order": "sorted canonical IDs",
+    "derived_seed_serialization": "decimal string",
+    "later_work": "Biological group uncertainty is separate; repeated random aggregation, exact expectations and MCSE are implemented in scripts/evaluate_random.py (docs/evaluation/random-controls.md)."
+  },
+  "source_reference": {
+    "paper_url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008920",
+    "paper_sections": [
+      "2.1",
+      "2.2"
+    ],
+    "upstream_name": "NPLinker",
+    "upstream_version": "v2.0.3",
+    "upstream_commit": "1a4603b9171b1a8e1d791cfc4b358bf51f3cfb87",
+    "retrieved_at": "2026-10-01",
+    "files": [
+      {
+        "path": "src/nplinker/scoring/metcalf_scoring.py",
+        "sha256": "adef2ecf33aafc6db0e416d1023671333012454af723829b3afdcbc966bf5d9d",
+        "bytes": 15324,
+        "url": "https://github.com/NPLinker/nplinker/blob/1a4603b9171b1a8e1d791cfc4b358bf51f3cfb87/src/nplinker/scoring/metcalf_scoring.py"
+      },
+      {
+        "path": "tests/unit/scoring/test_metcalf_scoring.py",
+        "sha256": "fe157799ff88f28f0e9bd8ea3ddb4594f8348ab87cd447bc89f510a23e2a977a",
+        "bytes": 6457,
+        "url": "https://github.com/NPLinker/nplinker/blob/1a4603b9171b1a8e1d791cfc4b358bf51f3cfb87/tests/unit/scoring/test_metcalf_scoring.py"
+      },
+      {
+        "path": "LICENSE",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "url": "https://github.com/NPLinker/nplinker/blob/1a4603b9171b1a8e1d791cfc4b358bf51f3cfb87/LICENSE"
+      }
+    ],
+    "license": "Apache-2.0",
+    "code_use": "independent implementation; no vendored upstream code",
+    "scope": "formula adaptation for complete measured-feature rankings; not execution or equivalence of the NPLinker workflow",
+    "differences": [
+      "No upstream score cutoff",
+      "Invariant genomic vector abstains rather than receiving upstream zero",
+      "Exact invariant feature receives zero with explicit flag; no upstream variance<1e-9 floor"
+    ]
+  },
+  "exposure": {
+    "learned_training": "none",
+    "reference_record_access": "none",
+    "release_prior_exposure": "must be recorded separately; development/retrospective exposure is not reset by local implementation"
+  },
+  "validation": {
+    "fixture_inputs": "tests/fixtures/baselines/inputs.json",
+    "fixture_gold": "tests/fixtures/baselines/benchmark.json",
+    "tests": "tests/test_run_baselines.py",
+    "synthetic_only": true,
+    "test_count": 14,
+    "test_command": "python -S -m unittest tests.test_run_baselines -v",
+    "verified_at": "2026-10-01",
+    "red_evidence": "ModuleNotFoundError: No module named 'scripts.run_baselines' before implementation",
+    "normalization_check": "independent exhaustive fixed-size feature subsets, N=2..7, tallying table-cell weights",
+    "upstream_parity": {
+      "receipt": "tests/fixtures/baselines/upstream-parity-receipt.json",
+      "role": "host verification evidence; not a test oracle or runtime dependency",
+      "source_commit": "1a4603b9171b1a8e1d791cfc4b358bf51f3cfb87",
+      "source_sha256": "adef2ecf33aafc6db0e416d1023671333012454af723829b3afdcbc966bf5d9d",
+      "extracted_functions": [
+        "_calc_raw_score",
+        "_calc_mean_std"
+      ],
+      "scope": "Inspected static function bodies only; full NPLinker workflow not run",
+      "python": "3.13.5",
+      "numpy": "2.4.6",
+      "pandas": "3.0.5",
+      "scipy": "1.18.0",
+      "status": "passed",
+      "raw_cases": 494,
+      "standardized_cases": 406,
+      "declared_invariant_genome_abstentions": 88,
+      "invariant_feature_zero_flags": 56,
+      "max_absolute_standardized_difference": 9.325873406851315e-15,
+      "tolerance": 1e-10,
+      "interpretation": "Synthetic numerical parity of two pinned static function bodies, not full NPLinker workflow or biological validation"
+    }
+  },
+  "model_route": {
+    "requested_model": "gpt-6-astra",
+    "requested_reasoning_effort": "medium",
+    "serving_receipt": null,
+    "serving_receipt_status": "not exposed to worker"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "candidate_count": 1249,
+  "scored_count": 291,
+  "unavailable_count": 958,
+  "status_counts": {
+    "ok": 291,
+    "no_spectrum": 958
+  },
+  "candidate_coverage": 0.23298638911128902,
+  "target_id": "FLBY-C000798",
+  "target_status": "ok",
+  "target_reason": "",
+  "complete_query_ranking": false,
+  "evaluated_count_increment": 0,
+  "target_score": 0.0,
+  "higher_count": 94,
+  "tied_count": 197,
+  "scored_only_rank_interval": [
+    95,
+    291
+  ],
+  "full_pool_conservative_rank_interval": [
+    95,
+    1249
+  ]
+}

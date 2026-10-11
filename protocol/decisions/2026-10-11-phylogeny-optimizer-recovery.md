@@ -1,0 +1,13 @@
+# Conditional optimizer recovery for the phylogeny comparison
+
+This is an assistant-curated numerical-method amendment under the user's delegated research judgment. It follows inspection of the first failed pair, not inspection of its biological target status. It does not change admissions, gold, observation vectors, tree, candidate universe, rate limits, likelihood tolerance or scoring formula.
+
+Version 1.1 stopped after 786 successful pairs because a dependent fit had a lower likelihood than its independent counterpart. One isolated 100-start diagnostic did not resolve it. A dependent calculation with rates fixed to the independent solution reproduced its likelihood at printed precision. A separate ten-start SBPLX diagnostic found a better dependent likelihood and passed the existing check. These observations support a bounded optimizer fallback, not a claim of global convergence.
+
+The amended method keeps BOBYQA with ten starts and the original seed as its first attempt. Only a finite, well-formed pair failing the nested-likelihood check triggers one SBPLX attempt for both models, again with ten starts and the same seed. Select the highest likelihood separately for each model across the two algorithms; retain the primary fit on exact ties. Never select by target recovery, score, p-value or rate quotient. Reapply every original validity check. Malformed output, timeout and other failures do not trigger an unbounded retry. A failed fallback still stops execution.
+
+All valid existing primary fits can be reused after their identity, input vectors and native-file hashes match. The original failed primary pair is reused only after its saved input/tree/binary identity and both native logs are checked. All old output directories remain unchanged. New attempts and results go to a separate version 2 directory. A new run identity binds this amendment, recovery code, wrapper, original execution identity and activation, inputs, tree and executable. The old and new workflow locks must both be acquired before execution.
+
+Report the method as a conditional BOBYQA/SBPLX recovery variant, chosen retrospectively after numerical failure. Passing the check does not certify an optimum. Preserve the original failed run and every retry's provenance. Report fallback frequency and failures. No public release or correspondence is authorized by this amendment.
+
+Diagnostic receipts are in `data/interim/bayestraits-failed-pair-diagnostic-2026-10-11/`, `data/interim/bayestraits-nested-fixed-diagnostic-2026-10-11/`, and `data/interim/bayestraits-sbplx-diagnostic-2026-10-11/`. The official BayesTraits V3 manual documents MLAlg and MLTries on pages 58–59: https://www.evolution.reading.ac.uk/BayesTraitsV3/Files/BayesTraitsV3.Manual.pdf.

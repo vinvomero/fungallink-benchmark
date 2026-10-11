@@ -1,0 +1,7 @@
+{
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=MT376588&rettype=gbwithparts&retmode=text",
+  "utc": "2026-10-08T15:15:01.685331+00:00",
+  "sha256": "105467322604d7d4177444a3428ed693a9dec44777e8e57325bef6e8fc20aeff",
+  "accession": "MT376588.1",
+  "length": 114922
+}

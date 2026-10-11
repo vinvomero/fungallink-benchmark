@@ -1,0 +1,34 @@
+{
+  "retrieved_utc": "2026-10-08T15:03:51.341598+00:00",
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=XP_020052773,XP_020052774,XP_020052775&rettype=gb&retmode=text",
+  "sha256": "d8371a75c359a513dbcba4d0068dce1f6887db2fe1f4ba9f1cbc9bcfe8e20086",
+  "records": [
+    {
+      "id": "XP_020052773.1",
+      "length": 2413,
+      "coded_by": [
+        [
+          "XM_020201810.1:1..7242"
+        ]
+      ]
+    },
+    {
+      "id": "XP_020052774.1",
+      "length": 378,
+      "coded_by": [
+        [
+          "XM_020201811.1:1..1137"
+        ]
+      ]
+    },
+    {
+      "id": "XP_020052775.1",
+      "length": 422,
+      "coded_by": [
+        [
+          "XM_020198595.1:1..1269"
+        ]
+      ]
+    }
+  ]
+}

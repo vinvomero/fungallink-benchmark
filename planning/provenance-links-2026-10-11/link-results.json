@@ -1,0 +1,66 @@
+{
+  "scope": "GET exact six primary dependency URLs; streamed hashes, no duplicate source files retained",
+  "results": [
+    {
+      "workspace_path": "data/raw/expression-dataset-screen-2026-10-07/fac-supplement.pdf",
+      "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5577364.1/NIHMS859941-supplement-1.pdf?md5=3577120962028fb4e940fcd1a75e661e",
+      "checked_utc": "2026-10-11T20:00:25.896589+00:00",
+      "http_status": 200,
+      "final_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5577364.1/NIHMS859941-supplement-1.pdf?md5=3577120962028fb4e940fcd1a75e661e",
+      "bytes": 19775222,
+      "sha256": "6ea1aa7dc34516cf8dcf4b0003b3a9798ab4569106d8f1027dc94f22bcde0d72",
+      "matches_retained_bytes": true
+    },
+    {
+      "workspace_path": "data/interim/acu-dioxomorpholine-fac-review-2026-10-08/paper.xml",
+      "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5959802.1/PMC5959802.1.xml?md5=b52ac107ca8b5055b43e0ac961b7e6cb",
+      "checked_utc": "2026-10-11T20:00:25.899775+00:00",
+      "http_status": 200,
+      "final_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5959802.1/PMC5959802.1.xml?md5=b52ac107ca8b5055b43e0ac961b7e6cb",
+      "bytes": 82881,
+      "sha256": "e3ac5fdaaf152ecb8fa6e3e8d287ceab827860466be069349a801e74812b2ee3",
+      "matches_retained_bytes": true
+    },
+    {
+      "workspace_path": "data/interim/acu-dioxomorpholine-fac-review-2026-10-08/supplement.pdf",
+      "url": "https://ndownloader.figshare.com/files/11106800",
+      "checked_utc": "2026-10-11T20:00:25.900380+00:00",
+      "http_status": 200,
+      "final_url": "https://s3-eu-west-1.amazonaws.com/pstorage-acs-6854636/11106800/cb8b00024_si_001.pdf",
+      "bytes": 3896378,
+      "sha256": "6a3fec117fb628d2280366c4d71e857134e5289bf426df34a08a4ce4613c3d3b",
+      "matches_retained_bytes": true,
+      "redirect_note": "Transient signed redirect query removed; use the stable request URL."
+    },
+    {
+      "workspace_path": "data/raw/expression-dataset-screen-2026-10-07/hex-article.xml",
+      "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5895447.1/PMC5895447.1.xml?md5=3ce5fbef029225206e8a88a208d17816",
+      "checked_utc": "2026-10-11T20:00:25.901053+00:00",
+      "http_status": 200,
+      "final_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5895447.1/PMC5895447.1.xml?md5=3ce5fbef029225206e8a88a208d17816",
+      "bytes": 209198,
+      "sha256": "70069afea6c4696d8282433d5487abb44a69a36123d50485867d85200a8b1c91",
+      "matches_retained_bytes": true
+    },
+    {
+      "workspace_path": "data/interim/hex-pks15-pks23-review-2026-10-08/figure5.jpg",
+      "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5895447.1/aar5459-f5.jpg?md5=6a4c00797706800963eba32e1344f03a",
+      "checked_utc": "2026-10-11T20:00:25.901458+00:00",
+      "http_status": 200,
+      "final_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5895447.1/aar5459-f5.jpg?md5=6a4c00797706800963eba32e1344f03a",
+      "bytes": 256963,
+      "sha256": "7aa4f41a1e64d94848b55851f0163dbc7c51eba388e04499729ea489a8fa3813",
+      "matches_retained_bytes": true
+    },
+    {
+      "workspace_path": "data/raw/hex-measured-data-screen-2026-10-07/aar5459_SM.pdf",
+      "url": "https://www.ebi.ac.uk/biostudies/files/S-EPMC5895447/aar5459_SM.pdf",
+      "checked_utc": "2026-10-11T20:00:25.901884+00:00",
+      "http_status": 200,
+      "final_url": "https://ftp.ebi.ac.uk/pub/databases/biostudies/S-EPMC/447/S-EPMC5895447/Files/aar5459_SM.pdf",
+      "bytes": 12002579,
+      "sha256": "f8e9695a628e010bef448db4dbbc16b36d52a3dc254dae7a9f5cd295b7c1bbb4",
+      "matches_retained_bytes": true
+    }
+  ]
+}

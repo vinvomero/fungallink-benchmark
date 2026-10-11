@@ -1,0 +1,8 @@
+{
+  "retrieved_utc": "2026-10-08T15:05:05.655312+00:00",
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NW_017962991.1&rettype=gbwithparts&retmode=text",
+  "sha256": "20dd688c15f0fcd6d7164827ab7ac58062f4a6719ae86adda16f9655ec957ba2",
+  "id": "NW_017962991.1",
+  "length": 965467,
+  "scope": "Reference scaffold retrieval, not FAC clone sequencing"
+}

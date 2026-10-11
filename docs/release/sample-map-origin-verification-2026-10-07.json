@@ -1,0 +1,27 @@
+{
+  "checked_utc": "2026-10-07T20:22:13.5497842Z",
+  "checks": [
+    {
+      "historical_attachment": "../terralabv2/docs/governance/MSV000089848-sample-to-strain-map.csv",
+      "current_file": "MSV000089848sampletostrainmap.csv",
+      "sha256": "e435346d3f4752c9ae615eef819cba6d777fa8e5ad932f0e28694dfa3d384ce0",
+      "bytes": 93626,
+      "attachment_equals_current": true,
+      "current_equals_manifest": true,
+      "size_equals_manifest": true
+    },
+    {
+      "historical_attachment": "../terralabv2/docs/governance/MSV000089848-sample-to-strain-map.tsv",
+      "current_file": "MSV000089848sampletostrainmap.tsv",
+      "sha256": "12ac7182b139bd41a34a2b3d62c78fa6b7b091133f7f73a8f5f447a47cac7f3f",
+      "bytes": 93559,
+      "attachment_equals_current": true,
+      "current_equals_manifest": true,
+      "size_equals_manifest": true
+    }
+  ],
+  "sent_record": "../terralabv2/docs/governance/2026-08-31-caesar-reply-draft.md",
+  "source_manifest_unchanged": true,
+  "interpretation": "Project-generated reconciliations recorded as sent to Caesar on 2026-09-01; not unmodified depositor exports",
+  "limitations": "Retained sent record checked, not original email transport; does not validate every inferred edge or grant redistribution rights"
+}

@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-08T15:37:47.854326+00:00",
+  "before_sha256": "200aedb36dbc95dac191b57c889cebcf6647127cc4ac04da9c14310f4c1c5515",
+  "after_sha256": "369bc359ca6d0ba3e5d4c500ae216cb705f9a9234c4a598a9649cbef4b9a2574",
+  "preserved_prior_bytes": 49167,
+  "prior_rows": 25,
+  "current_rows": 26,
+  "queries": 15,
+  "evaluated_relationships": 11,
+  "decision": "protocol/decisions/2026-10-08-hex-pks15-admission.md"
+}

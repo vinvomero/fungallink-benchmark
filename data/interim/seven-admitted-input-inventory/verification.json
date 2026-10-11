@@ -1,0 +1,28 @@
+{
+  "canonical_ledger_before": {
+    "path": "data/curated/label-evidence.tsv",
+    "bytes": 11202,
+    "sha256": "d26d7dddf7ad8a9eaae7c080d990afa682762ecdaf07831a94933b5a70c2ea09"
+  },
+  "canonical_ledger_after": {
+    "path": "data/curated/label-evidence.tsv",
+    "bytes": 11202,
+    "sha256": "d26d7dddf7ad8a9eaae7c080d990afa682762ecdaf07831a94933b5a70c2ea09"
+  },
+  "source_workbook": {
+    "path": "data/raw/sources/caesar-2023/41589_2023_1276_MOESM4_ESM.xlsx",
+    "bytes": 19251141,
+    "sha256": "4726f832f82da431cc7e0a7b048b9e5d3e0d7de0831b8d20e9dab24bb5131fbb"
+  },
+  "verified_payload_files": 14,
+  "inventory_rows": 7,
+  "gcf_rows": 5,
+  "bgc_rows": 2,
+  "sampled_member_staging_rows": 51,
+  "member_rows_with_candidate_observations": 15,
+  "unresolved_member_join_rows": 36,
+  "candidate_count": 9339,
+  "requested_model": "gpt-6-astra",
+  "requested_reasoning_effort": "medium",
+  "actual_serving_receipt": "not_exposed"
+}

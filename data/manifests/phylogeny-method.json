@@ -1,0 +1,63 @@
+{
+  "method_id": "bayestraits3_directed_lrt",
+  "adapter_version": "1",
+  "method_version": "BayesTraits V3.0 (Mar 2 2017)",
+  "binary_sha256": "e4101e3f3b1c8111e8e3e418dff13c5b9919611e7294ddea1890d5c21631f552",
+  "license": {
+    "executable": "GPL-3.0 per official version 3 manual p63; archive contains no separate license text",
+    "reference_R": "GPL, version unspecified in header; retained unchanged in method-screen folder",
+    "adapter": "Independently authored Python, executable subprocess interface; no R source copied"
+  },
+  "sources": [
+    {
+      "url": "https://www.evolution.reading.ac.uk/BayesTraitsV3/Files/BayesTraitsV3-Linux.tar.gz",
+      "path": "data/raw/bayestraits-adapter-2026-10-07/BayesTraitsV3-Linux.tar.gz",
+      "bytes": 5822128,
+      "sha256": "0993d24884dfcb44f6ea90e470687f71ade13a75dbd38051a9f1d56d2e097267",
+      "retrieved": "2026-10-07"
+    },
+    {
+      "url": "https://www.evolution.reading.ac.uk/BayesTraitsV3/Files/BayesTraitsV3.Manual.pdf",
+      "path": "data/raw/bayestraits-adapter-2026-10-07/BayesTraitsV3.Manual.pdf",
+      "bytes": 2921460,
+      "sha256": "b74b2be26eb06fa995aaadc431b782e3c1b9a1e59b404266fbffa08cc0bed01a",
+      "retrieved": "2026-10-07"
+    }
+  ],
+  "selection_exposure": "Retrospective choice based on published Sorangium method; not independently blinded selection",
+  "source_study": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12800573/",
+  "reference_wrapper": "https://zenodo.org/records/17453824",
+  "parameters": {
+    "models": [
+      2,
+      3
+    ],
+    "analysis": 1,
+    "MLTries": 10,
+    "seed": 20261007,
+    "cores": 1,
+    "tree_mean_nonroot_branch_length": 0.1,
+    "rq_min": 0.65,
+    "source_prediction_alpha": 0.01,
+    "lrt_df": 4,
+    "branch_policy": "finite nonnegative, positive mean; preserve zeros; no floors"
+  },
+  "ranking_extension": "-log10 chi-square4 survival when RQ>=0.65; otherwise zero; constants zero; duplicate patterns restored",
+  "candidate_policy": "Full declared candidate universe; intended Caesar 9339, no label-dependent filtering",
+  "failure_policy": "Any missing or malformed pair fit makes whole query execution_failure without scores; constant query abstention; invalid inputs fail before executable",
+  "synthetic_evidence": {
+    "result": "data\\raw\\bayestraits-adapter-2026-10-07\\synthetic-result-final.json",
+    "wall_seconds": 0.619961468999918,
+    "unique_pairs": 2,
+    "fits": 4,
+    "candidate_count": 5,
+    "positive_rq": 0.9260330226493756,
+    "negative_rq": 0.07396697894770779
+  },
+  "fungal_status": "Not run; rooted tree and observation alignment pending",
+  "routing": {
+    "requested_model": "gpt-6-astra",
+    "requested_effort": "medium",
+    "actual_serving_receipt": null
+  }
+}

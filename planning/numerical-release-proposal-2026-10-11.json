@@ -1,0 +1,16 @@
+{
+  "status": "proposal_inventory_complete",
+  "rows": 117240,
+  "packages": {
+    "core": 458,
+    "phylogeny": 116782
+  },
+  "decision_counts": {
+    "CAESAR-DERIVED": 111320,
+    "LICENSE-CODE": 65,
+    "LICENSE-DATA": 446,
+    "ASSEMBLY-ATTRIBUTION": 5409
+  },
+  "inventory_sha256": "f16175e5786d12a521c6b92122f5298ef88bee2a97f72fc6a4badeef668e2a67",
+  "scope": "Exact member paths and hashes from previously verified package manifests. Role rules classify provenance dependencies; they are not legal clearance or per-file manual content review. No scientific file changed."
+}

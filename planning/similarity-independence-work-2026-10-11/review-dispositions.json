@@ -1,0 +1,41 @@
+{
+  "scope": "Host dispositions after original snapshot review; not a repeated formal review or scientific correctness certification",
+  "findings": {
+    "1": {
+      "status": "fixed",
+      "evidence": "prerequisite-preflight-fix.json"
+    },
+    "2": {
+      "status": "fixed",
+      "evidence": "prerequisite-preflight-fix.json"
+    },
+    "3": {
+      "status": "fixed",
+      "evidence": "exposure-version-fix.json"
+    },
+    "5": {
+      "status": "fixed",
+      "evidence": "fixture-evidence.json; host-verification.json; rejected-sequence-search-candidates.tsv"
+    },
+    "6": {
+      "status": "fixed",
+      "evidence": "exposure-version-fix.json; tests/test_similarity_independence.py"
+    },
+    "7": {
+      "status": "fixed",
+      "evidence": "fixture-evidence.json; alignment-cache.metadata.json; anchor-alignment-cache.metadata.json"
+    }
+  },
+  "validation": "12 affected tests passed;103input/output hashes plus report;4numerical projections unchanged",
+  "retained_testing_limits": [
+    "No dedicated multi-protein reciprocal-best tie/reversed-endpoint regression fixture",
+    "No dedicated full spectral eligibility output fixture spanning unknown-charge and empty-spectrum branches; current output null/count semantics checked"
+  ],
+  "scientific_limits": [
+    "25unsupported structure representations",
+    "Weight-specific complete training overlap unknown",
+    "One conservative complete-analysis group",
+    "Human scientific interpretation review pending"
+  ],
+  "next_action": "Integrate companion methods/results/tables into a newly versioned manuscript/private candidate; preserve frozen scores/groups."
+}

@@ -1,0 +1,39 @@
+[
+  [
+    "fac-scoring-blob.json",
+    "https://api.github.com/repos/lindsaycaesar/FAC-scoring/git/blobs/88cc121a07e7bb2575545ca3699ba84b25f8092a",
+    "GET",
+    {}
+  ],
+  [
+    "massive-datasets-page.html",
+    "https://massive.ucsd.edu/ProteoSAFe/datasets.jsp",
+    "GET",
+    {}
+  ],
+  [
+    "fac-scoring-branches.json",
+    "https://api.github.com/repos/lindsaycaesar/FAC-scoring/branches",
+    "GET",
+    {}
+  ],
+  [
+    "omicsdi-fac-title.json",
+    "https://www.omicsdi.org/ws/dataset/search",
+    "GET",
+    {
+      "query": "\"fungal artificial chromosomes\"",
+      "start": 0,
+      "size": 100
+    }
+  ],
+  [
+    "datacite-hex-title.json",
+    "https://api.datacite.org/dois",
+    "GET",
+    {
+      "query": "titles.title:\"HEx\" AND titles.title:\"fungal\"",
+      "page[size]": 100
+    }
+  ]
+]

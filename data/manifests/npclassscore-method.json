@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "method_id": "npclassscore_named_ontology_strict_v1",
+  "implementation_version": "1.0.0",
+  "implementation": "scripts/npclassscore.py",
+  "interface_document": "docs/evaluation/npclassscore-kernel.md",
+  "scope": "Independent stdlib forward counting kernel; not a full NPLinker workflow or independent substantive method",
+  "upstream": {
+    "name": "NPLinker",
+    "version": "1.2.0",
+    "repository": "https://github.com/NPLinker/nplinker",
+    "commit": "d01a68a4b0569907d7e28d1a673a82a6790b7346",
+    "inspected_functions": ["ClassMatches._read_mibig_classes", "ClassMatches._get_class_counts", "ClassMatches._get_scoring_tables", "NPClassScoring._npclass_score"],
+    "source_sha256": {
+      "class_matches.py": "fa7a2fa33441fcba85b550294ed460088d9a546c15baed2b13cab1703d6c3063",
+      "methods.py": "f79daa40b8bdcd5eb4d5d1a97fb40d24f68680e2d2183a1b2f1c124d24739ef6",
+      "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    }
+  },
+  "reference_asset": {
+    "name": "MIBiG2.0_compounds_with_AS_BGC_CF_NPC_classes.txt",
+    "reference_database": "MIBiG 2.0 bundled class table",
+    "upstream_path": "prototype/nplinker/data/MIBiG2.0_compounds_with_AS_BGC_CF_NPC_classes.txt",
+    "download_url": "https://raw.githubusercontent.com/NPLinker/nplinker/d01a68a4b0569907d7e28d1a673a82a6790b7346/prototype/nplinker/data/MIBiG2.0_compounds_with_AS_BGC_CF_NPC_classes.txt",
+    "sha256": "96268b2e2d20e935976892e4f052c32592073a763cba85f33c7c654215b566ff",
+    "size_bytes": 732160,
+    "compound_rows": 2112,
+    "vendored": false,
+    "upstream_code_license": "Apache-2.0",
+    "asset_rights": "No separate asset notice identified in inspection; underlying record redistribution rights not established"
+  },
+  "parameters": {
+    "direction": "genomic_to_spectral",
+    "aggregation": "maximum across usable class pairs",
+    "normalization": "pair count divided by sum of chemical pair counts for the genomic term at that chemical level",
+    "confidence_weighting": false,
+    "deduplicate_bgc": false,
+    "unknown_vocabulary": "input_unavailable",
+    "named_ontology_lookup": true
+  },
+  "inputs": {
+    "genomic_levels": ["mibig_classes", "as_classes"],
+    "spectral_levels": ["cf_kingdom", "cf_superclass", "cf_class", "cf_subclass", "cf_direct_parent", "npc_class", "npc_superclass", "npc_pathway", "npc_isglycoside"],
+    "genomic_values": "Already-normalized lists of terms",
+    "spectral_values": "One top predicted term string or null per level",
+    "gold_labels": "Not accepted",
+    "candidate_universe": "Not supplied to kernel; adapter must declare and validate benchmark candidate IDs"
+  },
+  "failure_behavior": {
+    "malformed_input": "ValueError",
+    "malformed_table": "ValueError",
+    "file_access": "Propagated filesystem error",
+    "unavailable_reasons": ["unknown_vocabulary", "missing_genomic_classes", "missing_spectral_classes", "no_usable_class_pairs"],
+    "known_absent_pair_with_denominator": "Valid empirical zero"
+  },
+  "deviations": [
+    "Named ontology lookup includes positional index zero skipped by inspected upstream scorer",
+    "Unknown supplied terms yield input_unavailable instead of upstream zero fallback",
+    "Duplicate compound identifiers raise ValueError instead of silent overwrite"
+  ],
+  "exposure": {
+    "reference_overlap": "Unknown until future benchmark overlap audit",
+    "class_prediction_training": "Outside kernel; adapter must record predictor and training provenance",
+    "fungal_compatibility": "Not established by kernel tests"
+  },
+  "verification": {
+    "synthetic_test_command": "python -m unittest tests.test_npclassscore",
+    "red_observed": "ModuleNotFoundError before scripts/npclassscore.py existed",
+    "actual_asset_smoke": {"status": "passed", "genomic_term": "Polyketide", "spectral_level": "npc_pathway", "spectral_term": "Polyketides", "count": 548, "forward_denominator": 722, "score": 0.7590027700831025},
+    "host_exhaustive_reference_comparison": {
+      "status": "passed",
+      "count_cells": 47419,
+      "forward_score_cells": 47419,
+      "maximum_absolute_score_difference": 0.0,
+      "scope": "Both supported genomic levels and all nine chemical levels",
+      "reference_runtime": "AST-extracted upstream source, python -X utf8, pandas dtype=float compatibility bridge; not a full NPLinker run"
+    }
+  },
+  "model_route": {
+    "requested_model": "gpt-6-astra",
+    "requested_reasoning": "medium",
+    "parent_reported_native_route": "gpt-6-astra/medium",
+    "actual_serving_receipt": null,
+    "actual_model_effort_verified": false
+  }
+}

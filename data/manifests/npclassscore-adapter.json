@@ -1,0 +1,73 @@
+{
+  "schema_version": "1",
+  "method_id": "npclassscore_threshold_tiered_metcalf_strict",
+  "method_version": "1",
+  "implementation": "examples/npclassscore_adapter.py",
+  "interface_document": "docs/evaluation/npclassscore-adapter.md",
+  "scope": "Separately authored full-ranking tier adaptation; not full upstream equivalence or an independent substantive method",
+  "kernel": {
+    "variant_id": "npclassscore_named_ontology_strict_v1",
+    "version": "1.0.0",
+    "manifest": "data/manifests/npclassscore-method.json"
+  },
+  "source_metcalf": {
+    "method_id": "metcalf_standardized",
+    "version": "Copied from supplied run; not inferred",
+    "complete_candidate_scores_required": true
+  },
+  "parameters": {
+    "threshold": 0.25,
+    "operator": ">",
+    "ranking": [
+      "passes_threshold descending",
+      "standardized_metcalf_score descending"
+    ],
+    "score_encoding": "Dense ordinal integers; identical tuples tie",
+    "shared_strain_filter": false,
+    "metcalf_cutoff": null
+  },
+  "fixture": {
+    "synthetic": true,
+    "class_table": "tests/fixtures/npclassscore/class-table.tsv",
+    "sha256": "de3381bf6d9fc72a5c3f75ca7c1c4544e8717e9eed5604480e8266f1e51d2801",
+    "size_bytes": 503,
+    "annotations": "Invented; no biological measurements or predictor results"
+  },
+  "production_reference": {
+    "manifest": "data/manifests/npclassscore-method.json",
+    "sha256": "96268b2e2d20e935976892e4f052c32592073a763cba85f33c7c654215b566ff",
+    "size_bytes": 732160,
+    "vendored": false
+  },
+  "provenance_fields": [
+    "genomic_classes",
+    "spectral_class_predictions",
+    "feature_spectrum_joins",
+    "class_reference_exposure"
+  ],
+  "provenance_validation": "Nonempty declarations only; scientific validity and exposure remain unaudited",
+  "failure_behavior": {
+    "missing_spectrum_or_classes": "Whole query input_unavailable; full audit; no scores",
+    "baseline_nonoutput": "Propagate status and reason without scores",
+    "malformed_input": "ValueError; CLI exit 2",
+    "programming_error": "Propagates; never converted to scientific status"
+  },
+  "deviations": [
+    "Full pool ranking reinserts failed-threshold links; upstream filters >0.25",
+    "Strict missing class coverage rather than upstream optional missing retention",
+    "Named ontology index zero included; unknown vocabulary unavailable",
+    "Supplied normalized annotations bypass conversion and GCF aggregation"
+  ],
+  "verification": {
+    "test_command": "python -S -m unittest tests.test_npclassscore_adapter -v",
+    "red_observed": "ModuleNotFoundError: No module named 'examples' before adapter existed",
+    "authorship": "Public documentation and manifest only; dependency implementations and tests unread",
+    "biological_validation": false
+  },
+  "model_route": {
+    "requested_model": "gpt-6-astra",
+    "requested_reasoning": "medium",
+    "actual_serving_receipt": null,
+    "actual_model_effort_verified": false
+  }
+}

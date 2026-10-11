@@ -1,0 +1,30 @@
+{
+  "utc": "2026-10-11T17:50:42.704431+00:00",
+  "reason": "Completed phylogeny outputs require a concrete release scope; previous generic source dependency holds do not classify the new files.",
+  "local_evidence": [
+    "docs/release/source-rights-review-2026-10-07.md",
+    "docs/release/source-provenance-addendum-2026-10-07.md",
+    "data/interim/publisher-reuse-check-2026-10-08/receipts.json"
+  ],
+  "requests": [
+    {
+      "operation": "open",
+      "url": "https://www.nature.com/articles/s41589-023-01276-8",
+      "result": "Article page available through cookie-error redirect; identifies the two supplements and public accession sources; subscription preview."
+    },
+    {
+      "operation": "search",
+      "queries": [
+        "site.springernature.com research data supplementary information copyright numerical data permissions reuse",
+        "site.nature.com supplementary information reuse data permission tables numerical data"
+      ],
+      "result": "Official support excerpts describe recommended data licences and permission routes. No payload-specific grant for the retained Caesar workbook/archive or author workbook established."
+    }
+  ],
+  "stop_reason": "Generic policy does not resolve these exact payloads. No repeat broad policy search planned. No inference that numerical facts require permission.",
+  "primary_sources": [
+    "https://support.springernature.com/en/support/solutions/articles/6000237622-select-the-right-licence-for-your-data",
+    "https://support.springernature.com/en/support/solutions/articles/6000085109-permissions-requests"
+  ],
+  "source_capture": "Tool-returned page and search excerpts; no new raw HTML downloaded."
+}

@@ -1,0 +1,31 @@
+{
+  "source_files": [
+    {
+      "file": "aar5459_DatafileS1.zip",
+      "bytes": 534336,
+      "sha256": "59b3676602610d66501953c3dc89d3fef94b14a77192442ae87d8b7a1c9c1c25"
+    },
+    {
+      "file": "aar5459_SM.pdf",
+      "bytes": 12002579,
+      "sha256": "f8e9695a628e010bef448db4dbbc16b36d52a3dc254dae7a9f5cd295b7c1bbb4"
+    },
+    {
+      "file": "aar5459_FigS7.pdf",
+      "bytes": 189533,
+      "sha256": "6fb7ce23acda0041ff1a411130928e8fb87434383513277bb044094e3a2e06d1"
+    },
+    {
+      "file": "supp_4_4_eaar5459__index.html",
+      "bytes": 10733,
+      "sha256": "a67c336476bc6f6313e657b90f8a62facd3f30870108200d223f129390b82585"
+    }
+  ],
+  "zip_members": [
+    "aar5459_Data file S1.gb"
+  ],
+  "genbank_records": 78,
+  "unique_record_names": 78,
+  "supplement_pages": 72,
+  "scope": "Host file-integrity and inventory check; no sequence correspondence or biological admission."
+}

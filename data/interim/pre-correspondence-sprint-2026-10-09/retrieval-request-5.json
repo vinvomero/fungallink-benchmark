@@ -1,0 +1,70 @@
+[
+  [
+    "fac-scoring-tree.json",
+    "https://api.github.com/repos/lindsaycaesar/FAC-scoring/git/trees/master",
+    "GET",
+    {
+      "recursive": 1
+    }
+  ],
+  [
+    "omicsdi-0.json",
+    "https://www.omicsdi.org/ws/dataset/search",
+    "GET",
+    {
+      "query": "aar5459",
+      "start": 0,
+      "size": 100
+    }
+  ],
+  [
+    "omicsdi-1.json",
+    "https://www.omicsdi.org/ws/dataset/search",
+    "GET",
+    {
+      "query": "nchembio.2408",
+      "start": 0,
+      "size": 100
+    }
+  ],
+  [
+    "omicsdi-2.json",
+    "https://www.omicsdi.org/ws/dataset/search",
+    "GET",
+    {
+      "query": "benzomalvin",
+      "start": 0,
+      "size": 100
+    }
+  ],
+  [
+    "omicsdi-3.json",
+    "https://www.omicsdi.org/ws/dataset/search",
+    "GET",
+    {
+      "query": "\"heterologous expression platform\"",
+      "start": 0,
+      "size": 100
+    }
+  ],
+  [
+    "massive-terreazepine.json",
+    "https://massive.ucsd.edu/ProteoSAFe/QueryDatasets",
+    "GET",
+    {
+      "pageSize": 100,
+      "offset": 0,
+      "query": "{\"title_input\":\"terreazepine\"}"
+    }
+  ],
+  [
+    "massive-dioxomorpholine.json",
+    "https://massive.ucsd.edu/ProteoSAFe/QueryDatasets",
+    "GET",
+    {
+      "pageSize": 100,
+      "offset": 0,
+      "query": "{\"title_input\":\"dioxomorpholine\"}"
+    }
+  ]
+]

@@ -1,0 +1,47 @@
+{
+  "track_id": "synthetic-feature",
+  "query_type": "GCF",
+  "candidate_universe_id": "synthetic-npclass-v1",
+  "queries": [
+    {
+      "query_id": "q-complete",
+      "group_id": "invented-group",
+      "cohort_id": "complete",
+      "candidate_ids": [
+        "b",
+        "d",
+        "a",
+        "c"
+      ],
+      "products": {
+        "invented-product-1": [
+          "a",
+          "c"
+        ],
+        "invented-product-2": [
+          "d"
+        ]
+      }
+    },
+    {
+      "query_id": "q-missing",
+      "group_id": "invented-group",
+      "cohort_id": "missing",
+      "candidate_ids": [
+        "b",
+        "d",
+        "a",
+        "c"
+      ],
+      "products": {
+        "invented-product-1": [
+          "a",
+          "c"
+        ],
+        "invented-product-2": [
+          "d"
+        ]
+      }
+    }
+  ]
+}

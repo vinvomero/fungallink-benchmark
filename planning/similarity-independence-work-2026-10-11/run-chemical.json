@@ -1,0 +1,99 @@
+{
+  "finished": "2026-10-11T21:17:07.587287+00:00",
+  "command": [
+    "scripts/similarity_independence.py",
+    "--stage",
+    "chemical"
+  ],
+  "environment": {
+    "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+    "executable": "C:\\Users\\vvome\\.cache\\fl-similarity-v1\\Scripts\\python.exe",
+    "packages": {
+      "rdkit": {
+        "version": "2026.3.5",
+        "RECORD_sha256": "4e1607dd0b408afc36a063a1358275cdeef8cf5c6dcb0c858fbb18eb677aa8d0"
+      },
+      "biopython": {
+        "version": "1.88",
+        "RECORD_sha256": "1b4581827eda8e3ffb6651dd957dd0094a5dbd969fd8fa07d18a0851d7a2e4b0"
+      },
+      "matchms": {
+        "version": "0.33.1",
+        "RECORD_sha256": "8f414900d769471a845c0af6ed8b78c474c26502cf4b223dd2db63791142f8fe"
+      },
+      "numpy": {
+        "version": "2.4.6",
+        "RECORD_sha256": "aee710ad55880c692adf855dfbbb6a1a3429f396c6e4410bf558a6b9c9dcf631"
+      },
+      "scipy": {
+        "version": "1.16.3",
+        "RECORD_sha256": "62f16fd3a0560a3510c114b968556dd3447192f7ad997185fdde91633a9d44d8"
+      },
+      "lxml": {
+        "version": "6.0.2",
+        "RECORD_sha256": "c226b5437e7f8bb802a49588169039b1e75779cac5a05764755617c6f996d00e"
+      }
+    }
+  },
+  "inputs": {
+    "data/curated/relationship-readiness-v1.tsv": "9b2e7c754830a1eb59086b3f675ca45edef77dffa88efaf0ecdedd04f3ce09e8",
+    "data/curated/label-evidence.tsv": "f35db5f65840e2e11dae4e47eb8a0dab08cb7dac4d0ced079034fd7562333cda",
+    "data/manifests/relationship-traceability-v1.tsv": "64758cb34449ca4b8911c12607084020df1dce167c21c32c9b8b0ac62bada965",
+    "data/manifests/task-exposure-v1.tsv": "36be8944c1c198694e1d6c68f9bf76093a6b06aef36f50801de59dbd9ce3271f",
+    "protocol/similarity-independence-v1.md": "b017b7a6a64f965bb380663708f9bf58f862e7a18e12fc443c83417e4afd1146",
+    "docs/plans/2026-10-11-1704-similarity-independence-plan.md": "4657b96361a483811bfd12427bd52ce6635f908d9ee82b59a7b8c49af6b95479",
+    "scripts/similarity_independence.py": "7536120c54dcefc6c93d84378767495cd9e2e64c8842f2c0d7749725888ab87f",
+    "data/raw/sources/caesar-2023/41589_2023_1276_MOESM3_ESM.zip": "0cef389310eccd261255e51919e7fe5f1f772cc73be2b0d42e0f5f8e30245a54",
+    "planning/similarity-independence-work-2026-10-11/parameters.json": "b35afd8f2ade09def3bf42576224c60c2fe99c5c6c75c69bffb6f485e1b26a6f",
+    "data/interim/admitted-input-coverage-2026-10-09/spec2class/MIBiG2.0_compounds_with_AS_BGC_CF_NPC_classes.txt": "96268b2e2d20e935976892e4f052c32592073a763cba85f33c7c654215b566ff",
+    "docs/evidence/acetylaszonalenin-sampled-correspondence-2026-10-03.md": "c2085940b6a9c52dee41232eec0c5f99d20455a8f3c5b59b65a0e4af7acc00e4",
+    "docs/evidence/emericellamide-a.md": "6e03396f65f8d7fbb5e8c78c1bb759a6c8e51ad76500ab1499c0c11b7c5a3773",
+    "docs/evidence/chrysogine-aspernidine-review-2026-10-01.md": "b3976904c4891d880c7ed0500c802b7e60703fd327d1139f3051681052150524",
+    "docs/evidence/remaining-reference-appraisals-2026-10-01.md": "a37c830d72c32ec81ad4a4cb00b34aa83df5d3819fadfd18097dbf564fbebf95",
+    "docs/evidence/griseofulvin-review-2026-10-01.md": "18aadccd57d0955c7d5d411208e5c9a8f9d3cc9752552e363d677a6d7d4bab42"
+  },
+  "parameters": {
+    "chemical": {
+      "radius": 2,
+      "bits": 2048,
+      "bond_types": true,
+      "chirality": false,
+      "flags": [
+        0.7,
+        0.9
+      ]
+    },
+    "genomic": {
+      "matrix": "BLOSUM62",
+      "mode": "global",
+      "open_gap_score": -10,
+      "extend_gap_score": -0.5,
+      "terminal_gaps": "same_as_internal",
+      "tie_rule": "first_library_optimal_path",
+      "coverage": 0.8,
+      "identity_flags": [
+        0.7,
+        0.9
+      ]
+    },
+    "spectral": {
+      "tolerance_Da": 0.02,
+      "mz_power": 0,
+      "intensity_power": 1,
+      "min_mz": 10,
+      "precursor_exclusion_Da": 1,
+      "relative_intensity": 0.01,
+      "transform": "sqrt_then_L2",
+      "minimum_matches": 6,
+      "flags": [
+        0.7,
+        0.9
+      ]
+    }
+  },
+  "status": "complete",
+  "outputs": {
+    "data/processed/similarity-independence-v1/chemical-pairs.tsv": "4921807705d09a925e2d9999a61538403601eed18ed18ecd8f3e42ec50a11fec",
+    "data/processed/similarity-independence-v1/structures.tsv": "0574364d0268d3ba1d60e1ecf685c0e2a3548ceb480e424ab5dd425f81c71641"
+  }
+}

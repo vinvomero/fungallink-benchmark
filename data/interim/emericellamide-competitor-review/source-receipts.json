@@ -1,0 +1,47 @@
+[
+  {
+    "file": "GCA_000011425.1_ASM1142v1_protein.faa.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/011/425/GCA_000011425.1_ASM1142v1/GCA_000011425.1_ASM1142v1_protein.faa.gz",
+    "bytes": 3318621,
+    "sha256": "64dbd3f5111fd57e4aa947035877a32b6d65fcaea08f4c865851bea4fa7779fc",
+    "md5": "6eef57c35af6b5b3a2cf342ac6ccb418",
+    "last_modified": "Thu, 16 Jun 2016 07:33:20 GMT",
+    "retrieved_utc": "2026-10-02T22:57:18.578827+00:00"
+  },
+  {
+    "file": "GCA_000011425.1_ASM1142v1_feature_table.txt.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/011/425/GCA_000011425.1_ASM1142v1/GCA_000011425.1_ASM1142v1_feature_table.txt.gz",
+    "bytes": 612030,
+    "sha256": "4e1e14cc4d3caa364f83e6e606698e8631da7db9848badcf226a7778999c03fc",
+    "md5": "64f3fdea529e343a754739935a083034",
+    "last_modified": "Sun, 24 Dec 2017 03:36:49 GMT",
+    "retrieved_utc": "2026-10-02T22:57:18.341781+00:00"
+  },
+  {
+    "file": "GCA_000011425.1_ASM1142v1_assembly_report.txt",
+    "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/011/425/GCA_000011425.1_ASM1142v1/GCA_000011425.1_ASM1142v1_assembly_report.txt",
+    "bytes": 1832,
+    "sha256": "f0e37b0314b237c450f74d2a5a3e3b6c556709102b870134c5686ad094c84943",
+    "md5": "ab41e4a5ca8f96f6adf9c48b2872297b",
+    "last_modified": "Sat, 19 Oct 2024 03:25:31 GMT",
+    "retrieved_utc": "2026-10-02T22:57:18.289672+00:00"
+  },
+  {
+    "file": "md5checksums.txt",
+    "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/011/425/GCA_000011425.1_ASM1142v1/md5checksums.txt",
+    "bytes": 1263,
+    "sha256": "10666a6b292069bebe391f2c74ea4d71251cb5f7ae7c34ddb534cc973f6d1d2c",
+    "md5": "af18b47d4711f655ade99d5a385757bd",
+    "last_modified": "Thu, 19 Jun 2025 05:14:38 GMT",
+    "retrieved_utc": "2026-10-02T22:57:18.279793+00:00"
+  },
+  {
+    "file": "annotation_hashes.txt",
+    "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/011/425/GCA_000011425.1_ASM1142v1/annotation_hashes.txt",
+    "bytes": 410,
+    "sha256": "99beb1f6ebc51fb9a8b4e919a300d8e719c32741e053c9649f31d29a5dd98505",
+    "md5": "5e5dd868f1df0a34fca5b641f7390ea8",
+    "last_modified": "Thu, 19 Jun 2025 05:14:38 GMT",
+    "retrieved_utc": "2026-10-02T22:57:18.287857+00:00"
+  }
+]

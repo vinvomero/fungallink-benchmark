@@ -1,0 +1,135 @@
+{
+  "retrieval_date": "2026-10-07",
+  "created_utc": "2026-10-07T12:09:15.677963+00:00",
+  "retrieval_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=KX449366.1&rettype=gbwithparts&retmode=text",
+  "record_id": "KX449366.1",
+  "record_length": 118762,
+  "record_sequence_sha256": "621bba55e23584d114043c535103ff75b2fab9a463290b33d86944f6343f9d14",
+  "source_note": [
+    "derived from Aspergillus terreus ATCC 20542"
+  ],
+  "genes": [
+    {
+      "record_gene": "sttB",
+      "start_1based": 17667,
+      "end_1based": 19687,
+      "strand": -1,
+      "cds_location": "join{[19650:19687](-), [19356:19589](-), [19156:19294](-), [19022:19104](-), [18283:18967](-), [18012:18213](-), [17920:17945](-), [17666:17859](-)}",
+      "protein_id": "AQM58280.1",
+      "product": "cytochrome P450"
+    },
+    {
+      "record_gene": "sttA",
+      "start_1based": 20118,
+      "end_1based": 22733,
+      "strand": 1,
+      "cds_location": "join{[20117:20770](+), [20833:21614](+), [21663:21818](+), [21866:22030](+), [22091:22345](+), [22403:22733](+)}",
+      "protein_id": "AQM58281.1",
+      "product": "isoprenoid synthase"
+    },
+    {
+      "record_gene": "lptB",
+      "start_1based": 50180,
+      "end_1based": 57992,
+      "strand": -1,
+      "cds_location": "join{[57706:57992](-), [57493:57629](-), [55403:57443](-), [51654:55335](-), [50179:51602](-)}",
+      "protein_id": "AQM58285.1",
+      "product": "polyketide synthase"
+    },
+    {
+      "record_gene": "lptA",
+      "start_1based": 58954,
+      "end_1based": 66867,
+      "strand": 1,
+      "cds_location": "[58953:66867](+)",
+      "protein_id": "AQM58286.1",
+      "product": "non-ribosomal peptide synthase"
+    },
+    {
+      "record_gene": "benZ",
+      "start_1based": 77570,
+      "end_1based": 84852,
+      "strand": -1,
+      "cds_location": "join{[84357:84852](-), [77569:84295](-)}",
+      "protein_id": "AQM58287.1",
+      "product": "non-ribosomal peptide synthase"
+    },
+    {
+      "record_gene": "benY",
+      "start_1based": 86356,
+      "end_1based": 89688,
+      "strand": 1,
+      "cds_location": "[86355:89688](+)",
+      "protein_id": "AQM58288.1",
+      "product": "non-ribosomal peptide synthase"
+    },
+    {
+      "record_gene": "benX",
+      "start_1based": 90489,
+      "end_1based": 91727,
+      "strand": -1,
+      "cds_location": "join{[91440:91727](-), [90629:91354](-), [90488:90562](-)}",
+      "protein_id": "AQM58289.1",
+      "product": "N-methyltransferase"
+    }
+  ],
+  "vector_annotation_1based_inclusive": [
+    102722,
+    118762
+  ],
+  "vector_annotation_length": 16041,
+  "article_vector_length": 16040,
+  "article_insert_length": 102722,
+  "coordinate_discrepancy": "For six named pathway genes, Table2 lower endpoints exceed deposited lower endpoints by 6 and upper endpoints by 7; valA/lptB has both endpoints higher by 7. No uniform coordinate conversion asserted.",
+  "parser": "Biopython 1.88",
+  "hash_definition": "SHA256 raw file bytes; sequence hashes uppercase ASCII bases without header or newline; envelopes use seq[start-1:end]",
+  "sources": [
+    {
+      "path": "data/raw/fac9j20-query-appraisal-2026-10-07/KX449366.1.gb",
+      "bytes": 185066,
+      "sha256": "8a83376c0937ce3f4ce280a759c67f0712546ccfd418f138b8e2b12873857211"
+    },
+    {
+      "path": "data/raw/expression-dataset-screen-2026-10-07/fac-text.txt",
+      "bytes": 77100,
+      "sha256": "f972dc8173976c5418e2e0b2eb62df1daa74498418535e2ec669c2f96256e822"
+    },
+    {
+      "path": "data/raw/expression-dataset-screen-2026-10-07/fac-supplement.pdf",
+      "bytes": 19775222,
+      "sha256": "6ea1aa7dc34516cf8dcf4b0003b3a9798ab4569106d8f1027dc94f22bcde0d72"
+    },
+    {
+      "path": "data/raw/expression-dataset-screen-2026-10-07/fac-supplement.txt",
+      "bytes": 28308,
+      "sha256": "93ad0bfc57c6e8996633128bbfae79fc680e4496be073747c731d9ea39c750ef"
+    },
+    {
+      "path": "data/raw/expression-dataset-screen-2026-10-07/fac-locus-accession-summary.json",
+      "bytes": 745,
+      "sha256": "e55bdd9c5e159e1093ffd99df49038987e8112ce11f53e8eab7957e1cafd98ba"
+    },
+    {
+      "path": "docs/data/fac-supplement-evidence-2026-10-07.md",
+      "bytes": 10932,
+      "sha256": "5553c95696f40e6baa4638768b1bb366fda58e9e24dcfacbadd962c4fbb456c1"
+    },
+    {
+      "path": "data/curated/fac-supplement-evidence-2026-10-07.tsv",
+      "bytes": 16778,
+      "sha256": "735200cd87ee9fbd04385b2e6cd154fa0277e29982cd12ad0f10991dd19c9882"
+    }
+  ],
+  "derived_tsv": {
+    "path": "data/curated/fac9j20-query-appraisal-2026-10-07.tsv",
+    "bytes": 5003,
+    "sha256": "14e55f72d054058abe37d8305ff38ff1f8238cb60d846ddb4a16f3ef0c6b2ece"
+  },
+  "rights": "Existing public record downloaded for private appraisal; no public redistribution or license clearance performed.",
+  "routing": {
+    "requested_model": "gpt-6-astra",
+    "requested_reasoning": "medium",
+    "actual_model": "serving receipt unavailable",
+    "actual_reasoning": "serving receipt unavailable"
+  }
+}

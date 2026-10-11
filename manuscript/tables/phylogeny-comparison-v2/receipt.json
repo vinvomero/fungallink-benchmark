@@ -1,0 +1,38 @@
+{
+  "created_utc": "2026-10-11T17:42:16.762174+00:00",
+  "status": "complete",
+  "command": [
+    "python",
+    "scripts/export_phylogeny_paper_tables.py",
+    "--root",
+    "/home/vvomero/.cache/fungallink-terminal-audit-2026-10-11",
+    "--output",
+    "/mnt/c/Users/vvome/OneDrive/Desktop/Claude Projects/fungallinkv2/manuscript/tables/phylogeny-comparison-v2"
+  ],
+  "exporter_sha256": "95fd19bea0bf699b4478ca5d093a81b6af2811978ab328bb85af5067ce60f16f",
+  "completion_sha256": "276d1f9c52651de4a5081404feb362e61dd79fc0b3ad5bd8567dae535aa16db6",
+  "input_sha256": {
+    "data/processed/source-selected-phylogeny-comparison-v2-results/global_prevalence.evaluation.json": "f5f8dbf774dfb308e74ae2fee576f3be4ccb5709bf9ff9075418131dfdd71dd6",
+    "data/processed/source-selected-phylogeny-comparison-v2-results/prevalence_difference.evaluation.json": "6c3a11fe78264f9f97669964ac015212389cf43d406f2534f4c6a3ce74092d0e",
+    "data/processed/source-selected-phylogeny-comparison-v2-results/metcalf_raw.evaluation.json": "142276ee6487cd069d289715e3ed95411ce67728de05cd56716533dc8dbd6a71",
+    "data/processed/source-selected-phylogeny-comparison-v2-results/metcalf_standardized.evaluation.json": "8126d0c5470cda27ff87875c5eb96159b2165309ed3a33290b2fb80250aba937",
+    "data/processed/source-selected-phylogeny-comparison-v2-results/bayestraits3_directed_lrt.evaluation.json": "db16ad4ffffffa87b987e69fd73a419b55ae936116d2c5707c8644c8f01c6079",
+    "data/processed/source-selected-phylogeny-comparison-v2-results/exact_uniform_expectation.evaluation.json": "499ebfb813bffed1cb5533d5863cf1ca42708ba205a11c25e9e9b8812d652a8e"
+  },
+  "terminal_audit": {
+    "status": "passed",
+    "errors": [],
+    "scope": "Checks saved identities, hashes, native-fit selection, score coverage and evaluation arithmetic. Does not establish biological truth, global optimizer convergence, phylogenetic adequacy or publication readiness.",
+    "unique_pairs_checked": 7290,
+    "recovered_pairs": 24
+  },
+  "query_rows": 30,
+  "product_rows": 54,
+  "method_rows": 6,
+  "files": {
+    "method-summary.tsv": "7d5292e8e050e9579dd18c223091a0606bcac9f5e09dd153b79a727d9e96938b",
+    "product-results.tsv": "189e3fdd4afce737e9cdc08f9d5cfb89dfd613ae72fc6a8df909f4c4ace5e472",
+    "query-results.tsv": "d6bfeb9290d7c73076eecc44a4b3b72b8b7e965761477ab45fd12778233cd2be",
+    "README.md": "d5376753a6a2938c7c8e336703652a12d8283321ff134bb57df40c3b9d8ce7fc"
+  }
+}

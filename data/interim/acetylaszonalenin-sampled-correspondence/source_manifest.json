@@ -1,0 +1,42 @@
+[
+  {
+    "file": "old_core.gbk",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=AAKE03000024.1&seq_start=130585&seq_stop=143349&rettype=gbwithparts&retmode=text",
+    "retrieved": "2026-10-03",
+    "bytes": 18703,
+    "sha256": "2070d1e28049c08051f4b29803f9018544eca34f2f4a56dace47a5b9d584ad72",
+    "reuse": "Source terms apply; local evidence inspection, no public deposition"
+  },
+  {
+    "file": "sampled_core.gbk",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=DS027698.1&seq_start=2428387&seq_stop=2441151&rettype=gbwithparts&retmode=text",
+    "retrieved": "2026-10-03",
+    "bytes": 24152,
+    "sha256": "8c16a36258f4a56a51988d45487bfe0e17ff8fce436614631150a2d90dd08810",
+    "reuse": "Source terms apply; local evidence inspection, no public deposition"
+  },
+  {
+    "file": "mibig.gbk",
+    "url": "https://mibig.secondarymetabolites.org/repository/BGC0000293.3/BGC0000293.gbk",
+    "retrieved": "2026-10-03",
+    "bytes": 93150,
+    "sha256": "d7a1c8ecac30c09c24d7712fc47156e652ffcb26fe82c504c99d8ba50cdcf91b",
+    "reuse": "Source terms apply; local evidence inspection, no public deposition"
+  },
+  {
+    "file": "assembly_report.txt",
+    "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/149/645/GCA_000149645.3_ASM14964v3/GCA_000149645.3_ASM14964v3_assembly_report.txt",
+    "retrieved": "2026-10-03",
+    "bytes": 35780,
+    "sha256": "dc8c1808cbb7696b3df8b0bc8317d80c0dc522a9cc13489c0eea647c5d65e2a8",
+    "reuse": "Source terms apply; local evidence inspection, no public deposition"
+  },
+  {
+    "file": "atcc.html",
+    "url": "https://www.atcc.org/products/1020",
+    "retrieved": "2026-10-03",
+    "bytes": 318698,
+    "sha256": "db0e15036f5e08239285ada879cc82360e9b9ff913316753fb867de1b1ac6363",
+    "reuse": "Source terms apply; local evidence inspection, no public deposition"
+  }
+]

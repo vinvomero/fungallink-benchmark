@@ -1,0 +1,28 @@
+{
+  "utc": "2026-10-09T23:37:27.858825+00:00",
+  "goal": "30 admitted relationships under unchanged evidence criteria",
+  "requirements": {
+    "canonical_ledger_has30_unique_admitted_relationships": true,
+    "prior28_preserved_byte_for_byte": true,
+    "new_targets_share_existing_query_and_pathway": true,
+    "current_query_identities": 16,
+    "source_evidence_review": "docs/evidence/benzomalvin-additional-targets-admission-2026-10-09.md",
+    "chemical_resolution": "putative source-defined measured targets; no standard/NMR or exact-structure claim",
+    "direct_support": "intact-parent detection and domain-deletion evidence, with compound4 supported by source text rather than an invented Figure2A row",
+    "measured_anchors": "Figure2A macrocycle row and Figure3B m/z368.139 trace",
+    "query_sequence": "depositedKX449366.1 envelope verified with source gene roster and hash",
+    "input_readiness_separate": true,
+    "frozen_analysis_files_unchanged": 705,
+    "evaluated_relationships": 11,
+    "version1_expansion_stops": true,
+    "provenance_and_affected_question_records_updated": true,
+    "record_errors": []
+  },
+  "scope_limits": [
+    "No independent human scientific review",
+    "Native target joins/full candidate tables unresolved",
+    "Manuscript remains28-label snapshot; separate refresh question records follow-up",
+    "No unseen-pathway or increased independent-query claim"
+  ],
+  "decision": "Admission goal achieved; broader benchmark and manuscript work remains separate"
+}
