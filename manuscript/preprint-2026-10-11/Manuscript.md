@@ -49,7 +49,7 @@ The current ledger contains nine GCF relationships across five GCF queries and 2
 
 The corrected acetylaszonalenin relationship is defined by its identified core biosynthetic genes. A separate DMAT_34 family view is used for evaluation under the [8 October correction](https://github.com/vinvomero/fungallink-benchmark/blob/main/protocol/decisions/2026-10-08-acetylaszonalenin-family-source-correction.md). All three accepted-core proteins occur in the historical source display; contrary region coordinates belonged to successor annotation numbering. Full historical nucleotide boundaries remain unverified. The assembly contamination flag and unknown locus-specific contamination status remain separate qualifications.
 
-Curation used retained primary studies, accession records, source panels and sequence correspondence records. Later admission judgments included assistant-assisted curation under delegated authority and have not undergone independent specialist re-adjudication. Numerical verification is separate from biological and chemical appraisal.
+Curation used retained primary studies, accession records, source panels and sequence correspondence records. Later admission judgments included assistant-assisted curation under delegated authority and have not undergone independent specialist re-adjudication. Numerical verification is separate from biological and chemical appraisal. Project-generated reconciliations incorporate the supplied records and marked inferences. Attachment-origin verification does not certify every inferred mapping or a wholly public derivation.
 
 ### Query representations, candidate pools and exposure
 
@@ -198,7 +198,7 @@ The author declares no competing interests.
 
 ## Acknowledgments
 
-Lindsay K. Caesar supplied a historical strain-label workbook and clarifications used in the retained crosswalk. Project-generated reconciliations incorporate those records and marked inferences. Attachment-origin verification does not certify every inferred mapping or a wholly public derivation.
+The author thanks Lindsay K. Caesar for generously answering questions by email, sharing the strain-label workbook, and clarifying sample identities and source data. Her assistance helped establish the connections between the published study and the records used in FungalLink.
 
 ## AI assistance
 

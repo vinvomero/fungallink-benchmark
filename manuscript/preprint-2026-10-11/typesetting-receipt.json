@@ -5,7 +5,8 @@
     {
       "document": "Manuscript",
       "source_sha256": "41097b08f5285952762cf2b122b7eb28b9583e6950d70b80be25756b1c289ab9",
-      "pdf_sha256": "ed2d7f0e512f497f66211fceb824f594ce09c064a240a01dfbd5724ef7ed4c51"
+      "pdf_sha256": "1f53f73b491d7ac7af3e2cbace7b95b3292dea518b1bc94b555cfd7734d28cbe",
+      "editorial_amendment": "Author-approved Caesar acknowledgment; technical qualifications moved to Methods"
     },
     {
       "document": "Supplementary-Methods",
