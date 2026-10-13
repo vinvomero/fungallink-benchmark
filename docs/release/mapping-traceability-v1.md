@@ -1,6 +1,6 @@
 # Assessing the genomic-to-measurement connections
 
-Updated 11 October 2026. The private presubmission candidate v2 adds source locators and this guide. It preserves every scientific payload from candidate v1. The manuscript and older component filenames retain their original versions; v2 changes delivery documentation only.
+Updated 13 October 2026 for public data 1.0.0 and preprint 1.0.2. This live guide supersedes private-candidate access statements in its frozen archive edition. The data ZIP and scientific records remain unchanged; the journal revision is unpublished.
 
 The records let a reader inspect all 30 current label decisions and their stated evidence. They do not establish that all 30 have runnable benchmark inputs or that every historical sample assignment has independent public confirmation. Eleven relationships have complete evaluated inputs, two have partial diagnostics, and 17 identify source experiments without usable benchmark inputs.
 
@@ -27,4 +27,4 @@ Use `workspace_path` in the [evidence crosswalk](../../data/manifests/release-ev
 
 Six previously unlinked primary dependencies were downloaded on 11 October and matched the retained SHA-256 values: the FAC supplement, acu-dioxomorpholine article and supplement, and HEx article, Figure 5 and supplement. [Retrieval receipt](../../planning/provenance-links-2026-10-11/link-results.json). Eight further locators were recovered from existing records; their availability was not rechecked in this repair. Publisher terms continue to apply. Internal scripts, private records and local derivatives without public hosting should not be mistaken for missing public download links.
 
-The [mapping audit](../../planning/provenance-links-2026-10-11/mapping-audit.json) checks record joins and embedded historical rows against the retained original. Hashes and joins do not validate the biological conclusions. Human scientific review and an authorized external download test remain open.
+The [mapping audit](../../planning/provenance-links-2026-10-11/mapping-audit.json) checks record joins and embedded historical rows against the retained original. Hashes and joins do not validate the biological conclusions. The 12–13 October author-side audit verified anonymous data download, all 554 payloads and all 216 core replays. Human scientific review remains open. Download/hash checks do not establish biological truth or public access to the original workbook; see the [release addendum](../../RELEASE-ADDENDUM.md).

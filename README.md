@@ -2,7 +2,7 @@
 
 A curated benchmark for linking fungal biosynthetic gene clusters and gene-cluster families to measured metabolite features.
 
-**Version 1.0.0, 11 October 2026.** There are 30 admitted relationships across 16 biological query identities: 20 directly supported and 10 reference-supported. Eleven relationships have complete evaluated inputs through seven query views; two have partial spectral diagnostics and 17 lack usable comparison inputs. All complete evaluations share one source-selected cohort and one conservative analysis group. This is a retrospective benchmark, not an independent held-out test.
+**Data 1.0.0; preprint 1.0.2.** Documentation updated 13 October 2026. There are 30 admitted relationships across 16 biological query identities: 20 directly supported and 10 reference-supported. Eleven relationships have complete evaluated inputs for the declared co-occurrence workflows through seven query views; two have partial spectral diagnostics and 17 lack usable comparison inputs. All complete evaluations share one source-selected cohort and one conservative analysis group. This is a retrospective benchmark, not an independent held-out test.
 
 Read the [LaTeX preprint](manuscript/preprint-2026-10-11/Manuscript.pdf), [Supplementary Methods](manuscript/preprint-2026-10-11/Supplementary-Methods.pdf) and [comparative results](manuscript/preprint-2026-10-11/Comparative-results.pdf). The [release addendum](RELEASE-ADDENDUM.md) records the verified public download and editorial corrections.
 
@@ -38,3 +38,5 @@ The source label-to-strain bridge used a historical author-supplied workbook and
 Original code: Apache-2.0. Original curation, results and documentation: CC BY 4.0. Underlying source materials retain their terms and attribution; these licenses are not a grant over third-party assets. See [license scope](docs/release/licenses/SCOPE.md) and `THIRD-PARTY-NOTICE.md`.
 
 Cite Vin Vomero (2026), *FungalLink*, version 1.0.0, with the release URL. No DOI or journal acceptance is claimed. The LaTeX preprint and supplements are supplied in `manuscript/preprint-2026-10-11/` with matching editable sources. AI assistance and the absence of independent specialist re-adjudication are disclosed in the manuscript. This repository release is not a bioRxiv posting or journal submission.
+
+The current reading edition is [preprint 1.0.2](https://github.com/vinvomero/fungallink-benchmark/releases/tag/v1.0.2); cite it separately from data 1.0.0. The published code baseline is commit [1533306af78701f66f5d35295d47f2010c085d71](https://github.com/vinvomero/fungallink-benchmark/tree/1533306af78701f66f5d35295d47f2010c085d71). Later documentation edits do not change that code identity. The journal revision is an unpublished candidate. Historical private-candidate wording inside the frozen ZIP is superseded for current access by this README and the release addendum.
