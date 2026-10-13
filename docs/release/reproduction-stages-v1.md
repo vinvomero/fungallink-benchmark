@@ -1,12 +1,14 @@
 # Reproduction stages and task exposure, version 1
 
-This guide covers saved numerical reproduction for 11 completely evaluated relationships and two partial diagnostics. Seventeen admitted FAC/HEx relationships lack usable expression-screen inputs and have no advertised ranking workflow. Biological admission does not imply that a method can run.
+Updated 13 October 2026 for public data 1.0.0 and preprint 1.0.2. This live guide supersedes archive-era private/download-pending access statements. The frozen ZIP and numerical inputs/results are unchanged. The journal revision is unpublished. See the [release addendum](../../RELEASE-ADDENDUM.md) for version and code identities.
+
+This guide covers saved numerical reproduction for 11 relationships completely evaluated for the declared co-occurrence workflows and two partial diagnostics. Seventeen admitted FAC/HEx relationships lack usable expression-screen inputs and have no advertised ranking workflow. Biological admission does not imply that a method can run.
 
 The [stage matrix](reproduction-stages-v1.tsv) gives inputs, archive members or retrieval records, exact retained commands, environments, expected comparisons, recorded timings and exclusions. The [task/exposure table](../../data/manifests/task-exposure-v1.tsv) joins every admitted relationship to its ledger query and evaluated view. Both are derived release records; the ledger, protocols and frozen scientific files remain authoritative. Historical candidate-only, pending-tree and non-admission wording in frozen manifests records their creation state and does not override current admissions or completed runs.
 
 ## Choose a starting point
 
-For the 11 complete relationships, extract the [core numerical archive](../../data/processed/core-numerical-candidate-v1-2026-10-11/fungallink-core-numerical-private-v1.zip) into a fresh directory and run from its root:
+For the 11 complete relationships, extract the core numerical archive (`data/processed/core-numerical-candidate-v1-2026-10-11/fungallink-core-numerical-private-v1.zip` inside the [data 1.0.0 ZIP](https://github.com/vinvomero/fungallink-benchmark/releases/tag/v1.0.0)) into a fresh directory and run from its root:
 
 ```text
 python -I -S -B expanded/reproduce.py --all-rosters
@@ -18,7 +20,7 @@ The first command covers nine relationships across five query views. The extensi
 
 The seven complete query views share one conservative source-selected analysis group, `caesar2023:source-selected-set-v1`. This grouping does not assert that they are one biological pathway. Keep the two family extensions separate from the five-query summary. In particular, the acetylaszonalenin ledger query is the named reference core; `source:DMAT_34` is its separate evaluated family view. The [8 October correction](../../protocol/decisions/2026-10-08-acetylaszonalenin-family-source-correction.md) governs that distinction. Emericellamide uses the separate `source:HRPKS_71` evaluation view.
 
-For either partial diagnostic, restore the [spectral archive](../../data/processed/spectral-release-candidate-v1-2026-10-11/fungallink-spectral-private-candidate-v1.zip), including its `workspace/` hierarchy. Restore the hash-pinned table using the [existing retrieval recipe](npclassscore-dependency-route-2026-10-11.md), then use the documented command:
+For either partial diagnostic, restore the spectral archive (`data/processed/spectral-release-candidate-v1-2026-10-11/fungallink-spectral-private-candidate-v1.zip` inside the [data 1.0.0 ZIP](https://github.com/vinvomero/fungallink-benchmark/releases/tag/v1.0.0)), including its `workspace/` hierarchy. Restore the hash-pinned table using the [existing retrieval recipe](npclassscore-dependency-route-2026-10-11.md), then use the documented command:
 
 ```text
 python -I scripts/verify_saved_spectral_diagnostics.py --root <restored-workspace>
@@ -33,7 +35,7 @@ Run from the restored workspace where `scripts/` resides; replace `<restored-wor
 
 These are tied-rank intervals, not uncertainty intervals from independent samples. Unavailable candidates remain in the full pool. Never combine conditional scored-only ranks with complete rankings. Ninety Trichoderma spectra received predictions, but an unknown class leaves only 89 usable linking scores. Saved-class arithmetic reproduced all 1,347 candidate records, comprising 380 scores and 967 unavailable records; [receipt](../../data/interim/spectral-arithmetic-reproduction-2026-10-11/receipt.json). It did not repeat Spec2Class inference. NPClassScore kernel version 1.0.0 uses the pinned NPLinker 1.2.0/MIBiG 2.0 table; predictor revisions and weight hashes remain in the per-run records. Weight-specific predictor training overlap remains unknown. The similarity companion records bounded stable-ID membership checks against declared retained reference files; those checks do not establish model-training membership. Genomic classes are reference-informed, so this is not blind sequence prediction.
 
-For saved phylogenetic fits, extract the [phylogeny archive](../../data/processed/phylogeny-audit-candidate-v1-2026-10-11/fungallink-phylogeny-audit-private-v1.tar.gz) to Linux-local storage. Allow at least 2 GB free space. Use the environment pinned by [phylogeny-linux-explicit.txt](environment/phylogeny-linux-explicit.txt), with [package metadata](environment/phylogeny-linux-environment.json). The passed reconstruction used CPython 3.12.15, GCC 15.3.0, x86_64 WSL2 Linux and glibc 2.43. From the extracted root:
+For saved phylogenetic fits, extract the phylogeny archive (`data/processed/phylogeny-audit-candidate-v1-2026-10-11/fungallink-phylogeny-audit-private-v1.tar.gz` inside the [data 1.0.0 ZIP](https://github.com/vinvomero/fungallink-benchmark/releases/tag/v1.0.0)) to Linux-local storage. Allow at least 2 GB free space. Use the environment pinned by [phylogeny-linux-explicit.txt](environment/phylogeny-linux-explicit.txt), with [package metadata](environment/phylogeny-linux-environment.json). The passed reconstruction used CPython 3.12.15, GCC 15.3.0, x86_64 WSL2 Linux and glibc 2.43. From the extracted root:
 
 ```text
 python -S -B scripts/check_phylogeny_recovery_completion.py --root . --output terminal-audit.json
@@ -56,4 +58,4 @@ In the task table, `relationship_id` is the ledger join key. `ledger_query_id`, 
 
 Stage-table `archive_or_retrieval` uses `archive::member` for an archive member or member directory. Commands marked historical are not executed by the release smoke checks. Environment locks describe a tested numerical environment; they do not bundle native executables, raw data or predictor weights. Timings are retained observations, not new measurements or resource guarantees.
 
-The presubmission audit already passed 216 core replays and 188 tests with two skips. This revision checks changed records and references only. Same-host reproduction is not independent researcher validation, human biological review or proof of an anonymous external download route. Release remains private; final human scientific review and authorized download-only verification remain outstanding.
+The 12–13 October author-side repeat audit anonymously downloaded data 1.0.0, passed all 554 payload checks and 216 core replays, and passed 42 focused evaluator/baseline tests. The earlier 188-test record includes two skips. Same-host reproduction is not independent researcher validation or human biological review. Public download access was verified; final human scientific review remains outstanding.
