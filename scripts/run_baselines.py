@@ -194,8 +194,9 @@ def _query(inputs, query, method_id, seed, repeat_index):
                 value = scale * (math.fsum(v / scale for v in vector) / n) if scale else 0.0
                 details['denominator'] = n
             elif method_id == 'global_prevalence':
-                value = sum(vector) / n
-                details.update(feature_positive_count=sum(vector), denominator=n)
+                positive_count = sum(vector)
+                value = positive_count / n
+                details.update(feature_positive_count=positive_count, denominator=n)
             else:
                 m = sum(vector)
                 overlap = sum(a * b for a, b in zip(genome, vector))
