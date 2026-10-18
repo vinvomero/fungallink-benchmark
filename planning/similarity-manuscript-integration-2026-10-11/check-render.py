@@ -23,7 +23,8 @@ for prefix,stem,folder in [('', 'benchmark-paper-review',ROOT/'manuscript'),('me
     with ZipFile(docx) as z:xml=etree.fromstring(z.read('word/document.xml'))
     ns={'w':'http://schemas.openxmlformats.org/wordprocessingml/2006/main'}
     paras=[''.join(p.xpath('.//w:t/text()',namespaces=ns)) for p in xml.xpath('//w:p',namespaces=ns)]
-    missing=[p for p in paras if p and norm(p) not in norm(''.join(texts))]
+    extracted = norm(''.join(texts))
+    missing=[p for p in paras if p and norm(p) not in extracted]
     assert not missing,missing
     units.append({'source':source.relative_to(ROOT).as_posix(),'source_sha256':sha(source),
                   'docx':docx.relative_to(ROOT).as_posix(),'docx_sha256':sha(docx),
